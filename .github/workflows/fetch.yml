@@ -20,11 +20,13 @@ jobs:
           set -e
           mkdir -p public/data
 
-          # Descargar al archivo temporal
-          curl -s -o usgs.json https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_minute.geojson
+          # Descargar feed de la última hora con encabezado User-Agent
+          curl -s -H "User-Agent: SismosRD/1.0 (+https://github.com/tu_usuario/SismosRD)" \
+            -o usgs.json \
+            https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson
 
           # Verificar que la respuesta sea JSON
-          head -c 1 usgs.json | grep -q "{" || { echo "USGS rate-limit o respuesta no-JSON"; exit 1; }
+          head -c 1 usgs.json | grep -q "{" || { echo "USGS respondió algo diferente a JSON"; exit 1; }
 
           # Filtrar Caribe 10–24 N, –88…–58 W
           jq '
@@ -37,6 +39,7 @@ jobs:
               )
             )
           ' usgs.json > public/data/latest.json
+
 
       # 3 — Commit sólo si hubo cambios
       - name: Commit & push
