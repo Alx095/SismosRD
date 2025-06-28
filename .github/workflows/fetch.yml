@@ -17,6 +17,7 @@ jobs:
       # 2 — Descarga el feed global (último minuto) y filtra al Caribe
       - name: Descargar y filtrar USGS
         run: |
+         mkdir -p public/data
           curl -s "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_minute.geojson" \
           | jq '
               .features |= map(
