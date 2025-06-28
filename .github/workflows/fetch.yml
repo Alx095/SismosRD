@@ -1,0 +1,44 @@
+name: Fetch-Sismos
+
+on:
+  schedule:
+    # cada minuto (🇩🇴: ~1 min de delay máx.)
+    - cron:  "*/1 * * * *"
+  workflow_dispatch:      # te permite lanzarlo a mano desde la pestaña “Actions”
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+
+    steps:
+      # 1 — Clona tu repo
+      - uses: actions/checkout@v4
+
+      # 2 — Descarga el feed global (último minuto) y filtra al Caribe
+      - name: Descargar y filtrar USGS
+        run: |
+          curl -s "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_minute.geojson" \
+          | jq '
+              .features |= map(
+                select(
+                  (.geometry.coordinates[1] >= 10)   and  # lat min
+                  (.geometry.coordinates[1] <= 24)   and  # lat max
+                  (.geometry.coordinates[0] >= -88)  and  # lon min
+                  (.geometry.coordinates[0] <= -58)      # lon max
+                )
+              )
+            ' \
+          > public/data/latest.json
+
+      # 3 — Commitea solo si el archivo cambió
+      - name: Commit & push
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add public/data/latest.json
+          if git diff --cached --quiet; then
+            echo "No hay cambios."
+          else
+            git commit -m "auto: update feed"
+            git push
+          fi
