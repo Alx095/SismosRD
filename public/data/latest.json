@@ -1,26 +1,20 @@
 {
-  "features": [
-    {
-      "id": "test1",
-      "geometry": {
-        "coordinates": [-70.0, 18.5, 10]
-      },
-      "properties": {
-        "mag": 4.2,
-        "place": "10 km SE de Santo Domingo",
-        "time": 1719866400000
-      }
-    },
-    {
-      "id": "test2",
-      "geometry": {
-        "coordinates": [-71.5, 19.2, 12]
-      },
-      "properties": {
-        "mag": 3.6,
-        "place": "Cerca de la frontera con Haití",
-        "time": 1719865800000
-      }
-    }
+  "type": "FeatureCollection",
+  "metadata": {
+    "generated": 1751108056000,
+    "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
+    "title": "USGS All Earthquakes, Past Hour",
+    "status": 200,
+    "api": "1.14.1",
+    "count": 12
+  },
+  "features": [],
+  "bbox": [
+    -153.0921,
+    -29.7094,
+    1,
+    -71.2858,
+    60.1785,
+    125.3
   ]
 }
