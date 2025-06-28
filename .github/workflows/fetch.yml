@@ -2,9 +2,9 @@ name: Fetch-Sismos
 
 on:
   schedule:
-    # cada minuto (🇩🇴: ~1 min de delay máx.)
-    - cron:  "*/1 * * * *"
-  workflow_dispatch:      # te permite lanzarlo a mano desde la pestaña “Actions”
+    # cada minuto
+    - cron: "*/1 * * * *"
+  workflow_dispatch:
 
 jobs:
   update:
@@ -14,24 +14,31 @@ jobs:
       # 1 — Clona tu repo
       - uses: actions/checkout@v4
 
-      # 2 — Descarga el feed global (último minuto) y filtra al Caribe
+      # 2 — Descarga el feed y filtra Caribe
       - name: Descargar y filtrar USGS
         run: |
-         mkdir -p public/data
-          curl -s "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_minute.geojson" \
-          | jq '
-              .features |= map(
-                select(
-                  (.geometry.coordinates[1] >= 10)   and  # lat min
-                  (.geometry.coordinates[1] <= 24)   and  # lat max
-                  (.geometry.coordinates[0] >= -88)  and  # lon min
-                  (.geometry.coordinates[0] <= -58)      # lon max
-                )
-              )
-            ' \
-          > public/data/latest.json
+          set -e
+          mkdir -p public/data
 
-      # 3 — Commitea solo si el archivo cambió
+          # Descargar al archivo temporal
+          curl -s -o usgs.json https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_minute.geojson
+
+          # Verificar que la respuesta sea JSON
+          head -c 1 usgs.json | grep -q "{" || { echo "USGS rate-limit o respuesta no-JSON"; exit 1; }
+
+          # Filtrar Caribe 10–24 N, –88…–58 W
+          jq '
+            .features |= map(
+              select(
+                (.geometry.coordinates[1] >= 10) and
+                (.geometry.coordinates[1] <= 24) and
+                (.geometry.coordinates[0] >= -88) and
+                (.geometry.coordinates[0] <= -58)
+              )
+            )
+          ' usgs.json > public/data/latest.json
+
+      # 3 — Commit sólo si hubo cambios
       - name: Commit & push
         run: |
           git config user.name  "github-actions[bot]"
