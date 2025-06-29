@@ -1,20 +1,61 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1751228599000,
+    "generated": 1751229451000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
     "api": "1.14.1",
-    "count": 2
+    "count": 3
   },
-  "features": [],
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.2,
+        "place": "7 km SW of Capitanejo, Puerto Rico",
+        "time": 1751227272460,
+        "updated": 1751228796060,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71487593",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71487593.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 74,
+        "net": "pr",
+        "code": "71487593",
+        "ids": ",pr71487593,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 9,
+        "dmin": 0.08606,
+        "rms": 0.03,
+        "gap": 187,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.2 - 7 km SW of Capitanejo, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.5743333333333,
+          17.9618333333333,
+          14.61
+        ]
+      },
+      "id": "pr71487593"
+    }
+  ],
   "bbox": [
     -156.8964,
-    37.1779,
-    13.2,
-    -116.2578,
-    57.8838,
-    16.9
+    17.961833333333,
+    14.61,
+    -66.574333333333,
+    61.7961,
+    33.9
   ]
 }
