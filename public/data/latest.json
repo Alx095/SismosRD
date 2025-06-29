@@ -1,61 +1,20 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1751180101000,
+    "generated": 1751181121000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
     "api": "1.14.1",
-    "count": 3
+    "count": 8
   },
-  "features": [
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.87,
-        "place": "64 km SSW of Santa Isabel, Puerto Rico",
-        "time": 1751176922870,
-        "updated": 1751178799060,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71487513",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71487513.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 127,
-        "net": "pr",
-        "code": "71487513",
-        "ids": ",pr71487513,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 13,
-        "dmin": 0.6457,
-        "rms": 0.32,
-        "gap": 265,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.9 - 64 km SSW of Santa Isabel, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.5328333333333,
-          17.3973333333333,
-          24.39
-        ]
-      },
-      "id": "pr71487513"
-    }
-  ],
+  "features": [],
   "bbox": [
     -152.8116,
-    17.397333333333,
-    2.4,
-    -66.532833333333,
-    59.3681,
-    78.2
+    -3.2634,
+    2.27,
+    146.5516,
+    63.0451,
+    101.9
   ]
 }
