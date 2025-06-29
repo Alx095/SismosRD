@@ -1,18 +1,59 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1751181121000,
+    "generated": 1751182141000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
     "api": "1.14.1",
-    "count": 8
+    "count": 14
   },
-  "features": [],
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.92,
+        "place": "2 km NNW of Carrizales, Puerto Rico",
+        "time": 1751179883830,
+        "updated": 1751182028980,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71487518",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71487518.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 131,
+        "net": "pr",
+        "code": "71487518",
+        "ids": ",pr71487518,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 13,
+        "dmin": 0.1598,
+        "rms": 0.35,
+        "gap": 234,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.9 - 2 km NNW of Carrizales, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.7975,
+          18.5018333333333,
+          84.34
+        ]
+      },
+      "id": "pr71487518"
+    }
+  ],
   "bbox": [
     -152.8116,
     -3.2634,
-    2.27,
+    0.9200000166893,
     146.5516,
     63.0451,
     101.9
