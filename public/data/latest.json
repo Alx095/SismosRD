@@ -1,20 +1,61 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1751204236000,
+    "generated": 1751204881000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
     "api": "1.14.1",
-    "count": 6
+    "count": 10
   },
-  "features": [],
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.21,
+        "place": "2 km ESE of Sabana Hoyos, Puerto Rico",
+        "time": 1751203670960,
+        "updated": 1751204832100,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71487538",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71487538.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 159,
+        "net": "pr",
+        "code": "71487538",
+        "ids": ",pr71487538,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 22,
+        "dmin": 0.08235,
+        "rms": 0.28,
+        "gap": 134,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 3.2 - 2 km ESE of Sabana Hoyos, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.5965,
+          18.4245,
+          117.57
+        ]
+      },
+      "id": "pr71487538"
+    }
+  ],
   "bbox": [
     -150.9776,
-    31.635,
-    1.4900000095367,
-    -97.9406662,
+    18.4245,
+    0.8,
+    -66.5965,
     61.903,
-    6.2
+    117.57
   ]
 }
