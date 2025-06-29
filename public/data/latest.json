@@ -1,61 +1,61 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1751177729000,
+    "generated": 1751179417000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
     "api": "1.14.1",
-    "count": 10
+    "count": 4
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.49,
-        "place": "3 km S of Indios, Puerto Rico",
-        "time": 1751174699850,
-        "updated": 1751177368200,
+        "mag": 2.87,
+        "place": "64 km SSW of Santa Isabel, Puerto Rico",
+        "time": 1751176922870,
+        "updated": 1751178799060,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71487493",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71487493.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71487513",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71487513.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 95,
+        "sig": 127,
         "net": "pr",
-        "code": "71487493",
-        "ids": ",pr71487493,",
+        "code": "71487513",
+        "ids": ",pr71487513,",
         "sources": ",pr,",
         "types": ",origin,phase-data,",
-        "nst": 9,
-        "dmin": 0.0532,
-        "rms": 0.23,
-        "gap": 205,
+        "nst": 13,
+        "dmin": 0.6457,
+        "rms": 0.32,
+        "gap": 265,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 2.5 - 3 km S of Indios, Puerto Rico"
+        "title": "M 2.9 - 64 km SSW of Santa Isabel, Puerto Rico"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -66.826,
-          17.9588333333333,
-          13.7
+          -66.5328333333333,
+          17.3973333333333,
+          24.39
         ]
       },
-      "id": "pr71487493"
+      "id": "pr71487513"
     }
   ],
   "bbox": [
-    -150.9613,
+    -117.1661667,
     3.9148,
-    2.1800000667572,
-    -66.826,
-    60.7097,
-    59.3
+    10,
+    129.505,
+    36.028,
+    24.39
   ]
 }
