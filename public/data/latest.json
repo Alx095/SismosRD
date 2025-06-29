@@ -1,19 +1,60 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1751239699000,
+    "generated": 1751240409000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
     "api": "1.14.1",
-    "count": 5
+    "count": 7
   },
-  "features": [],
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.64,
+        "place": "5 km S of Guánica, Puerto Rico",
+        "time": 1751239060860,
+        "updated": 1751239715510,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71487608",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71487608.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 107,
+        "net": "pr",
+        "code": "71487608",
+        "ids": ",pr71487608,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 7,
+        "dmin": 0.06003,
+        "rms": 0.07,
+        "gap": 226,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.6 - 5 km S of Guánica, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.9123333333333,
+          17.9236666666667,
+          10.64
+        ]
+      },
+      "id": "pr71487608"
+    }
+  ],
   "bbox": [
     -150.6471,
-    33.5168333,
+    17.923666666667,
     0,
-    -116.4023333,
+    -66.912333333333,
     61.6377,
     77.8
   ]
