@@ -1,61 +1,20 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1751172241000,
+    "generated": 1751173321000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
     "api": "1.14.1",
-    "count": 13
+    "count": 11
   },
-  "features": [
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.4,
-        "place": "29 km WNW of Rincón, Puerto Rico",
-        "time": 1751169334147,
-        "updated": 1751170578071,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000q9gj",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000q9gj.geojson",
-        "felt": 1,
-        "cdi": 2.7,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 178,
-        "net": "us",
-        "code": "7000q9gj",
-        "ids": ",us7000q9gj,",
-        "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 20,
-        "dmin": 0.383,
-        "rms": 0.87,
-        "gap": 146,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.4 - 29 km WNW of Rincón, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -67.5137,
-          18.435,
-          21.583
-        ]
-      },
-      "id": "us7000q9gj"
-    }
-  ],
+  "features": [],
   "bbox": [
-    -148.7605,
-    18.435,
+    -122.84600067139,
+    33.5215,
     1.4500000476837,
-    150.3651,
-    63.5177,
-    21.583
+    -116.7063333,
+    39.3614,
+    16.24
   ]
 }
