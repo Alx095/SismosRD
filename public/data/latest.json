@@ -1,60 +1,19 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1751323746000,
+    "generated": 1751324121000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
     "api": "1.14.1",
-    "count": 10
+    "count": 9
   },
-  "features": [
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.89,
-        "place": "43 km SSW of Pole Ojea, Puerto Rico",
-        "time": 1751320459260,
-        "updated": 1751321359880,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71487803",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71487803.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 128,
-        "net": "pr",
-        "code": "71487803",
-        "ids": ",pr71487803,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 16,
-        "dmin": 0.4353,
-        "rms": 0.2,
-        "gap": 297,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.9 - 43 km SSW of Pole Ojea, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -67.2688333333333,
-          17.5883333333333,
-          16.37
-        ]
-      },
-      "id": "pr71487803"
-    }
-  ],
+  "features": [],
   "bbox": [
     -156.2992,
-    17.588333333333,
+    32.074,
     0.4,
-    -67.268833333333,
+    -101.804,
     62.166,
     67.7
   ]
