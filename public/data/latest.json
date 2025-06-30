@@ -1,101 +1,20 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1751309942000,
+    "generated": 1751311022000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
     "api": "1.14.1",
-    "count": 14
+    "count": 12
   },
-  "features": [
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.72,
-        "place": "1 km NNE of Indios, Puerto Rico",
-        "time": 1751307219800,
-        "updated": 1751308494590,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71487778",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71487778.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 46,
-        "net": "pr",
-        "code": "71487778",
-        "ids": ",pr71487778,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 9,
-        "dmin": 0.07285,
-        "rms": 0.11,
-        "gap": 163,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 1.7 - 1 km NNE of Indios, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.8113333333333,
-          18.0088333333333,
-          15.09
-        ]
-      },
-      "id": "pr71487778"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.13,
-        "place": "8 km SE of Maria Antonia, Puerto Rico",
-        "time": 1751307051980,
-        "updated": 1751307837440,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71487768",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71487768.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 70,
-        "net": "pr",
-        "code": "71487768",
-        "ids": ",pr71487768,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 11,
-        "dmin": 0.07027,
-        "rms": 0.09,
-        "gap": 226,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.1 - 8 km SE of Maria Antonia, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.839,
-          17.9158333333333,
-          13.12
-        ]
-      },
-      "id": "pr71487768"
-    }
-  ],
+  "features": [],
   "bbox": [
-    -159.353,
-    17.915833333333,
+    -148.8836,
+    -5.3611,
     -0.76999998092651,
-    -66.811333333333,
+    128.4227,
     64.9681,
-    15.09
+    323.687
   ]
 }
