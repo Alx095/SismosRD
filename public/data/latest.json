@@ -1,60 +1,19 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1751280765000,
+    "generated": 1751281682000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
     "api": "1.14.1",
-    "count": 7
+    "count": 5
   },
-  "features": [
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.04,
-        "place": "70 km N of Carrizales, Puerto Rico",
-        "time": 1751277168580,
-        "updated": 1751278328690,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71487723",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71487723.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 142,
-        "net": "pr",
-        "code": "71487723",
-        "ids": ",pr71487723,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 18,
-        "dmin": 0.6489,
-        "rms": 0.36,
-        "gap": 261,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.0 - 70 km N of Carrizales, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.681,
-          19.1133333333333,
-          29.84
-        ]
-      },
-      "id": "pr71487723"
-    }
-  ],
+  "features": [],
   "bbox": [
     -151.4353,
-    19.113333333333,
-    3.5,
-    -66.681,
+    33.3708333,
+    8.34,
+    -116.8658333,
     65.2615,
     64.8
   ]
