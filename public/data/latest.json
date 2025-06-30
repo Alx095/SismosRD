@@ -1,20 +1,61 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1751276102000,
+    "generated": 1751276865000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
     "api": "1.14.1",
-    "count": 14
+    "count": 13
   },
-  "features": [],
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.13,
+        "place": "71 km N of Carrizales, Puerto Rico",
+        "time": 1751275472160,
+        "updated": 1751276656250,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71487708",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71487708.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 151,
+        "net": "pr",
+        "code": "71487708",
+        "ids": ",pr71487708,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 14,
+        "dmin": 0.6535,
+        "rms": 0.29,
+        "gap": 261,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 3.1 - 71 km N of Carrizales, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.6803333333333,
+          19.1181666666667,
+          36.5
+        ]
+      },
+      "id": "pr71487708"
+    }
+  ],
   "bbox": [
     -155.50866699219,
-    19.172332763672,
-    0,
-    -104.626,
-    62.6198,
-    28.290000915527
+    19.118166666667,
+    1.9500000476837,
+    -66.680333333333,
+    62.6609,
+    36.5
   ]
 }
