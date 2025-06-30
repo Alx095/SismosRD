@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1751321776000,
+    "generated": 1751323036000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
     "api": "1.14.1",
-    "count": 4
+    "count": 9
   },
   "features": [
     {
@@ -51,11 +51,11 @@
     }
   ],
   "bbox": [
-    -149.3372,
+    -156.2992,
     17.588333333333,
     0.4,
     -67.268833333333,
-    64,
-    16.37
+    62.166,
+    67.7
   ]
 }
