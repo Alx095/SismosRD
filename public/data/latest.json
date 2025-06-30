@@ -1,20 +1,61 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1751270342000,
+    "generated": 1751272183000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
     "api": "1.14.1",
-    "count": 9
+    "count": 10
   },
-  "features": [],
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3,
+        "place": "81 km N of Hatillo, Puerto Rico",
+        "time": 1751270609317,
+        "updated": 1751271355040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000q9pl",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000q9pl.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 138,
+        "net": "us",
+        "code": "7000q9pl",
+        "ids": ",us7000q9pl,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 16,
+        "dmin": 0.791,
+        "rms": 0.69,
+        "gap": 271,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.0 - 81 km N of Hatillo, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.8446,
+          19.2213,
+          35
+        ]
+      },
+      "id": "us7000q9pl"
+    }
+  ],
   "bbox": [
-    -155.45567321777,
-    19.197332382202,
-    3.9774,
-    -104.167,
-    61.8582,
-    30.14999961853
+    -150.0276,
+    19.2213,
+    -1.6000000238419,
+    -66.8446,
+    61.4675,
+    36.7
   ]
 }
