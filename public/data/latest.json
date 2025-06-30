@@ -1,61 +1,20 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1751286039000,
+    "generated": 1751288642000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
     "api": "1.14.1",
-    "count": 7
+    "count": 9
   },
-  "features": [
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.87,
-        "place": "71 km N of Arecibo, Puerto Rico",
-        "time": 1751283442730,
-        "updated": 1751285270690,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71487758",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71487758.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 127,
-        "net": "pr",
-        "code": "71487758",
-        "ids": ",pr71487758,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 13,
-        "dmin": 0.6304,
-        "rms": 0.2,
-        "gap": 277,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.9 - 71 km N of Arecibo, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.6028333333333,
-          19.107,
-          23.03
-        ]
-      },
-      "id": "pr71487758"
-    }
-  ],
+  "features": [],
   "bbox": [
-    -152.3553,
-    19.107,
-    0.1,
-    -66.602833333333,
-    60.8718,
-    23.03
+    -155.34533691406,
+    -61.0001,
+    1.2300000190735,
+    -38.5006,
+    63.3331,
+    80
   ]
 }
