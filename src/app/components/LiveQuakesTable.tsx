@@ -2,9 +2,9 @@
 import { useEffect, useState } from 'react'
 
 type QuakeRow = {
-  date: string
-  time: string
-  mag: number
+  date:  string
+  time:  string
+  mag:   string | number
   place: string
 }
 
@@ -18,27 +18,15 @@ export default function LiveQuakesTable() {
       try {
         const res = await fetch(API)
         if (!res.ok) throw new Error(res.statusText)
-
-        const data = await res.json()
-
-        const parsed: QuakeRow[] = data.features.map((f: any) => {
-          const d = new Date(f.properties.time)
-          return {
-            date: d.toLocaleDateString(),
-            time: d.toLocaleTimeString(),
-            mag: Number(f.properties.mag),
-            place: f.properties.place,
-          }
-        })
-
-        setRows(parsed)
+        const data = (await res.json()) as QuakeRow[]  // ✅ corregido aquí
+        setRows(data)
       } catch (err) {
-        console.error('No se pudo cargar /data/latest.json', err)
+        console.error('No se pudo cargar /latest.json', err)
       }
     }
 
     fetchRows()
-    const id = setInterval(fetchRows, 15000)
+    const id = setInterval(fetchRows, 15_000) // refresca cada 15 s
     return () => clearInterval(id)
   }, [])
 
@@ -67,14 +55,14 @@ export default function LiveQuakesTable() {
               <td className="px-3 py-2">{q.time}</td>
               <td
                 className={`px-3 py-2 text-center font-semibold ${
-                  q.mag >= 5
+                  +q.mag >= 5
                     ? 'text-red-400'
-                    : q.mag >= 4
+                    : +q.mag >= 4
                     ? 'text-green-400'
                     : 'text-white'
                 }`}
               >
-                {q.mag.toFixed(1)}
+                {Number(q.mag).toFixed(1)}
               </td>
               <td className="px-3 py-2">{q.place}</td>
             </tr>
