@@ -1,28 +1,12 @@
 'use client'
 import { useEffect, useState } from 'react'
 
-/* ----------------------------- Tipos internos ----------------------------- */
-
 type QuakeRow = {
   date:  string
   time:  string
-  mag:   number           
+  mag:   string | number
   place: string
 }
-
- 
-type UsgsFeature = {
-  properties: {
-    mag:   number
-    place: string
-    time:  number
-  }
-}
-type UsgsFeed = {
-  features: UsgsFeature[]
-}
-
-/* --------------------------- Componente principal ------------------------- */
 
 export default function LiveQuakesTable() {
   const [rows, setRows] = useState<QuakeRow[]>([])
@@ -35,45 +19,36 @@ export default function LiveQuakesTable() {
         const res = await fetch(API)
         if (!res.ok) throw new Error(res.statusText)
 
-        const raw = (await res.json()) as unknown
+        // eslint-disable-next-line @typescript-eslint/no-explicit-any
+        const raw = await res.json() as any
 
-        /* --------- Valida y transforma el JSON a nuestro formato --------- */
-        if (
-          typeof raw === 'object' &&
-          raw !== null &&
-          Array.isArray((raw as UsgsFeed).features)
-        ) {
-          const feed = raw as UsgsFeed
-
-          const parsed: QuakeRow[] = feed.features.map((f) => {
+        if (Array.isArray(raw)) {
+          setRows(raw as QuakeRow[])
+        } else if (Array.isArray(raw.features)) {
+          // si tu JSON sigue el formato GeoJSON:
+          const data = (raw.features as any[]).map((f) => {
             const d = new Date(f.properties.time)
             return {
-              date : d.toLocaleDateString('es-DO'),
-              time : d.toLocaleTimeString('es-DO'),
-              mag  : f.properties.mag,
-              place: f.properties.place,
+              date: d.toLocaleDateString('es-DO'),
+              time: d.toLocaleTimeString('es-DO'),
+              mag:  f.properties.mag,
+              place: f.properties.place
             }
           })
-
-          setRows(parsed)
+          setRows(data)
         } else {
           console.error('Formato inesperado en latest.json:', raw)
         }
-      } catch (err) {
-        if (err instanceof Error) {
-          console.error('No se pudo cargar /latest.json:', err.message)
-        } else {
-          console.error('No se pudo cargar /latest.json:', err)
-        }
+
+      } catch (err: unknown) {
+        console.error('No se pudo cargar /latest.json', err)
       }
     }
 
     fetchRows()
-    const id = setInterval(fetchRows, 15_000) // refresca cada 15 s
+    const id = setInterval(fetchRows, 15_000) // refresca cada 15s
     return () => clearInterval(id)
   }, [])
-
-  /* -------------------------------- Render -------------------------------- */
 
   return (
     <>
@@ -90,7 +65,6 @@ export default function LiveQuakesTable() {
             <th className="px-3 py-2 text-left">Lugar</th>
           </tr>
         </thead>
-
         <tbody>
           {rows.map((q, i) => (
             <tr
@@ -101,14 +75,14 @@ export default function LiveQuakesTable() {
               <td className="px-3 py-2">{q.time}</td>
               <td
                 className={`px-3 py-2 text-center font-semibold ${
-                  q.mag >= 5
+                  +q.mag >= 5
                     ? 'text-red-400'
-                    : q.mag >= 4
+                    : +q.mag >= 4
                     ? 'text-green-400'
                     : 'text-white'
                 }`}
               >
-                {q.mag.toFixed(1)}
+                {Number(q.mag).toFixed(1)}
               </td>
               <td className="px-3 py-2">{q.place}</td>
             </tr>
