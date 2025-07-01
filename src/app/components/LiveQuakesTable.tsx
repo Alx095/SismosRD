@@ -15,15 +15,15 @@ export default function LiveQuakesTable() {
     const API = '/data/latest.json'
 
     const fetchRows = async () => {
-      try {
-        const res = await fetch(API)
-        if (!res.ok) throw new Error(res.statusText)
-        const data = (await res.json()) as QuakeRow[]  // ✅ corregido aquí
-        setRows(data)
-      } catch (err) {
-        console.error('No se pudo cargar /latest.json', err)
-      }
-    }
+    try {
+    const res = await fetch(API)
+    if (!res.ok) throw new Error(res.statusText)
+    const data = (await res.json()) as QuakeRow[]
+    setRows(data)
+  } catch (err: unknown) { // ← ESTA LÍNEA
+    console.error('No se pudo cargar /latest.json', err)
+  }
+}
 
     fetchRows()
     const id = setInterval(fetchRows, 15_000) // refresca cada 15 s
