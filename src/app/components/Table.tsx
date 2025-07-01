@@ -23,56 +23,43 @@ export default function Table({ quakes }: { quakes: Feature[] }) {
   );
 
   return (
-    <table className="w-full text-sm text-left mt-4 border-t border-gray-700 text-white bg-black">
-      <thead className="bg-gray-800 text-gray-200">
-        <tr>
-          <th className="px-2 py-2">Fecha</th>
-          <th className="px-2 py-2">Hora (RD)</th>
-          <th className="px-2 py-2">Magnitud</th>
-          <th className="px-2 py-2">Lugar</th>
-        </tr>
-      </thead>
-      <tbody>
-        {sorted.map((q) => {
-          const fecha = new Date(q.properties.time);
-          const mag = q.properties.mag;
-          const emoji =
-            mag >= 6
-              ? '💥'
-              : mag >= 5
-              ? '🔴'
-              : mag >= 4
-              ? '🟠'
-              : '🟢';
-
-          const textColor =
-            mag >= 6
-              ? 'text-red-500'
-              : mag >= 5
-              ? 'text-orange-400'
-              : mag >= 4
-              ? 'text-yellow-300'
-              : 'text-green-300';
-
-          return (
-            <tr
-              key={q.id}
-              className="border-b border-gray-700 hover:bg-gray-800 transition"
-            >
-              <td className="px-2 py-1">
-                {format(fecha, 'dd/MM/yyyy', { locale: es })}
-              </td>
-              <td className="px-2 py-1">
-                {format(fecha, 'HH:mm:ss', { locale: es })}
-              </td>
-              <td className={`px-2 py-1 font-semibold ${textColor}`}>
-                {emoji} {mag.toFixed(1)}
-              </td>
-              <td className="px-2 py-1">{q.properties.place}</td>
-            </tr>
-          );
-        })}
-      </tbody>
-    </table>
+    <div className="overflow-x-auto mt-6">
+      <table className="w-full text-sm text-left border-t border-gray-700 text-white bg-gray-900 rounded-lg">
+        <thead className="bg-gray-800 text-gray-200">
+          <tr>
+            <th className="px-3 py-2">Fecha</th>
+            <th className="px-3 py-2">Hora (RD)</th>
+            <th className="px-3 py-2 text-center">Magnitud</th>
+            <th className="px-3 py-2">Lugar</th>
+          </tr>
+        </thead>
+        <tbody>
+          {sorted.map((q) => {
+            const fecha = new Date(q.properties.time);
+            return (
+              <tr
+                key={q.id}
+                className="border-b border-gray-700 hover:bg-gray-800 transition"
+              >
+                <td className="px-3 py-1">
+                  {format(fecha, 'dd/MM/yyyy', { locale: es })}
+                </td>
+                <td className="px-3 py-1">
+                  {format(fecha, 'HH:mm:ss', { locale: es })}
+                </td>
+                <td
+                  className={`px-3 py-1 font-semibold text-center ${
+                    q.properties.mag >= 5 ? 'text-red-400' : 'text-green-300'
+                  }`}
+                >
+                  {q.properties.mag.toFixed(1)}
+                </td>
+                <td className="px-3 py-1">{q.properties.place}</td>
+              </tr>
+            );
+          })}
+        </tbody>
+      </table>
+    </div>
   );
 }
