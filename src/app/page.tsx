@@ -13,8 +13,7 @@ const Map = dynamic(() => import('@/app/components/Map'), { ssr: false })
 
 export default function Home() {
   const [features, setFeatures] = useState<Feature[]>([])
-
-  /* ↓ Si mantienes un JSON local para pintar el mapa al inicio */
+  
   useEffect(() => {
     fetch('/data/latest.json')
       .then(r => r.json())

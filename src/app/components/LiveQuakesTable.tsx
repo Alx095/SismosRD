@@ -2,9 +2,9 @@
 import { useEffect, useState } from 'react'
 
 type QuakeRow = {
-  date:  string
-  time:  string
-  mag:   string | number
+  date: string
+  time: string
+  mag: string | number
   place: string
 }
 
@@ -15,15 +15,22 @@ export default function LiveQuakesTable() {
     const API = '/data/latest.json'
 
     const fetchRows = async () => {
-    try {
-    const res = await fetch(API)
-    if (!res.ok) throw new Error(res.statusText)
-    const data = (await res.json()) as QuakeRow[]
-    setRows(data)
-  } catch (err: unknown) { // ← ESTA LÍNEA
-    console.error('No se pudo cargar /latest.json', err)
-  }
-}
+      try {
+        const res = await fetch(API)
+        if (!res.ok) throw new Error(res.statusText)
+
+        const raw = await res.json() as unknown
+
+        if (Array.isArray(raw)) {
+          setRows(raw as QuakeRow[])
+        } else {
+          console.error('La respuesta no es un array válido:', raw)
+        }
+
+      } catch (err) {
+        console.error('No se pudo cargar /latest.json', err)
+      }
+    }
 
     fetchRows()
     const id = setInterval(fetchRows, 15_000) // refresca cada 15 s
@@ -33,7 +40,7 @@ export default function LiveQuakesTable() {
   return (
     <>
       <h2 className="text-xl font-semibold mt-6 mb-2">
-        Últimos sismos (archivo local)
+        Últimos sismos 
       </h2>
 
       <table className="w-full text-sm text-white border border-gray-700 rounded-lg overflow-hidden">
