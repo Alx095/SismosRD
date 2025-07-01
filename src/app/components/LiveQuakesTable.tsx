@@ -2,9 +2,9 @@
 import { useEffect, useState } from 'react'
 
 type QuakeRow = {
-  date: string
-  time: string
-  mag: number
+  date:  string
+  time:  string
+  mag:   string | number
   place: string
 }
 
@@ -12,38 +12,21 @@ export default function LiveQuakesTable() {
   const [rows, setRows] = useState<QuakeRow[]>([])
 
   useEffect(() => {
-    const API = '/data/latest.json'
+    const API = '/recent'        // cambia si tu Worker está en otro dominio
 
     const fetchRows = async () => {
       try {
         const res = await fetch(API)
         if (!res.ok) throw new Error(res.statusText)
-
-        const raw = await res.json()
-
-        if (!Array.isArray(raw.features)) {
-          console.error('Formato inesperado en latest.json')
-          return
-        }
-
-        const data: QuakeRow[] = raw.features.map((f: any) => {
-          const d = new Date(f.properties.time)
-          return {
-            date: d.toLocaleDateString('es-DO'),
-            time: d.toLocaleTimeString('es-DO'),
-            mag: f.properties.mag,
-            place: f.properties.place
-          }
-        })
-
+        const data: QuakeRow[] = await res.json()
         setRows(data)
       } catch (err) {
-        console.error('No se pudo cargar latest.json', err)
+        console.error('No se pudo cargar /recent', err)
       }
     }
 
     fetchRows()
-    const id = setInterval(fetchRows, 15_000)
+    const id = setInterval(fetchRows, 15_000) // refresca cada 15 s
     return () => clearInterval(id)
   }, [])
 
