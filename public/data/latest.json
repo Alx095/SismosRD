@@ -1,14 +1,94 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1751356798000,
+    "generated": 1751358795000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 301
+    "count": 299
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.78,
+        "place": "41 km N of Hatillo, Puerto Rico",
+        "time": 1751357573890,
+        "updated": 1751358284530,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71487863",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71487863.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 119,
+        "net": "pr",
+        "code": "71487863",
+        "ids": ",pr71487863,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 12,
+        "dmin": 0.4064,
+        "rms": 0.29,
+        "gap": 287,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.8 - 41 km N of Hatillo, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.857,
+          18.8631666666667,
+          28.91
+        ]
+      },
+      "id": "pr71487863"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.14,
+        "place": "13 km SSE of Maria Antonia, Puerto Rico",
+        "time": 1751352735950,
+        "updated": 1751353935190,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71487848",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71487848.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 70,
+        "net": "pr",
+        "code": "71487848",
+        "ids": ",pr71487848,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 6,
+        "dmin": 0.1156,
+        "rms": 0.05,
+        "gap": 250,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.1 - 13 km SSE of Maria Antonia, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.8411666666667,
+          17.8646666666667,
+          12.94
+        ]
+      },
+      "id": "pr71487848"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -16,7 +96,27 @@
         "place": "3 km SE of La Romana, Dominican Republic",
         "time": 1751325679900,
         "updated": 1751334754040,
+        "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2025181005",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2025181005.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 251,
+        "net": "pr",
+        "code": "2025181005",
+        "ids": ",us7000q9vv,pr2025181005,",
+        "sources": ",us,pr,",
+        "types": ",origin,phase-data,",
+        "nst": 27,
+        "dmin": 0.5813,
+        "rms": 0.59,
+        "gap": 171,
+        "magType": "md",
+        "type": "earthquake",
         "title": "M 4.0 - 3 km SE of La Romana, Dominican Republic"
       },
       "geometry": {
@@ -28,6 +128,454 @@
         ]
       },
       "id": "pr2025181005"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.46,
+        "place": "17 km ENE of Punta Cana, Dominican Republic",
+        "time": 1751322094590,
+        "updated": 1751332431040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2025181004",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2025181004.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 184,
+        "net": "pr",
+        "code": "2025181004",
+        "ids": ",us7000q9vf,pr2025181004,",
+        "sources": ",us,pr,",
+        "types": ",origin,phase-data,",
+        "nst": 18,
+        "dmin": 0.1878,
+        "rms": 0.09,
+        "gap": 153,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 3.5 - 17 km ENE of Punta Cana, Dominican Republic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.2656,
+          18.6618,
+          80
+        ]
+      },
+      "id": "pr2025181004"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.89,
+        "place": "43 km SSW of Pole Ojea, Puerto Rico",
+        "time": 1751320459260,
+        "updated": 1751321359880,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71487803",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71487803.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 128,
+        "net": "pr",
+        "code": "71487803",
+        "ids": ",pr71487803,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 16,
+        "dmin": 0.4353,
+        "rms": 0.2,
+        "gap": 297,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.9 - 43 km SSW of Pole Ojea, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.2688333333333,
+          17.5883333333333,
+          16.37
+        ]
+      },
+      "id": "pr71487803"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.49,
+        "place": "54 km N of Brenas, Puerto Rico",
+        "time": 1751314899240,
+        "updated": 1751323725846,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2025181003",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2025181003.geojson",
+        "felt": 1,
+        "cdi": 2.7,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 188,
+        "net": "pr",
+        "code": "2025181003",
+        "ids": ",pr2025181003,us7000q9uw,",
+        "sources": ",pr,us,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": 24,
+        "dmin": 0.5299,
+        "rms": 0.28,
+        "gap": 230,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 3.5 - 54 km N of Brenas, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.308,
+          18.9585,
+          33
+        ]
+      },
+      "id": "pr2025181003"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.05,
+        "place": "6 km ESE of Adjuntas, Puerto Rico",
+        "time": 1751312875500,
+        "updated": 1751313530510,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71487783",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71487783.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 65,
+        "net": "pr",
+        "code": "71487783",
+        "ids": ",pr71487783,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 10,
+        "dmin": 0.1085,
+        "rms": 0.08,
+        "gap": 81,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.1 - 6 km ESE of Adjuntas, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.6671666666667,
+          18.1443333333333,
+          23.36
+        ]
+      },
+      "id": "pr71487783"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.72,
+        "place": "1 km NNE of Indios, Puerto Rico",
+        "time": 1751307219800,
+        "updated": 1751308494590,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71487778",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71487778.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 46,
+        "net": "pr",
+        "code": "71487778",
+        "ids": ",pr71487778,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 9,
+        "dmin": 0.07285,
+        "rms": 0.11,
+        "gap": 163,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 1.7 - 1 km NNE of Indios, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.8113333333333,
+          18.0088333333333,
+          15.09
+        ]
+      },
+      "id": "pr71487778"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.13,
+        "place": "8 km SE of Maria Antonia, Puerto Rico",
+        "time": 1751307051980,
+        "updated": 1751307837440,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71487768",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71487768.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 70,
+        "net": "pr",
+        "code": "71487768",
+        "ids": ",pr71487768,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 11,
+        "dmin": 0.07027,
+        "rms": 0.09,
+        "gap": 226,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.1 - 8 km SE of Maria Antonia, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.839,
+          17.9158333333333,
+          13.12
+        ]
+      },
+      "id": "pr71487768"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.87,
+        "place": "71 km N of Arecibo, Puerto Rico",
+        "time": 1751283442730,
+        "updated": 1751285270690,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71487758",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71487758.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 127,
+        "net": "pr",
+        "code": "71487758",
+        "ids": ",pr71487758,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 13,
+        "dmin": 0.6304,
+        "rms": 0.2,
+        "gap": 277,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.9 - 71 km N of Arecibo, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.6028333333333,
+          19.107,
+          23.03
+        ]
+      },
+      "id": "pr71487758"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.16,
+        "place": "73 km N of Carrizales, Puerto Rico",
+        "time": 1751277272830,
+        "updated": 1751282478000,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71487753",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71487753.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 154,
+        "net": "pr",
+        "code": "71487753",
+        "ids": ",pr71487753,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 14,
+        "dmin": 0.6696,
+        "rms": 0.26,
+        "gap": 281,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 3.2 - 73 km N of Carrizales, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.6826666666667,
+          19.1343333333333,
+          24.26
+        ]
+      },
+      "id": "pr71487753"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.04,
+        "place": "70 km N of Carrizales, Puerto Rico",
+        "time": 1751277168580,
+        "updated": 1751285663040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71487723",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71487723.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 142,
+        "net": "pr",
+        "code": "71487723",
+        "ids": ",us7000q9qa,pr71487723,",
+        "sources": ",us,pr,",
+        "types": ",origin,phase-data,",
+        "nst": 18,
+        "dmin": 0.6489,
+        "rms": 0.36,
+        "gap": 261,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 3.0 - 70 km N of Carrizales, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.681,
+          19.1133333333333,
+          29.84
+        ]
+      },
+      "id": "pr71487723"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.13,
+        "place": "71 km N of Carrizales, Puerto Rico",
+        "time": 1751275472160,
+        "updated": 1751276656250,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71487708",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71487708.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 151,
+        "net": "pr",
+        "code": "71487708",
+        "ids": ",pr71487708,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 14,
+        "dmin": 0.6535,
+        "rms": 0.29,
+        "gap": 261,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 3.1 - 71 km N of Carrizales, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.6803333333333,
+          19.1181666666667,
+          36.5
+        ]
+      },
+      "id": "pr71487708"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.97,
+        "place": "70 km N of Carrizales, Puerto Rico",
+        "time": 1751273104400,
+        "updated": 1751276309950,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71487688",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71487688.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 136,
+        "net": "pr",
+        "code": "71487688",
+        "ids": ",pr71487688,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 14,
+        "dmin": 0.6498,
+        "rms": 0.27,
+        "gap": 280,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 3.0 - 70 km N of Carrizales, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.7016666666667,
+          19.1095,
+          21.21
+        ]
+      },
+      "id": "pr71487688"
     }
+  ],
+  "bbox": [
+    -179.8443,
+    -61.0502,
+    -0.76999998092651,
+    167.9268,
+    66.2658,
+    519.955
   ]
 }
