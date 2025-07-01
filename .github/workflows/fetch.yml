@@ -20,7 +20,7 @@ jobs:
           mkdir -p public/data
           curl -s -H "User-Agent: SismosRD/1.0 (+https://github.com/tu_usuario/SismosRD)" \
             -o usgs.json \
-            https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson
+            https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson
           head -c 1 usgs.json | grep -q "{" || { echo "USGS respondió algo diferente a JSON"; exit 1; }
           jq '
             .features |= map(

@@ -22,7 +22,7 @@ export default function Table({ quakes }: { quakes: Feature[] }) {
 
   return (
     <table className="w-full text-sm text-left mt-4 border-t border-gray-700">
-      <thead className="bg-gray-800 text-gray-300">
+      <thead className="black">
         <tr>
           {/* 👇 NUEVA COLUMNA */}
           <th className="px-2 py-1">Fecha</th>
