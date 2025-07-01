@@ -2,26 +2,25 @@ name: Fetch-Sismos
 
 on:
   schedule:
-    - cron: "*/1 * * * *"     # cada minuto
-  workflow_dispatch:
+    - cron: "*/1 * * * *"  # Cada minuto
+  workflow_dispatch: {}
 
 jobs:
   update:
     runs-on: ubuntu-latest
     permissions:
-      contents: write          # <-- habilita commit/push en repos privados
+      contents: write
 
     steps:
       - uses: actions/checkout@v4
 
       - name: Descargar y filtrar USGS
         run: |
-          set -e
           mkdir -p public/data
           curl -s -H "User-Agent: SismosRD/1.0 (+https://github.com/tu_usuario/SismosRD)" \
             -o usgs.json \
             https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson
-          head -c 1 usgs.json | grep -q "{" || { echo "USGS respondió algo diferente a JSON"; exit 1; }
+          head -c 1 usgs.json | grep -q "{" || { echo "USGS no respondió JSON"; exit 1; }
           jq '
             .features |= map(
               select(
@@ -33,13 +32,13 @@ jobs:
             )
           ' usgs.json > public/data/latest.json
 
-      - name: Commit & push
+      - name: Commit & Push
         run: |
-          git config user.name  "github-actions[bot]"
+          git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add public/data/latest.json
           if git diff --cached --quiet; then
-            echo "No hay cambios."
+            echo "No hay cambios nuevos."
           else
             git commit -m "auto: update feed"
             git push
