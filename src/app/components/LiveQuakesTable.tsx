@@ -1,12 +1,28 @@
 'use client'
 import { useEffect, useState } from 'react'
 
+/* ----------------------------- Tipos internos ----------------------------- */
+
 type QuakeRow = {
-  date: string
-  time: string
-  mag: string | number
+  date:  string
+  time:  string
+  mag:   number           
   place: string
 }
+
+ 
+type UsgsFeature = {
+  properties: {
+    mag:   number
+    place: string
+    time:  number
+  }
+}
+type UsgsFeed = {
+  features: UsgsFeature[]
+}
+
+/* --------------------------- Componente principal ------------------------- */
 
 export default function LiveQuakesTable() {
   const [rows, setRows] = useState<QuakeRow[]>([])
@@ -19,16 +35,36 @@ export default function LiveQuakesTable() {
         const res = await fetch(API)
         if (!res.ok) throw new Error(res.statusText)
 
-        const raw = await res.json() as unknown
+        const raw = (await res.json()) as unknown
 
-        if (Array.isArray(raw)) {
-          setRows(raw as QuakeRow[])
+        /* --------- Valida y transforma el JSON a nuestro formato --------- */
+        if (
+          typeof raw === 'object' &&
+          raw !== null &&
+          Array.isArray((raw as UsgsFeed).features)
+        ) {
+          const feed = raw as UsgsFeed
+
+          const parsed: QuakeRow[] = feed.features.map((f) => {
+            const d = new Date(f.properties.time)
+            return {
+              date : d.toLocaleDateString('es-DO'),
+              time : d.toLocaleTimeString('es-DO'),
+              mag  : f.properties.mag,
+              place: f.properties.place,
+            }
+          })
+
+          setRows(parsed)
         } else {
-          console.error('La respuesta no es un array válido:', raw)
+          console.error('Formato inesperado en latest.json:', raw)
         }
-
       } catch (err) {
-        console.error('No se pudo cargar /latest.json', err)
+        if (err instanceof Error) {
+          console.error('No se pudo cargar /latest.json:', err.message)
+        } else {
+          console.error('No se pudo cargar /latest.json:', err)
+        }
       }
     }
 
@@ -37,10 +73,12 @@ export default function LiveQuakesTable() {
     return () => clearInterval(id)
   }, [])
 
+  /* -------------------------------- Render -------------------------------- */
+
   return (
     <>
       <h2 className="text-xl font-semibold mt-6 mb-2">
-        Últimos sismos 
+        Últimos sismos
       </h2>
 
       <table className="w-full text-sm text-white border border-gray-700 rounded-lg overflow-hidden">
@@ -52,6 +90,7 @@ export default function LiveQuakesTable() {
             <th className="px-3 py-2 text-left">Lugar</th>
           </tr>
         </thead>
+
         <tbody>
           {rows.map((q, i) => (
             <tr
@@ -62,14 +101,14 @@ export default function LiveQuakesTable() {
               <td className="px-3 py-2">{q.time}</td>
               <td
                 className={`px-3 py-2 text-center font-semibold ${
-                  +q.mag >= 5
+                  q.mag >= 5
                     ? 'text-red-400'
-                    : +q.mag >= 4
+                    : q.mag >= 4
                     ? 'text-green-400'
                     : 'text-white'
                 }`}
               >
-                {Number(q.mag).toFixed(1)}
+                {q.mag.toFixed(1)}
               </td>
               <td className="px-3 py-2">{q.place}</td>
             </tr>
