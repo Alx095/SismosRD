@@ -11,9 +11,11 @@ type Feature = {
 export default function Table({ quakes }: { quakes: Feature[] }) {
   if (!quakes.length)
     return (
-      <p className="text-gray-400 mt-4">
-        Sin sismos en la última hora.
-      </p>
+      <div className="mt-6 p-4 bg-yellow-100 text-yellow-800 rounded-xl text-center shadow">
+        <p className="text-lg font-medium">
+          🌎 No se han registrado sismos en la región en las últimas 24 horas.
+        </p>
+      </div>
     );
 
   const sorted = [...quakes].sort(
@@ -21,29 +23,31 @@ export default function Table({ quakes }: { quakes: Feature[] }) {
   );
 
   return (
-    <table className="w-full text-sm text-left mt-4 border-t border-gray-700">
-      <thead className="black">
+    <table className="w-full text-sm text-left mt-4 border-t border-gray-700 text-white">
+      <thead className="bg-gray-800 text-gray-200">
         <tr>
-          {/* 👇 NUEVA COLUMNA */}
-          <th className="px-2 py-1">Fecha</th>
-          <th className="px-2 py-1">Hora (RD)</th>
-          <th className="px-2 py-1">Magnitud</th>
-          <th className="px-2 py-1">Lugar</th>
+          <th className="px-2 py-2">Fecha</th>
+          <th className="px-2 py-2">Hora (RD)</th>
+          <th className="px-2 py-2">Magnitud</th>
+          <th className="px-2 py-2">Lugar</th>
         </tr>
       </thead>
       <tbody>
         {sorted.map((q) => {
           const fecha = new Date(q.properties.time);
           return (
-            <tr key={q.id} className="border-b border-gray-700">
-              {/* 👇 CELDA FECHA */}
+            <tr key={q.id} className="border-b border-gray-700 hover:bg-gray-800 transition">
               <td className="px-2 py-1">
                 {format(fecha, 'dd/MM/yyyy', { locale: es })}
               </td>
               <td className="px-2 py-1">
                 {format(fecha, 'HH:mm:ss', { locale: es })}
               </td>
-              <td className="px-2 py-1 font-semibold">
+              <td
+                className={`px-2 py-1 font-semibold ${
+                  q.properties.mag >= 5 ? 'text-red-400' : 'text-green-300'
+                }`}
+              >
                 {q.properties.mag.toFixed(1)}
               </td>
               <td className="px-2 py-1">{q.properties.place}</td>
