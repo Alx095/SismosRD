@@ -2,9 +2,9 @@
 import { useEffect, useState } from 'react'
 
 type QuakeRow = {
-  date:  string
-  time:  string
-  mag:   string | number
+  date: string
+  time: string
+  mag: string | number
   place: string
 }
 
@@ -19,29 +19,28 @@ export default function LiveQuakesTable() {
         const res = await fetch(API)
         if (!res.ok) throw new Error(res.statusText)
 
-        // eslint-disable-next-line @typescript-eslint/no-explicit-any
-        const raw = await res.json() as any
+        const raw: unknown = await res.json()
 
         if (Array.isArray(raw)) {
-          setRows(raw as QuakeRow[])
-        } else if (Array.isArray(raw.features)) {
-          // si tu JSON sigue el formato GeoJSON:
-          const data = (raw.features as any[]).map((f) => {
-            const d = new Date(f.properties.time)
-            return {
-              date: d.toLocaleDateString('es-DO'),
-              time: d.toLocaleTimeString('es-DO'),
-              mag:  f.properties.mag,
-              place: f.properties.place
-            }
-          })
-          setRows(data)
+          // Validamos que los elementos tienen los campos necesarios
+          const isValid = (obj: any): obj is QuakeRow =>
+            typeof obj.date === 'string' &&
+            typeof obj.time === 'string' &&
+            (typeof obj.mag === 'number' || typeof obj.mag === 'string') &&
+            typeof obj.place === 'string'
+
+          const parsed = raw.filter(isValid)
+          setRows(parsed)
         } else {
-          console.error('Formato inesperado en latest.json:', raw)
+          console.error('Formato inesperado:', raw)
         }
 
       } catch (err: unknown) {
-        console.error('No se pudo cargar /latest.json', err)
+        if (err instanceof Error) {
+          console.error('No se pudo cargar /latest.json:', err.message)
+        } else {
+          console.error('No se pudo cargar /latest.json:', err)
+        }
       }
     }
 
@@ -52,10 +51,7 @@ export default function LiveQuakesTable() {
 
   return (
     <>
-      <h2 className="text-xl font-semibold mt-6 mb-2">
-        Últimos sismos
-      </h2>
-
+      <h2 className="text-xl font-semibold mt-6 mb-2">Últimos sismos</h2>
       <table className="w-full text-sm text-white border border-gray-700 rounded-lg overflow-hidden">
         <thead className="bg-gray-800 font-semibold">
           <tr>
@@ -67,21 +63,14 @@ export default function LiveQuakesTable() {
         </thead>
         <tbody>
           {rows.map((q, i) => (
-            <tr
-              key={i}
-              className="border-t border-gray-700 hover:bg-gray-700 transition-colors duration-200"
-            >
+            <tr key={i} className="border-t border-gray-700 hover:bg-gray-700 transition-colors duration-200">
               <td className="px-3 py-2">{q.date}</td>
               <td className="px-3 py-2">{q.time}</td>
-              <td
-                className={`px-3 py-2 text-center font-semibold ${
-                  +q.mag >= 5
-                    ? 'text-red-400'
-                    : +q.mag >= 4
-                    ? 'text-green-400'
-                    : 'text-white'
-                }`}
-              >
+              <td className={`px-3 py-2 text-center font-semibold ${
+                +q.mag >= 5 ? 'text-red-400'
+                : +q.mag >= 4 ? 'text-green-400'
+                : 'text-white'
+              }`}>
                 {Number(q.mag).toFixed(1)}
               </td>
               <td className="px-3 py-2">{q.place}</td>
