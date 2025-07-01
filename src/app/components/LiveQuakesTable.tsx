@@ -2,9 +2,9 @@
 import { useEffect, useState } from 'react'
 
 type QuakeRow = {
-  date:  string
-  time:  string
-  mag:   number
+  date: string
+  time: string
+  mag: number
   place: string
 }
 
@@ -18,22 +18,20 @@ export default function LiveQuakesTable() {
       try {
         const res = await fetch(API)
         if (!res.ok) throw new Error(res.statusText)
+
         const data = await res.json()
 
-        if (Array.isArray(data.features)) {
-          const parsedRows: QuakeRow[] = data.features.map((f: any) => {
-            const d = new Date(f.properties.time)
-            return {
-              date: d.toLocaleDateString('es-DO'),
-              time: d.toLocaleTimeString('es-DO'),
-              mag: Number(f.properties.mag),
-              place: f.properties.place,
-            }
-          })
-          setRows(parsedRows)
-        } else {
-          console.error('No es un array válido:', data)
-        }
+        const parsed: QuakeRow[] = data.features.map((f: any) => {
+          const d = new Date(f.properties.time)
+          return {
+            date: d.toLocaleDateString(),
+            time: d.toLocaleTimeString(),
+            mag: Number(f.properties.mag),
+            place: f.properties.place,
+          }
+        })
+
+        setRows(parsed)
       } catch (err) {
         console.error('No se pudo cargar /data/latest.json', err)
       }
