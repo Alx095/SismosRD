@@ -1,61 +1,20 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1751327896000,
+    "generated": 1751335092000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
     "api": "1.14.1",
     "count": 8
   },
-  "features": [
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.04,
-        "place": "3 km SE of La Romana, Dominican Republic",
-        "time": 1751325679900,
-        "updated": 1751327783872,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2025181005",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2025181005.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 251,
-        "net": "pr",
-        "code": "2025181005",
-        "ids": ",pr2025181005,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 27,
-        "dmin": 0.5813,
-        "rms": 0.59,
-        "gap": 171,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 4.0 - 3 km SE of La Romana, Dominican Republic"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -68.9528,
-          18.4068,
-          110
-        ]
-      },
-      "id": "pr2025181005"
-    }
-  ],
+  "features": [],
   "bbox": [
-    -152.7501,
-    18.4068,
-    0.04,
-    -68.9528,
-    60.7443,
-    110
+    -151.9487,
+    34.2696667,
+    1.6699999570847,
+    -119.6488333,
+    64.9649,
+    85
   ]
 }
