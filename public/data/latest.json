@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1751473249000,
+    "generated": 1751474722000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 280
+    "count": 278
   },
   "features": [
     {
@@ -288,46 +288,6 @@
         ]
       },
       "id": "pr71487888"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.48,
-        "place": "131 km N of Suárez, Puerto Rico",
-        "time": 1751388042090,
-        "updated": 1751391330040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2025182000",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2025182000.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 186,
-        "net": "pr",
-        "code": "2025182000",
-        "ids": ",us7000qa0u,pr2025182000,",
-        "sources": ",us,pr,",
-        "types": ",origin,phase-data,",
-        "nst": 11,
-        "dmin": 1.5062,
-        "rms": 0.25,
-        "gap": 311,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.5 - 131 km N of Suárez, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -65.6398,
-          19.601,
-          44
-        ]
-      },
-      "id": "pr2025182000"
     }
   ],
   "bbox": [
@@ -336,6 +296,6 @@
     -2,
     179.9932,
     68.7207,
-    581.818
+    561.071
   ]
 }
