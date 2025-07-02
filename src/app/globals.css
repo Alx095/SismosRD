@@ -1,4 +1,6 @@
 @import "tailwindcss";
+@tailwind utilities;
+
 
 :root {
   --background: #ffffff;
@@ -20,7 +22,9 @@
 }
 
 body {
-  background: var(--background);
+  background-color: #101010;
+  background-image: radial-gradient(#222 1px, transparent 1px);
+  background-size: 20px 20px;
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
