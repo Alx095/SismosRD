@@ -6,11 +6,10 @@ import { useEffect, useState } from 'react'
 type QuakeRow = {
   date:  string
   time:  string
-  mag:   number           
+  mag:   number
   place: string
 }
 
- 
 type UsgsFeature = {
   properties: {
     mag:   number
@@ -44,17 +43,36 @@ export default function LiveQuakesTable() {
         ) {
           const feed = raw as UsgsFeed
 
-          const parsed: QuakeRow[] = feed.features.map((f) => {
-            const d = new Date(f.properties.time)
-            return {
-              date : d.toLocaleDateString('es-DO'),
-              time : d.toLocaleTimeString('es-DO'),
-              mag  : f.properties.mag,
-              place: f.properties.place,
-            }
+          const parsed: QuakeRow[] = feed.features
+            .filter(f =>
+              f.properties.place?.includes('Dominican Republic')
+            )
+            .map((f) => {
+              const d = new Date(f.properties.time)
+              return {
+                date : d.toLocaleDateString('es-DO'),
+                time : d.toLocaleTimeString('es-DO'),
+                mag  : f.properties.mag,
+                place: f.properties.place,
+              }
+            })
+
+          // Agrupar por fecha y limitar a 5 sismos por día
+          const grouped: Record<string, QuakeRow[]> = {}
+
+          parsed.forEach((row) => {
+            if (!grouped[row.date]) grouped[row.date] = []
+            grouped[row.date].push(row)
           })
 
-          setRows(parsed)
+          const limited: QuakeRow[] = Object.values(grouped)
+            .flatMap((rows) =>
+              rows
+                .sort((a, b) => b.time.localeCompare(a.time))
+                .slice(0, 5)
+            )
+
+          setRows(limited)
         } else {
           console.error('Formato inesperado en latest.json:', raw)
         }
