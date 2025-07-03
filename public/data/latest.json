@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1751515216000,
+    "generated": 1751517302000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 267
+    "count": 260
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.25,
+        "place": "8 km SE of Maria Antonia, Puerto Rico",
+        "time": 1751514628140,
+        "updated": 1751515752060,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71488008",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71488008.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 78,
+        "net": "pr",
+        "code": "71488008",
+        "ids": ",pr71488008,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 7,
+        "dmin": 0.06709,
+        "rms": 0.2,
+        "gap": 228,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.3 - 8 km SE of Maria Antonia, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.8408333333333,
+          17.9185,
+          12.11
+        ]
+      },
+      "id": "pr71488008"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -128,46 +168,6 @@
         ]
       },
       "id": "pr71487963"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.59,
-        "place": "19 km N of Punta Cana, Dominican Republic",
-        "time": 1751429855010,
-        "updated": 1751495793040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2025183002",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2025183002.geojson",
-        "felt": 1,
-        "cdi": 2,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 198,
-        "net": "pr",
-        "code": "2025183002",
-        "ids": ",pr2025183002,us7000qa4l,",
-        "sources": ",pr,us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 14,
-        "dmin": 0.2432,
-        "rms": 0.14,
-        "gap": 158,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.6 - 19 km N of Punta Cana, Dominican Republic"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -68.378,
-          18.7571,
-          63
-        ]
-      },
-      "id": "pr2025183002"
     }
   ],
   "bbox": [
