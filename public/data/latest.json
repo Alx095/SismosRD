@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1751506752000,
+    "generated": 1751512266000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 277
+    "count": 267
   },
   "features": [
     {
@@ -208,86 +208,6 @@
         ]
       },
       "id": "pr2025183001"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.78,
-        "place": "26 km NE of Punta Cana, Dominican Republic",
-        "time": 1751425838990,
-        "updated": 1751505404869,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2025183000",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2025183000.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 220,
-        "net": "pr",
-        "code": "2025183000",
-        "ids": ",us7000qa4d,pr2025183000,",
-        "sources": ",us,pr,",
-        "types": ",origin,phase-data,",
-        "nst": 17,
-        "dmin": 0.2865,
-        "rms": 0.51,
-        "gap": 158,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.8 - 26 km NE of Punta Cana, Dominican Republic"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -68.2536,
-          18.7703,
-          65
-        ]
-      },
-      "id": "pr2025183000"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.08,
-        "place": "1 km NNE of Indios, Puerto Rico",
-        "time": 1751420677680,
-        "updated": 1751421143540,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71487918",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71487918.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 67,
-        "net": "pr",
-        "code": "71487918",
-        "ids": ",pr71487918,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 9,
-        "dmin": 0.07081,
-        "rms": 0.1,
-        "gap": 166,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.1 - 1 km NNE of Indios, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.812,
-          18.0055,
-          16.07
-        ]
-      },
-      "id": "pr71487918"
     }
   ],
   "bbox": [
@@ -295,7 +215,7 @@
     -59.3695,
     -2.72,
     179.9932,
-    68.7207,
+    66.8854,
     561.071
   ]
 }
