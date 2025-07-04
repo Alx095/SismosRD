@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1751632261000,
+    "generated": 1751634473000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 230
+    "count": 236
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.15,
+        "place": "4 km S of Palmas, Puerto Rico",
+        "time": 1751631740240,
+        "updated": 1751633015660,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71488203",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71488203.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 71,
+        "net": "pr",
+        "code": "71488203",
+        "ids": ",pr71488203,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 6,
+        "dmin": 0.07287,
+        "rms": 0.16,
+        "gap": 213,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.2 - 4 km S of Palmas, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.0213333333333,
+          17.9448333333333,
+          12.29
+        ]
+      },
+      "id": "pr71488203"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -408,46 +448,6 @@
         ]
       },
       "id": "pr71488093"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.28,
-        "place": "3 km NW of Fuig, Puerto Rico",
-        "time": 1751546206600,
-        "updated": 1751547187680,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71488078",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71488078.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 80,
-        "net": "pr",
-        "code": "71488078",
-        "ids": ",pr71488078,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 3,
-        "dmin": 0.1082,
-        "rms": 0.04,
-        "gap": 170,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.3 - 3 km NW of Fuig, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.939,
-          18.0105,
-          11.58
-        ]
-      },
-      "id": "pr71488078"
     }
   ],
   "bbox": [
