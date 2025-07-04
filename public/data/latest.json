@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1751602597000,
+    "generated": 1751604348000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 248
+    "count": 243
   },
   "features": [
     {
@@ -328,86 +328,6 @@
         ]
       },
       "id": "pr71488023"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.3,
-        "place": "6 km E of La Parguera, Puerto Rico",
-        "time": 1751517161560,
-        "updated": 1751517990050,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71488013",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71488013.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 81,
-        "net": "pr",
-        "code": "71488013",
-        "ids": ",pr71488013,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 12,
-        "dmin": 0.05953,
-        "rms": 0.13,
-        "gap": 175,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.3 - 6 km E of La Parguera, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.9818333333333,
-          17.9736666666667,
-          7.8
-        ]
-      },
-      "id": "pr71488013"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.82,
-        "place": "20 km SSE of La Romana, Dominican Republic",
-        "time": 1751516889660,
-        "updated": 1751521008964,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2025184000",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2025184000.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 224,
-        "net": "pr",
-        "code": "2025184000",
-        "ids": ",pr2025184000,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 17,
-        "dmin": 0.5874,
-        "rms": 0.41,
-        "gap": 222,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.8 - 20 km SSE of La Romana, Dominican Republic"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -68.907,
-          18.2516,
-          82
-        ]
-      },
-      "id": "pr2025184000"
     }
   ],
   "bbox": [
