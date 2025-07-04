@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1751666177000,
+    "generated": 1751667318000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 202
+    "count": 201
   },
   "features": [
     {
@@ -248,46 +248,6 @@
         ]
       },
       "id": "pr71488153"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.51,
-        "place": "9 km NNW of San Juan, Puerto Rico",
-        "time": 1751580582910,
-        "updated": 1751584223040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2025184002",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2025184002.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 190,
-        "net": "pr",
-        "code": "2025184002",
-        "ids": ",us7000qajg,pr2025184002,",
-        "sources": ",us,pr,",
-        "types": ",origin,phase-data,",
-        "nst": 25,
-        "dmin": 0.2426,
-        "rms": 0.11,
-        "gap": 193,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.5 - 9 km NNW of San Juan, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.1428,
-          18.5443,
-          96
-        ]
-      },
-      "id": "pr2025184002"
     }
   ],
   "bbox": [
