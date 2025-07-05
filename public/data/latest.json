@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1751716610000,
+    "generated": 1751718655000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 199
+    "count": 195
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.42,
+        "place": "65 km N of Culebra, Puerto Rico",
+        "time": 1751715434610,
+        "updated": 1751718133020,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71488293",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71488293.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 180,
+        "net": "pr",
+        "code": "71488293",
+        "ids": ",pr71488293,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 15,
+        "dmin": 0.5891,
+        "rms": 0.18,
+        "gap": 236,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 3.4 - 65 km N of Culebra, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.2256666666667,
+          18.8861666666667,
+          15.08
+        ]
+      },
+      "id": "pr71488293"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -88,6 +128,46 @@
         ]
       },
       "id": "pr2025186003"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.43,
+        "place": "16 km SSW of Central Aguirre, Puerto Rico",
+        "time": 1751710117200,
+        "updated": 1751716738420,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71488258",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71488258.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 181,
+        "net": "pr",
+        "code": "71488258",
+        "ids": ",pr71488258,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 34,
+        "dmin": 0.212,
+        "rms": 0.25,
+        "gap": 216,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 3.4 - 16 km SSW of Central Aguirre, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.2608333333333,
+          17.8115,
+          5.03
+        ]
+      },
+      "id": "pr71488258"
     },
     {
       "type": "Feature",
@@ -248,54 +328,14 @@
         ]
       },
       "id": "pr71488223"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.15,
-        "place": "4 km S of Palmas, Puerto Rico",
-        "time": 1751631740240,
-        "updated": 1751633015660,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71488203",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71488203.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 71,
-        "net": "pr",
-        "code": "71488203",
-        "ids": ",pr71488203,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 6,
-        "dmin": 0.07287,
-        "rms": 0.16,
-        "gap": 213,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.2 - 4 km S of Palmas, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.0213333333333,
-          17.9448333333333,
-          12.29
-        ]
-      },
-      "id": "pr71488203"
     }
   ],
   "bbox": [
-    -178.9335,
+    -179.1041,
     -57.02,
     -2.86,
     160.5944,
     68.47,
-    190.605
+    354.313
   ]
 }
