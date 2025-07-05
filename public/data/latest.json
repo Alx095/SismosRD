@@ -1,26 +1,66 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1751718655000,
+    "generated": 1751720643000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 195
+    "count": 190
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.07,
+        "place": "5 km ESE of La Parguera, Puerto Rico",
+        "time": 1751718088870,
+        "updated": 1751719503580,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71488318",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71488318.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 66,
+        "net": "pr",
+        "code": "71488318",
+        "ids": ",pr71488318,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 5,
+        "dmin": 0.04966,
+        "rms": 0.06,
+        "gap": 199,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.1 - 5 km ESE of La Parguera, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.9928333333333,
+          17.9608333333333,
+          7.64
+        ]
+      },
+      "id": "pr71488318"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 3.42,
         "place": "65 km N of Culebra, Puerto Rico",
         "time": 1751715434610,
-        "updated": 1751718133020,
+        "updated": 1751719092397,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71488293",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71488293.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -30,7 +70,7 @@
         "code": "71488293",
         "ids": ",pr71488293,",
         "sources": ",pr,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 15,
         "dmin": 0.5891,
         "rms": 0.18,
