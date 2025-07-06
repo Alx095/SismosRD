@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1751817408000,
+    "generated": 1751818743000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 218
+    "count": 222
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.4,
+        "place": "94 km SE of Beauséjour, Guadeloupe",
+        "time": 1751815764568,
+        "updated": 1751818703040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000qb0n",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000qb0n.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 298,
+        "net": "us",
+        "code": "7000qb0n",
+        "ids": ",us7000qb0n,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 39,
+        "dmin": 0.845,
+        "rms": 0.98,
+        "gap": 129,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.4 - 94 km SE of Beauséjour, Guadeloupe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.4156,
+          15.7406,
+          10
+        ]
+      },
+      "id": "us7000qb0n"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -288,46 +328,6 @@
         ]
       },
       "id": "pr71488378"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.2,
-        "place": "7 km ESE of La Parguera, Puerto Rico",
-        "time": 1751731745010,
-        "updated": 1751732545890,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71488368",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71488368.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 74,
-        "net": "pr",
-        "code": "71488368",
-        "ids": ",pr71488368,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 7,
-        "dmin": 0.06154,
-        "rms": 0.1,
-        "gap": 218,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.2 - 7 km ESE of La Parguera, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.9838333333333,
-          17.9473333333333,
-          8.98
-        ]
-      },
-      "id": "pr71488368"
     }
   ],
   "bbox": [
