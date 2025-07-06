@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1751802994000,
+    "generated": 1751805176000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
@@ -368,86 +368,6 @@
         ]
       },
       "id": "pr71488328"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.07,
-        "place": "5 km ESE of La Parguera, Puerto Rico",
-        "time": 1751718088870,
-        "updated": 1751719503580,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71488318",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71488318.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 66,
-        "net": "pr",
-        "code": "71488318",
-        "ids": ",pr71488318,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 5,
-        "dmin": 0.04966,
-        "rms": 0.06,
-        "gap": 199,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.1 - 5 km ESE of La Parguera, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.9928333333333,
-          17.9608333333333,
-          7.64
-        ]
-      },
-      "id": "pr71488318"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.97,
-        "place": "45 km SE of Boca de Yuma, Dominican Republic",
-        "time": 1751717208020,
-        "updated": 1751786591040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2025186004",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2025186004.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 242,
-        "net": "pr",
-        "code": "2025186004",
-        "ids": ",us7000qatx,pr2025186004,",
-        "sources": ",us,pr,",
-        "types": ",origin,phase-data,",
-        "nst": 17,
-        "dmin": 0.3895,
-        "rms": 0.29,
-        "gap": 203,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 4.0 - 45 km SE of Boca de Yuma, Dominican Republic"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -68.2493,
-          18.1475,
-          156
-        ]
-      },
-      "id": "pr2025186004"
     }
   ],
   "bbox": [
