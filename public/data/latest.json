@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1751784264000,
+    "generated": 1751784954000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
@@ -535,7 +535,7 @@
         "mag": 3.43,
         "place": "16 km SSW of Central Aguirre, Puerto Rico",
         "time": 1751710117200,
-        "updated": 1751716738420,
+        "updated": 1751784800040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71488258",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71488258.geojson",
@@ -548,8 +548,8 @@
         "sig": 181,
         "net": "pr",
         "code": "71488258",
-        "ids": ",pr71488258,",
-        "sources": ",pr,",
+        "ids": ",us7000qatj,pr71488258,",
+        "sources": ",us,pr,",
         "types": ",origin,phase-data,",
         "nst": 34,
         "dmin": 0.212,
