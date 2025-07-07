@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1751852401000,
+    "generated": 1751858120000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 211
+    "count": 192
   },
   "features": [
     {
@@ -168,86 +168,6 @@
         ]
       },
       "id": "pr71488413"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.97,
-        "place": "15 km WNW of San Rafael del Yuma, Dominican Republic",
-        "time": 1751769745800,
-        "updated": 1751772927040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2025187001",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2025187001.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 242,
-        "net": "pr",
-        "code": "2025187001",
-        "ids": ",us7000qaxu,pr2025187001,",
-        "sources": ",us,pr,",
-        "types": ",origin,phase-data,",
-        "nst": 24,
-        "dmin": 0.43,
-        "rms": 0.45,
-        "gap": 163,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 4.0 - 15 km WNW of San Rafael del Yuma, Dominican Republic"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -68.8105,
-          18.4858,
-          114
-        ]
-      },
-      "id": "pr2025187001"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.4,
-        "place": "11 km NNE of Jiquilillo, Nicaragua",
-        "time": 1751768889572,
-        "updated": 1751771056040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000qaxr",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000qaxr.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 298,
-        "net": "us",
-        "code": "7000qaxr",
-        "ids": ",us7000qaxr,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 34,
-        "dmin": 1.067,
-        "rms": 0.9,
-        "gap": 138,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.4 - 11 km NNE of Jiquilillo, Nicaragua"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -87.4284,
-          12.8499,
-          173.68
-        ]
-      },
-      "id": "us7000qaxr"
     }
   ],
   "bbox": [
