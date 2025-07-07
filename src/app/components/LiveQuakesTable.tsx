@@ -4,31 +4,25 @@ import { CheckCircleIcon, GlobeAltIcon } from '@heroicons/react/20/solid'
 
 /* ---------- Tipos ---------- */
 type QuakeRow = {
-  ts:   number
+  ts: number
   date: string
   time: string
-  mag:  number
-  place:string
+  mag: number
+  place: string
 }
 type UsgsFeature = {
-  properties:{ mag:number; place:string; time:number }
+  properties: { mag: number; place: string; time: number }
 }
 
-/* ---------- Helpers de color / nivel ---------- */
-const colorForMag = (m:number) =>
-  m >= 5.5 ? 'text-red-500'
-  : m > 3.5 ? 'text-yellow-400'
-  :           'text-green-400'
+/* ---------- Helpers ---------- */
+const colorForMag = (m: number) =>
+  m >= 5.5 ? 'text-red-500' : m > 3.5 ? 'text-yellow-400' : 'text-green-400'
 
-const levelBg = (m:number) =>
-  m >= 5.5 ? 'bg-red-500'
-  : m > 3.5 ? 'bg-yellow-400'
-  :           'bg-green-400'
+const levelBg = (m: number) =>
+  m >= 5.5 ? 'bg-red-500' : m > 3.5 ? 'bg-yellow-400' : 'bg-green-400'
 
-const levelLabel = (m:number) =>
-  m >= 5.5 ? 'Sismo fuerte'
-  : m > 3.5 ? 'Sismo moderado'
-  :           'Sismo leve'
+const levelLabel = (m: number) =>
+  m >= 5.5 ? 'Sismo fuerte' : m > 3.5 ? 'Sismo moderado' : 'Sismo leve'
 
 /* ---------- Componente ---------- */
 export default function LiveQuakesTable() {
@@ -46,22 +40,20 @@ export default function LiveQuakesTable() {
 
         const now = Date.now()
         const parsed: QuakeRow[] = raw.features
-          .filter(
-            (f:UsgsFeature) =>
-              f.properties.place?.includes('Dominican Republic') &&
-              now - f.properties.time <= 86_400_000
+          .filter((f: UsgsFeature) =>
+            f.properties.place?.includes('Dominican Republic') &&
+            now - f.properties.time <= 86_400_000
           )
-          .map((f:UsgsFeature) => {
+          .map((f: UsgsFeature) => {
             const d = new Date(f.properties.time)
             return {
-              ts   : f.properties.time,
-              date : d.toLocaleDateString('es-DO'),
-              time : d.toLocaleTimeString('es-DO'),
-              mag  : f.properties.mag,
+              ts: f.properties.time,
+              date: d.toLocaleDateString('es-DO'),
+              time: d.toLocaleTimeString('es-DO'),
+              mag: f.properties.mag,
               place: f.properties.place,
             }
           })
-          /* ←─ tipo explícito evita "implicit any" */
           .sort((a: QuakeRow, b: QuakeRow) => b.ts - a.ts)
           .slice(0, 5)
 
@@ -88,9 +80,20 @@ export default function LiveQuakesTable() {
   /* ---------- UI ---------- */
   return (
     <div className="relative p-4">
-      {/* Cabecera */}
-      <div className="flex items-center justify-between mt-6 mb-3">
-        <h2 className="text-xl md:text-2xl font-bold bg-gradient-to-r from-blue-400 to-green-400 bg-clip-text text-transparent flex items-center gap-2">
+      {/* ===== Cabecera móvil ===== */}
+      <div className="block md:hidden -mx-9 mb-2">
+         <h2 className="pl-1 text-xl font-bold bg-gradient-to-r from-blue-400 to-green-400 bg-clip-text text-transparent flex items-center gap-2">
+          <GlobeAltIcon className="h-6 w-6" />
+          Últimos sismos
+        </h2>
+        <p className="text-xs text-right text-gray-500 dark:text-gray-400 pr-3">
+          Última actualización: {lastUpdated}
+        </p>
+      </div>
+
+      {/* ===== Cabecera escritorio ===== */}
+      <div className="hidden md:flex justify-between items-center mt-6 mb-3">
+        <h2 className="text-2xl font-bold bg-gradient-to-r from-blue-400 to-green-400 bg-clip-text text-transparent flex items-center gap-2">
           <GlobeAltIcon className="h-6 w-6" />
           Últimos sismos
         </h2>
@@ -99,6 +102,7 @@ export default function LiveQuakesTable() {
         </p>
       </div>
 
+      {/* ===== Sin datos ===== */}
       {rows.length === 0 ? (
         <p className="flex items-center gap-2 italic text-gray-500 dark:text-gray-400">
           <CheckCircleIcon className="h-5 w-5 text-green-400" />
@@ -106,7 +110,7 @@ export default function LiveQuakesTable() {
         </p>
       ) : (
         <>
-          {/* ===== Feed de alertas (móvil) ===== */}
+          {/* ===== Feed móvil ===== */}
           <div className="space-y-4 md:hidden">
             {rows.map(q => (
               <div
@@ -127,7 +131,7 @@ export default function LiveQuakesTable() {
             ))}
           </div>
 
-          {/* ===== Tabla tradicional (≥ md) ===== */}
+          {/* ===== Tabla escritorio ===== */}
           <div className="hidden md:block">
             <table className="w-full text-sm border border-gray-300 dark:border-gray-700 rounded-lg overflow-hidden shadow">
               <thead className="bg-gray-200 dark:bg-gray-800 font-semibold">
