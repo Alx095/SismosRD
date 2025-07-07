@@ -13,7 +13,6 @@ type QuakeRow = {
 type UsgsFeature = {
   properties:{ mag:number; place:string; time:number }
 }
-type UsgsFeed = { features:UsgsFeature[] }
 
 /* ---------- Helpers de color / nivel ---------- */
 const colorForMag = (m:number) =>
@@ -62,7 +61,8 @@ export default function LiveQuakesTable() {
               place: f.properties.place,
             }
           })
-          .sort((a,b) => b.ts - a.ts)
+          /* ←─ tipo explícito evita "implicit any" */
+          .sort((a: QuakeRow, b: QuakeRow) => b.ts - a.ts)
           .slice(0, 5)
 
         parsed.forEach(q => {
