@@ -23,9 +23,10 @@ export default function Home() {
 
   return (
     <main className="max-w-3xl mx-auto p-4">
-      <h1 className="text-2xl font-bold mb-4">
-        Sismos recientes en Republica Dominicana
-      </h1>
+    <h1 className="text-xl md:text-3xl text-bold mb-4" style={{ color: '#ffffff', mixBlendMode: 'normal' }}>
+  Sismos recientes en República Dominicana
+    </h1>
+
 
       {/* Mapa dinámico */}
       <Map earthquakes={features} />

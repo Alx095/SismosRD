@@ -90,9 +90,9 @@ export default function LiveQuakesTable() {
           Última actualización: {lastUpdated}
         </p>
       </div>
-
+ 
       {/* ===== Cabecera escritorio ===== */}
-      <div className="hidden md:flex justify-between items-center mt-6 mb-3">
+      <div className="hidden md:flex justify-between items-left -mx-9 mb-2">
         <h2 className="text-2xl font-bold bg-gradient-to-r from-blue-400 to-green-400 bg-clip-text text-transparent flex items-center gap-2">
           <GlobeAltIcon className="h-6 w-6" />
           Últimos sismos
