@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1751846239000,
+    "generated": 1751852401000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 204
+    "count": 211
   },
   "features": [
     {
@@ -248,46 +248,6 @@
         ]
       },
       "id": "us7000qaxr"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.56,
-        "place": "121 km NE of Punta Cana, Dominican Republic",
-        "time": 1751765963620,
-        "updated": 1751769626893,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2025187000",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2025187000.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 195,
-        "net": "pr",
-        "code": "2025187000",
-        "ids": ",pr2025187000,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 15,
-        "dmin": 1.1485,
-        "rms": 0.5,
-        "gap": 268,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.6 - 121 km NE of Punta Cana, Dominican Republic"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -67.7011,
-          19.453,
-          35
-        ]
-      },
-      "id": "pr2025187000"
     }
   ],
   "bbox": [
