@@ -25,6 +25,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       <head>
         {/* manifest ya estaba */}
         <link rel="manifest" href="/manifest.webmanifest" />
+        <link rel="icon" type="image/png" sizes="48x48" href="/favicon.png" />
       </head>
 
       <body>
