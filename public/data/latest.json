@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1752290259000,
+    "generated": 1752292953000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 435
+    "count": 437
   },
   "features": [
     {
@@ -328,46 +328,6 @@
         ]
       },
       "id": "pr71488833"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.7,
-        "place": "98 km N of Charlotte Amalie, U.S. Virgin Islands",
-        "time": 1752205586762,
-        "updated": 1752207372040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000qbyg",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000qbyg.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 112,
-        "net": "us",
-        "code": "7000qbyg",
-        "ids": ",us7000qbyg,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 14,
-        "dmin": 0.842,
-        "rms": 0.46,
-        "gap": 279,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.7 - 98 km N of Charlotte Amalie, U.S. Virgin Islands"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -64.8718,
-          19.2323,
-          35
-        ]
-      },
-      "id": "us7000qbyg"
     }
   ],
   "bbox": [
