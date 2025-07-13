@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1752411642000,
+    "generated": 1752413583000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 251
+    "count": 247
   },
   "features": [
     {
@@ -248,46 +248,6 @@
         ]
       },
       "id": "pr71489023"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.35,
-        "place": "0 km E of Potala Pastillo, Puerto Rico",
-        "time": 1752326309090,
-        "updated": 1752327448140,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71488988",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71488988.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 85,
-        "net": "pr",
-        "code": "71488988",
-        "ids": ",pr71488988,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 15,
-        "dmin": 0.09414,
-        "rms": 0.09,
-        "gap": 175,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.4 - 0 km E of Potala Pastillo, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.4945,
-          17.9913333333333,
-          15.48
-        ]
-      },
-      "id": "pr71488988"
     }
   ],
   "bbox": [
