@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1752448641000,
+    "generated": 1752449607000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 259
+    "count": 258
   },
   "features": [
     {
@@ -175,11 +175,11 @@
         "mag": 3.9,
         "place": "9 km NNW of Boca Chica, Dominican Republic",
         "time": 1752401149938,
-        "updated": 1752428440435,
+        "updated": 1752448782478,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000qcdz",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000qcdz.geojson",
-        "felt": 2,
+        "felt": 3,
         "cdi": 3.8,
         "mmi": null,
         "alert": null,
