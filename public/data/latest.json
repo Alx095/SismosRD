@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1752406752000,
+    "generated": 1752407233000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
@@ -288,46 +288,6 @@
         ]
       },
       "id": "pr71488988"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3,
-        "place": "41 km NNE of Miches, Dominican Republic",
-        "time": 1752320809751,
-        "updated": 1752382389040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000qc8w",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000qc8w.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 138,
-        "net": "us",
-        "code": "7000qc8w",
-        "ids": ",us7000qc8w,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 16,
-        "dmin": 0.227,
-        "rms": 0.57,
-        "gap": 209,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.0 - 41 km NNE of Miches, Dominican Republic"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -68.955,
-          19.3457,
-          10
-        ]
-      },
-      "id": "us7000qc8w"
     }
   ],
   "bbox": [
