@@ -1,14 +1,94 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1752405190000,
+    "generated": 1752406083000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 263
+    "count": 262
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.9,
+        "place": "9 km NNW of Boca Chica, Dominican Republic",
+        "time": 1752401149938,
+        "updated": 1752405266645,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000qcdz",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000qcdz.geojson",
+        "felt": 1,
+        "cdi": 2.7,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 234,
+        "net": "us",
+        "code": "7000qcdz",
+        "ids": ",us7000qcdz,",
+        "sources": ",us,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": 35,
+        "dmin": 0.271,
+        "rms": 1.1,
+        "gap": 76,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 3.9 - 9 km NNW of Boca Chica, Dominican Republic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -69.6395,
+          18.5262,
+          103.397
+        ]
+      },
+      "id": "us7000qcdz"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.6,
+        "place": "105 km WNW of Tamarindo, Costa Rica",
+        "time": 1752396709211,
+        "updated": 1752405871040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000qcdn",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000qcdn.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 326,
+        "net": "us",
+        "code": "7000qcdn",
+        "ids": ",us7000qcdn,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 47,
+        "dmin": 1.349,
+        "rms": 1.28,
+        "gap": 179,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.6 - 105 km WNW of Tamarindo, Costa Rica"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.6933,
+          10.738,
+          10
+        ]
+      },
+      "id": "us7000qcdn"
+    },
     {
       "type": "Feature",
       "properties": {
