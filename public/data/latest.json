@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1752364765000,
+    "generated": 1752372663000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 273
+    "count": 272
   },
   "features": [
     {
@@ -248,126 +248,6 @@
         ]
       },
       "id": "pr71488958"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.96,
-        "place": "42 km NW of San Antonio, Puerto Rico",
-        "time": 1752282382300,
-        "updated": 1752283787220,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71488953",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71488953.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 135,
-        "net": "pr",
-        "code": "71488953",
-        "ids": ",pr71488953,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 11,
-        "dmin": 0.3976,
-        "rms": 0.28,
-        "gap": 207,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.0 - 42 km NW of San Antonio, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -67.3291666666667,
-          18.809,
-          15.05
-        ]
-      },
-      "id": "pr71488953"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.58,
-        "place": "110 km N of Charlotte Amalie, U.S. Virgin Islands",
-        "time": 1752279873830,
-        "updated": 1752288032040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2025193000",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2025193000.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 197,
-        "net": "pr",
-        "code": "2025193000",
-        "ids": ",us7000qc6b,pr2025193000,",
-        "sources": ",us,pr,",
-        "types": ",origin,phase-data,",
-        "nst": 15,
-        "dmin": 0.9334,
-        "rms": 0.37,
-        "gap": 286,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.6 - 110 km N of Charlotte Amalie, U.S. Virgin Islands"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -64.8018,
-          19.3303,
-          47
-        ]
-      },
-      "id": "pr2025193000"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.39,
-        "place": "7 km SSW of Tallaboa, Puerto Rico",
-        "time": 1752278997880,
-        "updated": 1752279689310,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71488928",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71488928.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 88,
-        "net": "pr",
-        "code": "71488928",
-        "ids": ",pr71488928,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 12,
-        "dmin": 0.1425,
-        "rms": 0.11,
-        "gap": 174,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.4 - 7 km SSW of Tallaboa, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.7356666666667,
-          17.9345,
-          11.74
-        ]
-      },
-      "id": "pr71488928"
     }
   ],
   "bbox": [
