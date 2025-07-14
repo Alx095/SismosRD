@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1752481763000,
+    "generated": 1752483335000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 258
+    "count": 259
   },
   "features": [
     {
@@ -368,46 +368,6 @@
         ]
       },
       "id": "us7000qcdz"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.6,
-        "place": "105 km WNW of Tamarindo, Costa Rica",
-        "time": 1752396709211,
-        "updated": 1752405871040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000qcdn",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000qcdn.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 326,
-        "net": "us",
-        "code": "7000qcdn",
-        "ids": ",us7000qcdn,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 47,
-        "dmin": 1.349,
-        "rms": 1.28,
-        "gap": 179,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.6 - 105 km WNW of Tamarindo, Costa Rica"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -86.6933,
-          10.738,
-          10
-        ]
-      },
-      "id": "us7000qcdn"
     }
   ],
   "bbox": [
