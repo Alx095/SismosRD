@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1752526688000,
+    "generated": 1752527992000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 247
+    "count": 242
   },
   "features": [
     {
@@ -135,7 +135,7 @@
         "mag": 3.69,
         "place": "11 km W of Salvaleón de Higüey, Dominican Republic",
         "time": 1752453211500,
-        "updated": 1752456642555,
+        "updated": 1752526709040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2025195000",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2025195000.geojson",
@@ -148,8 +148,8 @@
         "sig": 209,
         "net": "pr",
         "code": "2025195000",
-        "ids": ",pr2025195000,",
-        "sources": ",pr,",
+        "ids": ",us7000qchk,pr2025195000,",
+        "sources": ",us,pr,",
         "types": ",origin,phase-data,",
         "nst": 9,
         "dmin": 0.4446,
