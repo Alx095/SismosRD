@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1752537378000,
+    "generated": 1752542801000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 249
+    "count": 256
   },
   "features": [
     {
@@ -128,93 +128,13 @@
         ]
       },
       "id": "pr71489163"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.11,
-        "place": "40 km N of Brenas, Puerto Rico",
-        "time": 1752455543320,
-        "updated": 1752467992107,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71489148",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71489148.geojson",
-        "felt": 1,
-        "cdi": 2,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 149,
-        "net": "pr",
-        "code": "71489148",
-        "ids": ",pr71489148,",
-        "sources": ",pr,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 18,
-        "dmin": 0.3773,
-        "rms": 0.14,
-        "gap": 249,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.1 - 40 km N of Brenas, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.3903333333333,
-          18.8325,
-          52.26
-        ]
-      },
-      "id": "pr71489148"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.69,
-        "place": "11 km W of Salvaleón de Higüey, Dominican Republic",
-        "time": 1752453211500,
-        "updated": 1752526709040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2025195000",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2025195000.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 209,
-        "net": "pr",
-        "code": "2025195000",
-        "ids": ",us7000qchk,pr2025195000,",
-        "sources": ",us,pr,",
-        "types": ",origin,phase-data,",
-        "nst": 9,
-        "dmin": 0.4446,
-        "rms": 0.13,
-        "gap": 181,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.7 - 11 km W of Salvaleón de Higüey, Dominican Republic"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -68.8185,
-          18.5951,
-          151
-        ]
-      },
-      "id": "pr2025195000"
     }
   ],
   "bbox": [
-    -178.7538,
+    -179.7282,
     -49.7742,
     -2.23,
-    179.1395,
+    166.1011,
     65.8848,
     552.045
   ]
