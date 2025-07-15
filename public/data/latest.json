@@ -1,21 +1,101 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1752542801000,
+    "generated": 1752549333000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 256
+    "count": 260
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.43,
+        "place": "4 km SSE of Guánica, Puerto Rico",
+        "time": 1752546425770,
+        "updated": 1752547065430,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71489278",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71489278.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 91,
+        "net": "pr",
+        "code": "71489278",
+        "ids": ",pr71489278,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 8,
+        "dmin": 0.0419,
+        "rms": 0.08,
+        "gap": 216,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.4 - 4 km SSE of Guánica, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.8911666666667,
+          17.9345,
+          11.53
+        ]
+      },
+      "id": "pr71489278"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.48,
+        "place": "131 km N of San Juan, Puerto Rico",
+        "time": 1752544120140,
+        "updated": 1752546282386,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2025196000",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2025196000.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 186,
+        "net": "pr",
+        "code": "2025196000",
+        "ids": ",pr2025196000,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 9,
+        "dmin": 1.2326,
+        "rms": 0.19,
+        "gap": 309,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 3.5 - 131 km N of San Juan, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1565,
+          19.652,
+          37
+        ]
+      },
+      "id": "pr2025196000"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 3.66,
         "place": "66 km SE of Punta Cana, Dominican Republic",
         "time": 1752530015900,
-        "updated": 1752532704891,
+        "updated": 1752548953040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2025195001",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2025195001.geojson",
@@ -28,8 +108,8 @@
         "sig": 206,
         "net": "pr",
         "code": "2025195001",
-        "ids": ",pr2025195001,",
-        "sources": ",pr,",
+        "ids": ",us7000qcp3,pr2025195001,",
+        "sources": ",us,pr,",
         "types": ",origin,phase-data,",
         "nst": 24,
         "dmin": 0.5558,
@@ -131,7 +211,7 @@
     }
   ],
   "bbox": [
-    -179.7282,
+    -179.7327,
     -49.7742,
     -2.23,
     166.1011,
