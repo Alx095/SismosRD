@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1752684856000,
+    "generated": 1752686004000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
@@ -9,6 +9,46 @@
     "count": 248
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.29,
+        "place": "4 km NE of Maricao, Puerto Rico",
+        "time": 1752683444670,
+        "updated": 1752685778150,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71489433",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71489433.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 81,
+        "net": "pr",
+        "code": "71489433",
+        "ids": ",pr71489433,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 12,
+        "dmin": 0.1831,
+        "rms": 0.36,
+        "gap": 84,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.3 - 4 km NE of Maricao, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.9521666666667,
+          18.2131666666667,
+          12.02
+        ]
+      },
+      "id": "pr71489433"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -255,7 +295,7 @@
         "mag": 3.28,
         "place": "146 km N of Charlotte Amalie, U.S. Virgin Islands",
         "time": 1752600075230,
-        "updated": 1752605507040,
+        "updated": 1752684993040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71489338",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71489338.geojson",
