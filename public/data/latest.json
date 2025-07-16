@@ -1,14 +1,94 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1752645339000,
+    "generated": 1752647028000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 316
+    "count": 308
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.86,
+        "place": "18 km ESE of El Negro, Puerto Rico",
+        "time": 1752645917380,
+        "updated": 1752646794890,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71489408",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71489408.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 126,
+        "net": "pr",
+        "code": "71489408",
+        "ids": ",pr71489408,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 7,
+        "dmin": 0.2586,
+        "rms": 0.31,
+        "gap": 218,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.9 - 18 km ESE of El Negro, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.6931666666667,
+          17.959,
+          7.61
+        ]
+      },
+      "id": "pr71489408"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.75,
+        "place": "16 km ESE of El Negro, Puerto Rico",
+        "time": 1752645817080,
+        "updated": 1752646436340,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71489398",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71489398.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 116,
+        "net": "pr",
+        "code": "71489398",
+        "ids": ",pr71489398,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 7,
+        "dmin": 0.2568,
+        "rms": 0.12,
+        "gap": 259,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.8 - 16 km ESE of El Negro, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.7155,
+          17.9646666666667,
+          4.36
+        ]
+      },
+      "id": "pr71489398"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -174,7 +254,7 @@
     -178.4428,
     -30.1947,
     -2.26,
-    179.575,
+    176.3692,
     83.3046,
     634.695
   ]
