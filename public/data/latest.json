@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1752658323000,
+    "generated": 1752659349000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
@@ -248,46 +248,6 @@
         ]
       },
       "id": "pr71489338"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.54,
-        "place": "7 km ESE of La Parguera, Puerto Rico",
-        "time": 1752571974130,
-        "updated": 1752574567180,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71489318",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71489318.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 99,
-        "net": "pr",
-        "code": "71489318",
-        "ids": ",pr71489318,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 13,
-        "dmin": 0.06452,
-        "rms": 0.13,
-        "gap": 212,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.5 - 7 km ESE of La Parguera, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.9793333333333,
-          17.9506666666667,
-          6.99
-        ]
-      },
-      "id": "pr71489318"
     }
   ],
   "bbox": [
