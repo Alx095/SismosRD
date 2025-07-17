@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1752731795000,
+    "generated": 1752733481000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 263
+    "count": 268
   },
   "features": [
     {
@@ -168,126 +168,6 @@
         ]
       },
       "id": "pr2025197000"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.18,
-        "place": "6 km SSW of Playita Cortada, Puerto Rico",
-        "time": 1752646232370,
-        "updated": 1752647065870,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71489413",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71489413.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 73,
-        "net": "pr",
-        "code": "71489413",
-        "ids": ",pr71489413,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 10,
-        "dmin": 0.07264,
-        "rms": 0.13,
-        "gap": 155,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.2 - 6 km SSW of Playita Cortada, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.4626666666667,
-          17.926,
-          7.14
-        ]
-      },
-      "id": "pr71489413"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.86,
-        "place": "18 km ESE of El Negro, Puerto Rico",
-        "time": 1752645917380,
-        "updated": 1752646794890,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71489408",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71489408.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 126,
-        "net": "pr",
-        "code": "71489408",
-        "ids": ",pr71489408,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 7,
-        "dmin": 0.2586,
-        "rms": 0.31,
-        "gap": 218,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.9 - 18 km ESE of El Negro, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -65.6931666666667,
-          17.959,
-          7.61
-        ]
-      },
-      "id": "pr71489408"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.75,
-        "place": "16 km ESE of El Negro, Puerto Rico",
-        "time": 1752645817080,
-        "updated": 1752646436340,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71489398",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71489398.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 116,
-        "net": "pr",
-        "code": "71489398",
-        "ids": ",pr71489398,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 7,
-        "dmin": 0.2568,
-        "rms": 0.12,
-        "gap": 259,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.8 - 16 km ESE of El Negro, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -65.7155,
-          17.9646666666667,
-          4.36
-        ]
-      },
-      "id": "pr71489398"
     }
   ],
   "bbox": [
