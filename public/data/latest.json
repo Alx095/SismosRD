@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1752781903000,
+    "generated": 1752782323000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 247
+    "count": 249
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.22,
+        "place": "5 km SE of Espino, Puerto Rico",
+        "time": 1752780609560,
+        "updated": 1752782103830,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71489513",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71489513.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 160,
+        "net": "pr",
+        "code": "71489513",
+        "ids": ",pr71489513,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 22,
+        "dmin": 0.0667,
+        "rms": 0.33,
+        "gap": 60,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 3.2 - 5 km SE of Espino, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.0781666666667,
+          18.249,
+          27.12
+        ]
+      },
+      "id": "pr71489513"
+    },
     {
       "type": "Feature",
       "properties": {
