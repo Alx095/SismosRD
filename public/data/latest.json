@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1752771196000,
+    "generated": 1752772206000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 234
+    "count": 240
   },
   "features": [
     {
@@ -88,51 +88,11 @@
         ]
       },
       "id": "pr71489453"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.85,
-        "place": "0 km ESE of Vázquez, Puerto Rico",
-        "time": 1752685308610,
-        "updated": 1752686039220,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71489443",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71489443.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 53,
-        "net": "pr",
-        "code": "71489443",
-        "ids": ",pr71489443,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 4,
-        "dmin": 0.08916,
-        "rms": 0.19,
-        "gap": 171,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 1.9 - 0 km ESE of Vázquez, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.2305,
-          18.0631666666667,
-          10.31
-        ]
-      },
-      "id": "pr71489443"
     }
   ],
   "bbox": [
     -179.0272,
-    -24.2303,
+    -62.7065,
     -2.74,
     170.32,
     66.8005,
