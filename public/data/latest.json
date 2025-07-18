@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1752832124000,
+    "generated": 1752832608000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 242
+    "count": 244
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.13,
+        "place": "1 km SE of Indios, Puerto Rico",
+        "time": 1752831509810,
+        "updated": 1752832155740,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71489583",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71489583.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 70,
+        "net": "pr",
+        "code": "71489583",
+        "ids": ",pr71489583,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 6,
+        "dmin": 0.06593,
+        "rms": 0.06,
+        "gap": 190,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.1 - 1 km SE of Indios, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.8106666666667,
+          17.9843333333333,
+          16.16
+        ]
+      },
+      "id": "pr71489583"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -288,46 +328,6 @@
         ]
       },
       "id": "pr71489508"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.57,
-        "place": "26 km WSW of Stella, Puerto Rico",
-        "time": 1752745981250,
-        "updated": 1752750297000,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71489498",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71489498.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 102,
-        "net": "pr",
-        "code": "71489498",
-        "ids": ",pr71489498,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 16,
-        "dmin": 0.2444,
-        "rms": 0.31,
-        "gap": 292,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.6 - 26 km WSW of Stella, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -67.464,
-          18.2013333333333,
-          13.9
-        ]
-      },
-      "id": "pr71489498"
     }
   ],
   "bbox": [
