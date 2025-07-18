@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1752835447000,
+    "generated": 1752836173000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
@@ -9,6 +9,46 @@
     "count": 242
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.17,
+        "place": "2 km NNE of Yauco, Puerto Rico",
+        "time": 1752834836260,
+        "updated": 1752835802190,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71489603",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71489603.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 72,
+        "net": "pr",
+        "code": "71489603",
+        "ids": ",pr71489603,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 6,
+        "dmin": 0.08431,
+        "rms": 0.16,
+        "gap": 146,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.2 - 2 km NNE of Yauco, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.8393333333333,
+          18.0525,
+          12.33
+        ]
+      },
+      "id": "pr71489603"
+    },
     {
       "type": "Feature",
       "properties": {
