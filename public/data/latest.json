@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1752920782000,
+    "generated": 1752921833000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 222
+    "count": 220
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.36,
+        "place": "1 km W of Río Cañas Abajo, Puerto Rico",
+        "time": 1752920019550,
+        "updated": 1752920836060,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71489693",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71489693.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 86,
+        "net": "pr",
+        "code": "71489693",
+        "ids": ",pr71489693,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 13,
+        "dmin": 0.0943,
+        "rms": 0.2,
+        "gap": 76,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.4 - 1 km W of Río Cañas Abajo, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.4811666666667,
+          18.0368333333333,
+          16
+        ]
+      },
+      "id": "pr71489693"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -328,86 +368,6 @@
         ]
       },
       "id": "pr71489618"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.17,
-        "place": "2 km NNE of Yauco, Puerto Rico",
-        "time": 1752834836260,
-        "updated": 1752835802190,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71489603",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71489603.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 72,
-        "net": "pr",
-        "code": "71489603",
-        "ids": ",pr71489603,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 6,
-        "dmin": 0.08431,
-        "rms": 0.16,
-        "gap": 146,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.2 - 2 km NNE of Yauco, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.8393333333333,
-          18.0525,
-          12.33
-        ]
-      },
-      "id": "pr71489603"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.37,
-        "place": "2 km S of Indios, Puerto Rico",
-        "time": 1752834477790,
-        "updated": 1752835079730,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71489593",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71489593.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 86,
-        "net": "pr",
-        "code": "71489593",
-        "ids": ",pr71489593,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 7,
-        "dmin": 0.04955,
-        "rms": 0.16,
-        "gap": 207,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.4 - 2 km S of Indios, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.8165,
-          17.9675,
-          17.64
-        ]
-      },
-      "id": "pr71489593"
     }
   ],
   "bbox": [
