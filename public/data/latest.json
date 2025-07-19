@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1752948788000,
+    "generated": 1752950556000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 230
+    "count": 231
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.3,
+        "place": "3 km SSE of Maria Antonia, Puerto Rico",
+        "time": 1752948605140,
+        "updated": 1752950476280,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71489728",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71489728.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 81,
+        "net": "pr",
+        "code": "71489728",
+        "ids": ",pr71489728,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 14,
+        "dmin": 0.02663,
+        "rms": 0.13,
+        "gap": 208,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.3 - 3 km SSE of Maria Antonia, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.881,
+          17.9483333333333,
+          9.62
+        ]
+      },
+      "id": "pr71489728"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -368,52 +408,12 @@
         ]
       },
       "id": "pr71489643"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.4,
-        "place": "12 km ESE of San Pedro de Macorís, Dominican Republic",
-        "time": 1752862464669,
-        "updated": 1752875969040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000qdi6",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000qdi6.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 178,
-        "net": "us",
-        "code": "7000qdi6",
-        "ids": ",us7000qdi6,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 19,
-        "dmin": 0.685,
-        "rms": 0.89,
-        "gap": 171,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.4 - 12 km ESE of San Pedro de Macorís, Dominican Republic"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -69.1969,
-          18.4203,
-          152.248
-        ]
-      },
-      "id": "us7000qdi6"
     }
   ],
   "bbox": [
     -178.5,
     -56.1647,
-    -2.579999923706,
+    -2.11,
     141.8657,
     65.296,
     583.522
