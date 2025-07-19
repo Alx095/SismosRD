@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1752917693000,
+    "generated": 1752918306000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 226
+    "count": 221
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.85,
+        "place": "29 km SW of Pole Ojea, Puerto Rico",
+        "time": 1752917040070,
+        "updated": 1752918182130,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71489683",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71489683.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 125,
+        "net": "pr",
+        "code": "71489683",
+        "ids": ",pr71489683,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 9,
+        "dmin": 0.345,
+        "rms": 0.26,
+        "gap": 328,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.9 - 29 km SW of Pole Ojea, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.4015,
+          17.8008333333333,
+          18.13
+        ]
+      },
+      "id": "pr71489683"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -368,46 +408,6 @@
         ]
       },
       "id": "pr71489593"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.13,
-        "place": "1 km SE of Indios, Puerto Rico",
-        "time": 1752831509810,
-        "updated": 1752832155740,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71489583",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71489583.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 70,
-        "net": "pr",
-        "code": "71489583",
-        "ids": ",pr71489583,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 6,
-        "dmin": 0.06593,
-        "rms": 0.06,
-        "gap": 190,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.1 - 1 km SE of Indios, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.8106666666667,
-          17.9843333333333,
-          16.16
-        ]
-      },
-      "id": "pr71489583"
     }
   ],
   "bbox": [
