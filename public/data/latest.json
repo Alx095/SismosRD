@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1752894803000,
+    "generated": 1752897642000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
@@ -9,6 +9,46 @@
     "count": 241
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.25,
+        "place": "3 km SE of Las Marías, Puerto Rico",
+        "time": 1752895084230,
+        "updated": 1752896451650,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71489663",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71489663.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 78,
+        "net": "pr",
+        "code": "71489663",
+        "ids": ",pr71489663,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 8,
+        "dmin": 0.1282,
+        "rms": 0.34,
+        "gap": 174,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.3 - 3 km SE of Las Marías, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.9638333333333,
+          18.2306666666667,
+          19.82
+        ]
+      },
+      "id": "pr71489663"
+    },
     {
       "type": "Feature",
       "properties": {
