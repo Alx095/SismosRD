@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1753005541000,
+    "generated": 1753007092000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 288
+    "count": 289
   },
   "features": [
     {
@@ -288,46 +288,6 @@
         ]
       },
       "id": "pr71489713"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.36,
-        "place": "1 km W of Río Cañas Abajo, Puerto Rico",
-        "time": 1752920019550,
-        "updated": 1752920836060,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71489693",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71489693.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 86,
-        "net": "pr",
-        "code": "71489693",
-        "ids": ",pr71489693,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 13,
-        "dmin": 0.0943,
-        "rms": 0.2,
-        "gap": 76,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.4 - 1 km W of Río Cañas Abajo, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.4811666666667,
-          18.0368333333333,
-          16
-        ]
-      },
-      "id": "pr71489693"
     }
   ],
   "bbox": [
