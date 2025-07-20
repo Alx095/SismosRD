@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1753002878000,
+    "generated": 1753003964000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 279
+    "count": 282
   },
   "features": [
     {
@@ -15,7 +15,7 @@
         "mag": 3.18,
         "place": "24 km NE of Luquillo, Puerto Rico",
         "time": 1753001709310,
-        "updated": 1753002695380,
+        "updated": 1753003480040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71489803",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71489803.geojson",
@@ -28,8 +28,8 @@
         "sig": 156,
         "net": "pr",
         "code": "71489803",
-        "ids": ",pr71489803,",
-        "sources": ",pr,",
+        "ids": ",us7000qe00,pr71489803,",
+        "sources": ",us,pr,",
         "types": ",origin,phase-data,",
         "nst": 23,
         "dmin": 0.3149,
@@ -328,46 +328,6 @@
         ]
       },
       "id": "pr71489693"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.85,
-        "place": "29 km SW of Pole Ojea, Puerto Rico",
-        "time": 1752917040070,
-        "updated": 1752918182130,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71489683",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71489683.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 125,
-        "net": "pr",
-        "code": "71489683",
-        "ids": ",pr71489683,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 9,
-        "dmin": 0.345,
-        "rms": 0.26,
-        "gap": 328,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.9 - 29 km SW of Pole Ojea, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -67.4015,
-          17.8008333333333,
-          18.13
-        ]
-      },
-      "id": "pr71489683"
     }
   ],
   "bbox": [
