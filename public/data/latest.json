@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1753077450000,
+    "generated": 1753079297000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 305
+    "count": 299
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.95,
+        "place": "6 km ENE of Orocovis, Puerto Rico",
+        "time": 1753076622750,
+        "updated": 1753078197640,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71489928",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71489928.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 58,
+        "net": "pr",
+        "code": "71489928",
+        "ids": ",pr71489928,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 9,
+        "dmin": 0.06434,
+        "rms": 0.13,
+        "gap": 123,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.0 - 6 km ENE of Orocovis, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.3386666666667,
+          18.2583333333333,
+          21.5
+        ]
+      },
+      "id": "pr71489928"
+    },
     {
       "type": "Feature",
       "properties": {
