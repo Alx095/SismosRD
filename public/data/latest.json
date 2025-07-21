@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1753100396000,
+    "generated": 1753103218000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
@@ -9,6 +9,46 @@
     "count": 270
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.11,
+        "place": "4 km N of Orocovis, Puerto Rico",
+        "time": 1753098231930,
+        "updated": 1753101414080,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71489963",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71489963.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 68,
+        "net": "pr",
+        "code": "71489963",
+        "ids": ",pr71489963,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 11,
+        "dmin": 0.05699,
+        "rms": 0.17,
+        "gap": 97,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.1 - 4 km N of Orocovis, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.3938333333333,
+          18.2696666666667,
+          28.91
+        ]
+      },
+      "id": "pr71489963"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -448,86 +488,6 @@
         ]
       },
       "id": "pr71489843"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.17,
-        "place": "1 km SSE of Guánica, Puerto Rico",
-        "time": 1753015811320,
-        "updated": 1753016417790,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71489833",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71489833.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 72,
-        "net": "pr",
-        "code": "71489833",
-        "ids": ",pr71489833,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 7,
-        "dmin": 0.01273,
-        "rms": 0.14,
-        "gap": 205,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.2 - 1 km SSE of Guánica, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.9025,
-          17.9608333333333,
-          12.4
-        ]
-      },
-      "id": "pr71489833"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.38,
-        "place": "1 km S of Tallaboa, Puerto Rico",
-        "time": 1753014036040,
-        "updated": 1753016081530,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71489823",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71489823.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 87,
-        "net": "pr",
-        "code": "71489823",
-        "ids": ",pr71489823,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 10,
-        "dmin": 0.1204,
-        "rms": 0.07,
-        "gap": 151,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.4 - 1 km S of Tallaboa, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.7155,
-          17.9818333333333,
-          6.56
-        ]
-      },
-      "id": "pr71489823"
     }
   ],
   "bbox": [
