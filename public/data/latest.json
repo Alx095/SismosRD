@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1753082401000,
+    "generated": 1753083834000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 283
+    "count": 282
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.71,
+        "place": "122 km N of Culebra, Puerto Rico",
+        "time": 1753081513150,
+        "updated": 1753083559909,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2025202000",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2025202000.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 212,
+        "net": "pr",
+        "code": "2025202000",
+        "ids": ",pr2025202000,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 15,
+        "dmin": 1.0965,
+        "rms": 0.55,
+        "gap": 273,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 3.7 - 122 km N of Culebra, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.2633,
+          19.4078,
+          111
+        ]
+      },
+      "id": "pr2025202000"
+    },
     {
       "type": "Feature",
       "properties": {
