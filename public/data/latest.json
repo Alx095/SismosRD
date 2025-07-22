@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1753184599000,
+    "generated": 1753185131000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 249
+    "count": 246
   },
   "features": [
     {
@@ -248,46 +248,6 @@
         ]
       },
       "id": "pr71489998"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.11,
-        "place": "4 km N of Orocovis, Puerto Rico",
-        "time": 1753098231930,
-        "updated": 1753101414080,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71489963",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71489963.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 68,
-        "net": "pr",
-        "code": "71489963",
-        "ids": ",pr71489963,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 11,
-        "dmin": 0.05699,
-        "rms": 0.17,
-        "gap": 97,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.1 - 4 km N of Orocovis, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.3938333333333,
-          18.2696666666667,
-          28.91
-        ]
-      },
-      "id": "pr71489963"
     }
   ],
   "bbox": [
