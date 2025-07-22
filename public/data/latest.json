@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1753224000000,
+    "generated": 1753224713000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 279
+    "count": 278
   },
   "features": [
     {
@@ -248,46 +248,6 @@
         ]
       },
       "id": "pr2025203000"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.46,
-        "place": "2 km ENE of Ponce, Puerto Rico",
-        "time": 1753137652070,
-        "updated": 1753138529090,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71490023",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71490023.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 93,
-        "net": "pr",
-        "code": "71490023",
-        "ids": ",pr71490023,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 21,
-        "dmin": 0.02164,
-        "rms": 0.13,
-        "gap": 109,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.5 - 2 km ENE of Ponce, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.6008333333333,
-          18.0216666666667,
-          16.14
-        ]
-      },
-      "id": "pr71490023"
     }
   ],
   "bbox": [
