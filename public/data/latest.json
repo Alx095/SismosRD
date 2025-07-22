@@ -1,14 +1,94 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1753153738000,
+    "generated": 1753157092000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 300
+    "count": 303
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.81,
+        "place": "115 km NW of Sandy Ground Village, Anguilla",
+        "time": 1753153992180,
+        "updated": 1753155678889,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2025203001",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2025203001.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 223,
+        "net": "pr",
+        "code": "2025203001",
+        "ids": ",pr2025203001,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 10,
+        "dmin": 1.0151,
+        "rms": 0.44,
+        "gap": 336,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 3.8 - 115 km NW of Sandy Ground Village, Anguilla"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.7893,
+          19.0005,
+          81
+        ]
+      },
+      "id": "pr2025203001"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.87,
+        "place": "165 km NNE of Cruz Bay, U.S. Virgin Islands",
+        "time": 1753152945810,
+        "updated": 1753155539793,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2025203000",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2025203000.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 230,
+        "net": "pr",
+        "code": "2025203000",
+        "ids": ",pr2025203000,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 16,
+        "dmin": 1.3816,
+        "rms": 0.17,
+        "gap": 290,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 3.9 - 165 km NNE of Cruz Bay, U.S. Virgin Islands"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -64.4133,
+          19.7813,
+          38
+        ]
+      },
+      "id": "pr2025203000"
+    },
     {
       "type": "Feature",
       "properties": {
