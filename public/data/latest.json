@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1753199879000,
+    "generated": 1753201754000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
@@ -9,6 +9,86 @@
     "count": 264
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.38,
+        "place": "5 km SW of La Parguera, Puerto Rico",
+        "time": 1753200487250,
+        "updated": 1753201091440,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71490113",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71490113.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 87,
+        "net": "pr",
+        "code": "71490113",
+        "ids": ",pr71490113,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 8,
+        "dmin": 0.04417,
+        "rms": 0.07,
+        "gap": 257,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.4 - 5 km SW of La Parguera, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.0841666666667,
+          17.9468333333333,
+          10.03
+        ]
+      },
+      "id": "pr71490113"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.33,
+        "place": "34 km NE of Punta Cana, Dominican Republic",
+        "time": 1753199153490,
+        "updated": 1753201151760,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71490093",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71490093.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 171,
+        "net": "pr",
+        "code": "71490093",
+        "ids": ",pr71490093,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 15,
+        "dmin": 0.3475,
+        "rms": 0.34,
+        "gap": 163,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 3.3 - 34 km NE of Punta Cana, Dominican Republic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.1565,
+          18.7906666666667,
+          24.84
+        ]
+      },
+      "id": "pr71490093"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -251,7 +331,7 @@
     }
   ],
   "bbox": [
-    -160.2586,
+    -159.7479,
     -49.0886,
     -0.61,
     179.5726,
