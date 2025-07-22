@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1753215841000,
+    "generated": 1753216921000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 281
+    "count": 278
   },
   "features": [
     {
@@ -95,7 +95,7 @@
         "mag": 3.33,
         "place": "34 km NE of Punta Cana, Dominican Republic",
         "time": 1753199153490,
-        "updated": 1753201151760,
+        "updated": 1753216364040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71490093",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71490093.geojson",
@@ -108,8 +108,8 @@
         "sig": 171,
         "net": "pr",
         "code": "71490093",
-        "ids": ",pr71490093,",
-        "sources": ",pr,",
+        "ids": ",us6000qu5q,pr71490093,",
+        "sources": ",us,pr,",
         "types": ",origin,phase-data,",
         "nst": 15,
         "dmin": 0.3475,
