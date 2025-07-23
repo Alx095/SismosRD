@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1753240224000,
+    "generated": 1753243669000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 267
+    "count": 261
   },
   "features": [
     {
@@ -168,94 +168,14 @@
         ]
       },
       "id": "pr71490093"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.42,
-        "place": "2 km ENE of Ponce, Puerto Rico",
-        "time": 1753155916280,
-        "updated": 1753157358100,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71490063",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71490063.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 90,
-        "net": "pr",
-        "code": "71490063",
-        "ids": ",pr71490063,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 14,
-        "dmin": 0.02549,
-        "rms": 0.08,
-        "gap": 165,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.4 - 2 km ENE of Ponce, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.602,
-          18.0175,
-          16.11
-        ]
-      },
-      "id": "pr71490063"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.81,
-        "place": "115 km NW of Sandy Ground Village, Anguilla",
-        "time": 1753153992180,
-        "updated": 1753155678889,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2025203001",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2025203001.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 223,
-        "net": "pr",
-        "code": "2025203001",
-        "ids": ",pr2025203001,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 10,
-        "dmin": 1.0151,
-        "rms": 0.44,
-        "gap": 336,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.8 - 115 km NW of Sandy Ground Village, Anguilla"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -63.7893,
-          19.0005,
-          81
-        ]
-      },
-      "id": "pr2025203001"
     }
   ],
   "bbox": [
-    -169.73883333333,
-    -19.403,
+    -179.9105,
+    -23.4768,
     -3.12,
     161.034,
     65.5211,
-    517.036
+    535.433
   ]
 }
