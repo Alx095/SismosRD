@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1753286091000,
+    "generated": 1753287285000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 235
+    "count": 234
   },
   "features": [
     {
@@ -128,93 +128,13 @@
         ]
       },
       "id": "pr71490143"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.38,
-        "place": "5 km SW of La Parguera, Puerto Rico",
-        "time": 1753200487250,
-        "updated": 1753201091440,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71490113",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71490113.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 87,
-        "net": "pr",
-        "code": "71490113",
-        "ids": ",pr71490113,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 8,
-        "dmin": 0.04417,
-        "rms": 0.07,
-        "gap": 257,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.4 - 5 km SW of La Parguera, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -67.0841666666667,
-          17.9468333333333,
-          10.03
-        ]
-      },
-      "id": "pr71490113"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.21,
-        "place": "3 km WSW of La Parguera, Puerto Rico",
-        "time": 1753200216750,
-        "updated": 1753203630070,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71490108",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71490108.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 75,
-        "net": "pr",
-        "code": "71490108",
-        "ids": ",pr71490108,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 5,
-        "dmin": 0.02945,
-        "rms": 0.15,
-        "gap": 239,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.2 - 3 km WSW of La Parguera, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -67.0738333333333,
-          17.9608333333333,
-          10.14
-        ]
-      },
-      "id": "pr71490108"
     }
   ],
   "bbox": [
     -179.9105,
     -23.4768,
     -2.09,
-    161.034,
+    177.3842,
     67.312,
     567.75
   ]
