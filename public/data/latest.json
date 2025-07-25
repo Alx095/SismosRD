@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1753485430000,
+    "generated": 1753486406000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 293
+    "count": 292
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.16,
+        "place": "10 km SSE of Maria Antonia, Puerto Rico",
+        "time": 1753485712850,
+        "updated": 1753486358800,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71490513",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71490513.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 72,
+        "net": "pr",
+        "code": "71490513",
+        "ids": ",pr71490513,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 8,
+        "dmin": 0.09074,
+        "rms": 0.05,
+        "gap": 242,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.2 - 10 km SSE of Maria Antonia, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.8601666666667,
+          17.8856666666667,
+          14.89
+        ]
+      },
+      "id": "pr71490513"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -335,17 +375,17 @@
         "mag": 3.85,
         "place": "128 km N of Cruz Bay, U.S. Virgin Islands",
         "time": 1753433791870,
-        "updated": 1753484851327,
+        "updated": 1753485702401,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2025206000",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2025206000.geojson",
-        "felt": 1,
+        "felt": 2,
         "cdi": 4.3,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 228,
+        "sig": 229,
         "net": "pr",
         "code": "2025206000",
         "ids": ",pr2025206000,",
