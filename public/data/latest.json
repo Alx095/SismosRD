@@ -1,14 +1,94 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1753408689000,
+    "generated": 1753414722000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 238
+    "count": 255
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.93,
+        "place": "1 km SW of Indios, Puerto Rico",
+        "time": 1753409577530,
+        "updated": 1753410106440,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71490413",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71490413.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 57,
+        "net": "pr",
+        "code": "71490413",
+        "ids": ",pr71490413,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 6,
+        "dmin": 0.04935,
+        "rms": 0.08,
+        "gap": 193,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 1.9 - 1 km SW of Indios, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.8281666666667,
+          17.9835,
+          16.44
+        ]
+      },
+      "id": "pr71490413"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.84,
+        "place": "1 km SW of Palmarejo, Puerto Rico",
+        "time": 1753408278730,
+        "updated": 1753409258230,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71490403",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71490403.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 124,
+        "net": "pr",
+        "code": "71490403",
+        "ids": ",pr71490403,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 16,
+        "dmin": 0.03656,
+        "rms": 0.25,
+        "gap": 121,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.8 - 1 km SW of Palmarejo, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.0838333333333,
+          18.0336666666667,
+          13.89
+        ]
+      },
+      "id": "pr71490403"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -411,7 +491,7 @@
     }
   ],
   "bbox": [
-    -178.6825,
+    -177.9622,
     -60.9349,
     -3.17,
     166.1595,
