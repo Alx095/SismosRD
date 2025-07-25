@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1753429727000,
+    "generated": 1753430212000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 244
+    "count": 245
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.1,
+        "place": "39 km N of Hatillo, Puerto Rico",
+        "time": 1753428579960,
+        "updated": 1753429860250,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71490428",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71490428.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 148,
+        "net": "pr",
+        "code": "71490428",
+        "ids": ",pr71490428,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 18,
+        "dmin": 0.3852,
+        "rms": 0.18,
+        "gap": 268,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 3.1 - 39 km N of Hatillo, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.8578333333333,
+          18.8401666666667,
+          17.19
+        ]
+      },
+      "id": "pr71490428"
+    },
     {
       "type": "Feature",
       "properties": {
