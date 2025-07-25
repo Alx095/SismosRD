@@ -1,14 +1,94 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1753484228000,
+    "generated": 1753485430000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 285
+    "count": 293
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.43,
+        "place": "9 km SSE of Maria Antonia, Puerto Rico",
+        "time": 1753483406100,
+        "updated": 1753484443020,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71490508",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71490508.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 91,
+        "net": "pr",
+        "code": "71490508",
+        "ids": ",pr71490508,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 9,
+        "dmin": 0.07519,
+        "rms": 0.07,
+        "gap": 235,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.4 - 9 km SSE of Maria Antonia, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.861,
+          17.9015,
+          15.4
+        ]
+      },
+      "id": "pr71490508"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.35,
+        "place": "8 km NNE of Cruz Bay, U.S. Virgin Islands",
+        "time": 1753480673210,
+        "updated": 1753484505313,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2025206001",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2025206001.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 173,
+        "net": "pr",
+        "code": "2025206001",
+        "ids": ",pr2025206001,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 14,
+        "dmin": 0.1353,
+        "rms": 0.19,
+        "gap": 181,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 3.4 - 8 km NNE of Cruz Bay, U.S. Virgin Islands"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -64.7526,
+          18.396,
+          8
+        ]
+      },
+      "id": "pr2025206001"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -255,12 +335,12 @@
         "mag": 3.85,
         "place": "128 km N of Cruz Bay, U.S. Virgin Islands",
         "time": 1753433791870,
-        "updated": 1753436547920,
+        "updated": 1753484851327,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2025206000",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2025206000.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 4.3,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -270,7 +350,7 @@
         "code": "2025206000",
         "ids": ",pr2025206000,",
         "sources": ",pr,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 11,
         "dmin": 1.0754,
         "rms": 0.49,
@@ -531,7 +611,7 @@
     }
   ],
   "bbox": [
-    -179.04716666667,
+    -179.04483333333,
     -55.3106,
     -2.4,
     178.6093,
