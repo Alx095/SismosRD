@@ -1,14 +1,94 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1753610902000,
+    "generated": 1753612501000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 214
+    "count": 218
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.28,
+        "place": "11 km SSE of Maria Antonia, Puerto Rico",
+        "time": 1753611188190,
+        "updated": 1753611988150,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71490663",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71490663.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 80,
+        "net": "pr",
+        "code": "71490663",
+        "ids": ",pr71490663,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 12,
+        "dmin": 0.09729,
+        "rms": 0.07,
+        "gap": 244,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.3 - 11 km SSE of Maria Antonia, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.8558333333333,
+          17.8798333333333,
+          14.71
+        ]
+      },
+      "id": "pr71490663"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.4,
+        "place": "4 km E of Pastos, Puerto Rico",
+        "time": 1753608693670,
+        "updated": 1753612349470,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71490658",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71490658.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 30,
+        "net": "pr",
+        "code": "71490658",
+        "ids": ",pr71490658,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 8,
+        "dmin": 0.06753,
+        "rms": 0.27,
+        "gap": 118,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 1.4 - 4 km E of Pastos, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.2205,
+          18.1171666666667,
+          12.11
+        ]
+      },
+      "id": "pr71490658"
+    },
     {
       "type": "Feature",
       "properties": {
