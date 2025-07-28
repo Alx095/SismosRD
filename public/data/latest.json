@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1753712461000,
+    "generated": 1753713879000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 185
+    "count": 183
   },
   "features": [
     {
@@ -175,7 +175,7 @@
         "mag": 3.28,
         "place": "2 km ENE of Magas Arriba, Puerto Rico",
         "time": 1753690228960,
-        "updated": 1753704785703,
+        "updated": 1753712765207,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71490798",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71490798.geojson",
