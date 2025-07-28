@@ -1,26 +1,66 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1753692997000,
+    "generated": 1753694746000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 192
+    "count": 197
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.45,
+        "place": "2 km ENE of Magas Arriba, Puerto Rico",
+        "time": 1753690318980,
+        "updated": 1753693545346,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71490808",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71490808.geojson",
+        "felt": 1,
+        "cdi": 2.2,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 93,
+        "net": "pr",
+        "code": "71490808",
+        "ids": ",pr71490808,",
+        "sources": ",pr,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": 17,
+        "dmin": 0.04342,
+        "rms": 0.17,
+        "gap": 160,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.5 - 2 km ENE of Magas Arriba, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.7463333333333,
+          18.026,
+          16.37
+        ]
+      },
+      "id": "pr71490808"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 3.28,
         "place": "2 km ENE of Magas Arriba, Puerto Rico",
         "time": 1753690228960,
-        "updated": 1753692349760,
+        "updated": 1753693072621,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71490798",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71490798.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 3.1,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -30,7 +70,7 @@
         "code": "71490798",
         "ids": ",pr71490798,",
         "sources": ",pr,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 38,
         "dmin": 0.04625,
         "rms": 0.3,
@@ -528,46 +568,6 @@
         ]
       },
       "id": "pr71490658"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.85,
-        "place": "6 km SSE of Maria Antonia, Puerto Rico",
-        "time": 1753607984150,
-        "updated": 1753609350970,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71490643",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71490643.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 125,
-        "net": "pr",
-        "code": "71490643",
-        "ids": ",pr71490643,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 17,
-        "dmin": 0.05411,
-        "rms": 0.12,
-        "gap": 188,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.9 - 6 km SSE of Maria Antonia, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.8561666666667,
-          17.9253333333333,
-          12.35
-        ]
-      },
-      "id": "pr71490643"
     }
   ],
   "bbox": [
