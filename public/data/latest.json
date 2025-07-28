@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1753701422000,
+    "generated": 1753702306000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 182
+    "count": 180
   },
   "features": [
     {
@@ -15,7 +15,7 @@
         "mag": 2.97,
         "place": "14 km N of Carrizales, Puerto Rico",
         "time": 1753695625160,
-        "updated": 1753697123840,
+        "updated": 1753701928040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71490823",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71490823.geojson",
@@ -28,8 +28,8 @@
         "sig": 136,
         "net": "pr",
         "code": "71490823",
-        "ids": ",pr71490823,",
-        "sources": ",pr,",
+        "ids": ",us6000qvlh,pr71490823,",
+        "sources": ",us,pr,",
         "types": ",origin,phase-data,",
         "nst": 23,
         "dmin": 0.1409,
