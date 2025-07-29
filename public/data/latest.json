@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1753770362000,
+    "generated": 1753772124000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 271
+    "count": 267
   },
   "features": [
     {
@@ -88,6 +88,46 @@
         ]
       },
       "id": "pr71490923"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.03,
+        "place": "4 km SW of Jagual, Puerto Rico",
+        "time": 1753765527900,
+        "updated": 1753771282670,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71490913",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71490913.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 63,
+        "net": "pr",
+        "code": "71490913",
+        "ids": ",pr71490913,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 12,
+        "dmin": 0.1135,
+        "rms": 0.11,
+        "gap": 133,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.0 - 4 km SW of Jagual, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.0226666666667,
+          18.1321666666667,
+          21.22
+        ]
+      },
+      "id": "pr71490913"
     },
     {
       "type": "Feature",
