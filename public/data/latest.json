@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1753747105000,
+    "generated": 1753754686000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 276
+    "count": 270
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.35,
+        "place": "50 km NE of Punta Cana, Dominican Republic",
+        "time": 1753748733860,
+        "updated": 1753750639360,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71490878",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71490878.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 173,
+        "net": "pr",
+        "code": "71490878",
+        "ids": ",pr71490878,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 9,
+        "dmin": 0.4961,
+        "rms": 0.16,
+        "gap": 204,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 3.4 - 50 km NE of Punta Cana, Dominican Republic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.1333333333333,
+          18.9538333333333,
+          21.57
+        ]
+      },
+      "id": "pr71490878"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -528,53 +568,13 @@
         ]
       },
       "id": "pr71490723"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.45,
-        "place": "6 km SW of Tallaboa, Puerto Rico",
-        "time": 1753661769770,
-        "updated": 1753663420010,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71490708",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71490708.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 92,
-        "net": "pr",
-        "code": "71490708",
-        "ids": ",pr71490708,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 11,
-        "dmin": 0.07942,
-        "rms": 0.18,
-        "gap": 219,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.5 - 6 km SW of Tallaboa, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.7536666666667,
-          17.9488333333333,
-          10.57
-        ]
-      },
-      "id": "pr71490708"
     }
   ],
   "bbox": [
-    -179.05483333333,
-    -57.8503,
-    -2.98,
-    178.7437,
+    -179.0445,
+    -57.8991,
+    -2.5,
+    167.7527,
     66.3261,
     384.097
   ]
