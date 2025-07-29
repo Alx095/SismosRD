@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1753768611000,
+    "generated": 1753770362000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 264
+    "count": 271
   },
   "features": [
     {
@@ -55,7 +55,7 @@
         "mag": 3.21,
         "place": "13 km NNW of Brenas, Puerto Rico",
         "time": 1753766182650,
-        "updated": 1753767397480,
+        "updated": 1753769495040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71490923",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71490923.geojson",
@@ -68,8 +68,8 @@
         "sig": 159,
         "net": "pr",
         "code": "71490923",
-        "ids": ",pr71490923,",
-        "sources": ",pr,",
+        "ids": ",us6000qvvj,pr71490923,",
+        "sources": ",us,pr,",
         "types": ",origin,phase-data,",
         "nst": 27,
         "dmin": 0.1811,
