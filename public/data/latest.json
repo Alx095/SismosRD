@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1753851308000,
+    "generated": 1753853005000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 313
+    "count": 319
   },
   "features": [
     {
@@ -15,22 +15,22 @@
         "mag": 3.92,
         "place": "12 km WSW of Salvaleón de Higüey, Dominican Republic",
         "time": 1753845711700,
-        "updated": 1753848650580,
+        "updated": 1753852750258,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2025211000",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2025211000.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2.7,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 236,
+        "sig": 237,
         "net": "pr",
         "code": "2025211000",
         "ids": ",pr2025211000,",
         "sources": ",pr,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 25,
         "dmin": 0.4479,
         "rms": 0.48,
@@ -328,86 +328,6 @@
         ]
       },
       "id": "pr71490948"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.21,
-        "place": "13 km NNW of Brenas, Puerto Rico",
-        "time": 1753766182650,
-        "updated": 1753769495040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71490923",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71490923.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 159,
-        "net": "pr",
-        "code": "71490923",
-        "ids": ",us6000qvvj,pr71490923,",
-        "sources": ",us,pr,",
-        "types": ",origin,phase-data,",
-        "nst": 27,
-        "dmin": 0.1811,
-        "rms": 0.14,
-        "gap": 198,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.2 - 13 km NNW of Brenas, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.3771666666667,
-          18.5868333333333,
-          103.43
-        ]
-      },
-      "id": "pr71490923"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.03,
-        "place": "4 km SW of Jagual, Puerto Rico",
-        "time": 1753765527900,
-        "updated": 1753771282670,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71490913",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71490913.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 63,
-        "net": "pr",
-        "code": "71490913",
-        "ids": ",pr71490913,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 12,
-        "dmin": 0.1135,
-        "rms": 0.11,
-        "gap": 133,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.0 - 4 km SW of Jagual, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.0226666666667,
-          18.1321666666667,
-          21.22
-        ]
-      },
-      "id": "pr71490913"
     }
   ],
   "bbox": [
