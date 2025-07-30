@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1753905189000,
+    "generated": 1753906081000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 417
+    "count": 418
   },
   "features": [
     {
@@ -328,86 +328,6 @@
         ]
       },
       "id": "pr71491043"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.85,
-        "place": "5 km SW of Liborio Negron Torres, Puerto Rico",
-        "time": 1753819221330,
-        "updated": 1753819663770,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71491013",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71491013.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 53,
-        "net": "pr",
-        "code": "71491013",
-        "ids": ",pr71491013,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 5,
-        "dmin": 0.07322,
-        "rms": 0.04,
-        "gap": 127,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 1.9 - 5 km SW of Liborio Negron Torres, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.9836666666667,
-          18.0148333333333,
-          8.95
-        ]
-      },
-      "id": "pr71491013"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.21,
-        "place": "6 km ENE of La Parguera, Puerto Rico",
-        "time": 1753819074670,
-        "updated": 1753819630530,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71491003",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71491003.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 75,
-        "net": "pr",
-        "code": "71491003",
-        "ids": ",pr71491003,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 14,
-        "dmin": 0.06206,
-        "rms": 0.09,
-        "gap": 145,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.2 - 6 km ENE of La Parguera, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.9831666666667,
-          17.9913333333333,
-          12.37
-        ]
-      },
-      "id": "pr71491003"
     }
   ],
   "bbox": [
