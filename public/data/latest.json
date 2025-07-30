@@ -1,14 +1,94 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1753845274000,
+    "generated": 1753848720000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 299
+    "count": 304
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.92,
+        "place": "12 km WSW of Salvaleón de Higüey, Dominican Republic",
+        "time": 1753845711700,
+        "updated": 1753848650580,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2025211000",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2025211000.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 236,
+        "net": "pr",
+        "code": "2025211000",
+        "ids": ",pr2025211000,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 25,
+        "dmin": 0.4479,
+        "rms": 0.48,
+        "gap": 155,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 3.9 - 12 km WSW of Salvaleón de Higüey, Dominican Republic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.8245,
+          18.5795,
+          116
+        ]
+      },
+      "id": "pr2025211000"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.19,
+        "place": "3 km SSE of Maria Antonia, Puerto Rico",
+        "time": 1753844394200,
+        "updated": 1753845915940,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71491048",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71491048.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 74,
+        "net": "pr",
+        "code": "71491048",
+        "ids": ",pr71491048,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 7,
+        "dmin": 0.02552,
+        "rms": 0.14,
+        "gap": 213,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.2 - 3 km SSE of Maria Antonia, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.8721666666667,
+          17.947,
+          17.95
+        ]
+      },
+      "id": "pr71491048"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -328,46 +408,6 @@
         ]
       },
       "id": "pr71490913"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.41,
-        "place": "6 km SSE of Maria Antonia, Puerto Rico",
-        "time": 1753761651620,
-        "updated": 1753762361970,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71490898",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71490898.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 89,
-        "net": "pr",
-        "code": "71490898",
-        "ids": ",pr71490898,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 12,
-        "dmin": 0.05581,
-        "rms": 0.12,
-        "gap": 207,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.4 - 6 km SSE of Maria Antonia, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.8635,
-          17.921,
-          15.19
-        ]
-      },
-      "id": "pr71490898"
     }
   ],
   "bbox": [
