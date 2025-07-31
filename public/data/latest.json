@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1753931586000,
+    "generated": 1753935030000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 438
+    "count": 444
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.74,
+        "place": "107 km N of Suárez, Puerto Rico",
+        "time": 1753931251290,
+        "updated": 1753934403283,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2025212000",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2025212000.geojson",
+        "felt": 1,
+        "cdi": 2,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 215,
+        "net": "pr",
+        "code": "2025212000",
+        "ids": ",pr2025212000,",
+        "sources": ",pr,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": 15,
+        "dmin": 1.1818,
+        "rms": 0.45,
+        "gap": 241,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 3.7 - 107 km N of Suárez, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.7856,
+          19.3955,
+          60
+        ]
+      },
+      "id": "pr2025212000"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -288,54 +328,14 @@
         ]
       },
       "id": "pr71491098"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.92,
-        "place": "12 km WSW of Salvaleón de Higüey, Dominican Republic",
-        "time": 1753845711700,
-        "updated": 1753852750258,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2025211000",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2025211000.geojson",
-        "felt": 1,
-        "cdi": 2.7,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 237,
-        "net": "pr",
-        "code": "2025211000",
-        "ids": ",pr2025211000,",
-        "sources": ",pr,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 25,
-        "dmin": 0.4479,
-        "rms": 0.48,
-        "gap": 155,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.9 - 12 km WSW of Salvaleón de Higüey, Dominican Republic"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -68.8245,
-          18.5795,
-          116
-        ]
-      },
-      "id": "pr2025211000"
     }
   ],
   "bbox": [
     -178.76216666667,
     -58.9377,
     -3.32,
-    175.8067,
-    66.0089,
-    239.6
+    179.804,
+    66.1844,
+    500.836
   ]
 }
