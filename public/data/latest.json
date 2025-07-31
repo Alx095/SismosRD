@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1753971480000,
+    "generated": 1753972981000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 365
+    "count": 364
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.16,
+        "place": "4 km NNW of Las Marías, Puerto Rico",
+        "time": 1753971820860,
+        "updated": 1753972858230,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71491228",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71491228.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 72,
+        "net": "pr",
+        "code": "71491228",
+        "ids": ",pr71491228,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 10,
+        "dmin": 0.1367,
+        "rms": 0.3,
+        "gap": 95,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.2 - 4 km NNW of Las Marías, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.0096666666667,
+          18.2923333333333,
+          14.63
+        ]
+      },
+      "id": "pr71491228"
+    },
     {
       "type": "Feature",
       "properties": {
