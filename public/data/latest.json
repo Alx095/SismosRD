@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1754011544000,
+    "generated": 1754018863000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 343
+    "count": 350
   },
   "features": [
     {
@@ -128,46 +128,6 @@
         ]
       },
       "id": "pr71491198"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.74,
-        "place": "107 km N of Suárez, Puerto Rico",
-        "time": 1753931251290,
-        "updated": 1754004196040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2025212000",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2025212000.geojson",
-        "felt": 1,
-        "cdi": 2,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 215,
-        "net": "pr",
-        "code": "2025212000",
-        "ids": ",pr2025212000,us6000qwtn,",
-        "sources": ",pr,us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 15,
-        "dmin": 1.1818,
-        "rms": 0.45,
-        "gap": 241,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.7 - 107 km N of Suárez, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -65.7856,
-          19.3955,
-          60
-        ]
-      },
-      "id": "pr2025212000"
     }
   ],
   "bbox": [
