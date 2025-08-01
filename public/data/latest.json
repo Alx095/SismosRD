@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1754018863000,
+    "generated": 1754023036000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 350
+    "count": 342
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.6,
+        "place": "61 km SE of Punta Cana, Dominican Republic",
+        "time": 1754017838920,
+        "updated": 1754019165842,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2025213000",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2025213000.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 199,
+        "net": "pr",
+        "code": "2025213000",
+        "ids": ",pr2025213000,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 17,
+        "dmin": 0.5219,
+        "rms": 0.41,
+        "gap": 184,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 3.6 - 61 km SE of Punta Cana, Dominican Republic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.9251,
+          18.2605,
+          118
+        ]
+      },
+      "id": "pr2025213000"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -88,53 +128,13 @@
         ]
       },
       "id": "pr71491228"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.22,
-        "place": "4 km NNE of Ponce, Puerto Rico",
-        "time": 1753934167270,
-        "updated": 1753941605389,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71491198",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71491198.geojson",
-        "felt": 1,
-        "cdi": 2,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 160,
-        "net": "pr",
-        "code": "71491198",
-        "ids": ",pr71491198,",
-        "sources": ",pr,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 28,
-        "dmin": 0.0101,
-        "rms": 0.19,
-        "gap": 79,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.2 - 4 km NNE of Ponce, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.6125,
-          18.051,
-          18.78
-        ]
-      },
-      "id": "pr71491198"
     }
   ],
   "bbox": [
     -178.721,
     -34.0308,
     -2.96,
-    179.804,
+    178.8636,
     73.9803,
     570.438
   ]
