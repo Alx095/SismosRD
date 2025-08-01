@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1754077667000,
+    "generated": 1754078076000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 316
+    "count": 315
   },
   "features": [
     {
@@ -15,11 +15,11 @@
         "mag": 4.8,
         "place": "4 km ENE of Quesada, Costa Rica",
         "time": 1754076791379,
-        "updated": 1754077630168,
+        "updated": 1754077945996,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000qxhc",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000qxhc.geojson",
-        "felt": 1,
+        "felt": 3,
         "cdi": 3.1,
         "mmi": null,
         "alert": null,
