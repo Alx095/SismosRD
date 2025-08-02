@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1754153977000,
+    "generated": 1754155177000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 271
+    "count": 270
   },
   "features": [
     {
@@ -135,12 +135,12 @@
         "mag": 4.7,
         "place": "16 km N of Yaguaraparo, Venezuela",
         "time": 1754092351108,
-        "updated": 1754099135040,
+        "updated": 1754154966098,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000qxjl",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000qxjl.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 3.8,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -150,7 +150,7 @@
         "code": "6000qxjl",
         "ids": ",us6000qxjl,",
         "sources": ",us,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 61,
         "dmin": 1.809,
         "rms": 0.95,
