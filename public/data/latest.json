@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1754176882000,
+    "generated": 1754177912000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 253
+    "count": 254
   },
   "features": [
     {
@@ -208,46 +208,6 @@
         ]
       },
       "id": "us6000qxjl"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.28,
-        "place": "4 km SW of San Sebastián, Puerto Rico",
-        "time": 1754091117840,
-        "updated": 1754092823590,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71491293",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71491293.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 80,
-        "net": "pr",
-        "code": "71491293",
-        "ids": ",pr71491293,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 7,
-        "dmin": 0.147,
-        "rms": 0.23,
-        "gap": 232,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.3 - 4 km SW of San Sebastián, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -67.0136666666667,
-          18.3065,
-          22.73
-        ]
-      },
-      "id": "pr71491293"
     }
   ],
   "bbox": [
