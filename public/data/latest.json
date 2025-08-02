@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1754145103000,
+    "generated": 1754145987000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 271
+    "count": 266
   },
   "features": [
     {
@@ -288,46 +288,6 @@
         ]
       },
       "id": "us6000qxhc"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.13,
-        "place": "1 km W of Yauco, Puerto Rico",
-        "time": 1754058867250,
-        "updated": 1754059754320,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71491273",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71491273.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 70,
-        "net": "pr",
-        "code": "71491273",
-        "ids": ",pr71491273,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 6,
-        "dmin": 0.0625,
-        "rms": 0.12,
-        "gap": 161,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.1 - 1 km W of Yauco, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.8655,
-          18.0365,
-          10.67
-        ]
-      },
-      "id": "pr71491273"
     }
   ],
   "bbox": [
