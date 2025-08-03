@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1754196047000,
+    "generated": 1754198038000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 238
+    "count": 237
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.38,
+        "place": "5 km WSW of La Parguera, Puerto Rico",
+        "time": 1754195080260,
+        "updated": 1754196476810,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71491403",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71491403.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 87,
+        "net": "pr",
+        "code": "71491403",
+        "ids": ",pr71491403,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 12,
+        "dmin": 0.04684,
+        "rms": 0.09,
+        "gap": 227,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.4 - 5 km WSW of La Parguera, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.0926666666667,
+          17.9611666666667,
+          11.92
+        ]
+      },
+      "id": "pr71491403"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -208,52 +248,12 @@
         ]
       },
       "id": "pr71491328"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.15,
-        "place": "3 km S of Potala Pastillo, Puerto Rico",
-        "time": 1754110032200,
-        "updated": 1754110581150,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71491318",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71491318.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 71,
-        "net": "pr",
-        "code": "71491318",
-        "ids": ",pr71491318,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 4,
-        "dmin": 0.07404,
-        "rms": 0.07,
-        "gap": 125,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.2 - 3 km S of Potala Pastillo, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.5023333333333,
-          17.957,
-          7.07
-        ]
-      },
-      "id": "pr71491318"
     }
   ],
   "bbox": [
     -178.732,
     -55.5058,
-    -2.77,
+    -1.98,
     162.1829,
     66.6566,
     590.728
