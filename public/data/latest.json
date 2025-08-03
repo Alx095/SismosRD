@@ -1,14 +1,94 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1754186859000,
+    "generated": 1754193315000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 241
+    "count": 240
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.53,
+        "place": "1 km W of Indios, Puerto Rico",
+        "time": 1754190340210,
+        "updated": 1754191426030,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71491383",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71491383.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 98,
+        "net": "pr",
+        "code": "71491383",
+        "ids": ",pr71491383,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 13,
+        "dmin": 0.03932,
+        "rms": 0.21,
+        "gap": 146,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.5 - 1 km W of Indios, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.8358333333333,
+          17.9968333333333,
+          16.51
+        ]
+      },
+      "id": "pr71491383"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.25,
+        "place": "1 km ENE of Magas Arriba, Puerto Rico",
+        "time": 1754188645030,
+        "updated": 1754189259240,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71491378",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71491378.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 78,
+        "net": "pr",
+        "code": "71491378",
+        "ids": ",pr71491378,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 7,
+        "dmin": 0.1191,
+        "rms": 0.15,
+        "gap": 163,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.3 - 1 km ENE of Magas Arriba, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.7555,
+          18.0241666666667,
+          11.56
+        ]
+      },
+      "id": "pr71491378"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -168,52 +248,12 @@
         ]
       },
       "id": "pr71491318"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.3,
-        "place": "18 km S of El Rosario, Nicaragua",
-        "time": 1754106864467,
-        "updated": 1754109163398,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000qxkq",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000qxkq.geojson",
-        "felt": 1,
-        "cdi": 3.8,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 285,
-        "net": "us",
-        "code": "6000qxkq",
-        "ids": ",us6000qxkq,",
-        "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 23,
-        "dmin": 0.546,
-        "rms": 0.49,
-        "gap": 132,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.3 - 18 km S of El Rosario, Nicaragua"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -86.3612,
-          11.6106,
-          75.589
-        ]
-      },
-      "id": "us6000qxkq"
     }
   ],
   "bbox": [
     -178.732,
-    -29.7651,
-    -3.19,
+    -55.5058,
+    -2.77,
     162.1829,
     66.6566,
     590.728
