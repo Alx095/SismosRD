@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1754237928000,
+    "generated": 1754239423000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 216
+    "count": 215
   },
   "features": [
     {
@@ -15,7 +15,7 @@
         "mag": 3.38,
         "place": "83 km SW of Saint Croix, U.S. Virgin Islands",
         "time": 1754234300840,
-        "updated": 1754236922190,
+        "updated": 1754238876040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71491473",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71491473.geojson",
@@ -28,8 +28,8 @@
         "sig": 176,
         "net": "pr",
         "code": "71491473",
-        "ids": ",pr71491473,",
-        "sources": ",pr,",
+        "ids": ",us6000qxw1,pr71491473,",
+        "sources": ",us,pr,",
         "types": ",origin,phase-data,",
         "nst": 16,
         "dmin": 1.076,
