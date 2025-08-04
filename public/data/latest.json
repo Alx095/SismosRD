@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1754268860000,
+    "generated": 1754276780000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 222
+    "count": 228
   },
   "features": [
     {
@@ -368,93 +368,13 @@
         ]
       },
       "id": "pr2025215000"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.53,
-        "place": "1 km W of Indios, Puerto Rico",
-        "time": 1754190340210,
-        "updated": 1754191426030,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71491383",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71491383.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 98,
-        "net": "pr",
-        "code": "71491383",
-        "ids": ",pr71491383,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 13,
-        "dmin": 0.03932,
-        "rms": 0.21,
-        "gap": 146,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.5 - 1 km W of Indios, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.8358333333333,
-          17.9968333333333,
-          16.51
-        ]
-      },
-      "id": "pr71491383"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.25,
-        "place": "1 km ENE of Magas Arriba, Puerto Rico",
-        "time": 1754188645030,
-        "updated": 1754189259240,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71491378",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71491378.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 78,
-        "net": "pr",
-        "code": "71491378",
-        "ids": ",pr71491378,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 7,
-        "dmin": 0.1191,
-        "rms": 0.15,
-        "gap": 163,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.3 - 1 km ENE of Magas Arriba, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.7555,
-          18.0241666666667,
-          11.56
-        ]
-      },
-      "id": "pr71491378"
     }
   ],
   "bbox": [
     -159.8904,
-    -55.5058,
-    -0.17,
-    162.1829,
+    -55.2484,
+    -2.56,
+    161.5199,
     68.6337,
     486.711
   ]
