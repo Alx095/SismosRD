@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1754351843000,
+    "generated": 1754358140000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 266
+    "count": 253
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.42,
+        "place": "79 km NNE of Luquillo, Puerto Rico",
+        "time": 1754349246080,
+        "updated": 1754352263610,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71491533",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71491533.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 180,
+        "net": "pr",
+        "code": "71491533",
+        "ids": ",pr71491533,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 20,
+        "dmin": 0.7864,
+        "rms": 0.24,
+        "gap": 237,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 3.4 - 79 km NNE of Luquillo, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.3968333333333,
+          19.0225,
+          49
+        ]
+      },
+      "id": "pr71491533"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -128,50 +168,10 @@
         ]
       },
       "id": "pr71491508"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.18,
-        "place": "79 km N of Cruz Bay, U.S. Virgin Islands",
-        "time": 1754266096550,
-        "updated": 1754267090290,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71491498",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71491498.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 156,
-        "net": "pr",
-        "code": "71491498",
-        "ids": ",pr71491498,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 8,
-        "dmin": 0.6159,
-        "rms": 0.44,
-        "gap": 285,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.2 - 79 km N of Cruz Bay, U.S. Virgin Islands"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -64.6728333333333,
-          19.0373333333333,
-          5.04
-        ]
-      },
-      "id": "pr71491498"
     }
   ],
   "bbox": [
-    -176.22683333333,
+    -177.92716666667,
     -10.4872,
     -2.42,
     162.3937,
