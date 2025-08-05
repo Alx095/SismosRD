@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1754410165000,
+    "generated": 1754411686000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 251
+    "count": 255
   },
   "features": [
     {
@@ -295,11 +295,11 @@
         "mag": 3.42,
         "place": "79 km NNE of Luquillo, Puerto Rico",
         "time": 1754349246080,
-        "updated": 1754386349356,
+        "updated": 1754410434928,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71491533",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71491533.geojson",
-        "felt": 1,
+        "felt": 2,
         "cdi": 2.7,
         "mmi": null,
         "alert": null,
