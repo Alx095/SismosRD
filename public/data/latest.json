@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1754364451000,
+    "generated": 1754368303000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 258
+    "count": 256
   },
   "features": [
     {
@@ -15,7 +15,7 @@
         "mag": 3.42,
         "place": "79 km NNE of Luquillo, Puerto Rico",
         "time": 1754349246080,
-        "updated": 1754352263610,
+        "updated": 1754366760040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71491533",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71491533.geojson",
@@ -28,8 +28,8 @@
         "sig": 180,
         "net": "pr",
         "code": "71491533",
-        "ids": ",pr71491533,",
-        "sources": ",pr,",
+        "ids": ",us6000qy4a,pr71491533,",
+        "sources": ",us,pr,",
         "types": ",origin,phase-data,",
         "nst": 20,
         "dmin": 0.7864,
@@ -48,6 +48,46 @@
         ]
       },
       "id": "pr71491533"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.6,
+        "place": "69 km WSW of Corinto, Nicaragua",
+        "time": 1754348809153,
+        "updated": 1754366350040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000qy49",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000qy49.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 326,
+        "net": "us",
+        "code": "6000qy49",
+        "ids": ",us6000qy49,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 190,
+        "dmin": 1.435,
+        "rms": 0.73,
+        "gap": 138,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.6 - 69 km WSW of Corinto, Nicaragua"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.7211,
+          12.1514,
+          35
+        ]
+      },
+      "id": "us6000qy49"
     },
     {
       "type": "Feature",
@@ -132,7 +172,7 @@
   ],
   "bbox": [
     -177.92716666667,
-    -10.4872,
+    -54.5198,
     -2.42,
     162.3937,
     65.0847,
