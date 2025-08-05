@@ -1,53 +1,53 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1754389008000,
+    "generated": 1754390640000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 252
+    "count": 254
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 5,
-        "place": "37 km ESE of Boca de Yuma, Dominican Republic",
-        "time": 1754385831403,
-        "updated": 1754389004944,
+        "mag": 5.7,
+        "place": "38 km SE of Boca de Yuma, Dominican Republic",
+        "time": 1754385831280,
+        "updated": 1754390621070,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000qy7q",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000qy7q.geojson",
-        "felt": 87,
-        "cdi": 5.2,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2025217000",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2025217000.geojson",
+        "felt": 333,
+        "cdi": 6,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 430,
-        "net": "us",
-        "code": "6000qy7q",
-        "ids": ",pt25217001,us6000qy7q,",
-        "sources": ",pt,us,",
+        "sig": 700,
+        "net": "pr",
+        "code": "2025217000",
+        "ids": ",pt25217001,us6000qy7q,pr2025217000,",
+        "sources": ",pt,us,pr,",
         "types": ",dyfi,origin,phase-data,",
-        "nst": 96,
-        "dmin": 0.317,
-        "rms": 1.42,
-        "gap": 49,
-        "magType": "mww",
+        "nst": 29,
+        "dmin": 0.3523,
+        "rms": 0.46,
+        "gap": 184,
+        "magType": "ml",
         "type": "earthquake",
-        "title": "M 5.0 - 37 km ESE of Boca de Yuma, Dominican Republic"
+        "title": "M 5.7 - 38 km SE of Boca de Yuma, Dominican Republic"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -68.3026,
-          18.2041,
-          183.863
+          -68.3226,
+          18.1665,
+          168
         ]
       },
-      "id": "us6000qy7q"
+      "id": "pr2025217000"
     },
     {
       "type": "Feature",
