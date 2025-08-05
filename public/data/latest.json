@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1754380485000,
+    "generated": 1754381816000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
@@ -15,12 +15,12 @@
         "mag": 2.76,
         "place": "4 km SE of Esperanza, Puerto Rico",
         "time": 1754376846600,
-        "updated": 1754378172610,
+        "updated": 1754381706459,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71491553",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71491553.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -30,7 +30,7 @@
         "code": "71491553",
         "ids": ",pr71491553,",
         "sources": ",pr,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 7,
         "dmin": 0.07782,
         "rms": 0.2,
@@ -171,11 +171,11 @@
     }
   ],
   "bbox": [
-    -177.92716666667,
+    -174.40633333333,
     -54.5198,
     -0.75,
     162.3937,
-    65.0847,
+    66.2395,
     389.891
   ]
 }
