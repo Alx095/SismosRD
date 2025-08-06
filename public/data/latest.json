@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1754495723000,
+    "generated": 1754497133000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 246
+    "count": 241
   },
   "features": [
     {
@@ -248,46 +248,6 @@
         ]
       },
       "id": "pr71491653"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.9,
-        "place": "2 km E of Magas Arriba, Puerto Rico",
-        "time": 1754410687130,
-        "updated": 1754412745520,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71491648",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71491648.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 56,
-        "net": "pr",
-        "code": "71491648",
-        "ids": ",pr71491648,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 7,
-        "dmin": 0.1258,
-        "rms": 0.16,
-        "gap": 180,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 1.9 - 2 km E of Magas Arriba, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.7448333333333,
-          18.0175,
-          7.98
-        ]
-      },
-      "id": "pr71491648"
     }
   ],
   "bbox": [
