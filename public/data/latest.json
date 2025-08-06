@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1754444571000,
+    "generated": 1754450745000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 278
+    "count": 281
   },
   "features": [
     {
@@ -295,17 +295,17 @@
         "mag": 5.7,
         "place": "38 km SE of Boca de Yuma, Dominican Republic",
         "time": 1754385831280,
-        "updated": 1754443228833,
+        "updated": 1754444960429,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2025217000",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2025217000.geojson",
-        "felt": 477,
+        "felt": 478,
         "cdi": 6,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 786,
+        "sig": 787,
         "net": "pr",
         "code": "2025217000",
         "ids": ",pt25217001,us6000qy7q,pr2025217000,",
@@ -408,53 +408,13 @@
         ]
       },
       "id": "pr71491553"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.9,
-        "place": "4 km NNE of Croix-des-Bouquets, Haiti",
-        "time": 1754362941986,
-        "updated": 1754406475056,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000qy99",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000qy99.geojson",
-        "felt": 5,
-        "cdi": 3.8,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 236,
-        "net": "us",
-        "code": "6000qy99",
-        "ids": ",us6000qy99,",
-        "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 17,
-        "dmin": 0.951,
-        "rms": 0.8,
-        "gap": 88,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.9 - 4 km NNE of Croix-des-Bouquets, Haiti"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -72.2148,
-          18.6149,
-          10
-        ]
-      },
-      "id": "us6000qy99"
     }
   ],
   "bbox": [
     -177.9345,
     -54.5198,
     -2.12,
-    176.9273,
+    179.535,
     67.6013,
     531.257
   ]
