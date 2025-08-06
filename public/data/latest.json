@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1754482889000,
+    "generated": 1754485824000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 266
+    "count": 264
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.99,
+        "place": "66 km N of San Juan, Puerto Rico",
+        "time": 1754481930600,
+        "updated": 1754484316480,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71491713",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71491713.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 138,
+        "net": "pr",
+        "code": "71491713",
+        "ids": ",pr71491713,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 14,
+        "dmin": 0.6998,
+        "rms": 0.13,
+        "gap": 246,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 3.0 - 66 km N of San Juan, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1226666666667,
+          19.0643333333333,
+          43.5
+        ]
+      },
+      "id": "pr71491713"
+    },
     {
       "type": "Feature",
       "properties": {
