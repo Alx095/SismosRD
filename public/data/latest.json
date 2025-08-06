@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1754497133000,
+    "generated": 1754498836000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 241
+    "count": 240
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.72,
+        "place": "1 km SE of Maria Antonia, Puerto Rico",
+        "time": 1754494773980,
+        "updated": 1754497700230,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71491758",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71491758.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 114,
+        "net": "pr",
+        "code": "71491758",
+        "ids": ",pr71491758,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 12,
+        "dmin": 0.006211,
+        "rms": 0.15,
+        "gap": 185,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.7 - 1 km SE of Maria Antonia, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.8786666666667,
+          17.9688333333333,
+          15.25
+        ]
+      },
+      "id": "pr71491758"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -208,54 +248,14 @@
         ]
       },
       "id": "pr71491668"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.86,
-        "place": "3 km ENE of Maria Antonia, Puerto Rico",
-        "time": 1754412234800,
-        "updated": 1754412895840,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71491653",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71491653.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 53,
-        "net": "pr",
-        "code": "71491653",
-        "ids": ",pr71491653,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 6,
-        "dmin": 0.01592,
-        "rms": 0.04,
-        "gap": 147,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 1.9 - 3 km ENE of Maria Antonia, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.858,
-          17.985,
-          18.16
-        ]
-      },
-      "id": "pr71491653"
     }
   ],
   "bbox": [
-    -177.9345,
+    -178.4375,
     -22.2392,
     -1.88,
     179.535,
     67.6013,
-    531.257
+    596.732
   ]
 }
