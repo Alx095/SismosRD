@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1754477085000,
+    "generated": 1754477843000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 262
+    "count": 265
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.26,
+        "place": "2 km E of Mariano Colón, Puerto Rico",
+        "time": 1754475619910,
+        "updated": 1754477822600,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71491698",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71491698.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 79,
+        "net": "pr",
+        "code": "71491698",
+        "ids": ",pr71491698,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 15,
+        "dmin": 0.07174,
+        "rms": 0.17,
+        "gap": 130,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.3 - 2 km E of Mariano Colón, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.3098333333333,
+          18.025,
+          12.99
+        ]
+      },
+      "id": "pr71491698"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -288,46 +328,6 @@
         ]
       },
       "id": "pr71491623"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.4,
-        "place": "27 km SW of Oranjestad, Bonaire, Saint Eustatius and Saba ",
-        "time": 1754390919004,
-        "updated": 1754400152040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000qy87",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000qy87.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 298,
-        "net": "us",
-        "code": "6000qy87",
-        "ids": ",us6000qy87,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 56,
-        "dmin": 0.254,
-        "rms": 0.54,
-        "gap": 73,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.4 - 27 km SW of Oranjestad, Bonaire, Saint Eustatius and Saba "
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -63.1642,
-          17.3073,
-          120.692
-        ]
-      },
-      "id": "us6000qy87"
     }
   ],
   "bbox": [
