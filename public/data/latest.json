@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1754551934000,
+    "generated": 1754552857000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
@@ -215,7 +215,7 @@
         "mag": 3.8,
         "place": "6 km N of Pedro García, Dominican Republic",
         "time": 1754531299611,
-        "updated": 1754546085939,
+        "updated": 1754552635885,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000qyrx",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000qyrx.geojson",
