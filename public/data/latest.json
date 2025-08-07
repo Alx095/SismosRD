@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1754600324000,
+    "generated": 1754601613000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 245
+    "count": 241
   },
   "features": [
     {
@@ -448,46 +448,6 @@
         ]
       },
       "id": "pr71491818"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2,
-        "place": "5 km WSW of Central Aguirre, Puerto Rico",
-        "time": 1754514003810,
-        "updated": 1754514705290,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71491803",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71491803.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 62,
-        "net": "pr",
-        "code": "71491803",
-        "ids": ",pr71491803,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 15,
-        "dmin": 0.09758,
-        "rms": 0.23,
-        "gap": 180,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.0 - 5 km WSW of Central Aguirre, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.2675,
-          17.936,
-          14.69
-        ]
-      },
-      "id": "pr71491803"
     }
   ],
   "bbox": [
