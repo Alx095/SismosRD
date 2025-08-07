@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1754539794000,
+    "generated": 1754542480000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 276
+    "count": 271
   },
   "features": [
     {
@@ -88,6 +88,46 @@
         ]
       },
       "id": "pr71491858"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.8,
+        "place": "6 km N of Pedro García, Dominican Republic",
+        "time": 1754531299611,
+        "updated": 1754542294090,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000qyrx",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000qyrx.geojson",
+        "felt": 4,
+        "cdi": 2.4,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 223,
+        "net": "us",
+        "code": "6000qyrx",
+        "ids": ",us6000qyrx,",
+        "sources": ",us,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": 21,
+        "dmin": 0.26,
+        "rms": 1.01,
+        "gap": 118,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.8 - 6 km N of Pedro García, Dominican Republic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.6492,
+          19.6536,
+          13.227
+        ]
+      },
+      "id": "us6000qyrx"
     },
     {
       "type": "Feature",
@@ -408,46 +448,6 @@
         ]
       },
       "id": "pr71491698"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.18,
-        "place": "3 km S of Guánica, Puerto Rico",
-        "time": 1754455549200,
-        "updated": 1754489237919,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71491688",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71491688.geojson",
-        "felt": 1,
-        "cdi": 2,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 156,
-        "net": "pr",
-        "code": "71491688",
-        "ids": ",pr71491688,",
-        "sources": ",pr,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 33,
-        "dmin": 0.02742,
-        "rms": 0.22,
-        "gap": 194,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.2 - 3 km S of Guánica, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.9133333333333,
-          17.945,
-          10.68
-        ]
-      },
-      "id": "pr71491688"
     }
   ],
   "bbox": [
