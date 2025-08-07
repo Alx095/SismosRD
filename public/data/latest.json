@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1754561658000,
+    "generated": 1754563373000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 246
+    "count": 243
   },
   "features": [
     {
@@ -568,53 +568,13 @@
         ]
       },
       "id": "pr71491713"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.26,
-        "place": "2 km E of Mariano Colón, Puerto Rico",
-        "time": 1754475619910,
-        "updated": 1754477822600,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71491698",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71491698.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 79,
-        "net": "pr",
-        "code": "71491698",
-        "ids": ",pr71491698,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 15,
-        "dmin": 0.07174,
-        "rms": 0.17,
-        "gap": 130,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.3 - 2 km E of Mariano Colón, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.3098333333333,
-          18.025,
-          12.99
-        ]
-      },
-      "id": "pr71491698"
     }
   ],
   "bbox": [
     -178.4375,
     -57.1319,
     -3.49,
-    161.8977,
+    166.1548,
     65.8052,
     596.732
   ]
