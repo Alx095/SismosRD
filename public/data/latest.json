@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1754582358000,
+    "generated": 1754584414000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 245
+    "count": 240
   },
   "features": [
     {
@@ -488,54 +488,14 @@
         ]
       },
       "id": "pr71491798"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.84,
-        "place": "4 km E of Pastos, Puerto Rico",
-        "time": 1754497752260,
-        "updated": 1754499902420,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71491783",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71491783.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 52,
-        "net": "pr",
-        "code": "71491783",
-        "ids": ",pr71491783,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 17,
-        "dmin": 0.06648,
-        "rms": 0.26,
-        "gap": 67,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 1.8 - 4 km E of Pastos, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.2198333333333,
-          18.112,
-          11.08
-        ]
-      },
-      "id": "pr71491783"
     }
   ],
   "bbox": [
-    -178.4375,
+    -176.15533333333,
     -57.1319,
-    -2.97,
+    -1.9800000190735,
     166.1548,
     65.8052,
-    596.732
+    564.755
   ]
 }
