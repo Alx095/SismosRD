@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1754632752000,
+    "generated": 1754635019000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 254
+    "count": 252
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.3,
+        "place": "2 km SSE of Yauco, Puerto Rico",
+        "time": 1754633892010,
+        "updated": 1754634612850,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71492098",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71492098.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 81,
+        "net": "pr",
+        "code": "71492098",
+        "ids": ",pr71492098,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 16,
+        "dmin": 0.01796,
+        "rms": 0.28,
+        "gap": 135,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.3 - 2 km SSE of Yauco, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.8393333333333,
+          18.0176666666667,
+          16.61
+        ]
+      },
+      "id": "pr71492098"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -368,46 +408,6 @@
         ]
       },
       "id": "pr71491913"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.52,
-        "place": "71 km SE of Boca de Yuma, Dominican Republic",
-        "time": 1754548395110,
-        "updated": 1754549658423,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2025219001",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2025219001.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 191,
-        "net": "pr",
-        "code": "2025219001",
-        "ids": ",pr2025219001,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 13,
-        "dmin": 0.6496,
-        "rms": 0.35,
-        "gap": 222,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.5 - 71 km SE of Boca de Yuma, Dominican Republic"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -68.149,
-          17.9073,
-          75
-        ]
-      },
-      "id": "pr2025219001"
     }
   ],
   "bbox": [
