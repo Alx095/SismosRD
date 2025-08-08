@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1754610838000,
+    "generated": 1754614692000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 245
+    "count": 250
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.7,
+        "place": "51 km NE of Punta Cana, Dominican Republic",
+        "time": 1754613149054,
+        "updated": 1754614330767,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000qyzu",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000qyzu.geojson",
+        "felt": 1,
+        "cdi": 3.1,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 340,
+        "net": "us",
+        "code": "6000qyzu",
+        "ids": ",us6000qyzu,",
+        "sources": ",us,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": 37,
+        "dmin": 0.5,
+        "rms": 0.78,
+        "gap": 86,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.7 - 51 km NE of Punta Cana, Dominican Republic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.0772,
+          18.9259,
+          40.012
+        ]
+      },
+      "id": "us6000qyzu"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -448,86 +488,6 @@
         ]
       },
       "id": "us6000qyrx"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.75,
-        "place": "6 km S of Guánica, Puerto Rico",
-        "time": 1754527669100,
-        "updated": 1754530483100,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71491833",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71491833.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 116,
-        "net": "pr",
-        "code": "71491833",
-        "ids": ",pr71491833,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 24,
-        "dmin": 0.05979,
-        "rms": 0.15,
-        "gap": 203,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.8 - 6 km S of Guánica, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.9185,
-          17.9128333333333,
-          10.5
-        ]
-      },
-      "id": "pr71491833"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.23,
-        "place": "9 km S of Guánica, Puerto Rico",
-        "time": 1754524458830,
-        "updated": 1754525607870,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71491818",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71491818.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 77,
-        "net": "pr",
-        "code": "71491818",
-        "ids": ",pr71491818,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 8,
-        "dmin": 0.09154,
-        "rms": 0.1,
-        "gap": 241,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.2 - 9 km S of Guánica, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.9151666666667,
-          17.8896666666667,
-          8.96
-        ]
-      },
-      "id": "pr71491818"
     }
   ],
   "bbox": [
