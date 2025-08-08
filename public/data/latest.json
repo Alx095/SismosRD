@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1754622150000,
+    "generated": 1754626141000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
@@ -9,6 +9,46 @@
     "count": 254
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.41,
+        "place": "0 km W of Palomas, Puerto Rico",
+        "time": 1754623896160,
+        "updated": 1754626100021,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71492073",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71492073.geojson",
+        "felt": 1,
+        "cdi": 2.1,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 90,
+        "net": "pr",
+        "code": "71492073",
+        "ids": ",pr71492073,",
+        "sources": ",pr,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": 23,
+        "dmin": 0.02528,
+        "rms": 0.27,
+        "gap": 65,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.4 - 0 km W of Palomas, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.8823333333333,
+          18.0138333333333,
+          14.01
+        ]
+      },
+      "id": "pr71492073"
+    },
     {
       "type": "Feature",
       "properties": {
