@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1754687220000,
+    "generated": 1754688481000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
@@ -528,46 +528,6 @@
         ]
       },
       "id": "pr71492008"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.12,
-        "place": "2 km E of Ponce, Puerto Rico",
-        "time": 1754601782720,
-        "updated": 1754602389870,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71491998",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71491998.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 69,
-        "net": "pr",
-        "code": "71491998",
-        "ids": ",pr71491998,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 14,
-        "dmin": 0.0173,
-        "rms": 0.15,
-        "gap": 100,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.1 - 2 km E of Ponce, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.6025,
-          18.0095,
-          13.05
-        ]
-      },
-      "id": "pr71491998"
     }
   ],
   "bbox": [
