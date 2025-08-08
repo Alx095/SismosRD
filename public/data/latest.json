@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1754655346000,
+    "generated": 1754658431000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 255
+    "count": 258
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.78,
+        "place": "5 km W of Rosa Sanchez, Puerto Rico",
+        "time": 1754653655370,
+        "updated": 1754657334890,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71492123",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71492123.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 49,
+        "net": "pr",
+        "code": "71492123",
+        "ids": ",pr71492123,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 3,
+        "dmin": 0.07591,
+        "rms": 0.08,
+        "gap": 179,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 1.8 - 5 km W of Rosa Sanchez, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.9606666666667,
+          18.0666666666667,
+          9.28
+        ]
+      },
+      "id": "pr71492123"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -333,7 +373,7 @@
   "bbox": [
     -178.6019,
     -22.3446,
-    -2.81,
+    -2.48,
     171.5236,
     71.6553,
     603.999
