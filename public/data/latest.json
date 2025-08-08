@@ -1,53 +1,93 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1754614692000,
+    "generated": 1754622150000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 250
+    "count": 254
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 4.7,
-        "place": "51 km NE of Punta Cana, Dominican Republic",
-        "time": 1754613149054,
-        "updated": 1754614330767,
+        "mag": 3.21,
+        "place": "45 km N of Carrizales, Puerto Rico",
+        "time": 1754617993840,
+        "updated": 1754619035890,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000qyzu",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000qyzu.geojson",
-        "felt": 1,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71492058",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71492058.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 159,
+        "net": "pr",
+        "code": "71492058",
+        "ids": ",pr71492058,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 17,
+        "dmin": 0.4621,
+        "rms": 0.29,
+        "gap": 270,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 3.2 - 45 km N of Carrizales, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.7513333333333,
+          18.8908333333333,
+          15.52
+        ]
+      },
+      "id": "pr71492058"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.2,
+        "place": "90 km NNE of Punta Cana, Dominican Republic",
+        "time": 1754613150190,
+        "updated": 1754616224818,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2025220000",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2025220000.geojson",
+        "felt": 4,
         "cdi": 3.1,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 340,
-        "net": "us",
-        "code": "6000qyzu",
-        "ids": ",us6000qyzu,",
-        "sources": ",us,",
+        "sig": 273,
+        "net": "pr",
+        "code": "2025220000",
+        "ids": ",us6000qyzu,pr2025220000,",
+        "sources": ",us,pr,",
         "types": ",dyfi,origin,phase-data,",
-        "nst": 37,
-        "dmin": 0.5,
-        "rms": 0.78,
-        "gap": 86,
-        "magType": "mb",
+        "nst": 26,
+        "dmin": 0.8808,
+        "rms": 0.72,
+        "gap": 195,
+        "magType": "ml",
         "type": "earthquake",
-        "title": "M 4.7 - 51 km NE of Punta Cana, Dominican Republic"
+        "title": "M 4.2 - 90 km NNE of Punta Cana, Dominican Republic"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -68.0772,
-          18.9259,
-          40.012
+          -68.0156,
+          19.3151,
+          62
         ]
       },
-      "id": "us6000qyzu"
+      "id": "pr2025220000"
     },
     {
       "type": "Feature",
@@ -335,7 +375,7 @@
         "mag": 3.55,
         "place": "46 km SE of Punta Cana, Dominican Republic",
         "time": 1754540966380,
-        "updated": 1754568238891,
+        "updated": 1754622144040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2025219000",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2025219000.geojson",
@@ -348,8 +388,8 @@
         "sig": 194,
         "net": "pr",
         "code": "2025219000",
-        "ids": ",pr2025219000,",
-        "sources": ",pr,",
+        "ids": ",pr2025219000,us6000qysn,",
+        "sources": ",pr,us,",
         "types": ",dyfi,origin,phase-data,",
         "nst": 14,
         "dmin": 0.367,
@@ -368,134 +408,14 @@
         ]
       },
       "id": "pr2025219000"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.1,
-        "place": "2 km N of Indios, Puerto Rico",
-        "time": 1754535713070,
-        "updated": 1754536111300,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71491868",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71491868.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 68,
-        "net": "pr",
-        "code": "71491868",
-        "ids": ",pr71491868,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 8,
-        "dmin": 0.06966,
-        "rms": 0.23,
-        "gap": 153,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.1 - 2 km N of Indios, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.82,
-          18.0161666666667,
-          15.5
-        ]
-      },
-      "id": "pr71491868"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.25,
-        "place": "59 km ESE of Punta Cana, Dominican Republic",
-        "time": 1754534626070,
-        "updated": 1754535661440,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71491858",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71491858.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 162,
-        "net": "pr",
-        "code": "71491858",
-        "ids": ",pr71491858,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 11,
-        "dmin": 0.6998,
-        "rms": 0.48,
-        "gap": 166,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.3 - 59 km ESE of Punta Cana, Dominican Republic"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -67.8485,
-          18.4755,
-          7.24
-        ]
-      },
-      "id": "pr71491858"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.8,
-        "place": "6 km N of Pedro García, Dominican Republic",
-        "time": 1754531299611,
-        "updated": 1754552635885,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000qyrx",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000qyrx.geojson",
-        "felt": 5,
-        "cdi": 2.4,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 223,
-        "net": "us",
-        "code": "6000qyrx",
-        "ids": ",us6000qyrx,",
-        "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 21,
-        "dmin": 0.26,
-        "rms": 1.01,
-        "gap": 118,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.8 - 6 km N of Pedro García, Dominican Republic"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -70.6492,
-          19.6536,
-          13.227
-        ]
-      },
-      "id": "us6000qyrx"
     }
   ],
   "bbox": [
     -178.6019,
-    -41.8429,
+    -22.3446,
     -2.81,
-    166.1548,
-    66.2391,
+    171.5236,
+    71.6553,
     603.999
   ]
 }
