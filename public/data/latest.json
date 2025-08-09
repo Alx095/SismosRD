@@ -1,53 +1,53 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1754722215000,
+    "generated": 1754722776000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 262
+    "count": 261
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.6,
-        "place": "34 km WNW of Rincón, Puerto Rico",
-        "time": 1754719993143,
-        "updated": 1754720575040,
+        "mag": 3.36,
+        "place": "28 km WNW of Rincón, Puerto Rico",
+        "time": 1754719995880,
+        "updated": 1754722751970,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000qzf6",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000qzf6.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71492228",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71492228.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 104,
-        "net": "us",
-        "code": "6000qzf6",
-        "ids": ",us6000qzf6,",
-        "sources": ",us,",
+        "sig": 174,
+        "net": "pr",
+        "code": "71492228",
+        "ids": ",us6000qzf6,pr71492228,",
+        "sources": ",us,pr,",
         "types": ",origin,phase-data,",
-        "nst": 17,
-        "dmin": 0.423,
-        "rms": 1.07,
-        "gap": 149,
-        "magType": "ml",
+        "nst": 28,
+        "dmin": 0.3878,
+        "rms": 0.56,
+        "gap": 156,
+        "magType": "md",
         "type": "earthquake",
-        "title": "M 2.6 - 34 km WNW of Rincón, Puerto Rico"
+        "title": "M 3.4 - 28 km WNW of Rincón, Puerto Rico"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -67.5561,
-          18.4511,
-          10
+          -67.5133333333333,
+          18.399,
+          8.88
         ]
       },
-      "id": "us6000qzf6"
+      "id": "pr71492228"
     },
     {
       "type": "Feature",
