@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1754719011000,
+    "generated": 1754720776000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 264
+    "count": 266
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.6,
+        "place": "34 km WNW of Rincón, Puerto Rico",
+        "time": 1754719993143,
+        "updated": 1754720575040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000qzf6",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000qzf6.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 104,
+        "net": "us",
+        "code": "6000qzf6",
+        "ids": ",us6000qzf6,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 17,
+        "dmin": 0.423,
+        "rms": 1.07,
+        "gap": 149,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.6 - 34 km WNW of Rincón, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.5561,
+          18.4511,
+          10
+        ]
+      },
+      "id": "us6000qzf6"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -488,46 +528,6 @@
         ]
       },
       "id": "pr71492123"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.3,
-        "place": "2 km SSE of Yauco, Puerto Rico",
-        "time": 1754633892010,
-        "updated": 1754634612850,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71492098",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71492098.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 81,
-        "net": "pr",
-        "code": "71492098",
-        "ids": ",pr71492098,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 16,
-        "dmin": 0.01796,
-        "rms": 0.28,
-        "gap": 135,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.3 - 2 km SSE of Yauco, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.8393333333333,
-          18.0176666666667,
-          16.61
-        ]
-      },
-      "id": "pr71492098"
     }
   ],
   "bbox": [
