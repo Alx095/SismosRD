@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1754739522000,
+    "generated": 1754739945000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 253
+    "count": 250
   },
   "features": [
     {
@@ -95,11 +95,11 @@
         "mag": 3.36,
         "place": "28 km WNW of Rincón, Puerto Rico",
         "time": 1754719995880,
-        "updated": 1754726990860,
+        "updated": 1754739647424,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71492228",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71492228.geojson",
-        "felt": 1,
+        "felt": 2,
         "cdi": 3.4,
         "mmi": null,
         "alert": null,
@@ -611,7 +611,7 @@
     }
   ],
   "bbox": [
-    -176.1315,
+    -169.8615,
     -24.2216,
     -3.16,
     160.3927,
