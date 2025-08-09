@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1754739945000,
+    "generated": 1754740429000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
@@ -12,10 +12,50 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 2.66,
+        "place": "11 km SSE of Maria Antonia, Puerto Rico",
+        "time": 1754739052690,
+        "updated": 1754740393960,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71492273",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71492273.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 109,
+        "net": "pr",
+        "code": "71492273",
+        "ids": ",pr71492273,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 21,
+        "dmin": 0.09022,
+        "rms": 0.09,
+        "gap": 232,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.7 - 11 km SSE of Maria Antonia, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.8585,
+          17.8821666666667,
+          15.16
+        ]
+      },
+      "id": "pr71492273"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 3.63,
         "place": "20 km N of Dorado, Puerto Rico",
         "time": 1754732841350,
-        "updated": 1754734512299,
+        "updated": 1754740362040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2025221001",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2025221001.geojson",
@@ -28,8 +68,8 @@
         "sig": 203,
         "net": "pr",
         "code": "2025221001",
-        "ids": ",pr2025221001,",
-        "sources": ",pr,",
+        "ids": ",pr2025221001,us6000qzg4,",
+        "sources": ",pr,us,",
         "types": ",dyfi,origin,phase-data,",
         "nst": 24,
         "dmin": 0.3387,
@@ -568,46 +608,6 @@
         ]
       },
       "id": "pr71492128"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.78,
-        "place": "5 km W of Rosa Sanchez, Puerto Rico",
-        "time": 1754653655370,
-        "updated": 1754657334890,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71492123",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71492123.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 49,
-        "net": "pr",
-        "code": "71492123",
-        "ids": ",pr71492123,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 3,
-        "dmin": 0.07591,
-        "rms": 0.08,
-        "gap": 179,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 1.8 - 5 km W of Rosa Sanchez, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -65.9606666666667,
-          18.0666666666667,
-          9.28
-        ]
-      },
-      "id": "pr71492123"
     }
   ],
   "bbox": [
