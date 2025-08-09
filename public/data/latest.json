@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1754759961000,
+    "generated": 1754760928000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 251
+    "count": 248
   },
   "features": [
     {
@@ -568,46 +568,6 @@
         ]
       },
       "id": "pr71492168"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.24,
-        "place": "10 km SW of Potala Pastillo, Puerto Rico",
-        "time": 1754673819950,
-        "updated": 1754675667250,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71492158",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71492158.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 77,
-        "net": "pr",
-        "code": "71492158",
-        "ids": ",pr71492158,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 13,
-        "dmin": 0.05078,
-        "rms": 0.04,
-        "gap": 139,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.2 - 10 km SW of Potala Pastillo, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.5626666666667,
-          17.924,
-          7.73
-        ]
-      },
-      "id": "pr71492158"
     }
   ],
   "bbox": [
