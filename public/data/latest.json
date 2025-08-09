@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1754782147000,
+    "generated": 1754782923000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
@@ -9,6 +9,46 @@
     "count": 241
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.11,
+        "place": "9 km SSE of Maria Antonia, Puerto Rico",
+        "time": 1754778988460,
+        "updated": 1754782142730,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71492333",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71492333.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 68,
+        "net": "pr",
+        "code": "71492333",
+        "ids": ",pr71492333,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 7,
+        "dmin": 0.07361,
+        "rms": 0.12,
+        "gap": 236,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.1 - 9 km SSE of Maria Antonia, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.8638333333333,
+          17.8985,
+          16.24
+        ]
+      },
+      "id": "pr71492333"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -528,46 +568,6 @@
         ]
       },
       "id": "pr71492188"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.97,
-        "place": "6 km ENE of Utuado, Puerto Rico",
-        "time": 1754695935550,
-        "updated": 1754696579800,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71492178",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71492178.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 60,
-        "net": "pr",
-        "code": "71492178",
-        "ids": ",pr71492178,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 8,
-        "dmin": 0.07738,
-        "rms": 0.12,
-        "gap": 143,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.0 - 6 km ENE of Utuado, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.6476666666667,
-          18.2881666666667,
-          12.78
-        ]
-      },
-      "id": "pr71492178"
     }
   ],
   "bbox": [
