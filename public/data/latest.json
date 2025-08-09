@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1754733443000,
+    "generated": 1754734752000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 256
+    "count": 252
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.63,
+        "place": "20 km N of Dorado, Puerto Rico",
+        "time": 1754732841350,
+        "updated": 1754734512299,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2025221001",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2025221001.geojson",
+        "felt": 1,
+        "cdi": 2.2,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 203,
+        "net": "pr",
+        "code": "2025221001",
+        "ids": ",pr2025221001,",
+        "sources": ",pr,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": 24,
+        "dmin": 0.3387,
+        "rms": 0.15,
+        "gap": 191,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 3.6 - 20 km N of Dorado, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.2358,
+          18.6458,
+          102
+        ]
+      },
+      "id": "pr2025221001"
+    },
     {
       "type": "Feature",
       "properties": {
