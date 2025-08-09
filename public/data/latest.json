@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1754703508000,
+    "generated": 1754708987000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 299
+    "count": 279
   },
   "features": [
     {
@@ -528,54 +528,14 @@
         ]
       },
       "id": "pr71492073"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.21,
-        "place": "45 km N of Carrizales, Puerto Rico",
-        "time": 1754617993840,
-        "updated": 1754619035890,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71492058",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71492058.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 159,
-        "net": "pr",
-        "code": "71492058",
-        "ids": ",pr71492058,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 17,
-        "dmin": 0.4621,
-        "rms": 0.29,
-        "gap": 270,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.2 - 45 km N of Carrizales, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.7513333333333,
-          18.8908333333333,
-          15.52
-        ]
-      },
-      "id": "pr71492058"
     }
   ],
   "bbox": [
     -176.1315,
     -24.2216,
     -3.17,
-    171.5236,
-    71.6553,
-    445.376
+    167.4187,
+    67.4147,
+    418.628
   ]
 }
