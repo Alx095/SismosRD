@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1754751558000,
+    "generated": 1754752946000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 254
+    "count": 257
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.98,
+        "place": "8 km SSE of Ponce, Puerto Rico",
+        "time": 1754751093250,
+        "updated": 1754751949660,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71492303",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71492303.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 60,
+        "net": "pr",
+        "code": "71492303",
+        "ids": ",pr71492303,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 8,
+        "dmin": 0.08379,
+        "rms": 0.18,
+        "gap": 206,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.0 - 8 km SSE of Ponce, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.5901666666667,
+          17.9446666666667,
+          12.38
+        ]
+      },
+      "id": "pr71492303"
+    },
     {
       "type": "Feature",
       "properties": {
