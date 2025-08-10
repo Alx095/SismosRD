@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1754783783000,
+    "generated": 1754790121000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 241
+    "count": 230
   },
   "features": [
     {
@@ -488,46 +488,6 @@
         ]
       },
       "id": "pr71492213"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.33,
-        "place": "54 km SE of Punta Cana, Dominican Republic",
-        "time": 1754700050770,
-        "updated": 1754703355770,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71492208",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71492208.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 171,
-        "net": "pr",
-        "code": "71492208",
-        "ids": ",pr71492208,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 11,
-        "dmin": 0.4299,
-        "rms": 0.44,
-        "gap": 191,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.3 - 54 km SE of Punta Cana, Dominican Republic"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -68.0555,
-          18.214,
-          102.64
-        ]
-      },
-      "id": "pr71492208"
     }
   ],
   "bbox": [
