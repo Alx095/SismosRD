@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1754825349000,
+    "generated": 1754825954000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 208
+    "count": 202
   },
   "features": [
     {
@@ -328,126 +328,6 @@
         ]
       },
       "id": "pr71492303"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.62,
-        "place": "5 km N of Yauco, Puerto Rico",
-        "time": 1754739281450,
-        "updated": 1754741624780,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71492293",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71492293.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 40,
-        "net": "pr",
-        "code": "71492293",
-        "ids": ",pr71492293,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 8,
-        "dmin": 0.0587,
-        "rms": 0.2,
-        "gap": 86,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 1.6 - 5 km N of Yauco, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.8516666666667,
-          18.0815,
-          6.99
-        ]
-      },
-      "id": "pr71492293"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.03,
-        "place": "2 km NNW of Guayanilla, Puerto Rico",
-        "time": 1754739252670,
-        "updated": 1754740835300,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71492283",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71492283.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 63,
-        "net": "pr",
-        "code": "71492283",
-        "ids": ",pr71492283,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 11,
-        "dmin": 0.09053,
-        "rms": 0.08,
-        "gap": 132,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.0 - 2 km NNW of Guayanilla, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.806,
-          18.0411666666667,
-          16.54
-        ]
-      },
-      "id": "pr71492283"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.66,
-        "place": "11 km SSE of Maria Antonia, Puerto Rico",
-        "time": 1754739052690,
-        "updated": 1754740393960,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71492273",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71492273.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 109,
-        "net": "pr",
-        "code": "71492273",
-        "ids": ",pr71492273,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 21,
-        "dmin": 0.09022,
-        "rms": 0.09,
-        "gap": 232,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.7 - 11 km SSE of Maria Antonia, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.8585,
-          17.8821666666667,
-          15.16
-        ]
-      },
-      "id": "pr71492273"
     }
   ],
   "bbox": [
