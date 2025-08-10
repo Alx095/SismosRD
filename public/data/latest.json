@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1754790121000,
+    "generated": 1754796335000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 230
+    "count": 222
   },
   "features": [
     {
@@ -448,46 +448,6 @@
         ]
       },
       "id": "pr71492218"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.27,
-        "place": "6 km SSE of Maria Antonia, Puerto Rico",
-        "time": 1754706146580,
-        "updated": 1754709108120,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71492213",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71492213.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 79,
-        "net": "pr",
-        "code": "71492213",
-        "ids": ",pr71492213,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 9,
-        "dmin": 0.04437,
-        "rms": 0.09,
-        "gap": 220,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.3 - 6 km SSE of Maria Antonia, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.8621666666667,
-          17.9281666666667,
-          15.69
-        ]
-      },
-      "id": "pr71492213"
     }
   ],
   "bbox": [
