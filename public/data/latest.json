@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1754805586000,
+    "generated": 1754807640000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 230
+    "count": 229
   },
   "features": [
     {
@@ -415,11 +415,11 @@
         "mag": 3.63,
         "place": "20 km N of Dorado, Puerto Rico",
         "time": 1754732841350,
-        "updated": 1754740362040,
+        "updated": 1754807306559,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2025221001",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2025221001.geojson",
-        "felt": 1,
+        "felt": 2,
         "cdi": 2.2,
         "mmi": null,
         "alert": null,
@@ -528,46 +528,6 @@
         ]
       },
       "id": "pr71492243"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.36,
-        "place": "28 km WNW of Rincón, Puerto Rico",
-        "time": 1754719995880,
-        "updated": 1754739647424,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71492228",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71492228.geojson",
-        "felt": 2,
-        "cdi": 3.4,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 174,
-        "net": "pr",
-        "code": "71492228",
-        "ids": ",pr71492228,us6000qzf6,",
-        "sources": ",pr,us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 28,
-        "dmin": 0.3878,
-        "rms": 0.56,
-        "gap": 156,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.4 - 28 km WNW of Rincón, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -67.5133333333333,
-          18.399,
-          8.88
-        ]
-      },
-      "id": "pr71492228"
     }
   ],
   "bbox": [
