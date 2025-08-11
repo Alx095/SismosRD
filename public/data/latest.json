@@ -1,14 +1,94 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1754938837000,
+    "generated": 1754940119000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 210
+    "count": 216
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.98,
+        "place": "1 km SSE of Magas Arriba, Puerto Rico",
+        "time": 1754939087540,
+        "updated": 1754939754470,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71492513",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71492513.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 60,
+        "net": "pr",
+        "code": "71492513",
+        "ids": ",pr71492513,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 9,
+        "dmin": 0.1117,
+        "rms": 0.13,
+        "gap": 183,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.0 - 1 km SSE of Magas Arriba, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.7651666666667,
+          18.0015,
+          13.36
+        ]
+      },
+      "id": "pr71492513"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.87,
+        "place": "7 km SSW of Indios, Puerto Rico",
+        "time": 1754938756990,
+        "updated": 1754939360880,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71492508",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71492508.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 54,
+        "net": "pr",
+        "code": "71492508",
+        "ids": ",pr71492508,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 9,
+        "dmin": 0.06354,
+        "rms": 0.07,
+        "gap": 221,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 1.9 - 7 km SSW of Indios, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.8356666666667,
+          17.9266666666667,
+          11.47
+        ]
+      },
+      "id": "pr71492508"
+    },
     {
       "type": "Feature",
       "properties": {
