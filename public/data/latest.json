@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1754882254000,
+    "generated": 1754885589000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 184
+    "count": 181
   },
   "features": [
     {
@@ -128,91 +128,11 @@
         ]
       },
       "id": "pr71492363"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.18,
-        "place": "52 km NNW of San Antonio, Puerto Rico",
-        "time": 1754797921460,
-        "updated": 1754799619160,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71492358",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71492358.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 156,
-        "net": "pr",
-        "code": "71492358",
-        "ids": ",pr71492358,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 15,
-        "dmin": 0.4869,
-        "rms": 0.23,
-        "gap": 230,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.2 - 52 km NNW of San Antonio, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -67.3273333333333,
-          18.9115,
-          20.01
-        ]
-      },
-      "id": "pr71492358"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.11,
-        "place": "6 km WSW of Fuig, Puerto Rico",
-        "time": 1754796785230,
-        "updated": 1754799131300,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71492348",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71492348.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 68,
-        "net": "pr",
-        "code": "71492348",
-        "ids": ",pr71492348,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 6,
-        "dmin": 0.06158,
-        "rms": 0.11,
-        "gap": 175,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.1 - 6 km WSW of Fuig, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.9798333333333,
-          17.9755,
-          8.68
-        ]
-      },
-      "id": "pr71492348"
     }
   ],
   "bbox": [
     -175.4847,
-    -47.8873,
+    -24.1143,
     -3.41,
     179.8394,
     67.825,
