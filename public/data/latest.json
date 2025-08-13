@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1755100050000,
+    "generated": 1755100474000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 246
+    "count": 245
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.11,
+        "place": "4 km SW of La Parguera, Puerto Rico",
+        "time": 1755096172300,
+        "updated": 1755100421560,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71492728",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71492728.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 68,
+        "net": "pr",
+        "code": "71492728",
+        "ids": ",pr71492728,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 3,
+        "dmin": 0.03973,
+        "rms": 0.01,
+        "gap": 283,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.1 - 4 km SW of La Parguera, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.0768333333333,
+          17.9445,
+          10.43
+        ]
+      },
+      "id": "pr71492728"
+    },
     {
       "type": "Feature",
       "properties": {
