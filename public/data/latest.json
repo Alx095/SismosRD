@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1755134164000,
+    "generated": 1755140304000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 268
+    "count": 267
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.23,
+        "place": "57 km N of Isabela, Puerto Rico",
+        "time": 1755138015600,
+        "updated": 1755139187450,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71492813",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71492813.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 161,
+        "net": "pr",
+        "code": "71492813",
+        "ids": ",pr71492813,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 19,
+        "dmin": 0.5249,
+        "rms": 0.26,
+        "gap": 294,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 3.2 - 57 km N of Isabela, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.1266666666667,
+          19.0068333333333,
+          12.19
+        ]
+      },
+      "id": "pr71492813"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -408,46 +448,6 @@
         ]
       },
       "id": "pr71492628"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.15,
-        "place": "1 km N of Guayanilla, Puerto Rico",
-        "time": 1755052563300,
-        "updated": 1755054823280,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71492623",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71492623.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 71,
-        "net": "pr",
-        "code": "71492623",
-        "ids": ",pr71492623,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 8,
-        "dmin": 0.1023,
-        "rms": 0.25,
-        "gap": 147,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.2 - 1 km N of Guayanilla, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.793,
-          18.0365,
-          13.15
-        ]
-      },
-      "id": "pr71492623"
     }
   ],
   "bbox": [
