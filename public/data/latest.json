@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1755187210000,
+    "generated": 1755189107000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 302
+    "count": 299
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.13,
+        "place": "67 km SE of Punta Cana, Dominican Republic",
+        "time": 1755185205340,
+        "updated": 1755188320640,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71492868",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71492868.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 151,
+        "net": "pr",
+        "code": "71492868",
+        "ids": ",pr71492868,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 16,
+        "dmin": 0.5453,
+        "rms": 0.23,
+        "gap": 192,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 3.1 - 67 km SE of Punta Cana, Dominican Republic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.9348333333333,
+          18.1693333333333,
+          10.13
+        ]
+      },
+      "id": "pr71492868"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -248,86 +288,6 @@
         ]
       },
       "id": "pr71492768"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.12,
-        "place": "0 km SW of Guayanilla, Puerto Rico",
-        "time": 1755101141250,
-        "updated": 1755102298100,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71492743",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71492743.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 69,
-        "net": "pr",
-        "code": "71492743",
-        "ids": ",pr71492743,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 8,
-        "dmin": 0.09181,
-        "rms": 0.14,
-        "gap": 162,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.1 - 0 km SW of Guayanilla, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.7935,
-          18.0173333333333,
-          19.19
-        ]
-      },
-      "id": "pr71492743"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.64,
-        "place": "2 km NW of Fuig, Puerto Rico",
-        "time": 1755101107170,
-        "updated": 1755101946450,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71492733",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71492733.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 41,
-        "net": "pr",
-        "code": "71492733",
-        "ids": ",pr71492733,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 3,
-        "dmin": 0.06106,
-        "rms": 0.11,
-        "gap": 209,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 1.6 - 2 km NW of Fuig, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.9346666666667,
-          18.006,
-          2.95
-        ]
-      },
-      "id": "pr71492733"
     }
   ],
   "bbox": [
