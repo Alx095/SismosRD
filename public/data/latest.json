@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1755220436000,
+    "generated": 1755226729000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
@@ -9,6 +9,46 @@
     "count": 307
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.3,
+        "place": "35 km WNW of Pointe-Noire, Guadeloupe",
+        "time": 1755222764004,
+        "updated": 1755223578040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000r0vv",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000r0vv.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 284,
+        "net": "us",
+        "code": "6000r0vv",
+        "ids": ",us6000r0vv,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 35,
+        "dmin": 0.556,
+        "rms": 0.6,
+        "gap": 75,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.3 - 35 km WNW of Pointe-Noire, Guadeloupe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -62.0841,
+          16.389,
+          178.407
+        ]
+      },
+      "id": "us6000r0vv"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -208,86 +248,6 @@
         ]
       },
       "id": "pr71492828"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.41,
-        "place": "1 km NNE of Magas Arriba, Puerto Rico",
-        "time": 1755139930460,
-        "updated": 1755141009220,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71492823",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71492823.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 89,
-        "net": "pr",
-        "code": "71492823",
-        "ids": ",pr71492823,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 12,
-        "dmin": 0.1187,
-        "rms": 0.16,
-        "gap": 124,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.4 - 1 km NNE of Magas Arriba, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.7665,
-          18.0261666666667,
-          13.93
-        ]
-      },
-      "id": "pr71492823"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.23,
-        "place": "57 km N of Isabela, Puerto Rico",
-        "time": 1755138015600,
-        "updated": 1755139187450,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71492813",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71492813.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 161,
-        "net": "pr",
-        "code": "71492813",
-        "ids": ",pr71492813,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 19,
-        "dmin": 0.5249,
-        "rms": 0.26,
-        "gap": 294,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.2 - 57 km N of Isabela, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -67.1266666666667,
-          19.0068333333333,
-          12.19
-        ]
-      },
-      "id": "pr71492813"
     }
   ],
   "bbox": [
