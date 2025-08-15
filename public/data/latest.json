@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1755265963000,
+    "generated": 1755266386000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 254
+    "count": 250
   },
   "features": [
     {
@@ -208,46 +208,6 @@
         ]
       },
       "id": "pr71492868"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.89,
-        "place": "11 km WNW of Rincón, Puerto Rico",
-        "time": 1755179655110,
-        "updated": 1755181309390,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71492858",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71492858.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 128,
-        "net": "pr",
-        "code": "71492858",
-        "ids": ",pr71492858,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 8,
-        "dmin": 0.2479,
-        "rms": 0.24,
-        "gap": 282,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.9 - 11 km WNW of Rincón, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -67.355,
-          18.3783333333333,
-          11.93
-        ]
-      },
-      "id": "pr71492858"
     }
   ],
   "bbox": [
