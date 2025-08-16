@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1755305590000,
+    "generated": 1755311222000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 226
+    "count": 210
   },
   "features": [
     {
@@ -128,50 +128,10 @@
         ]
       },
       "id": "pr71492923"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.3,
-        "place": "34 km WNW of Pointe-Noire, Guadeloupe",
-        "time": 1755222763989,
-        "updated": 1755234101040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000r0vv",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000r0vv.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 284,
-        "net": "us",
-        "code": "6000r0vv",
-        "ids": ",us6000r0vv,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 37,
-        "dmin": 0.548,
-        "rms": 0.52,
-        "gap": 75,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.3 - 34 km WNW of Pointe-Noire, Guadeloupe"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -62.0676,
-          16.3981,
-          174.988
-        ]
-      },
-      "id": "us6000r0vv"
     }
   ],
   "bbox": [
-    -164.06683333333,
+    -170.0075,
     -65.0219,
     -1.58,
     177.8694,
