@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1755339418000,
+    "generated": 1755340588000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 198
+    "count": 197
   },
   "features": [
     {
@@ -88,86 +88,6 @@
         ]
       },
       "id": "pr71492938"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.37,
-        "place": "4 km ESE of La Parguera, Puerto Rico",
-        "time": 1755253845940,
-        "updated": 1755257945720,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71492933",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71492933.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 86,
-        "net": "pr",
-        "code": "71492933",
-        "ids": ",pr71492933,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 16,
-        "dmin": 0.0373,
-        "rms": 0.15,
-        "gap": 210,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.4 - 4 km ESE of La Parguera, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -67.0075,
-          17.9563333333333,
-          11.36
-        ]
-      },
-      "id": "pr71492933"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.12,
-        "place": "0 km NE of Guayanilla, Puerto Rico",
-        "time": 1755253307230,
-        "updated": 1755257880340,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71492923",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71492923.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 69,
-        "net": "pr",
-        "code": "71492923",
-        "ids": ",pr71492923,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 13,
-        "dmin": 0.007702,
-        "rms": 0.13,
-        "gap": 141,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.1 - 0 km NE of Guayanilla, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.7858333333333,
-          18.0255,
-          15.78
-        ]
-      },
-      "id": "pr71492923"
     }
   ],
   "bbox": [
