@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1755406436000,
+    "generated": 1755407436000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 164
+    "count": 172
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.72,
+        "place": "16 km W of Pole Ojea, Puerto Rico",
+        "time": 1755405324270,
+        "updated": 1755406673480,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71492988",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71492988.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 114,
+        "net": "pr",
+        "code": "71492988",
+        "ids": ",pr71492988,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 9,
+        "dmin": 0.2258,
+        "rms": 0.08,
+        "gap": 294,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.7 - 16 km W of Pole Ojea, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.344,
+          17.9711666666667,
+          42.97
+        ]
+      },
+      "id": "pr71492988"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -211,7 +251,7 @@
     }
   ],
   "bbox": [
-    -175.8682,
+    -176.452,
     -48.9545,
     -0.34000000357628,
     170.8076,
