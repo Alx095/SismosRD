@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1755473253000,
+    "generated": 1755473973000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 157
+    "count": 161
   },
   "features": [
     {
@@ -15,10 +15,10 @@
         "mag": 3.52,
         "place": "66 km N of Culebra, Puerto Rico",
         "time": 1755470373490,
-        "updated": 1755472620815,
+        "updated": 1755473445679,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2025229000",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2025229000.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2025229001",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2025229001.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
@@ -27,8 +27,8 @@
         "tsunami": 0,
         "sig": 191,
         "net": "pr",
-        "code": "2025229000",
-        "ids": ",pr2025229000,",
+        "code": "2025229001",
+        "ids": ",pr2025229001,",
         "sources": ",pr,",
         "types": ",origin,phase-data,",
         "nst": 12,
@@ -45,6 +45,46 @@
           -65.3213,
           18.9015,
           51
+        ]
+      },
+      "id": "pr2025229001"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.52,
+        "place": "76 km N of Culebra, Puerto Rico",
+        "time": 1755469769780,
+        "updated": 1755473523472,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2025229000",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2025229000.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 191,
+        "net": "pr",
+        "code": "2025229000",
+        "ids": ",pr2025229000,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 17,
+        "dmin": 0.9167,
+        "rms": 0.22,
+        "gap": 221,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 3.5 - 76 km N of Culebra, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.332,
+          18.9908,
+          37
         ]
       },
       "id": "pr2025229000"
