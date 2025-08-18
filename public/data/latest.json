@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1755503573000,
+    "generated": 1755504872000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 166
+    "count": 167
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.6,
+        "place": "2 km NE of Puerto Real, Puerto Rico",
+        "time": 1755502279950,
+        "updated": 1755503729100,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71493048",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71493048.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 104,
+        "net": "pr",
+        "code": "71493048",
+        "ids": ",pr71493048,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 11,
+        "dmin": 0.1017,
+        "rms": 0.15,
+        "gap": 199,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.6 - 2 km NE of Puerto Real, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.1708333333333,
+          18.0901666666667,
+          47.64
+        ]
+      },
+      "id": "pr71493048"
+    },
     {
       "type": "Feature",
       "properties": {
