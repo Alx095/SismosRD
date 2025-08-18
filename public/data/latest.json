@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1755474940000,
+    "generated": 1755479468000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 163
+    "count": 168
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.32,
+        "place": "59 km N of Culebra, Puerto Rico",
+        "time": 1755475026120,
+        "updated": 1755478245990,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71493033",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71493033.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 170,
+        "net": "pr",
+        "code": "71493033",
+        "ids": ",pr71493033,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 14,
+        "dmin": 0.6744,
+        "rms": 0.25,
+        "gap": 228,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 3.3 - 59 km N of Culebra, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.3748333333333,
+          18.8391666666667,
+          22.76
+        ]
+      },
+      "id": "pr71493033"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -128,46 +168,6 @@
         ]
       },
       "id": "pr71492988"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.38,
-        "place": "20 km SW of Stella, Puerto Rico",
-        "time": 1755391011230,
-        "updated": 1755392137590,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71492978",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71492978.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 87,
-        "net": "pr",
-        "code": "71492978",
-        "ids": ",pr71492978,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 7,
-        "dmin": 0.2637,
-        "rms": 0.15,
-        "gap": 275,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.4 - 20 km SW of Stella, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -67.3631666666667,
-          18.1711666666667,
-          24.98
-        ]
-      },
-      "id": "pr71492978"
     }
   ],
   "bbox": [
@@ -175,7 +175,7 @@
     -57.3474,
     -1.71,
     172.7061,
-    65.7821,
+    66.0043,
     605.074
   ]
 }
