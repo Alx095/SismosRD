@@ -1,14 +1,94 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1755565522000,
+    "generated": 1755571594000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 193
+    "count": 192
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.43,
+        "place": "43 km NNE of Cruz Bay, U.S. Virgin Islands",
+        "time": 1755569675980,
+        "updated": 1755570544940,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71493058",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71493058.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 181,
+        "net": "pr",
+        "code": "71493058",
+        "ids": ",pr71493058,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 13,
+        "dmin": 0.2707,
+        "rms": 0.38,
+        "gap": 272,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 3.4 - 43 km NNE of Cruz Bay, U.S. Virgin Islands"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -64.6383333333333,
+          18.6918333333333,
+          39.29
+        ]
+      },
+      "id": "pr71493058"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.09,
+        "place": "0 km NNW of Palmarejo, Puerto Rico",
+        "time": 1755564088010,
+        "updated": 1755565975690,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71493053",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71493053.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 67,
+        "net": "pr",
+        "code": "71493053",
+        "ids": ",pr71493053,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 11,
+        "dmin": 0.04623,
+        "rms": 0.09,
+        "gap": 83,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.1 - 0 km NNW of Palmarejo, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.0785,
+          18.0478333333333,
+          19.92
+        ]
+      },
+      "id": "pr71493053"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -55,7 +135,7 @@
     -44.7953,
     -2.91,
     159.425,
-    65.1603,
+    65.4405,
     388.558
   ]
 }
