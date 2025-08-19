@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1755561350000,
+    "generated": 1755565522000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 196
+    "count": 193
   },
   "features": [
     {
@@ -48,46 +48,6 @@
         ]
       },
       "id": "pr71493048"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.32,
-        "place": "59 km N of Culebra, Puerto Rico",
-        "time": 1755475026120,
-        "updated": 1755478245990,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71493033",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71493033.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 170,
-        "net": "pr",
-        "code": "71493033",
-        "ids": ",pr71493033,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 14,
-        "dmin": 0.6744,
-        "rms": 0.25,
-        "gap": 228,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.3 - 59 km N of Culebra, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -65.3748333333333,
-          18.8391666666667,
-          22.76
-        ]
-      },
-      "id": "pr71493033"
     }
   ],
   "bbox": [
