@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1755744113000,
+    "generated": 1755747016000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 268
+    "count": 269
   },
   "features": [
     {
@@ -248,46 +248,6 @@
         ]
       },
       "id": "pr71493098"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.29,
-        "place": "3 km S of Guánica, Puerto Rico",
-        "time": 1755658919440,
-        "updated": 1755660689896,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2025232000",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2025232000.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 167,
-        "net": "pr",
-        "code": "2025232000",
-        "ids": ",us6000r289,pr2025232000,",
-        "sources": ",us,pr,",
-        "types": ",origin,phase-data,",
-        "nst": 18,
-        "dmin": 0.048,
-        "rms": 0.21,
-        "gap": 188,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.3 - 3 km S of Guánica, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.9068,
-          17.9358,
-          9
-        ]
-      },
-      "id": "pr2025232000"
     }
   ],
   "bbox": [
