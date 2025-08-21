@@ -1,14 +1,134 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1755738128000,
+    "generated": 1755744113000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 258
+    "count": 268
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.85,
+        "place": "123 km SSE of Boca de Yuma, Dominican Republic",
+        "time": 1755741320120,
+        "updated": 1755743257430,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2025233001",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2025233001.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 228,
+        "net": "pr",
+        "code": "2025233001",
+        "ids": ",pr2025233001,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 23,
+        "dmin": 1.2155,
+        "rms": 0.46,
+        "gap": 254,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 3.9 - 123 km SSE of Boca de Yuma, Dominican Republic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.2925,
+          17.3016,
+          70
+        ]
+      },
+      "id": "pr2025233001"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.12,
+        "place": "6 km SE of Maria Antonia, Puerto Rico",
+        "time": 1755740092950,
+        "updated": 1755740757900,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71493148",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71493148.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 69,
+        "net": "pr",
+        "code": "71493148",
+        "ids": ",pr71493148,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 8,
+        "dmin": 0.04539,
+        "rms": 0.08,
+        "gap": 223,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.1 - 6 km SE of Maria Antonia, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.8525,
+          17.9293333333333,
+          10.2
+        ]
+      },
+      "id": "pr71493148"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.05,
+        "place": "1 km NNW of Guayanilla, Puerto Rico",
+        "time": 1755736961710,
+        "updated": 1755738497070,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71493143",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71493143.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 65,
+        "net": "pr",
+        "code": "71493143",
+        "ids": ",pr71493143,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 11,
+        "dmin": 0.09092,
+        "rms": 0.12,
+        "gap": 143,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.1 - 1 km NNW of Guayanilla, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.7963333333333,
+          18.0325,
+          17.71
+        ]
+      },
+      "id": "pr71493143"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -173,7 +293,7 @@
   "bbox": [
     -179.3282,
     -30.2264,
-    -3.16,
+    -2.75,
     179.9572,
     66.264,
     591.717
