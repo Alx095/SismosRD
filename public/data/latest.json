@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1755884870000,
+    "generated": 1755885293000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 235
+    "count": 234
   },
   "features": [
     {
@@ -52,14 +52,54 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 2.89,
+        "place": "43 km NNW of San Antonio, Puerto Rico",
+        "time": 1755880865790,
+        "updated": 1755884969660,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71493333",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71493333.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 128,
+        "net": "pr",
+        "code": "71493333",
+        "ids": ",pr71493333,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 17,
+        "dmin": 0.4068,
+        "rms": 0.21,
+        "gap": 220,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.9 - 43 km NNW of San Antonio, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.2998333333333,
+          18.8348333333333,
+          11.82
+        ]
+      },
+      "id": "pr71493333"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 4.3,
         "place": "39 km NNW of San Antonio, Puerto Rico",
         "time": 1755880122530,
-        "updated": 1755884559125,
+        "updated": 1755885206724,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2025234001",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2025234001.geojson",
-        "felt": 27,
+        "felt": 28,
         "cdi": 4.1,
         "mmi": null,
         "alert": null,
