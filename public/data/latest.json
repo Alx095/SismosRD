@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1755879830000,
+    "generated": 1755881003000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 242
+    "count": 240
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.4,
+        "place": "39 km NNW of San Antonio, Puerto Rico",
+        "time": 1755880121427,
+        "updated": 1755880879601,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000r36i",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000r36i.geojson",
+        "felt": 9,
+        "cdi": 3.8,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 301,
+        "net": "us",
+        "code": "6000r36i",
+        "ids": ",us6000r36i,",
+        "sources": ",us,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": 26,
+        "dmin": 0.377,
+        "rms": 0.52,
+        "gap": 98,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.4 - 39 km NNW of San Antonio, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.229,
+          18.8298,
+          28.932
+        ]
+      },
+      "id": "us6000r36i"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -55,12 +95,12 @@
         "mag": 2.79,
         "place": "2 km NW of Tallaboa, Puerto Rico",
         "time": 1755858399380,
-        "updated": 1755860704140,
+        "updated": 1755880959636,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71493303",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71493303.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 0,
+        "cdi": 1,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -70,7 +110,7 @@
         "code": "71493303",
         "ids": ",pr71493303,",
         "sources": ",pr,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 26,
         "dmin": 0.05814,
         "rms": 0.16,
