@@ -1,53 +1,53 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1755882477000,
+    "generated": 1755883725000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 236
+    "count": 234
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 4.4,
+        "mag": 4.3,
         "place": "39 km NNW of San Antonio, Puerto Rico",
-        "time": 1755880121427,
-        "updated": 1755882452990,
+        "time": 1755880122530,
+        "updated": 1755883581891,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000r36i",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000r36i.geojson",
-        "felt": 22,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2025234001",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2025234001.geojson",
+        "felt": 25,
         "cdi": 4.1,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 307,
-        "net": "us",
-        "code": "6000r36i",
-        "ids": ",us6000r36i,",
-        "sources": ",us,",
+        "sig": 295,
+        "net": "pr",
+        "code": "2025234001",
+        "ids": ",us6000r36i,pr2025234001,",
+        "sources": ",us,pr,",
         "types": ",dyfi,origin,phase-data,",
-        "nst": 26,
-        "dmin": 0.377,
-        "rms": 0.52,
-        "gap": 98,
-        "magType": "mb",
+        "nst": 27,
+        "dmin": 0.3818,
+        "rms": 0.21,
+        "gap": 186,
+        "magType": "ml",
         "type": "earthquake",
-        "title": "M 4.4 - 39 km NNW of San Antonio, Puerto Rico"
+        "title": "M 4.3 - 39 km NNW of San Antonio, Puerto Rico"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -67.229,
-          18.8298,
-          28.932
+          -67.2471,
+          18.8243,
+          10
         ]
       },
-      "id": "us6000r36i"
+      "id": "pr2025234001"
     },
     {
       "type": "Feature",
