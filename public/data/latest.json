@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1755895782000,
+    "generated": 1755896218000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
@@ -55,12 +55,12 @@
         "mag": 3.43,
         "place": "61 km WSW of Stella, Puerto Rico",
         "time": 1755881121450,
-        "updated": 1755883945053,
+        "updated": 1755896133244,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71493343",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71493343.geojson",
-        "felt": 1,
-        "cdi": 2.2,
+        "felt": 2,
+        "cdi": 2.5,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -333,7 +333,7 @@
   "bbox": [
     -178.3255,
     -60.2468,
-    -2.44,
+    -1.84,
     179.2106,
     65.0651,
     292.157
