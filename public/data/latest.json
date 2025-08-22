@@ -1,25 +1,65 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1755883725000,
+    "generated": 1755884450000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 234
+    "count": 237
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.43,
+        "place": "61 km WSW of Stella, Puerto Rico",
+        "time": 1755881121450,
+        "updated": 1755883945053,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71493343",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71493343.geojson",
+        "felt": 1,
+        "cdi": 2.2,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 181,
+        "net": "pr",
+        "code": "71493343",
+        "ids": ",pr71493343,",
+        "sources": ",pr,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": 15,
+        "dmin": 0.5568,
+        "rms": 0.33,
+        "gap": 189,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 3.4 - 61 km WSW of Stella, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.8055,
+          18.1596666666667,
+          60.5
+        ]
+      },
+      "id": "pr71493343"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 4.3,
         "place": "39 km NNW of San Antonio, Puerto Rico",
         "time": 1755880122530,
-        "updated": 1755883581891,
+        "updated": 1755883975894,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2025234001",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2025234001.geojson",
-        "felt": 25,
+        "felt": 26,
         "cdi": 4.1,
         "mmi": null,
         "alert": null,
