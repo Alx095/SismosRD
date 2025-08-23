@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1755915349000,
+    "generated": 1755918710000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 222
+    "count": 224
   },
   "features": [
     {
@@ -15,17 +15,17 @@
         "mag": 2.83,
         "place": "2 km ENE of Parcelas Nuevas, Puerto Rico",
         "time": 1755893988480,
-        "updated": 1755907418857,
+        "updated": 1755915694926,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71493353",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71493353.geojson",
-        "felt": 1,
-        "cdi": 2,
+        "felt": 2,
+        "cdi": 3.6,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 123,
+        "sig": 124,
         "net": "pr",
         "code": "71493353",
         "ids": ",pr71493353,",
