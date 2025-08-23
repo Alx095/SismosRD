@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1755942828000,
+    "generated": 1755943774000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 238
+    "count": 236
   },
   "features": [
     {
@@ -408,46 +408,6 @@
         ]
       },
       "id": "pr71493303"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.42,
-        "place": "16 km SSW of Central Aguirre, Puerto Rico",
-        "time": 1755857241350,
-        "updated": 1755859241560,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71493293",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71493293.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 90,
-        "net": "pr",
-        "code": "71493293",
-        "ids": ",pr71493293,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 12,
-        "dmin": 0.2109,
-        "rms": 0.14,
-        "gap": 232,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.4 - 16 km SSW of Central Aguirre, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.3001666666667,
-          17.8263333333333,
-          7.65
-        ]
-      },
-      "id": "pr71493293"
     }
   ],
   "bbox": [
