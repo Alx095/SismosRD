@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1755953716000,
+    "generated": 1755955188000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
@@ -368,46 +368,6 @@
         ]
       },
       "id": "pr2025234001"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.38,
-        "place": "8 km E of Maricao, Puerto Rico",
-        "time": 1755867980810,
-        "updated": 1755873588150,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71493313",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71493313.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 87,
-        "net": "pr",
-        "code": "71493313",
-        "ids": ",pr71493313,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 8,
-        "dmin": 0.08022,
-        "rms": 0.11,
-        "gap": 147,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.4 - 8 km E of Maricao, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.8981666666667,
-          18.1951666666667,
-          17.75
-        ]
-      },
-      "id": "pr71493313"
     }
   ],
   "bbox": [
