@@ -1,14 +1,94 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1755996877000,
+    "generated": 1756003489000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 187
+    "count": 179
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.27,
+        "place": "1 km SE of Magas Arriba, Puerto Rico",
+        "time": 1756001959140,
+        "updated": 1756003073350,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71493468",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71493468.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 79,
+        "net": "pr",
+        "code": "71493468",
+        "ids": ",pr71493468,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 14,
+        "dmin": 0.1179,
+        "rms": 0.24,
+        "gap": 140,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.3 - 1 km SE of Magas Arriba, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.759,
+          18.0036666666667,
+          13.27
+        ]
+      },
+      "id": "pr71493468"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.3,
+        "place": "6 km ESE of La Parguera, Puerto Rico",
+        "time": 1755993442690,
+        "updated": 1755997145880,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71493463",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71493463.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 81,
+        "net": "pr",
+        "code": "71493463",
+        "ids": ",pr71493463,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 8,
+        "dmin": 0.05697,
+        "rms": 0.11,
+        "gap": 206,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.3 - 6 km ESE of La Parguera, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.9861666666667,
+          17.9555,
+          6.37
+        ]
+      },
+      "id": "pr71493463"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -334,7 +414,7 @@
     -179.878,
     -60.0461,
     0,
-    161.5295,
+    160.5984,
     69.5981,
     562.105
   ]
