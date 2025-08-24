@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1756069978000,
+    "generated": 1756070821000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
@@ -9,6 +9,46 @@
     "count": 192
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.15,
+        "place": "15 km SSW of Potala Pastillo, Puerto Rico",
+        "time": 1756067381020,
+        "updated": 1756070002510,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71493518",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71493518.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 71,
+        "net": "pr",
+        "code": "71493518",
+        "ids": ",pr71493518,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 8,
+        "dmin": 0.03521,
+        "rms": 0.1,
+        "gap": 271,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.2 - 15 km SSW of Potala Pastillo, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.5351666666667,
+          17.8518333333333,
+          15.21
+        ]
+      },
+      "id": "pr71493518"
+    },
     {
       "type": "Feature",
       "properties": {
