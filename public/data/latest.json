@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1756064491000,
+    "generated": 1756064901000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 182
+    "count": 181
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.98,
+        "place": "2 km NE of La Parguera, Puerto Rico",
+        "time": 1756062656540,
+        "updated": 1756064521060,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71493513",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71493513.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 60,
+        "net": "pr",
+        "code": "71493513",
+        "ids": ",pr71493513,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 6,
+        "dmin": 0.02429,
+        "rms": 0.07,
+        "gap": 109,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.0 - 2 km NE of La Parguera, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.0336666666667,
+          17.9916666666667,
+          12.07
+        ]
+      },
+      "id": "pr71493513"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -248,46 +288,6 @@
         ]
       },
       "id": "pr71493463"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.64,
-        "place": "50 km NNE of Punta Cana, Dominican Republic",
-        "time": 1755978328530,
-        "updated": 1755981598850,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2025235001",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2025235001.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 204,
-        "net": "pr",
-        "code": "2025235001",
-        "ids": ",pr2025235001,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 16,
-        "dmin": 0.5152,
-        "rms": 0.42,
-        "gap": 181,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.6 - 50 km NNE of Punta Cana, Dominican Republic"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -68.1673,
-          18.9825,
-          70
-        ]
-      },
-      "id": "pr2025235001"
     }
   ],
   "bbox": [
