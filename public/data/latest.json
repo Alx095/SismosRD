@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1756148225000,
+    "generated": 1756149155000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 221
+    "count": 223
   },
   "features": [
     {
@@ -128,52 +128,12 @@
         ]
       },
       "id": "pr71493518"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.98,
-        "place": "2 km NE of La Parguera, Puerto Rico",
-        "time": 1756062656540,
-        "updated": 1756064521060,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71493513",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71493513.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 60,
-        "net": "pr",
-        "code": "71493513",
-        "ids": ",pr71493513,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 6,
-        "dmin": 0.02429,
-        "rms": 0.07,
-        "gap": 109,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.0 - 2 km NE of La Parguera, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -67.0336666666667,
-          17.9916666666667,
-          12.07
-        ]
-      },
-      "id": "pr71493513"
     }
   ],
   "bbox": [
     -170.358,
     -31.0634,
-    -1.77,
+    -2.38,
     160.6034,
     69.12,
     158.559
