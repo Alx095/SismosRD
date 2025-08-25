@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1756107270000,
+    "generated": 1756107850000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 192
+    "count": 193
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.7,
+        "place": "36 km SSE of Boca de Yuma, Dominican Republic",
+        "time": 1756104310730,
+        "updated": 1756107385253,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2025237000",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2025237000.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 211,
+        "net": "pr",
+        "code": "2025237000",
+        "ids": ",pr2025237000,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 22,
+        "dmin": 0.4369,
+        "rms": 0.63,
+        "gap": 192,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 3.7 - 36 km SSE of Boca de Yuma, Dominican Republic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.4508,
+          18.0825,
+          77
+        ]
+      },
+      "id": "pr2025237000"
+    },
     {
       "type": "Feature",
       "properties": {
