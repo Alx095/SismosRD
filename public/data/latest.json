@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1756139831000,
+    "generated": 1756140676000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 196
+    "count": 195
   },
   "features": [
     {
@@ -168,46 +168,6 @@
         ]
       },
       "id": "pr71493513"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.16,
-        "place": "4 km S of Salinas, Puerto Rico",
-        "time": 1756053548330,
-        "updated": 1756054389270,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71493508",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71493508.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 72,
-        "net": "pr",
-        "code": "71493508",
-        "ids": ",pr71493508,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 14,
-        "dmin": 0.1092,
-        "rms": 0.16,
-        "gap": 177,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.2 - 4 km S of Salinas, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.2968333333333,
-          17.9366666666667,
-          12.7
-        ]
-      },
-      "id": "pr71493508"
     }
   ],
   "bbox": [
