@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1756122372000,
+    "generated": 1756122763000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
@@ -9,6 +9,46 @@
     "count": 178
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.7,
+        "place": "7 km ESE of Ramón Santana, Dominican Republic",
+        "time": 1756122039000,
+        "updated": 1756122464600,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pt25237001",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pt25237001.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "REVIEWED",
+        "tsunami": 0,
+        "sig": 340,
+        "net": "pt",
+        "code": "25237001",
+        "ids": ",pt25237001,",
+        "sources": ",pt,",
+        "types": ",origin,",
+        "nst": 34,
+        "dmin": null,
+        "rms": null,
+        "gap": 143.99998848000092,
+        "magType": "Ml",
+        "type": "earthquake",
+        "title": "M 4.7 - 7 km ESE of Ramón Santana, Dominican Republic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -69.115,
+          18.517,
+          94.3
+        ]
+      },
+      "id": "pt25237001"
+    },
     {
       "type": "Feature",
       "properties": {
