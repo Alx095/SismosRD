@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1756228451000,
+    "generated": 1756229418000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
@@ -175,7 +175,7 @@
     -24.0999,
     -1.14,
     166.5471,
-    68.9434,
+    66.109,
     589.068
   ]
 }
