@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1756409195000,
+    "generated": 1756409735000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 264
+    "count": 268
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.95,
+        "place": "1 km SE of Coto Norte, Puerto Rico",
+        "time": 1756408268040,
+        "updated": 1756409478060,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71493718",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71493718.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 134,
+        "net": "pr",
+        "code": "71493718",
+        "ids": ",pr71493718,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 11,
+        "dmin": 0.114,
+        "rms": 0.27,
+        "gap": 195,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 3.0 - 1 km SE of Coto Norte, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.426,
+          18.419,
+          66.34
+        ]
+      },
+      "id": "pr71493718"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -331,7 +371,7 @@
     }
   ],
   "bbox": [
-    -164.03083333333,
+    -172.7299,
     -22.4155,
     -2.94,
     179.8605,
