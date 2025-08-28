@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1756403555000,
+    "generated": 1756404661000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
-    "api": "1.14.1",
-    "count": 256
+    "api": "2.2.0",
+    "count": 257
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.92,
+        "place": "9 km SSE of Indios, Puerto Rico",
+        "time": 1756399681260,
+        "updated": 1756404586270,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71493708",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71493708.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 57,
+        "net": "pr",
+        "code": "71493708",
+        "ids": ",pr71493708,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 6,
+        "dmin": 0.1019,
+        "rms": 0.02,
+        "gap": 232,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 1.9 - 9 km SSE of Indios, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.798,
+          17.9083333333333,
+          5.51
+        ]
+      },
+      "id": "pr71493708"
+    },
     {
       "type": "Feature",
       "properties": {
