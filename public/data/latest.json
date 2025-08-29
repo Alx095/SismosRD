@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1756425483000,
+    "generated": 1756431490000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 270
+    "count": 263
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.53,
+        "place": "64 km W of Stella, Puerto Rico",
+        "time": 1756429174840,
+        "updated": 1756430853473,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2025241000",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2025241000.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 192,
+        "net": "pr",
+        "code": "2025241000",
+        "ids": ",pr2025241000,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 15,
+        "dmin": 0.7605,
+        "rms": 0.43,
+        "gap": 185,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 3.5 - 64 km W of Stella, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.8455,
+          18.2103,
+          128
+        ]
+      },
+      "id": "pr2025241000"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -371,7 +411,7 @@
     }
   ],
   "bbox": [
-    -172.7299,
+    -176.22083333333,
     -22.4155,
     -2.96,
     179.8605,
