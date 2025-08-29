@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1756491488000,
+    "generated": 1756492815000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 272
+    "count": 279
   },
   "features": [
     {
@@ -15,7 +15,7 @@
         "mag": 3.57,
         "place": "116 km NNW of Charlotte Amalie, U.S. Virgin Islands",
         "time": 1756484119060,
-        "updated": 1756485913995,
+        "updated": 1756492628040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2025241002",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2025241002.geojson",
@@ -28,8 +28,8 @@
         "sig": 196,
         "net": "pr",
         "code": "2025241002",
-        "ids": ",pr2025241002,",
-        "sources": ",pr,",
+        "ids": ",us7000qrvz,pr2025241002,",
+        "sources": ",us,pr,",
         "types": ",origin,phase-data,",
         "nst": 18,
         "dmin": 1.0921,
@@ -293,7 +293,7 @@
   "bbox": [
     -177.5825,
     -20.4072,
-    -0.93,
+    -1.23,
     179.5682,
     64.9338,
     485.414
