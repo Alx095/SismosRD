@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1756547953000,
+    "generated": 1756549113000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 237
+    "count": 238
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.78,
+        "place": "60 km W of Rincón, Puerto Rico",
+        "time": 1756547024520,
+        "updated": 1756548963387,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2025242003",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2025242003.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 220,
+        "net": "pr",
+        "code": "2025242003",
+        "ids": ",pr2025242003,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 19,
+        "dmin": 0.6031,
+        "rms": 0.29,
+        "gap": 176,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 3.8 - 60 km W of Rincón, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.822,
+          18.2885,
+          142
+        ]
+      },
+      "id": "pr2025242003"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -416,6 +456,6 @@
     -2.3,
     160.0397,
     64.2843,
-    114.517
+    142
   ]
 }
