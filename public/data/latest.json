@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1756558908000,
+    "generated": 1756560378000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 228
+    "count": 236
   },
   "features": [
     {
@@ -95,7 +95,7 @@
         "mag": 3.78,
         "place": "60 km W of Rincón, Puerto Rico",
         "time": 1756547024520,
-        "updated": 1756548963387,
+        "updated": 1756559176040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2025242003",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2025242003.geojson",
@@ -108,8 +108,8 @@
         "sig": 220,
         "net": "pr",
         "code": "2025242003",
-        "ids": ",pr2025242003,",
-        "sources": ",pr,",
+        "ids": ",us7000qsja,pr2025242003,",
+        "sources": ",us,pr,",
         "types": ",origin,phase-data,",
         "nst": 19,
         "dmin": 0.6031,
@@ -135,7 +135,7 @@
         "mag": 3.84,
         "place": "129 km NNE of Cruz Bay, U.S. Virgin Islands",
         "time": 1756546407690,
-        "updated": 1756550240791,
+        "updated": 1756558989040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2025242004",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2025242004.geojson",
@@ -148,8 +148,8 @@
         "sig": 227,
         "net": "pr",
         "code": "2025242004",
-        "ids": ",pr2025242004,",
-        "sources": ",pr,",
+        "ids": ",us7000qsj7,pr2025242004,",
+        "sources": ",us,pr,",
         "types": ",origin,phase-data,",
         "nst": 16,
         "dmin": 0.9305,
