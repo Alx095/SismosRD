@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1756519901000,
+    "generated": 1756523045000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 289
+    "count": 282
   },
   "features": [
     {
@@ -55,7 +55,7 @@
         "mag": 3.55,
         "place": "12 km NNE of Fajardo, Puerto Rico",
         "time": 1756516424150,
-        "updated": 1756519010271,
+        "updated": 1756520685040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2025242000",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2025242000.geojson",
@@ -68,8 +68,8 @@
         "sig": 194,
         "net": "pr",
         "code": "2025242000",
-        "ids": ",pr2025242000,",
-        "sources": ",pr,",
+        "ids": ",us7000qsg6,pr2025242000,",
+        "sources": ",us,pr,",
         "types": ",origin,phase-data,",
         "nst": 21,
         "dmin": 0.4946,
@@ -291,8 +291,8 @@
     }
   ],
   "bbox": [
-    -177.5825,
-    -20.4072,
+    -169.764,
+    -8.558,
     -2.3,
     179.5682,
     63.477,
