@@ -1,14 +1,94 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1756515141000,
+    "generated": 1756519901000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 284
+    "count": 289
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.37,
+        "place": "4 km S of Salinas, Puerto Rico",
+        "time": 1756516918710,
+        "updated": 1756517654180,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71493828",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71493828.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 86,
+        "net": "pr",
+        "code": "71493828",
+        "ids": ",pr71493828,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 14,
+        "dmin": 0.1117,
+        "rms": 0.31,
+        "gap": 180,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.4 - 4 km S of Salinas, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.2953333333333,
+          17.9328333333333,
+          8.17
+        ]
+      },
+      "id": "pr71493828"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.55,
+        "place": "12 km NNE of Fajardo, Puerto Rico",
+        "time": 1756516424150,
+        "updated": 1756519010271,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2025242000",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2025242000.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 194,
+        "net": "pr",
+        "code": "2025242000",
+        "ids": ",pr2025242000,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 21,
+        "dmin": 0.4946,
+        "rms": 0.27,
+        "gap": 172,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 3.6 - 12 km NNE of Fajardo, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.6026,
+          18.4241,
+          109
+        ]
+      },
+      "id": "pr2025242000"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -208,86 +288,6 @@
         ]
       },
       "id": "pr71493748"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.85,
-        "place": "173 km NNW of The Valley, Anguilla",
-        "time": 1756433062690,
-        "updated": 1756434742176,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2025241001",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2025241001.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 228,
-        "net": "pr",
-        "code": "2025241001",
-        "ids": ",pr2025241001,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 15,
-        "dmin": 1.5029,
-        "rms": 0.29,
-        "gap": 328,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.9 - 173 km NNW of The Valley, Anguilla"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -63.535,
-          19.7178,
-          46
-        ]
-      },
-      "id": "pr2025241001"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.53,
-        "place": "64 km W of Stella, Puerto Rico",
-        "time": 1756429174840,
-        "updated": 1756430853473,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2025241000",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2025241000.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 192,
-        "net": "pr",
-        "code": "2025241000",
-        "ids": ",pr2025241000,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 15,
-        "dmin": 0.7605,
-        "rms": 0.43,
-        "gap": 185,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.5 - 64 km W of Stella, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -67.8455,
-          18.2103,
-          128
-        ]
-      },
-      "id": "pr2025241000"
     }
   ],
   "bbox": [
@@ -295,7 +295,7 @@
     -20.4072,
     -2.3,
     179.5682,
-    64.8086,
+    63.477,
     541.434
   ]
 }
