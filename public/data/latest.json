@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1756601842000,
+    "generated": 1756607811000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 237
+    "count": 242
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.3,
+        "place": "9 km SSE of Guánica, Puerto Rico",
+        "time": 1756605691120,
+        "updated": 1756607443360,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71493988",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71493988.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 81,
+        "net": "pr",
+        "code": "71493988",
+        "ids": ",pr71493988,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 7,
+        "dmin": 0.0819,
+        "rms": 0.09,
+        "gap": 240,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.3 - 9 km SSE of Guánica, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.873,
+          17.8901666666667,
+          13.28
+        ]
+      },
+      "id": "pr71493988"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -528,86 +568,6 @@
         ]
       },
       "id": "pr71493843"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.37,
-        "place": "4 km S of Salinas, Puerto Rico",
-        "time": 1756516918710,
-        "updated": 1756517654180,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71493828",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71493828.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 86,
-        "net": "pr",
-        "code": "71493828",
-        "ids": ",pr71493828,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 14,
-        "dmin": 0.1117,
-        "rms": 0.31,
-        "gap": 180,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.4 - 4 km S of Salinas, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.2953333333333,
-          17.9328333333333,
-          8.17
-        ]
-      },
-      "id": "pr71493828"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.55,
-        "place": "12 km NNE of Fajardo, Puerto Rico",
-        "time": 1756516424150,
-        "updated": 1756520685040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2025242000",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2025242000.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 194,
-        "net": "pr",
-        "code": "2025242000",
-        "ids": ",us7000qsg6,pr2025242000,",
-        "sources": ",us,pr,",
-        "types": ",origin,phase-data,",
-        "nst": 21,
-        "dmin": 0.4946,
-        "rms": 0.27,
-        "gap": 172,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.6 - 12 km NNE of Fajardo, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -65.6026,
-          18.4241,
-          109
-        ]
-      },
-      "id": "pr2025242000"
     }
   ],
   "bbox": [
