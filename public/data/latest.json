@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1756610821000,
+    "generated": 1756612101000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
@@ -9,6 +9,46 @@
     "count": 239
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.72,
+        "place": "3 km SSE of San Lorenzo, Puerto Rico",
+        "time": 1756610116920,
+        "updated": 1756611225150,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71494008",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71494008.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 114,
+        "net": "pr",
+        "code": "71494008",
+        "ids": ",pr71494008,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 17,
+        "dmin": 0.1022,
+        "rms": 0.22,
+        "gap": 83,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.7 - 3 km SSE of San Lorenzo, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.9541666666667,
+          18.1626666666667,
+          22.77
+        ]
+      },
+      "id": "pr71494008"
+    },
     {
       "type": "Feature",
       "properties": {
