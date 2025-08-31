@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1756636101000,
+    "generated": 1756636735000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
-    "api": "1.14.1",
-    "count": 233
+    "api": "2.2.0",
+    "count": 232
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.13,
+        "place": "6 km NW of Coto Laurel, Puerto Rico",
+        "time": 1756635115900,
+        "updated": 1756636468790,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71494088",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71494088.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 70,
+        "net": "pr",
+        "code": "71494088",
+        "ids": ",pr71494088,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 11,
+        "dmin": 0.02591,
+        "rms": 0.19,
+        "gap": 74,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.1 - 6 km NW of Coto Laurel, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.598,
+          18.0936666666667,
+          15.24
+        ]
+      },
+      "id": "pr71494088"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -572,7 +612,7 @@
   ],
   "bbox": [
     -169.8906,
-    -43.4899,
+    -41.0401,
     -1.0700000524521,
     178.9769,
     64.8418,
