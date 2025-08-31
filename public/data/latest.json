@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1756645346000,
+    "generated": 1756646856000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 238
+    "count": 239
   },
   "features": [
     {
@@ -55,17 +55,17 @@
         "mag": 3.12,
         "place": "5 km N of Ponce, Puerto Rico",
         "time": 1756635029020,
-        "updated": 1756644987244,
+        "updated": 1756646270765,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2025243001",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2025243001.geojson",
-        "felt": 3,
+        "felt": 4,
         "cdi": 2.2,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 150,
+        "sig": 151,
         "net": "pr",
         "code": "2025243001",
         "ids": ",pr2025243001,",
