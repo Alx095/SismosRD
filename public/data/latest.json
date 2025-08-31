@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1756637612000,
+    "generated": 1756638397000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 234
+    "count": 238
   },
   "features": [
     {
@@ -48,6 +48,46 @@
         ]
       },
       "id": "pr71494088"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.12,
+        "place": "5 km N of Ponce, Puerto Rico",
+        "time": 1756635029020,
+        "updated": 1756638387560,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2025243001",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2025243001.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 150,
+        "net": "pr",
+        "code": "2025243001",
+        "ids": ",pr2025243001,",
+        "sources": ",pr,",
+        "types": ",origin,",
+        "nst": 24,
+        "dmin": 0.0218,
+        "rms": 0.26,
+        "gap": 98,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 3.1 - 5 km N of Ponce, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.6166,
+          18.062,
+          18
+        ]
+      },
+      "id": "pr2025243001"
     },
     {
       "type": "Feature",
@@ -575,7 +615,7 @@
     -41.0401,
     -1.0700000524521,
     178.9769,
-    64.8418,
+    65.6184,
     554.091
   ]
 }
