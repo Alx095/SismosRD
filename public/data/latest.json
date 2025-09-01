@@ -1,53 +1,53 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1756725003000,
+    "generated": 1756725828000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 235
+    "count": 240
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 4.6,
-        "place": "11 km NNE of Bayaguana, Dominican Republic",
-        "time": 1756718857000,
-        "updated": 1756723059210,
+        "mag": 4.4,
+        "place": "4 km NNE of Bayaguana, Dominican Republic",
+        "time": 1756718857204,
+        "updated": 1756725817040,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pt25244050",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pt25244050.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000qszi",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000qszi.geojson",
         "felt": 11,
         "cdi": 3.1,
         "mmi": null,
         "alert": null,
-        "status": "REVIEWED",
+        "status": "reviewed",
         "tsunami": 0,
-        "sig": 329,
-        "net": "pt",
-        "code": "25244050",
-        "ids": ",pt25244050,",
-        "sources": ",pt,",
-        "types": ",dyfi,origin,",
-        "nst": 18,
-        "dmin": null,
-        "rms": null,
-        "gap": null,
-        "magType": "Ml",
+        "sig": 301,
+        "net": "us",
+        "code": "7000qszi",
+        "ids": ",pt25244050,us7000qszi,",
+        "sources": ",pt,us,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": 75,
+        "dmin": 0.425,
+        "rms": 1.01,
+        "gap": 55,
+        "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.6 - 11 km NNE of Bayaguana, Dominican Republic"
+        "title": "M 4.4 - 4 km NNE of Bayaguana, Dominican Republic"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -69.591,
-          18.848,
-          81.2
+          -69.6271,
+          18.7885,
+          108.171
         ]
       },
-      "id": "pt25244050"
+      "id": "us7000qszi"
     },
     {
       "type": "Feature",
