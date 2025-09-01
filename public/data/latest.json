@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1756743624000,
+    "generated": 1756744818000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 226
+    "count": 228
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.54,
+        "place": "6 km WNW of Aguas Buenas, Puerto Rico",
+        "time": 1756742759350,
+        "updated": 1756743895670,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71494263",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71494263.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 99,
+        "net": "pr",
+        "code": "71494263",
+        "ids": ",pr71494263,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 15,
+        "dmin": 0.08601,
+        "rms": 0.24,
+        "gap": 122,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.5 - 6 km WNW of Aguas Buenas, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1645,
+          18.2701666666667,
+          58.25
+        ]
+      },
+      "id": "pr71494263"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -368,51 +408,11 @@
         ]
       },
       "id": "pr71494143"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.98,
-        "place": "24 km ENE of Cruz Bay, U.S. Virgin Islands",
-        "time": 1756657542460,
-        "updated": 1756659892130,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71494128",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71494128.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 137,
-        "net": "pr",
-        "code": "71494128",
-        "ids": ",pr71494128,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 6,
-        "dmin": 0.03593,
-        "rms": 0.23,
-        "gap": 339,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.0 - 24 km ENE of Cruz Bay, U.S. Virgin Islands"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -64.5858333333333,
-          18.4351666666667,
-          105.64
-        ]
-      },
-      "id": "pr71494128"
     }
   ],
   "bbox": [
     -174.7098,
-    -58.4148,
+    -30.6105,
     -0.77,
     159.7441,
     69.4606,
