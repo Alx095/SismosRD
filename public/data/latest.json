@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1756721480000,
+    "generated": 1756722929000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
-    "api": "2.2.0",
-    "count": 240
+    "api": "1.14.1",
+    "count": 241
   },
   "features": [
     {
@@ -15,17 +15,17 @@
         "mag": 4.6,
         "place": "11 km NNE of Bayaguana, Dominican Republic",
         "time": 1756718857000,
-        "updated": 1756720882714,
+        "updated": 1756721508475,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pt25244050",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pt25244050.geojson",
-        "felt": 9,
+        "felt": 10,
         "cdi": 3.1,
         "mmi": null,
         "alert": null,
         "status": "REVIEWED",
         "tsunami": 0,
-        "sig": 328,
+        "sig": 329,
         "net": "pt",
         "code": "25244050",
         "ids": ",pt25244050,",
@@ -48,6 +48,46 @@
         ]
       },
       "id": "pt25244050"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.55,
+        "place": "3 km S of Salinas, Puerto Rico",
+        "time": 1756718426150,
+        "updated": 1756721778460,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71494193",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71494193.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 100,
+        "net": "pr",
+        "code": "71494193",
+        "ids": ",pr71494193,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 17,
+        "dmin": 0.09837,
+        "rms": 0.27,
+        "gap": 171,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.6 - 3 km S of Salinas, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.293,
+          17.9473333333333,
+          10.05
+        ]
+      },
+      "id": "pr71494193"
     },
     {
       "type": "Feature",
@@ -328,46 +368,6 @@
         ]
       },
       "id": "pr2025243002"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.13,
-        "place": "6 km NW of Coto Laurel, Puerto Rico",
-        "time": 1756635115900,
-        "updated": 1756637169984,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71494088",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71494088.geojson",
-        "felt": 1,
-        "cdi": 2,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 70,
-        "net": "pr",
-        "code": "71494088",
-        "ids": ",pr71494088,",
-        "sources": ",pr,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 11,
-        "dmin": 0.02591,
-        "rms": 0.19,
-        "gap": 74,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.1 - 6 km NW of Coto Laurel, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.598,
-          18.0936666666667,
-          15.24
-        ]
-      },
-      "id": "pr71494088"
     }
   ],
   "bbox": [
