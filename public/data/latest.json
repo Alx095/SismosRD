@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1756718112000,
+    "generated": 1756719324000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 241
+    "count": 242
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.6,
+        "place": "11 km NNE of Bayaguana, Dominican Republic",
+        "time": 1756718857000,
+        "updated": 1756719289585,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pt25244050",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pt25244050.geojson",
+        "felt": 2,
+        "cdi": 3,
+        "mmi": null,
+        "alert": null,
+        "status": "REVIEWED",
+        "tsunami": 0,
+        "sig": 326,
+        "net": "pt",
+        "code": "25244050",
+        "ids": ",pt25244050,",
+        "sources": ",pt,",
+        "types": ",dyfi,origin,",
+        "nst": 18,
+        "dmin": null,
+        "rms": null,
+        "gap": null,
+        "magType": "Ml",
+        "type": "earthquake",
+        "title": "M 4.6 - 11 km NNE of Bayaguana, Dominican Republic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -69.591,
+          18.848,
+          81.2
+        ]
+      },
+      "id": "pt25244050"
+    },
     {
       "type": "Feature",
       "properties": {
