@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1756706263000,
+    "generated": 1756708261000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 254
+    "count": 255
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.14,
+        "place": "4 km WNW of Orocovis, Puerto Rico",
+        "time": 1756705550530,
+        "updated": 1756706616900,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71494178",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71494178.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 70,
+        "net": "pr",
+        "code": "71494178",
+        "ids": ",pr71494178,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 8,
+        "dmin": 0.2218,
+        "rms": 0.2,
+        "gap": 101,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.1 - 4 km WNW of Orocovis, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.4283333333333,
+          18.245,
+          43.6
+        ]
+      },
+      "id": "pr71494178"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -328,86 +368,6 @@
         ]
       },
       "id": "pr71494068"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.65,
-        "place": "13 km N of Arecibo, Puerto Rico",
-        "time": 1756620711140,
-        "updated": 1756622234800,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71494048",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71494048.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 108,
-        "net": "pr",
-        "code": "71494048",
-        "ids": ",pr71494048,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 11,
-        "dmin": 0.2045,
-        "rms": 0.21,
-        "gap": 254,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.7 - 13 km N of Arecibo, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.7083333333333,
-          18.5918333333333,
-          15.92
-        ]
-      },
-      "id": "pr71494048"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.77,
-        "place": "104 km NNW of Charlotte Amalie, U.S. Virgin Islands",
-        "time": 1756620545120,
-        "updated": 1756644975040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2025243000",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2025243000.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 219,
-        "net": "pr",
-        "code": "2025243000",
-        "ids": ",us7000qsqm,pr2025243000,",
-        "sources": ",us,pr,",
-        "types": ",origin,phase-data,",
-        "nst": 21,
-        "dmin": 0.989,
-        "rms": 0.44,
-        "gap": 250,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.8 - 104 km NNW of Charlotte Amalie, U.S. Virgin Islands"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -65.1243,
-          19.265,
-          71
-        ]
-      },
-      "id": "pr2025243000"
     }
   ],
   "bbox": [
