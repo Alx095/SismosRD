@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1756688949000,
+    "generated": 1756695451000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
-    "api": "2.2.0",
-    "count": 263
+    "api": "1.14.1",
+    "count": 255
   },
   "features": [
     {
@@ -15,12 +15,12 @@
         "mag": 4.14,
         "place": "176 km NNE of Cruz Bay, U.S. Virgin Islands",
         "time": 1756683538810,
-        "updated": 1756687746519,
+        "updated": 1756689317801,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2025243003",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2025243003.geojson",
-        "felt": 1,
-        "cdi": 1,
+        "felt": 2,
+        "cdi": 2,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -528,86 +528,6 @@
         ]
       },
       "id": "pr71494008"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.12,
-        "place": "108 km N of Brenas, Puerto Rico",
-        "time": 1756607596910,
-        "updated": 1756608682350,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71493993",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71493993.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 150,
-        "net": "pr",
-        "code": "71493993",
-        "ids": ",pr71493993,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 14,
-        "dmin": 0.9698,
-        "rms": 0.18,
-        "gap": 301,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.1 - 108 km N of Brenas, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.4235,
-          19.4468333333333,
-          23.69
-        ]
-      },
-      "id": "pr71493993"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.3,
-        "place": "9 km SSE of Guánica, Puerto Rico",
-        "time": 1756605691120,
-        "updated": 1756607443360,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71493988",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71493988.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 81,
-        "net": "pr",
-        "code": "71493988",
-        "ids": ",pr71493988,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 7,
-        "dmin": 0.0819,
-        "rms": 0.09,
-        "gap": 240,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.3 - 9 km SSE of Guánica, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.873,
-          17.8901666666667,
-          13.28
-        ]
-      },
-      "id": "pr71493988"
     }
   ],
   "bbox": [
