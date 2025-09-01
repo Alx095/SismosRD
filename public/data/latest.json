@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1756720390000,
+    "generated": 1756721480000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
-    "api": "1.14.1",
-    "count": 242
+    "api": "2.2.0",
+    "count": 240
   },
   "features": [
     {
@@ -15,11 +15,11 @@
         "mag": 4.6,
         "place": "11 km NNE of Bayaguana, Dominican Republic",
         "time": 1756718857000,
-        "updated": 1756720269700,
+        "updated": 1756720882714,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pt25244050",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pt25244050.geojson",
-        "felt": 7,
+        "felt": 9,
         "cdi": 3.1,
         "mmi": null,
         "alert": null,
@@ -368,46 +368,6 @@
         ]
       },
       "id": "pr71494088"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.12,
-        "place": "5 km N of Ponce, Puerto Rico",
-        "time": 1756635029020,
-        "updated": 1756646270765,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2025243001",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2025243001.geojson",
-        "felt": 4,
-        "cdi": 2.2,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 151,
-        "net": "pr",
-        "code": "2025243001",
-        "ids": ",pr2025243001,",
-        "sources": ",pr,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 24,
-        "dmin": 0.0218,
-        "rms": 0.26,
-        "gap": 98,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.1 - 5 km N of Ponce, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.6166,
-          18.062,
-          18
-        ]
-      },
-      "id": "pr2025243001"
     }
   ],
   "bbox": [
