@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1756722929000,
+    "generated": 1756723678000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
-    "api": "1.14.1",
-    "count": 241
+    "api": "2.2.0",
+    "count": 240
   },
   "features": [
     {
@@ -15,11 +15,11 @@
         "mag": 4.6,
         "place": "11 km NNE of Bayaguana, Dominican Republic",
         "time": 1756718857000,
-        "updated": 1756721508475,
+        "updated": 1756723059210,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pt25244050",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pt25244050.geojson",
-        "felt": 10,
+        "felt": 11,
         "cdi": 3.1,
         "mmi": null,
         "alert": null,
