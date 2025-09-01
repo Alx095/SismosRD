@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1756735758000,
+    "generated": 1756737026000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 241
+    "count": 238
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.76,
+        "place": "149 km NNE of Cruz Bay, U.S. Virgin Islands",
+        "time": 1756735500520,
+        "updated": 1756736945582,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2025244002",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2025244002.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 218,
+        "net": "pr",
+        "code": "2025244002",
+        "ids": ",pr2025244002,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 10,
+        "dmin": 1.0965,
+        "rms": 0.37,
+        "gap": 305,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 3.8 - 149 km NNE of Cruz Bay, U.S. Virgin Islands"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -64.2326,
+          19.5738,
+          37
+        ]
+      },
+      "id": "pr2025244002"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -95,17 +135,17 @@
         "mag": 4.4,
         "place": "4 km NNE of Bayaguana, Dominican Republic",
         "time": 1756718857204,
-        "updated": 1756725880173,
+        "updated": 1756736665746,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000qszi",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000qszi.geojson",
-        "felt": 11,
+        "felt": 12,
         "cdi": 3.1,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 301,
+        "sig": 302,
         "net": "us",
         "code": "7000qszi",
         "ids": ",pt25244050,us7000qszi,",
