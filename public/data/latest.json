@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1756756723000,
+    "generated": 1756758086000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
-    "api": "1.14.1",
-    "count": 223
+    "api": "2.2.0",
+    "count": 225
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.95,
+        "place": "5 km S of Utuado, Puerto Rico",
+        "time": 1756756691980,
+        "updated": 1756757679100,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71494283",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71494283.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 58,
+        "net": "pr",
+        "code": "71494283",
+        "ids": ",pr71494283,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 8,
+        "dmin": 0.03821,
+        "rms": 0.14,
+        "gap": 132,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.0 - 5 km S of Utuado, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.706,
+          18.2168333333333,
+          7.47
+        ]
+      },
+      "id": "pr71494283"
+    },
     {
       "type": "Feature",
       "properties": {
