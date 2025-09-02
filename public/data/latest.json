@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1756828692000,
+    "generated": 1756830209000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 223
+    "count": 221
   },
   "features": [
     {
@@ -448,54 +448,14 @@
         ]
       },
       "id": "pr71494283"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.54,
-        "place": "6 km WNW of Aguas Buenas, Puerto Rico",
-        "time": 1756742759350,
-        "updated": 1756743895670,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71494263",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71494263.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 99,
-        "net": "pr",
-        "code": "71494263",
-        "ids": ",pr71494263,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 15,
-        "dmin": 0.08601,
-        "rms": 0.24,
-        "gap": 122,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.5 - 6 km WNW of Aguas Buenas, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.1645,
-          18.2701666666667,
-          58.25
-        ]
-      },
-      "id": "pr71494263"
     }
   ],
   "bbox": [
-    -178.5572,
-    -15.1029,
+    -178.7826,
+    -20.8956,
     -0.14000000059605,
     160.3969,
     66.247,
-    419.944
+    568.532
   ]
 }
