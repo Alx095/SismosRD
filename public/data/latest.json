@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1756804294000,
+    "generated": 1756805428000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 215
+    "count": 211
   },
   "features": [
     {
@@ -488,86 +488,6 @@
         ]
       },
       "id": "pr2025244000"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.4,
-        "place": "4 km NNE of Bayaguana, Dominican Republic",
-        "time": 1756718857204,
-        "updated": 1756779359033,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000qszi",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000qszi.geojson",
-        "felt": 14,
-        "cdi": 3.1,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 302,
-        "net": "us",
-        "code": "7000qszi",
-        "ids": ",pt25244050,us7000qszi,",
-        "sources": ",pt,us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 75,
-        "dmin": 0.425,
-        "rms": 1.01,
-        "gap": 55,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.4 - 4 km NNE of Bayaguana, Dominican Republic"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -69.6271,
-          18.7885,
-          108.171
-        ]
-      },
-      "id": "us7000qszi"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.55,
-        "place": "3 km S of Salinas, Puerto Rico",
-        "time": 1756718426150,
-        "updated": 1756721778460,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71494193",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71494193.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 100,
-        "net": "pr",
-        "code": "71494193",
-        "ids": ",pr71494193,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 17,
-        "dmin": 0.09837,
-        "rms": 0.27,
-        "gap": 171,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.6 - 3 km S of Salinas, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.293,
-          17.9473333333333,
-          10.05
-        ]
-      },
-      "id": "pr71494193"
     }
   ],
   "bbox": [
