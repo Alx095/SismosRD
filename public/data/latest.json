@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1756899261000,
+    "generated": 1756899689000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 231
+    "count": 228
   },
   "features": [
     {
@@ -168,86 +168,6 @@
         ]
       },
       "id": "pr2025245000"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.99,
-        "place": "44 km N of Arecibo, Puerto Rico",
-        "time": 1756813097570,
-        "updated": 1756814677330,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71494398",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71494398.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 138,
-        "net": "pr",
-        "code": "71494398",
-        "ids": ",pr71494398,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 15,
-        "dmin": 0.418,
-        "rms": 0.18,
-        "gap": 268,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.0 - 44 km N of Arecibo, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.6881666666667,
-          18.8691666666667,
-          19.89
-        ]
-      },
-      "id": "pr71494398"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.14,
-        "place": "81 km N of Brenas, Puerto Rico",
-        "time": 1756812869640,
-        "updated": 1756814640360,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71494383",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71494383.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 152,
-        "net": "pr",
-        "code": "71494383",
-        "ids": ",pr71494383,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 16,
-        "dmin": 0.7706,
-        "rms": 0.25,
-        "gap": 291,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.1 - 81 km N of Brenas, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.2391666666667,
-          19.2008333333333,
-          24.26
-        ]
-      },
-      "id": "pr71494383"
     }
   ],
   "bbox": [
