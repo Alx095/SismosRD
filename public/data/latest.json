@@ -1,53 +1,93 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1756876744000,
+    "generated": 1756877529000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 257
+    "count": 256
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.8,
-        "place": "101 km N of Cruz Bay, U.S. Virgin Islands",
-        "time": 1756874973308,
-        "updated": 1756875403040,
+        "mag": 1.94,
+        "place": "3 km NW of Guayanilla, Puerto Rico",
+        "time": 1756876578780,
+        "updated": 1756877147180,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000qtf6",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000qtf6.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71494543",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71494543.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 121,
-        "net": "us",
-        "code": "7000qtf6",
-        "ids": ",us7000qtf6,",
-        "sources": ",us,",
+        "sig": 58,
+        "net": "pr",
+        "code": "71494543",
+        "ids": ",pr71494543,",
+        "sources": ",pr,",
         "types": ",origin,phase-data,",
-        "nst": 17,
-        "dmin": 0.823,
-        "rms": 0.36,
-        "gap": 262,
-        "magType": "ml",
+        "nst": 7,
+        "dmin": 0.09492,
+        "rms": 0.23,
+        "gap": 137,
+        "magType": "md",
         "type": "earthquake",
-        "title": "M 2.8 - 101 km N of Cruz Bay, U.S. Virgin Islands"
+        "title": "M 1.9 - 3 km NW of Guayanilla, Puerto Rico"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -64.6839,
-          19.2457,
-          10
+          -66.808,
+          18.0418333333333,
+          15.7
         ]
       },
-      "id": "us7000qtf6"
+      "id": "pr71494543"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.94,
+        "place": "169 km NNE of Cruz Bay, U.S. Virgin Islands",
+        "time": 1756874967520,
+        "updated": 1756876851650,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2025246001",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2025246001.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 239,
+        "net": "pr",
+        "code": "2025246001",
+        "ids": ",us7000qtf6,pr2025246001,",
+        "sources": ",us,pr,",
+        "types": ",origin,phase-data,",
+        "nst": 21,
+        "dmin": 1.3974,
+        "rms": 0.4,
+        "gap": 298,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 3.9 - 169 km NNE of Cruz Bay, U.S. Virgin Islands"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -64.1523,
+          19.7323,
+          49
+        ]
+      },
+      "id": "pr2025246001"
     },
     {
       "type": "Feature",
