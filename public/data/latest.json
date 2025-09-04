@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1756994238000,
+    "generated": 1756995396000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
-    "api": "2.2.0",
-    "count": 249
+    "api": "1.14.1",
+    "count": 252
   },
   "features": [
     {
@@ -15,17 +15,17 @@
         "mag": 4.4,
         "place": "8 km S of San José de Ocoa, Dominican Republic",
         "time": 1756992523826,
-        "updated": 1756993945916,
+        "updated": 1756995204923,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000qtrv",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000qtrv.geojson",
-        "felt": 10,
-        "cdi": 3.8,
+        "felt": 17,
+        "cdi": 4.3,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 302,
+        "sig": 305,
         "net": "us",
         "code": "7000qtrv",
         "ids": ",us7000qtrv,",
