@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1756970677000,
+    "generated": 1756971227000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
-    "api": "1.14.1",
-    "count": 241
+    "api": "2.2.0",
+    "count": 242
   },
   "features": [
     {
@@ -55,7 +55,7 @@
         "mag": 3.57,
         "place": "95 km ENE of Miches, Dominican Republic",
         "time": 1756968140130,
-        "updated": 1756969940908,
+        "updated": 1756970753040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2025247000",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2025247000.geojson",
@@ -68,8 +68,8 @@
         "sig": 196,
         "net": "pr",
         "code": "2025247000",
-        "ids": ",pr2025247000,",
-        "sources": ",pr,",
+        "ids": ",us7000qtqk,pr2025247000,",
+        "sources": ",us,pr,",
         "types": ",origin,phase-data,",
         "nst": 9,
         "dmin": 0.9368,
