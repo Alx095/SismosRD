@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1757008777000,
+    "generated": 1757010588000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "2.2.0",
-    "count": 256
+    "count": 260
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.02,
+        "place": "7 km WSW of La Parguera, Puerto Rico",
+        "time": 1757002814170,
+        "updated": 1757010525010,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71494678",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71494678.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 63,
+        "net": "pr",
+        "code": "71494678",
+        "ids": ",pr71494678,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 6,
+        "dmin": 0.06278,
+        "rms": 0.04,
+        "gap": 277,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.0 - 7 km WSW of La Parguera, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.1068333333333,
+          17.9433333333333,
+          12.23
+        ]
+      },
+      "id": "pr71494678"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -288,46 +328,6 @@
         ]
       },
       "id": "pr2025246004"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.73,
-        "place": "53 km NNE of Charlotte Amalie, U.S. Virgin Islands",
-        "time": 1756922557530,
-        "updated": 1756925901040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2025246003",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2025246003.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 214,
-        "net": "pr",
-        "code": "2025246003",
-        "ids": ",us7000qtke,pr2025246003,",
-        "sources": ",us,pr,",
-        "types": ",origin,phase-data,",
-        "nst": 18,
-        "dmin": 0.4526,
-        "rms": 0.32,
-        "gap": 230,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.7 - 53 km NNE of Charlotte Amalie, U.S. Virgin Islands"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -64.8246,
-          18.818,
-          12
-        ]
-      },
-      "id": "pr2025246003"
     }
   ],
   "bbox": [
