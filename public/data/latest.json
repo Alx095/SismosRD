@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1757053013000,
+    "generated": 1757054589000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "2.2.0",
-    "count": 260
+    "count": 256
   },
   "features": [
     {
@@ -408,126 +408,6 @@
         ]
       },
       "id": "pr71494658"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.57,
-        "place": "95 km ENE of Miches, Dominican Republic",
-        "time": 1756968140130,
-        "updated": 1756970753040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2025247000",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2025247000.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 196,
-        "net": "pr",
-        "code": "2025247000",
-        "ids": ",us7000qtqk,pr2025247000,",
-        "sources": ",us,pr,",
-        "types": ",origin,phase-data,",
-        "nst": 9,
-        "dmin": 0.9368,
-        "rms": 0.42,
-        "gap": 293,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.6 - 95 km ENE of Miches, Dominican Republic"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -68.2833,
-          19.4456,
-          58
-        ]
-      },
-      "id": "pr2025247000"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.91,
-        "place": "0 km SW of Guánica, Puerto Rico",
-        "time": 1756966682840,
-        "updated": 1756967674730,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71494633",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71494633.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 130,
-        "net": "pr",
-        "code": "71494633",
-        "ids": ",pr71494633,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 22,
-        "dmin": 0.03146,
-        "rms": 0.21,
-        "gap": 169,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.9 - 0 km SW of Guánica, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.9116666666667,
-          17.9688333333333,
-          14.3
-        ]
-      },
-      "id": "pr71494633"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.11,
-        "place": "2 km NW of Indios, Puerto Rico",
-        "time": 1756966639410,
-        "updated": 1756967118430,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71494628",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71494628.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 68,
-        "net": "pr",
-        "code": "71494628",
-        "ids": ",pr71494628,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 11,
-        "dmin": 0.04442,
-        "rms": 0.2,
-        "gap": 113,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.1 - 2 km NW of Indios, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.8355,
-          18.005,
-          11.95
-        ]
-      },
-      "id": "pr71494628"
     }
   ],
   "bbox": [
