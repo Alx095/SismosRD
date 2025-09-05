@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1757077403000,
+    "generated": 1757079159000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "2.2.0",
-    "count": 242
+    "count": 248
   },
   "features": [
     {
@@ -408,46 +408,6 @@
         ]
       },
       "id": "pr71494678"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.4,
-        "place": "8 km S of San José de Ocoa, Dominican Republic",
-        "time": 1756992523826,
-        "updated": 1757034374731,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000qtrv",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000qtrv.geojson",
-        "felt": 19,
-        "cdi": 4.3,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 306,
-        "net": "us",
-        "code": "7000qtrv",
-        "ids": ",us7000qtrv,",
-        "sources": ",us,",
-        "types": ",dyfi,moment-tensor,origin,phase-data,",
-        "nst": 42,
-        "dmin": 0.559,
-        "rms": 1.16,
-        "gap": 105,
-        "magType": "mwr",
-        "type": "earthquake",
-        "title": "M 4.4 - 8 km S of San José de Ocoa, Dominican Republic"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -70.5055,
-          18.4737,
-          10
-        ]
-      },
-      "id": "us7000qtrv"
     }
   ],
   "bbox": [
