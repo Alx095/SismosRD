@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1757099558000,
+    "generated": 1757100220000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
@@ -288,46 +288,6 @@
         ]
       },
       "id": "us7000qtwq"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.21,
-        "place": "4 km E of Hormigueros, Puerto Rico",
-        "time": 1757013348770,
-        "updated": 1757014083150,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71494698",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71494698.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 75,
-        "net": "pr",
-        "code": "71494698",
-        "ids": ",pr71494698,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 10,
-        "dmin": 0.03497,
-        "rms": 0.07,
-        "gap": 109,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.2 - 4 km E of Hormigueros, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -67.0885,
-          18.1406666666667,
-          21.36
-        ]
-      },
-      "id": "pr71494698"
     }
   ],
   "bbox": [
