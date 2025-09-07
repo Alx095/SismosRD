@@ -1,14 +1,94 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1757208232000,
+    "generated": 1757213051000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "2.2.0",
-    "count": 214
+    "count": 218
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.27,
+        "place": "11 km SSW of Guánica, Puerto Rico",
+        "time": 1757210423200,
+        "updated": 1757210901440,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71494933",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71494933.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 79,
+        "net": "pr",
+        "code": "71494933",
+        "ids": ",pr71494933,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 5,
+        "dmin": 0.1164,
+        "rms": 0.05,
+        "gap": 279,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.3 - 11 km SSW of Guánica, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.943,
+          17.8751666666667,
+          12.4
+        ]
+      },
+      "id": "pr71494933"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.73,
+        "place": "48 km WSW of Stella, Puerto Rico",
+        "time": 1757206115130,
+        "updated": 1757209551628,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2025250000",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2025250000.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 214,
+        "net": "pr",
+        "code": "2025250000",
+        "ids": ",pr2025250000,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 25,
+        "dmin": 0.5506,
+        "rms": 0.31,
+        "gap": 314,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 3.7 - 48 km WSW of Stella, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.6953,
+          18.2295,
+          97
+        ]
+      },
+      "id": "pr2025250000"
+    },
     {
       "type": "Feature",
       "properties": {
