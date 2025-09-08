@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1757289464000,
+    "generated": 1757294499000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "2.2.0",
-    "count": 214
+    "count": 212
   },
   "features": [
     {
@@ -208,86 +208,6 @@
         ]
       },
       "id": "pr71494933"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.73,
-        "place": "48 km WSW of Stella, Puerto Rico",
-        "time": 1757206115130,
-        "updated": 1757209551628,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2025250000",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2025250000.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 214,
-        "net": "pr",
-        "code": "2025250000",
-        "ids": ",pr2025250000,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 25,
-        "dmin": 0.5506,
-        "rms": 0.31,
-        "gap": 314,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.7 - 48 km WSW of Stella, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -67.6953,
-          18.2295,
-          97
-        ]
-      },
-      "id": "pr2025250000"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.43,
-        "place": "40 km SSE of Boca de Yuma, Dominican Republic",
-        "time": 1757205000430,
-        "updated": 1757206984290,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71494908",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71494908.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 181,
-        "net": "pr",
-        "code": "71494908",
-        "ids": ",pr71494908,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 13,
-        "dmin": 0.4571,
-        "rms": 0.17,
-        "gap": 237,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.4 - 40 km SSE of Boca de Yuma, Dominican Republic"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -68.4303333333333,
-          18.0573333333333,
-          84.58
-        ]
-      },
-      "id": "pr71494908"
     }
   ],
   "bbox": [
