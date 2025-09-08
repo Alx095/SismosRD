@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1757339760000,
+    "generated": 1757340900000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
-    "api": "2.2.0",
-    "count": 193
+    "api": "1.14.1",
+    "count": 199
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.26,
+        "place": "3 km NNW of Cabo Rojo, Puerto Rico",
+        "time": 1757339833730,
+        "updated": 1757340708640,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71495103",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71495103.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 79,
+        "net": "pr",
+        "code": "71495103",
+        "ids": ",pr71495103,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 8,
+        "dmin": 0.09401,
+        "rms": 0.18,
+        "gap": 212,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.3 - 3 km NNW of Cabo Rojo, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.1588333333333,
+          18.112,
+          17.36
+        ]
+      },
+      "id": "pr71495103"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -135,7 +175,7 @@
         "mag": 3.68,
         "place": "13 km WNW of Aguadilla, Puerto Rico",
         "time": 1757315040010,
-        "updated": 1757316648535,
+        "updated": 1757339984040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2025251001",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2025251001.geojson",
@@ -148,8 +188,8 @@
         "sig": 208,
         "net": "pr",
         "code": "2025251001",
-        "ids": ",pr2025251001,",
-        "sources": ",pr,",
+        "ids": ",us7000qupa,pr2025251001,",
+        "sources": ",us,pr,",
         "types": ",origin,phase-data,",
         "nst": 24,
         "dmin": 0.1554,
