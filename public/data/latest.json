@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1757449701000,
+    "generated": 1757450401000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "2.2.0",
-    "count": 273
+    "count": 270
   },
   "features": [
     {
@@ -168,54 +168,14 @@
         ]
       },
       "id": "us7000quwf"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.84,
-        "place": "8 km E of Mayagüez, Puerto Rico",
-        "time": 1757363376360,
-        "updated": 1757365040510,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71495143",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71495143.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 124,
-        "net": "pr",
-        "code": "71495143",
-        "ids": ",pr71495143,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 17,
-        "dmin": 0.02744,
-        "rms": 0.15,
-        "gap": 71,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.8 - 8 km E of Mayagüez, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -67.0625,
-          18.192,
-          16.62
-        ]
-      },
-      "id": "pr71495143"
     }
   ],
   "bbox": [
-    -178.5112,
+    -164.002,
     -37.3956,
     -2.62,
     173.7581,
     65.124,
-    590.647
+    208.929
   ]
 }
