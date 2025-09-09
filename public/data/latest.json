@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1757400977000,
+    "generated": 1757402064000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 246
+    "count": 242
   },
   "features": [
     {
@@ -288,52 +288,12 @@
         ]
       },
       "id": "pr71495068"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.68,
-        "place": "13 km WNW of Aguadilla, Puerto Rico",
-        "time": 1757315040010,
-        "updated": 1757339984040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2025251001",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2025251001.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 208,
-        "net": "pr",
-        "code": "2025251001",
-        "ids": ",us7000qupa,pr2025251001,",
-        "sources": ",us,pr,",
-        "types": ",origin,phase-data,",
-        "nst": 24,
-        "dmin": 0.1554,
-        "rms": 0.17,
-        "gap": 288,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.7 - 13 km WNW of Aguadilla, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -67.2661,
-          18.4798,
-          97
-        ]
-      },
-      "id": "pr2025251001"
     }
   ],
   "bbox": [
     -178.5112,
     -56.1447,
-    -2.96,
+    -2.21,
     173.7581,
     65.233,
     590.647
