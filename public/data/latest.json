@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1757386194000,
+    "generated": 1757388292000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "2.2.0",
-    "count": 243
+    "count": 241
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.94,
+        "place": "8 km E of Santa Cruz de El Seibo, Dominican Republic",
+        "time": 1757383655990,
+        "updated": 1757386473921,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2025252000",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2025252000.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 239,
+        "net": "pr",
+        "code": "2025252000",
+        "ids": ",pr2025252000,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 18,
+        "dmin": 0.5803,
+        "rms": 0.53,
+        "gap": 164,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 3.9 - 8 km E of Santa Cruz de El Seibo, Dominican Republic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.96,
+          18.7563,
+          139
+        ]
+      },
+      "id": "pr2025252000"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -332,7 +372,7 @@
   ],
   "bbox": [
     -179.202,
-    -58.3414,
+    -56.1447,
     -2.96,
     173.7581,
     65.233,
