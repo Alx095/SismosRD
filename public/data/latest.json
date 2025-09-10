@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1757501950000,
+    "generated": 1757502956000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
-    "api": "2.2.0",
-    "count": 227
+    "api": "1.14.1",
+    "count": 226
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.19,
+        "place": "40 km N of Isabela, Puerto Rico",
+        "time": 1757500443240,
+        "updated": 1757502778800,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71495258",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71495258.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 157,
+        "net": "pr",
+        "code": "71495258",
+        "ids": ",pr71495258,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 11,
+        "dmin": 0.3995,
+        "rms": 0.28,
+        "gap": 232,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 3.2 - 40 km N of Isabela, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.0348333333333,
+          18.8625,
+          8.11
+        ]
+      },
+      "id": "pr71495258"
+    },
     {
       "type": "Feature",
       "properties": {
