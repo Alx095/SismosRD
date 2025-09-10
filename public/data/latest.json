@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1757467015000,
+    "generated": 1757471684000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 282
+    "count": 270
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.86,
+        "place": "82 km NNE of Cruz Bay, U.S. Virgin Islands",
+        "time": 1757465862760,
+        "updated": 1757468441220,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2025253000",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2025253000.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 229,
+        "net": "pr",
+        "code": "2025253000",
+        "ids": ",pr2025253000,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 20,
+        "dmin": 0.5249,
+        "rms": 0.43,
+        "gap": 273,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 3.9 - 82 km NNE of Cruz Bay, U.S. Virgin Islands"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -64.473,
+          19.0106,
+          64
+        ]
+      },
+      "id": "pr2025253000"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -208,46 +248,6 @@
         ]
       },
       "id": "pr71495183"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.7,
-        "place": "7 km NNE of Santa Cruz de El Seibo, Dominican Republic",
-        "time": 1757383654684,
-        "updated": 1757390667040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000quwf",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000quwf.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 112,
-        "net": "us",
-        "code": "7000quwf",
-        "ids": ",pr2025252000,us7000quwf,",
-        "sources": ",pr,us,",
-        "types": ",origin,phase-data,",
-        "nst": 14,
-        "dmin": 0.347,
-        "rms": 0.77,
-        "gap": 144,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.7 - 7 km NNE of Santa Cruz de El Seibo, Dominican Republic"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -69.0185,
-          18.8341,
-          138.107
-        ]
-      },
-      "id": "us7000quwf"
     }
   ],
   "bbox": [
