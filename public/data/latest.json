@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1757598429000,
+    "generated": 1757598900000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
-    "api": "2.2.0",
-    "count": 199
+    "api": "1.14.1",
+    "count": 201
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.36,
+        "place": "0 km ESE of Indios, Puerto Rico",
+        "time": 1757596789580,
+        "updated": 1757598479400,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71495338",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71495338.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 86,
+        "net": "pr",
+        "code": "71495338",
+        "ids": ",pr71495338,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 9,
+        "dmin": 0.05475,
+        "rms": 0.14,
+        "gap": 141,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.4 - 0 km ESE of Indios, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.8141666666667,
+          17.991,
+          12.39
+        ]
+      },
+      "id": "pr71495338"
+    },
     {
       "type": "Feature",
       "properties": {
