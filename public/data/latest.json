@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1757802415000,
+    "generated": 1757802969000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
@@ -95,11 +95,11 @@
         "mag": 4.5,
         "place": "48 km N of Savannah Bight, Honduras",
         "time": 1757775667308,
-        "updated": 1757777256231,
+        "updated": 1757802804805,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000qvzw",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000qvzw.geojson",
-        "felt": 1,
+        "felt": 2,
         "cdi": 2.7,
         "mmi": null,
         "alert": null,
