@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1757851118000,
+    "generated": 1757853399000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
@@ -9,6 +9,46 @@
     "count": 221
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.1,
+        "place": "18 km WSW of Esperanza, Puerto Rico",
+        "time": 1757849522930,
+        "updated": 1757852016810,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71495653",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71495653.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 68,
+        "net": "pr",
+        "code": "71495653",
+        "ids": ",pr71495653,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 8,
+        "dmin": 0.1036,
+        "rms": 0.17,
+        "gap": 226,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.1 - 18 km WSW of Esperanza, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.6295,
+          18.0233333333333,
+          6.67
+        ]
+      },
+      "id": "pr71495653"
+    },
     {
       "type": "Feature",
       "properties": {
