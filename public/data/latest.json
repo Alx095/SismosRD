@@ -1,21 +1,101 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1757817655000,
+    "generated": 1757820181000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 236
+    "count": 244
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.06,
+        "place": "2 km SSE of Guánica, Puerto Rico",
+        "time": 1757818961570,
+        "updated": 1757820081530,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71495613",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71495613.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 65,
+        "net": "pr",
+        "code": "71495613",
+        "ids": ",pr71495613,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 3,
+        "dmin": 0.03039,
+        "rms": 0.03,
+        "gap": 240,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.1 - 2 km SSE of Guánica, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.8991666666667,
+          17.9511666666667,
+          13.55
+        ]
+      },
+      "id": "pr71495613"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.5,
+        "place": "3 km SW of Luyando, Puerto Rico",
+        "time": 1757815329470,
+        "updated": 1757817910140,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71495608",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71495608.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 96,
+        "net": "pr",
+        "code": "71495608",
+        "ids": ",pr71495608,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 10,
+        "dmin": 0.1332,
+        "rms": 0.27,
+        "gap": 220,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.5 - 3 km SW of Luyando, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.18,
+          18.3466666666667,
+          18.57
+        ]
+      },
+      "id": "pr71495608"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 3.76,
         "place": "99 km NNE of Cruz Bay, U.S. Virgin Islands",
         "time": 1757804165320,
-        "updated": 1757807825488,
+        "updated": 1757819385040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2025256000",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2025256000.geojson",
@@ -28,8 +108,8 @@
         "sig": 218,
         "net": "pr",
         "code": "2025256000",
-        "ids": ",pr2025256000,",
-        "sources": ",pr,",
+        "ids": ",us7000qw1u,pr2025256000,",
+        "sources": ",us,pr,",
         "types": ",origin,phase-data,",
         "nst": 12,
         "dmin": 0.6946,
