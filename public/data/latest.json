@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1757821403000,
+    "generated": 1757821914000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "2.2.0",
-    "count": 240
+    "count": 242
   },
   "features": [
     {
@@ -15,7 +15,7 @@
         "mag": 3.28,
         "place": "16 km WSW of Esperanza, Puerto Rico",
         "time": 1757819450590,
-        "updated": 1757821265740,
+        "updated": 1757821555040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71495618",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71495618.geojson",
@@ -28,8 +28,8 @@
         "sig": 166,
         "net": "pr",
         "code": "71495618",
-        "ids": ",pr71495618,",
-        "sources": ",pr,",
+        "ids": ",us7000qw2r,pr71495618,",
+        "sources": ",us,pr,",
         "types": ",origin,phase-data,",
         "nst": 22,
         "dmin": 0.08836,
