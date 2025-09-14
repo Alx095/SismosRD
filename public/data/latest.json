@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1757861911000,
+    "generated": 1757862937000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
-    "api": "1.14.1",
-    "count": 213
+    "api": "2.2.0",
+    "count": 210
   },
   "features": [
     {
@@ -288,46 +288,6 @@
         ]
       },
       "id": "pr71495573"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.5,
-        "place": "48 km N of Savannah Bight, Honduras",
-        "time": 1757775667308,
-        "updated": 1757802804805,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000qvzw",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000qvzw.geojson",
-        "felt": 2,
-        "cdi": 2.7,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 312,
-        "net": "us",
-        "code": "7000qvzw",
-        "ids": ",us7000qvzw,",
-        "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 23,
-        "dmin": 3.139,
-        "rms": 0.82,
-        "gap": 86,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.5 - 48 km N of Savannah Bight, Honduras"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -85.8227,
-          16.8833,
-          10
-        ]
-      },
-      "id": "us7000qvzw"
     }
   ],
   "bbox": [
