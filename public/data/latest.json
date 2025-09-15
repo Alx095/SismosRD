@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1757935791000,
+    "generated": 1757936337000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 185
+    "count": 184
   },
   "features": [
     {
@@ -55,17 +55,17 @@
         "mag": 5,
         "place": "28 km NNE of Anse-Bertrand, Guadeloupe",
         "time": 1757927781775,
-        "updated": 1757935215425,
+        "updated": 1757935812036,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000qw9p",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000qw9p.geojson",
-        "felt": 23,
+        "felt": 24,
         "cdi": 5,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 396,
+        "sig": 397,
         "net": "us",
         "code": "7000qw9p",
         "ids": ",us7000qw9p,",
@@ -208,46 +208,6 @@
         ]
       },
       "id": "pr71495663"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.1,
-        "place": "18 km WSW of Esperanza, Puerto Rico",
-        "time": 1757849522930,
-        "updated": 1757852016810,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71495653",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71495653.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 68,
-        "net": "pr",
-        "code": "71495653",
-        "ids": ",pr71495653,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 8,
-        "dmin": 0.1036,
-        "rms": 0.17,
-        "gap": 226,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.1 - 18 km WSW of Esperanza, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -65.6295,
-          18.0233333333333,
-          6.67
-        ]
-      },
-      "id": "pr71495653"
     }
   ],
   "bbox": [
