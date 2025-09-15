@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1757899523000,
+    "generated": 1757904547000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "2.2.0",
-    "count": 186
+    "count": 184
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.26,
+        "place": "2 km W of Guayanilla, Puerto Rico",
+        "time": 1757900495460,
+        "updated": 1757901034840,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71495678",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71495678.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 79,
+        "net": "pr",
+        "code": "71495678",
+        "ids": ",pr71495678,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 9,
+        "dmin": 0.06975,
+        "rms": 0.14,
+        "gap": 143,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.3 - 2 km W of Guayanilla, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.8163333333333,
+          18.0218333333333,
+          19.55
+        ]
+      },
+      "id": "pr71495678"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -168,51 +208,11 @@
         ]
       },
       "id": "pr71495613"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.5,
-        "place": "3 km SW of Luyando, Puerto Rico",
-        "time": 1757815329470,
-        "updated": 1757817910140,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71495608",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71495608.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 96,
-        "net": "pr",
-        "code": "71495608",
-        "ids": ",pr71495608,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 10,
-        "dmin": 0.1332,
-        "rms": 0.27,
-        "gap": 220,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.5 - 3 km SW of Luyando, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -67.18,
-          18.3466666666667,
-          18.57
-        ]
-      },
-      "id": "pr71495608"
     }
   ],
   "bbox": [
     -178.75933333333,
-    -22.9178,
+    -27.9223,
     -1.13,
     160.195,
     65.0385,
