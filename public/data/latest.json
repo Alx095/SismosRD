@@ -1,11 +1,11 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1757904547000,
+    "generated": 1757907099000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
-    "api": "2.2.0",
+    "api": "1.14.1",
     "count": 184
   },
   "features": [
@@ -128,86 +128,6 @@
         ]
       },
       "id": "pr71495653"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.28,
-        "place": "16 km WSW of Esperanza, Puerto Rico",
-        "time": 1757819450590,
-        "updated": 1757821555040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71495618",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71495618.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 166,
-        "net": "pr",
-        "code": "71495618",
-        "ids": ",us7000qw2r,pr71495618,",
-        "sources": ",us,pr,",
-        "types": ",origin,phase-data,",
-        "nst": 22,
-        "dmin": 0.08836,
-        "rms": 0.19,
-        "gap": 196,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.3 - 16 km WSW of Esperanza, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -65.607,
-          18.0251666666667,
-          13.25
-        ]
-      },
-      "id": "pr71495618"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.06,
-        "place": "2 km SSE of Guánica, Puerto Rico",
-        "time": 1757818961570,
-        "updated": 1757820081530,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71495613",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71495613.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 65,
-        "net": "pr",
-        "code": "71495613",
-        "ids": ",pr71495613,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 3,
-        "dmin": 0.03039,
-        "rms": 0.03,
-        "gap": 240,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.1 - 2 km SSE of Guánica, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.8991666666667,
-          17.9511666666667,
-          13.55
-        ]
-      },
-      "id": "pr71495613"
     }
   ],
   "bbox": [
@@ -216,6 +136,6 @@
     -1.13,
     160.195,
     65.0385,
-    220.479
+    246
   ]
 }
