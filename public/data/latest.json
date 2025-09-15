@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1757934518000,
+    "generated": 1757935373000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "2.2.0",
-    "count": 181
+    "count": 183
   },
   "features": [
     {
@@ -15,11 +15,11 @@
         "mag": 5,
         "place": "28 km NNE of Anse-Bertrand, Guadeloupe",
         "time": 1757927781775,
-        "updated": 1757933296356,
+        "updated": 1757935215425,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000qw9p",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000qw9p.geojson",
-        "felt": 22,
+        "felt": 23,
         "cdi": 5,
         "mmi": null,
         "alert": null,
