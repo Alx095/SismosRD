@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1757928644000,
+    "generated": 1757929392000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
-    "api": "2.2.0",
-    "count": 174
+    "api": "1.14.1",
+    "count": 173
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5,
+        "place": "28 km NNE of Anse-Bertrand, Guadeloupe",
+        "time": 1757927781775,
+        "updated": 1757929327819,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000qw9p",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000qw9p.geojson",
+        "felt": 4,
+        "cdi": 5,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 387,
+        "net": "us",
+        "code": "7000qw9p",
+        "ids": ",us7000qw9p,",
+        "sources": ",us,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": 124,
+        "dmin": 0.251,
+        "rms": 0.81,
+        "gap": 46,
+        "magType": "mww",
+        "type": "earthquake",
+        "title": "M 5.0 - 28 km NNE of Anse-Bertrand, Guadeloupe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -61.4232,
+          16.7191,
+          60.74
+        ]
+      },
+      "id": "us7000qw9p"
+    },
     {
       "type": "Feature",
       "properties": {
