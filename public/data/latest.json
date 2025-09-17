@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1758146081000,
+    "generated": 1758146985000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "2.2.0",
-    "count": 289
+    "count": 288
   },
   "features": [
     {
@@ -15,11 +15,11 @@
         "mag": 3.28,
         "place": "4 km WSW of Las Marías, Puerto Rico",
         "time": 1758103756540,
-        "updated": 1758106599611,
+        "updated": 1758146651890,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2025260000",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2025260000.geojson",
-        "felt": 1,
+        "felt": 2,
         "cdi": 3.8,
         "mmi": null,
         "alert": null,
