@@ -1,53 +1,53 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1758253947000,
+    "generated": 1758254418000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 276
+    "count": 277
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 3.7,
-        "place": "25 km SE of Boca de Yuma, Dominican Republic",
-        "time": 1758252124378,
-        "updated": 1758252898040,
+        "mag": 3.88,
+        "place": "28 km SSE of Boca de Yuma, Dominican Republic",
+        "time": 1758252125060,
+        "updated": 1758254117644,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000qx6y",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000qx6y.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2025262000",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2025262000.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 211,
-        "net": "us",
-        "code": "7000qx6y",
-        "ids": ",us7000qx6y,",
-        "sources": ",us,",
+        "sig": 232,
+        "net": "pr",
+        "code": "2025262000",
+        "ids": ",us7000qx6y,pr2025262000,",
+        "sources": ",us,pr,",
         "types": ",origin,phase-data,",
-        "nst": 22,
-        "dmin": 0.312,
-        "rms": 0.6,
-        "gap": 95,
-        "magType": "ml",
+        "nst": 24,
+        "dmin": 0.3999,
+        "rms": 0.38,
+        "gap": 187,
+        "magType": "md",
         "type": "earthquake",
-        "title": "M 3.7 - 25 km SE of Boca de Yuma, Dominican Republic"
+        "title": "M 3.9 - 28 km SSE of Boca de Yuma, Dominican Republic"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -68.4481,
-          18.2072,
-          103.867
+          -68.5196,
+          18.1386,
+          92
         ]
       },
-      "id": "us7000qx6y"
+      "id": "pr2025262000"
     },
     {
       "type": "Feature",
