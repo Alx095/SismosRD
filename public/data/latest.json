@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1758354601000,
+    "generated": 1758354811000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
@@ -9,6 +9,46 @@
     "count": 247
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.63,
+        "place": "10 km S of Santa Isabel, Puerto Rico",
+        "time": 1758353912860,
+        "updated": 1758354733000,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71496073",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71496073.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 106,
+        "net": "pr",
+        "code": "71496073",
+        "ids": ",pr71496073,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 12,
+        "dmin": 0.1214,
+        "rms": 0.45,
+        "gap": 203,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.6 - 10 km S of Santa Isabel, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.4,
+          17.8726666666667,
+          6.28
+        ]
+      },
+      "id": "pr71496073"
+    },
     {
       "type": "Feature",
       "properties": {
