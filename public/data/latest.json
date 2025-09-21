@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1758462067000,
+    "generated": 1758462487000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
@@ -293,7 +293,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.26,
-        "place": "Puerto Rico",
+        "place": "3 km SW of Indios, Puerto Rico",
         "time": 1758406385050,
         "updated": 1758407650680,
         "tz": null,
@@ -317,7 +317,7 @@
         "gap": 190,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 2.3 - Puerto Rico"
+        "title": "M 2.3 - 3 km SW of Indios, Puerto Rico"
       },
       "geometry": {
         "type": "Point",
