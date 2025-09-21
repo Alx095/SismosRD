@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1758482504000,
+    "generated": 1758482946000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
@@ -9,6 +9,46 @@
     "count": 195
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.52,
+        "place": "87 km NE of Punta Cana, Dominican Republic",
+        "time": 1758477747340,
+        "updated": 1758482931749,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2025264006",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2025264006.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 191,
+        "net": "pr",
+        "code": "2025264006",
+        "ids": ",pr2025264006,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 23,
+        "dmin": 0.8436,
+        "rms": 0.66,
+        "gap": 179,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 3.5 - 87 km NE of Punta Cana, Dominican Republic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.7491,
+          19.0723,
+          44
+        ]
+      },
+      "id": "pr2025264006"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -373,7 +413,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.26,
-        "place": "3 km SW of Indios, Puerto Rico",
+        "place": "Puerto Rico",
         "time": 1758406385050,
         "updated": 1758407650680,
         "tz": null,
@@ -397,7 +437,7 @@
         "gap": 190,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 2.3 - 3 km SW of Indios, Puerto Rico"
+        "title": "M 2.3 - Puerto Rico"
       },
       "geometry": {
         "type": "Point",
