@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1758542270000,
+    "generated": 1758544802000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 177
+    "count": 182
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.6,
+        "place": "83 km NW of Tamarindo, Costa Rica",
+        "time": 1758542193340,
+        "updated": 1758543725040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000qxte",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000qxte.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 326,
+        "net": "us",
+        "code": "7000qxte",
+        "ids": ",us7000qxte,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 135,
+        "dmin": 1.133,
+        "rms": 0.84,
+        "gap": 170,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.6 - 83 km NW of Tamarindo, Costa Rica"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.4702,
+          10.7273,
+          10
+        ]
+      },
+      "id": "us7000qxte"
+    },
     {
       "type": "Feature",
       "properties": {
