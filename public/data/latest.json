@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1758518438000,
+    "generated": 1758519338000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 187
+    "count": 182
   },
   "features": [
     {
@@ -408,46 +408,6 @@
         ]
       },
       "id": "pr2025264002"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.92,
-        "place": "80 km NE of Miches, Dominican Republic",
-        "time": 1758432566770,
-        "updated": 1758435704677,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2025264001",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2025264001.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 236,
-        "net": "pr",
-        "code": "2025264001",
-        "ids": ",us7000qxn2,pr2025264001,",
-        "sources": ",us,pr,",
-        "types": ",origin,phase-data,",
-        "nst": 23,
-        "dmin": 0.7561,
-        "rms": 0.46,
-        "gap": 217,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.9 - 80 km NE of Miches, Dominican Republic"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -68.4453,
-          19.4305,
-          55
-        ]
-      },
-      "id": "pr2025264001"
     }
   ],
   "bbox": [
