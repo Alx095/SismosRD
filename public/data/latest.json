@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1758532433000,
+    "generated": 1758533633000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
@@ -9,6 +9,86 @@
     "count": 174
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.23,
+        "place": "3 km ESE of Maria Antonia, Puerto Rico",
+        "time": 1758532152550,
+        "updated": 1758533323690,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71496288",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71496288.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 77,
+        "net": "pr",
+        "code": "71496288",
+        "ids": ",pr71496288,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 8,
+        "dmin": 0.007275,
+        "rms": 0.08,
+        "gap": 201,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.2 - 3 km ESE of Maria Antonia, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.8606666666667,
+          17.9723333333333,
+          18.91
+        ]
+      },
+      "id": "pr71496288"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.17,
+        "place": "2 km S of Indios, Puerto Rico",
+        "time": 1758530997400,
+        "updated": 1758532654490,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71496278",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71496278.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 72,
+        "net": "pr",
+        "code": "71496278",
+        "ids": ",pr71496278,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 12,
+        "dmin": 0.04917,
+        "rms": 0.17,
+        "gap": 200,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.2 - 2 km S of Indios, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.8166666666667,
+          17.971,
+          14.91
+        ]
+      },
+      "id": "pr71496278"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -331,7 +411,7 @@
     }
   ],
   "bbox": [
-    -178.0199,
+    -155.50115966797,
     -22.6455,
     -2.74,
     170.4294,
