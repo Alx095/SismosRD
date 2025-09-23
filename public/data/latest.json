@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1758593523000,
+    "generated": 1758596702000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 248
+    "count": 246
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.5,
+        "place": "72 km N of Punta Cana, Dominican Republic",
+        "time": 1758593783610,
+        "updated": 1758594198040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000rc7h",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000rc7h.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 96,
+        "net": "us",
+        "code": "6000rc7h",
+        "ids": ",us6000rc7h,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 14,
+        "dmin": 0.718,
+        "rms": 0.4,
+        "gap": 198,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.5 - 72 km N of Punta Cana, Dominican Republic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.289,
+          19.2312,
+          3.244
+        ]
+      },
+      "id": "us6000rc7h"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -173,7 +213,7 @@
   "bbox": [
     -157.4813,
     -37.8796,
-    -2.74,
+    -2,
     176.3906,
     66.3365,
     261.909
