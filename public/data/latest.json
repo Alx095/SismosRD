@@ -1,14 +1,134 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1759099082000,
+    "generated": 1759099570000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
-    "api": "2.2.0",
-    "count": 93
+    "api": "1.14.1",
+    "count": 191
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.08,
+        "place": "55 km NNE of Vieques, Puerto Rico",
+        "time": 1759089965420,
+        "updated": 1759091371460,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71496703",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71496703.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 146,
+        "net": "pr",
+        "code": "71496703",
+        "ids": ",pr71496703,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 8,
+        "dmin": 0.6426,
+        "rms": 0.34,
+        "gap": 236,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 3.1 - 55 km NNE of Vieques, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.5655,
+          18.8568333333333,
+          53.24
+        ]
+      },
+      "id": "pr71496703"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.74,
+        "place": "19 km N of Hatillo, Puerto Rico",
+        "time": 1759089836360,
+        "updated": 1759090744420,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71496698",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71496698.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 116,
+        "net": "pr",
+        "code": "71496698",
+        "ids": ",pr71496698,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 9,
+        "dmin": 0.3157,
+        "rms": 0.11,
+        "gap": 239,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.7 - 19 km N of Hatillo, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.8038333333333,
+          18.6605,
+          13.28
+        ]
+      },
+      "id": "pr71496698"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.66,
+        "place": "99 km NNE of Cruz Bay, U.S. Virgin Islands",
+        "time": 1759065665310,
+        "updated": 1759067381952,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2025271000",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2025271000.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 206,
+        "net": "pr",
+        "code": "2025271000",
+        "ids": ",us6000rdfl,pr2025271000,",
+        "sources": ",us,pr,",
+        "types": ",origin,phase-data,",
+        "nst": 20,
+        "dmin": 0.7411,
+        "rms": 0.35,
+        "gap": 272,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 3.7 - 99 km NNE of Cruz Bay, U.S. Virgin Islands"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -64.581,
+          19.2098,
+          23
+        ]
+      },
+      "id": "pr2025271000"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -91,11 +211,11 @@
     }
   ],
   "bbox": [
-    -175.7405,
+    -178.2619,
     -29.1489,
     -0.75999999046326,
     178.842,
-    64.9832,
-    556.297
+    67.0603,
+    606.445
   ]
 }
