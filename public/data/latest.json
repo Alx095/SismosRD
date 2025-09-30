@@ -1,53 +1,53 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1759229205000,
+    "generated": 1759229685000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 225
+    "count": 222
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 4.4,
-        "place": "116 km N of Isabela, Puerto Rico",
-        "time": 1759226854427,
-        "updated": 1759227648040,
+        "mag": 4.22,
+        "place": "123 km N of Isabela, Puerto Rico",
+        "time": 1759226855990,
+        "updated": 1759229227548,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000rdqx",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000rdqx.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2025273000",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2025273000.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 298,
-        "net": "us",
-        "code": "6000rdqx",
-        "ids": ",us6000rdqx,",
-        "sources": ",us,",
+        "sig": 274,
+        "net": "pr",
+        "code": "2025273000",
+        "ids": ",us6000rdqx,pr2025273000,",
+        "sources": ",us,pr,",
         "types": ",origin,phase-data,",
-        "nst": 42,
-        "dmin": 1.085,
-        "rms": 0.89,
-        "gap": 135,
-        "magType": "mb",
+        "nst": 26,
+        "dmin": 1.1573,
+        "rms": 0.3,
+        "gap": 212,
+        "magType": "md",
         "type": "earthquake",
-        "title": "M 4.4 - 116 km N of Isabela, Puerto Rico"
+        "title": "M 4.2 - 123 km N of Isabela, Puerto Rico"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -67.0143,
-          19.5545,
-          25.405
+          -66.9935,
+          19.6188,
+          39
         ]
       },
-      "id": "us6000rdqx"
+      "id": "pr2025273000"
     },
     {
       "type": "Feature",
@@ -131,7 +131,7 @@
     }
   ],
   "bbox": [
-    -159.13416666667,
+    -157.0579,
     -32.5992,
     -2.01,
     179.59483333333,
