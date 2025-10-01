@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1759339206000,
+    "generated": 1759340009000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 246
+    "count": 250
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.35,
+        "place": "2 km WNW of Arecibo, Puerto Rico",
+        "time": 1759337697490,
+        "updated": 1759339858080,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71496833",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71496833.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 85,
+        "net": "pr",
+        "code": "71496833",
+        "ids": ",pr71496833,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 9,
+        "dmin": 0.1347,
+        "rms": 0.26,
+        "gap": 183,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.4 - 2 km WNW of Arecibo, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.7336666666667,
+          18.4806666666667,
+          15.06
+        ]
+      },
+      "id": "pr71496833"
+    },
     {
       "type": "Feature",
       "properties": {
