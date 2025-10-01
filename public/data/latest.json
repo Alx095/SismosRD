@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1759357862000,
+    "generated": 1759358442000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 239
+    "count": 242
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.93,
+        "place": "2 km SE of Cidra, Puerto Rico",
+        "time": 1759357616050,
+        "updated": 1759358192680,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71496838",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71496838.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 57,
+        "net": "pr",
+        "code": "71496838",
+        "ids": ",pr71496838,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 8,
+        "dmin": 0.04485,
+        "rms": 0.09,
+        "gap": 72,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 1.9 - 2 km SE of Cidra, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1456666666667,
+          18.154,
+          29.12
+        ]
+      },
+      "id": "pr71496838"
+    },
     {
       "type": "Feature",
       "properties": {
