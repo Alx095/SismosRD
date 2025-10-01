@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1759299777000,
+    "generated": 1759301113000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 265
+    "count": 263
   },
   "features": [
     {
@@ -128,46 +128,6 @@
         ]
       },
       "id": "pr2025273000"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.25,
-        "place": "9 km SSE of Tallaboa, Puerto Rico",
-        "time": 1759214230000,
-        "updated": 1759219834920,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71496763",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71496763.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 78,
-        "net": "pr",
-        "code": "71496763",
-        "ids": ",pr71496763,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 9,
-        "dmin": 0.1434,
-        "rms": 0.09,
-        "gap": 199,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.3 - 9 km SSE of Tallaboa, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.675,
-          17.9145,
-          6.52
-        ]
-      },
-      "id": "pr71496763"
     }
   ],
   "bbox": [
