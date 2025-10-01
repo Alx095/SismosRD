@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1759319893000,
+    "generated": 1759322602000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 255
+    "count": 261
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.9,
+        "place": "54 km SW of Masachapa, Nicaragua",
+        "time": 1759319971549,
+        "updated": 1759322102040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000rdyz",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000rdyz.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 369,
+        "net": "us",
+        "code": "6000rdyz",
+        "ids": ",us6000rdyz,",
+        "sources": ",us,",
+        "types": ",moment-tensor,origin,phase-data,",
+        "nst": 129,
+        "dmin": 0.933,
+        "rms": 0.78,
+        "gap": 148,
+        "magType": "mww",
+        "type": "earthquake",
+        "title": "M 4.9 - 54 km SW of Masachapa, Nicaragua"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.817,
+          11.3958,
+          46.493
+        ]
+      },
+      "id": "us6000rdyz"
+    },
     {
       "type": "Feature",
       "properties": {
