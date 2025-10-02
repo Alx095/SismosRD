@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1759371805000,
+    "generated": 1759374454000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 255
+    "count": 263
   },
   "features": [
     {
@@ -168,53 +168,13 @@
         ]
       },
       "id": "pr71496808"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.6,
-        "place": "60 km N of Savannah Bight, Honduras",
-        "time": 1759286136597,
-        "updated": 1759290368040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000rdxt",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000rdxt.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 326,
-        "net": "us",
-        "code": "6000rdxt",
-        "ids": ",us6000rdxt,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 60,
-        "dmin": 3.256,
-        "rms": 1.16,
-        "gap": 33,
-        "magType": "mww",
-        "type": "earthquake",
-        "title": "M 4.6 - 60 km N of Savannah Bight, Honduras"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -85.7835,
-          16.9963,
-          10
-        ]
-      },
-      "id": "us6000rdxt"
     }
   ],
   "bbox": [
-    -176.21633333333,
+    -177.853,
     -8.7962,
     -3.18,
-    179.56216666667,
+    179.581,
     69.6112,
     421.007
   ]
