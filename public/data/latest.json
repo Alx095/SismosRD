@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1759506957000,
+    "generated": 1759508185000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 238
+    "count": 236
   },
   "features": [
     {
@@ -15,12 +15,12 @@
         "mag": 4.8,
         "place": "19 km N of Chateaubelair, Saint Vincent and the Grenadines",
         "time": 1759503564777,
-        "updated": 1759505143040,
+        "updated": 1759507247809,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000rehv",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000rehv.geojson",
-        "felt": 1,
-        "cdi": 4.1,
+        "felt": 2,
+        "cdi": 2,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
