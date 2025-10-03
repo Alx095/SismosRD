@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1759491718000,
+    "generated": 1759492158000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 232
+    "count": 235
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.2,
+        "place": "81 km W of Tamarindo, Costa Rica",
+        "time": 1759488451827,
+        "updated": 1759492137040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000reh3",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000reh3.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 271,
+        "net": "us",
+        "code": "6000reh3",
+        "ids": ",us6000reh3,",
+        "sources": ",us,",
+        "types": ",moment-tensor,origin,phase-data,",
+        "nst": 98,
+        "dmin": 1.183,
+        "rms": 0.53,
+        "gap": 153,
+        "magType": "mwr",
+        "type": "earthquake",
+        "title": "M 4.2 - 81 km W of Tamarindo, Costa Rica"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.5812,
+          10.3444,
+          19.426
+        ]
+      },
+      "id": "us6000reh3"
+    },
     {
       "type": "Feature",
       "properties": {
