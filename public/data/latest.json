@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1759578751000,
+    "generated": 1759579965000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 194
+    "count": 199
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3,
+        "place": "7 km ENE of Miches, Dominican Republic",
+        "time": 1759568048147,
+        "updated": 1759579365040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000rerl",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000rerl.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 138,
+        "net": "us",
+        "code": "6000rerl",
+        "ids": ",us6000rerl,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 17,
+        "dmin": 0.753,
+        "rms": 0.93,
+        "gap": 136,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.0 - 7 km ENE of Miches, Dominican Republic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.983,
+          19.0084,
+          5.342
+        ]
+      },
+      "id": "us6000rerl"
+    },
     {
       "type": "Feature",
       "properties": {
