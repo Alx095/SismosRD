@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1759589902000,
+    "generated": 1759590960000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 205
+    "count": 204
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.08,
+        "place": "49 km NNE of Vieques, Puerto Rico",
+        "time": 1759589147760,
+        "updated": 1759590470880,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71496993",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71496993.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 146,
+        "net": "pr",
+        "code": "71496993",
+        "ids": ",pr71496993,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 20,
+        "dmin": 0.4678,
+        "rms": 0.42,
+        "gap": 207,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 3.1 - 49 km NNE of Vieques, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.5783333333333,
+          18.7998333333333,
+          6.25
+        ]
+      },
+      "id": "pr71496993"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -168,46 +208,6 @@
         ]
       },
       "id": "pr71496938"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.8,
-        "place": "19 km N of Chateaubelair, Saint Vincent and the Grenadines",
-        "time": 1759503564777,
-        "updated": 1759507247809,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000rehv",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000rehv.geojson",
-        "felt": 2,
-        "cdi": 2,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 355,
-        "net": "us",
-        "code": "6000rehv",
-        "ids": ",us6000rehv,",
-        "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 68,
-        "dmin": 1.258,
-        "rms": 0.88,
-        "gap": 56,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.8 - 19 km N of Chateaubelair, Saint Vincent and the Grenadines"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -61.2256,
-          13.4708,
-          141.204
-        ]
-      },
-      "id": "us6000rehv"
     }
   ],
   "bbox": [
