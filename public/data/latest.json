@@ -1,53 +1,53 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1759686954000,
+    "generated": 1759688312000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 226
+    "count": 232
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.5,
-        "place": "3 km S of Cayey, Puerto Rico",
-        "time": 1759685611637,
-        "updated": 1759686702040,
+        "mag": 2.85,
+        "place": "2 km S of Cayey, Puerto Rico",
+        "time": 1759685612790,
+        "updated": 1759687895533,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000rez8",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000rez8.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2025278003",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2025278003.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 96,
-        "net": "us",
-        "code": "6000rez8",
-        "ids": ",us6000rez8,",
-        "sources": ",us,",
+        "sig": 125,
+        "net": "pr",
+        "code": "2025278003",
+        "ids": ",us6000rez8,pr2025278003,",
+        "sources": ",us,pr,",
         "types": ",origin,phase-data,",
-        "nst": 12,
-        "dmin": 0.032,
-        "rms": 0.5,
-        "gap": 108,
-        "magType": "ml",
+        "nst": 19,
+        "dmin": 0.0247,
+        "rms": 0.2,
+        "gap": 74,
+        "magType": "md",
         "type": "earthquake",
-        "title": "M 2.5 - 3 km S of Cayey, Puerto Rico"
+        "title": "M 2.9 - 2 km S of Cayey, Puerto Rico"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -66.1661,
-          18.0805,
-          22.993
+          -66.1621,
+          18.0876,
+          17
         ]
       },
-      "id": "us6000rez8"
+      "id": "pr2025278003"
     },
     {
       "type": "Feature",
@@ -55,7 +55,7 @@
         "mag": 3.56,
         "place": "103 km NNW of San Antonio, Puerto Rico",
         "time": 1759677718480,
-        "updated": 1759681837192,
+        "updated": 1759688089040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2025278002",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2025278002.geojson",
@@ -68,8 +68,8 @@
         "sig": 195,
         "net": "pr",
         "code": "2025278002",
-        "ids": ",pr2025278002,",
-        "sources": ",pr,",
+        "ids": ",us6000rez0,pr2025278002,",
+        "sources": ",us,pr,",
         "types": ",origin,phase-data,",
         "nst": 21,
         "dmin": 0.9585,
