@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1759667545000,
+    "generated": 1759669165000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 227
+    "count": 230
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.51,
+        "place": "8 km S of Indios, Puerto Rico",
+        "time": 1759667148650,
+        "updated": 1759668531720,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71497058",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71497058.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 97,
+        "net": "pr",
+        "code": "71497058",
+        "ids": ",pr71497058,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 17,
+        "dmin": 0.0781,
+        "rms": 0.09,
+        "gap": 185,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.5 - 8 km S of Indios, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.8046666666667,
+          17.9228333333333,
+          9.25
+        ]
+      },
+      "id": "pr71497058"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -334,7 +374,7 @@
     -179.8077,
     -35.5811,
     0,
-    178.9359,
+    178.9218,
     71.2917,
     643.06
   ]
