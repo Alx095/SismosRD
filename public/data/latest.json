@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1759628333000,
+    "generated": 1759633044000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 213
+    "count": 218
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.72,
+        "place": "75 km NE of Punta Cana, Dominican Republic",
+        "time": 1759628487290,
+        "updated": 1759630623946,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2025278001",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2025278001.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 213,
+        "net": "pr",
+        "code": "2025278001",
+        "ids": ",us6000revh,pr2025278001,",
+        "sources": ",us,pr,",
+        "types": ",origin,phase-data,",
+        "nst": 24,
+        "dmin": 0.7257,
+        "rms": 0.47,
+        "gap": 210,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 3.7 - 75 km NE of Punta Cana, Dominican Republic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.812,
+          18.9638,
+          66
+        ]
+      },
+      "id": "pr2025278001"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -55,17 +95,17 @@
         "mag": 4.7,
         "place": "13 km NE of Tilarán, Costa Rica",
         "time": 1759612125808,
-        "updated": 1759624311607,
+        "updated": 1759629957384,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000reun",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000reun.geojson",
-        "felt": 3,
-        "cdi": 4.6,
+        "felt": 4,
+        "cdi": 4.7,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 341,
+        "sig": 342,
         "net": "us",
         "code": "6000reun",
         "ids": ",us6000reun,",
