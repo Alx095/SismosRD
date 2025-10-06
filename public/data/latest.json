@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1759751499000,
+    "generated": 1759751921000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 225
+    "count": 223
   },
   "features": [
     {
@@ -248,46 +248,6 @@
         ]
       },
       "id": "pr71497058"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.01,
-        "place": "36 km N of Arecibo, Puerto Rico",
-        "time": 1759665424740,
-        "updated": 1759666565490,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71497053",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71497053.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 139,
-        "net": "pr",
-        "code": "71497053",
-        "ids": ",pr71497053,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 16,
-        "dmin": 0.4605,
-        "rms": 0.19,
-        "gap": 252,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.0 - 36 km N of Arecibo, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.6908333333333,
-          18.8056666666667,
-          90.97
-        ]
-      },
-      "id": "pr71497053"
     }
   ],
   "bbox": [
