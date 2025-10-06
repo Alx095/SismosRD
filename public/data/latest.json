@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1759771873000,
+    "generated": 1759772478000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 234
+    "count": 231
   },
   "features": [
     {
@@ -208,46 +208,6 @@
         ]
       },
       "id": "pr71497113"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.85,
-        "place": "2 km S of Cayey, Puerto Rico",
-        "time": 1759685612790,
-        "updated": 1759687895533,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2025278003",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2025278003.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 125,
-        "net": "pr",
-        "code": "2025278003",
-        "ids": ",us6000rez8,pr2025278003,",
-        "sources": ",us,pr,",
-        "types": ",origin,phase-data,",
-        "nst": 19,
-        "dmin": 0.0247,
-        "rms": 0.2,
-        "gap": 74,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.9 - 2 km S of Cayey, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.1621,
-          18.0876,
-          17
-        ]
-      },
-      "id": "pr2025278003"
     }
   ],
   "bbox": [
