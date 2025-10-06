@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1759751921000,
+    "generated": 1759754528000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 223
+    "count": 221
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.43,
+        "place": "50 km NNE of Cruz Bay, U.S. Virgin Islands",
+        "time": 1759750506770,
+        "updated": 1759752140940,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71497138",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71497138.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 181,
+        "net": "pr",
+        "code": "71497138",
+        "ids": ",pr71497138,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 15,
+        "dmin": 0.3606,
+        "rms": 0.18,
+        "gap": 233,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 3.4 - 50 km NNE of Cruz Bay, U.S. Virgin Islands"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -64.6875,
+          18.777,
+          20.03
+        ]
+      },
+      "id": "pr71497138"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -208,46 +248,6 @@
         ]
       },
       "id": "pr71497063"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.51,
-        "place": "8 km S of Indios, Puerto Rico",
-        "time": 1759667148650,
-        "updated": 1759668531720,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71497058",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71497058.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 97,
-        "net": "pr",
-        "code": "71497058",
-        "ids": ",pr71497058,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 17,
-        "dmin": 0.0781,
-        "rms": 0.09,
-        "gap": 185,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.5 - 8 km S of Indios, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.8046666666667,
-          17.9228333333333,
-          9.25
-        ]
-      },
-      "id": "pr71497058"
     }
   ],
   "bbox": [
@@ -255,7 +255,7 @@
     -33.3328,
     -1.33,
     179.0068,
-    71.2917,
+    71.1222,
     599.741
   ]
 }
