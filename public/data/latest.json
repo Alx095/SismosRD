@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1759822551000,
+    "generated": 1759822996000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 290
+    "count": 294
   },
   "features": [
     {
@@ -95,13 +95,13 @@
         "mag": 3.57,
         "place": "16 km SSE of Guánica, Puerto Rico",
         "time": 1759814351230,
-        "updated": 1759820501342,
+        "updated": 1759822706007,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2025280002",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2025280002.geojson",
         "felt": 1,
         "cdi": 2,
-        "mmi": 2.583,
+        "mmi": 2.571,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
