@@ -1,53 +1,53 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1759816448000,
+    "generated": 1759817728000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 298
+    "count": 291
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 3.7,
-        "place": "18 km SSE of Guánica, Puerto Rico",
-        "time": 1759814349988,
-        "updated": 1759815811148,
+        "mag": 3.57,
+        "place": "16 km SSE of Guánica, Puerto Rico",
+        "time": 1759814351230,
+        "updated": 1759817155253,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000rf9n",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000rf9n.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2025280002",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2025280002.geojson",
         "felt": null,
         "cdi": null,
         "mmi": 2.583,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 211,
-        "net": "us",
-        "code": "6000rf9n",
-        "ids": ",us6000rf9n,",
-        "sources": ",us,",
+        "sig": 196,
+        "net": "pr",
+        "code": "2025280002",
+        "ids": ",us6000rf9n,pr2025280002,",
+        "sources": ",us,pr,",
         "types": ",origin,phase-data,shakemap,",
-        "nst": 19,
-        "dmin": 0.23,
-        "rms": 0.84,
-        "gap": 102,
-        "magType": "ml",
+        "nst": 27,
+        "dmin": 0.1502,
+        "rms": 0.18,
+        "gap": 229,
+        "magType": "md",
         "type": "earthquake",
-        "title": "M 3.7 - 18 km SSE of Guánica, Puerto Rico"
+        "title": "M 3.6 - 16 km SSE of Guánica, Puerto Rico"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -66.8701,
-          17.8089,
-          22.925
+          -66.8645,
+          17.8256,
+          7
         ]
       },
-      "id": "us6000rf9n"
+      "id": "pr2025280002"
     },
     {
       "type": "Feature",
@@ -972,7 +972,7 @@
   ],
   "bbox": [
     -179.554,
-    -32.3341,
+    -31.2528,
     -3.15,
     175.5584,
     66.9845,
