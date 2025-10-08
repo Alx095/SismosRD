@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1759960584000,
+    "generated": 1759961626000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 247
+    "count": 245
   },
   "features": [
     {
@@ -328,46 +328,6 @@
         ]
       },
       "id": "pr71497438"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.22,
-        "place": "4 km NE of Hormigueros, Puerto Rico",
-        "time": 1759874975890,
-        "updated": 1759875378100,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71497433",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71497433.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 76,
-        "net": "pr",
-        "code": "71497433",
-        "ids": ",pr71497433,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 7,
-        "dmin": 0.01571,
-        "rms": 0.15,
-        "gap": 172,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.2 - 4 km NE of Hormigueros, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -67.0948333333333,
-          18.1625,
-          34.81
-        ]
-      },
-      "id": "pr71497433"
     }
   ],
   "bbox": [
