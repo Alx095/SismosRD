@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1759900243000,
+    "generated": 1759901435000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 276
+    "count": 272
   },
   "features": [
     {
@@ -368,46 +368,6 @@
         ]
       },
       "id": "pr2025280003"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.57,
-        "place": "16 km SSE of Guánica, Puerto Rico",
-        "time": 1759814351230,
-        "updated": 1759870247544,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2025280002",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2025280002.geojson",
-        "felt": 2,
-        "cdi": 2,
-        "mmi": 2.576,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 196,
-        "net": "pr",
-        "code": "2025280002",
-        "ids": ",pr2025280002,us6000rf9n,",
-        "sources": ",pr,us,",
-        "types": ",dyfi,origin,phase-data,shakemap,",
-        "nst": 27,
-        "dmin": 0.1502,
-        "rms": 0.18,
-        "gap": 229,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.6 - 16 km SSE of Guánica, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.8645,
-          17.8256,
-          7
-        ]
-      },
-      "id": "pr2025280002"
     }
   ],
   "bbox": [
