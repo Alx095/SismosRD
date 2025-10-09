@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1759972512000,
+    "generated": 1759977527000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 243
+    "count": 239
   },
   "features": [
     {
@@ -208,54 +208,14 @@
         ]
       },
       "id": "pr2025281000"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.34,
-        "place": "5 km SSW of Palmarejo, Puerto Rico",
-        "time": 1759887135000,
-        "updated": 1759887732160,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71497453",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71497453.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 84,
-        "net": "pr",
-        "code": "71497453",
-        "ids": ",pr71497453,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 8,
-        "dmin": 0.01693,
-        "rms": 0.06,
-        "gap": 206,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.3 - 5 km SSW of Palmarejo, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -67.098,
-          17.9935,
-          9.51
-        ]
-      },
-      "id": "pr71497453"
     }
   ],
   "bbox": [
-    -179.6695,
+    -177.81733333333,
     -57.8245,
     -2,
     168.7851,
     64.9482,
-    609.832
+    176.9
   ]
 }
