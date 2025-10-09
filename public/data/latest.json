@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1759967832000,
+    "generated": 1759972512000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 237
+    "count": 243
   },
   "features": [
     {
@@ -248,93 +248,13 @@
         ]
       },
       "id": "pr71497453"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.49,
-        "place": "18 km SSE of Guánica, Puerto Rico",
-        "time": 1759885445540,
-        "updated": 1759886248230,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71497443",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71497443.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 95,
-        "net": "pr",
-        "code": "71497443",
-        "ids": ",pr71497443,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 15,
-        "dmin": 0.162,
-        "rms": 0.14,
-        "gap": 233,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.5 - 18 km SSE of Guánica, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.8511666666667,
-          17.8103333333333,
-          11.18
-        ]
-      },
-      "id": "pr71497443"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.52,
-        "place": "1 km SE of Salinas, Puerto Rico",
-        "time": 1759884276360,
-        "updated": 1759884747250,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71497438",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71497438.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 36,
-        "net": "pr",
-        "code": "71497438",
-        "ids": ",pr71497438,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 7,
-        "dmin": 0.08131,
-        "rms": 0.11,
-        "gap": 196,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 1.5 - 1 km SE of Salinas, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.2871666666667,
-          17.9645,
-          14.84
-        ]
-      },
-      "id": "pr71497438"
     }
   ],
   "bbox": [
     -179.6695,
     -57.8245,
     -2,
-    160.8766,
+    168.7851,
     64.9482,
     609.832
   ]
