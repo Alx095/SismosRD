@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1759997591000,
+    "generated": 1759999115000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 212
+    "count": 213
   },
   "features": [
     {
@@ -48,6 +48,46 @@
         ]
       },
       "id": "pr71497568"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.4,
+        "place": "85 km ENE of Cruz Bay, U.S. Virgin Islands",
+        "time": 1759994642600,
+        "updated": 1759997913700,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71497573",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71497573.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 178,
+        "net": "pr",
+        "code": "71497573",
+        "ids": ",pr71497573,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 17,
+        "dmin": 0.3736,
+        "rms": 0.38,
+        "gap": 326,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 3.4 - 85 km ENE of Cruz Bay, U.S. Virgin Islands"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -64.0958333333333,
+          18.7261666666667,
+          21.07
+        ]
+      },
+      "id": "pr71497573"
     },
     {
       "type": "Feature",
