@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1760080482000,
+    "generated": 1760081332000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 223
+    "count": 220
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.6,
+        "place": "14 km S of Conchagua, El Salvador",
+        "time": 1760077636891,
+        "updated": 1760080952040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000rg1i",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000rg1i.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 326,
+        "net": "us",
+        "code": "6000rg1i",
+        "ids": ",us6000rg1i,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 27,
+        "dmin": 0.529,
+        "rms": 0.61,
+        "gap": 145,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.6 - 14 km S of Conchagua, El Salvador"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.8711,
+          13.1742,
+          172.947
+        ]
+      },
+      "id": "us6000rg1i"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -248,86 +288,6 @@
         ]
       },
       "id": "pr71497578"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.36,
-        "place": "16 km SSE of Guánica, Puerto Rico",
-        "time": 1759994745320,
-        "updated": 1759995644720,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71497568",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71497568.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 86,
-        "net": "pr",
-        "code": "71497568",
-        "ids": ",pr71497568,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 9,
-        "dmin": 0.1362,
-        "rms": 0.11,
-        "gap": 225,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.4 - 16 km SSE of Guánica, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.8533333333333,
-          17.8361666666667,
-          14.41
-        ]
-      },
-      "id": "pr71497568"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.4,
-        "place": "85 km ENE of Cruz Bay, U.S. Virgin Islands",
-        "time": 1759994642600,
-        "updated": 1760071065040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71497573",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71497573.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 178,
-        "net": "pr",
-        "code": "71497573",
-        "ids": ",us6000rfsk,pr71497573,",
-        "sources": ",us,pr,",
-        "types": ",origin,phase-data,",
-        "nst": 17,
-        "dmin": 0.3736,
-        "rms": 0.38,
-        "gap": 326,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.4 - 85 km ENE of Cruz Bay, U.S. Virgin Islands"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -64.0958333333333,
-          18.7261666666667,
-          21.07
-        ]
-      },
-      "id": "pr71497573"
     }
   ],
   "bbox": [
@@ -336,6 +296,6 @@
     -3.17,
     167.4705,
     65.2153,
-    142.628
+    172.947
   ]
 }
