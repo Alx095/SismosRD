@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1760083917000,
+    "generated": 1760085402000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 222
+    "count": 221
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.44,
+        "place": "88 km NNE of Cruz Bay, U.S. Virgin Islands",
+        "time": 1760082970310,
+        "updated": 1760084366940,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71497673",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71497673.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 182,
+        "net": "pr",
+        "code": "71497673",
+        "ids": ",pr71497673,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 13,
+        "dmin": 0.6386,
+        "rms": 0.21,
+        "gap": 271,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 3.4 - 88 km NNE of Cruz Bay, U.S. Virgin Islands"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -64.5881666666667,
+          19.1073333333333,
+          48.82
+        ]
+      },
+      "id": "pr71497673"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -248,46 +288,6 @@
         ]
       },
       "id": "pr71497588"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.38,
-        "place": "84 km N of Culebra, Puerto Rico",
-        "time": 1759998990840,
-        "updated": 1760000111980,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71497578",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71497578.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 176,
-        "net": "pr",
-        "code": "71497578",
-        "ids": ",pr71497578,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 11,
-        "dmin": 0.9573,
-        "rms": 0.38,
-        "gap": 238,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.4 - 84 km N of Culebra, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -65.3741666666667,
-          19.0608333333333,
-          72.97
-        ]
-      },
-      "id": "pr71497578"
     }
   ],
   "bbox": [
@@ -295,7 +295,7 @@
     -52.224,
     -3.17,
     167.4705,
-    65.2153,
+    65.5585,
     172.947
   ]
 }
