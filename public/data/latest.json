@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1760140701000,
+    "generated": 1760145822000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
@@ -208,51 +208,11 @@
         ]
       },
       "id": "pr71497663"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.69,
-        "place": "30 km W of Puerto Real, Puerto Rico",
-        "time": 1760058502270,
-        "updated": 1760059592120,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71497628",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71497628.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 111,
-        "net": "pr",
-        "code": "71497628",
-        "ids": ",pr71497628,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 13,
-        "dmin": 0.3103,
-        "rms": 0.17,
-        "gap": 294,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.7 - 30 km W of Puerto Real, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -67.4711666666667,
-          18.1081666666667,
-          16.36
-        ]
-      },
-      "id": "pr71497628"
     }
   ],
   "bbox": [
     -178.7135,
-    -60.1738,
+    -60.3594,
     -2.97,
     156.5204,
     68.7489,
