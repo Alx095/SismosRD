@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1760189150000,
+    "generated": 1760189695000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 243
+    "count": 246
   },
   "features": [
     {
@@ -208,46 +208,6 @@
         ]
       },
       "id": "pr71497693"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.23,
-        "place": "5 km NW of Yaurel, Puerto Rico",
-        "time": 1760103211680,
-        "updated": 1760104426760,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71497688",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71497688.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 23,
-        "net": "pr",
-        "code": "71497688",
-        "ids": ",pr71497688,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 4,
-        "dmin": 0.07498,
-        "rms": 0.13,
-        "gap": 134,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 1.2 - 5 km NW of Yaurel, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.0903333333333,
-          18.0598333333333,
-          17.66
-        ]
-      },
-      "id": "pr71497688"
     }
   ],
   "bbox": [
