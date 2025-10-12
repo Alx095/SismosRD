@@ -1,53 +1,53 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1760281130000,
+    "generated": 1760282270000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 188
+    "count": 186
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 3.8,
-        "place": "49 km ENE of Miches, Dominican Republic",
-        "time": 1760276119445,
-        "updated": 1760276986040,
+        "mag": 4.07,
+        "place": "65 km NE of Samaná, Dominican Republic",
+        "time": 1760276118990,
+        "updated": 1760281945486,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000rgqq",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000rgqq.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2025285000",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2025285000.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 222,
-        "net": "us",
-        "code": "6000rgqq",
-        "ids": ",us6000rgqq,",
-        "sources": ",us,",
+        "sig": 255,
+        "net": "pr",
+        "code": "2025285000",
+        "ids": ",us6000rgqq,pr2025285000,",
+        "sources": ",us,pr,",
         "types": ",origin,phase-data,",
-        "nst": 18,
-        "dmin": 0.711,
-        "rms": 1,
-        "gap": 154,
-        "magType": "ml",
+        "nst": 26,
+        "dmin": 0.4434,
+        "rms": 0.57,
+        "gap": 242,
+        "magType": "md",
         "type": "earthquake",
-        "title": "M 3.8 - 49 km ENE of Miches, Dominican Republic"
+        "title": "M 4.1 - 65 km NE of Samaná, Dominican Republic"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -68.6272,
-          19.1893,
-          10
+          -68.829,
+          19.5498,
+          34
         ]
       },
-      "id": "us6000rgqq"
+      "id": "pr2025285000"
     },
     {
       "type": "Feature",
