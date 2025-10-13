@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1760358833000,
+    "generated": 1760360872000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 185
+    "count": 184
   },
   "features": [
     {
@@ -528,46 +528,6 @@
         ]
       },
       "id": "pr2025285000"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.35,
-        "place": "19 km SE of El Negro, Puerto Rico",
-        "time": 1760273487250,
-        "updated": 1760274463870,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71497813",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71497813.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 85,
-        "net": "pr",
-        "code": "71497813",
-        "ids": ",pr71497813,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 7,
-        "dmin": 0.2242,
-        "rms": 0.17,
-        "gap": 235,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.4 - 19 km SE of El Negro, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -65.7098333333333,
-          17.9293333333333,
-          6
-        ]
-      },
-      "id": "pr71497813"
     }
   ],
   "bbox": [
