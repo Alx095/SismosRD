@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1760334679000,
+    "generated": 1760335163000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 178
+    "count": 180
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.49,
+        "place": "15 km SSE of Guánica, Puerto Rico",
+        "time": 1760334020390,
+        "updated": 1760334911410,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71497918",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71497918.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 95,
+        "net": "pr",
+        "code": "71497918",
+        "ids": ",pr71497918,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 10,
+        "dmin": 0.1336,
+        "rms": 0.41,
+        "gap": 223,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.5 - 15 km SSE of Guánica, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.8575,
+          17.8423333333333,
+          6.46
+        ]
+      },
+      "id": "pr71497918"
+    },
     {
       "type": "Feature",
       "properties": {
