@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1760360872000,
+    "generated": 1760362620000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 184
+    "count": 196
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.47,
+        "place": "2 km WSW of Indios, Puerto Rico",
+        "time": 1760360358120,
+        "updated": 1760362004430,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71497963",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71497963.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 94,
+        "net": "pr",
+        "code": "71497963",
+        "ids": ",pr71497963,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 9,
+        "dmin": 0.03922,
+        "rms": 0.2,
+        "gap": 180,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.5 - 2 km WSW of Indios, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.8396666666667,
+          17.986,
+          15.97
+        ]
+      },
+      "id": "pr71497963"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -488,46 +528,6 @@
         ]
       },
       "id": "pr71497843"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.07,
-        "place": "65 km NE of Samaná, Dominican Republic",
-        "time": 1760276118990,
-        "updated": 1760281945486,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2025285000",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2025285000.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 255,
-        "net": "pr",
-        "code": "2025285000",
-        "ids": ",us6000rgqq,pr2025285000,",
-        "sources": ",us,pr,",
-        "types": ",origin,phase-data,",
-        "nst": 26,
-        "dmin": 0.4434,
-        "rms": 0.57,
-        "gap": 242,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 4.1 - 65 km NE of Samaná, Dominican Republic"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -68.829,
-          19.5498,
-          34
-        ]
-      },
-      "id": "pr2025285000"
     }
   ],
   "bbox": [
