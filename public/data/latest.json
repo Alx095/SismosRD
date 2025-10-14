@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1760481681000,
+    "generated": 1760482149000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 221
+    "count": 219
   },
   "features": [
     {
@@ -208,46 +208,6 @@
         ]
       },
       "id": "pr71497998"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.91,
-        "place": "11 km ENE of La Romana, Dominican Republic",
-        "time": 1760395301390,
-        "updated": 1760396611513,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2025286000",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2025286000.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 235,
-        "net": "pr",
-        "code": "2025286000",
-        "ids": ",pr2025286000,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 24,
-        "dmin": 0.4874,
-        "rms": 0.44,
-        "gap": 188,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.9 - 11 km ENE of La Romana, Dominican Republic"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -68.8663,
-          18.4641,
-          116
-        ]
-      },
-      "id": "pr2025286000"
     }
   ],
   "bbox": [
