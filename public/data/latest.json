@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1760399640000,
+    "generated": 1760403055000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 208
+    "count": 209
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.92,
+        "place": "85 km ENE of Punta Cana, Dominican Republic",
+        "time": 1760400596020,
+        "updated": 1760402315830,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71497998",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71497998.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 131,
+        "net": "pr",
+        "code": "71497998",
+        "ids": ",pr71497998,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 8,
+        "dmin": 0.7818,
+        "rms": 0.35,
+        "gap": 254,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.9 - 85 km ENE of Punta Cana, Dominican Republic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.7185,
+          18.9995,
+          14.44
+        ]
+      },
+      "id": "pr71497998"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -288,86 +328,6 @@
         ]
       },
       "id": "pr71497898"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.14,
-        "place": "66 km N of Cruz Bay, U.S. Virgin Islands",
-        "time": 1760316539600,
-        "updated": 1760318104620,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71497888",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71497888.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 152,
-        "net": "pr",
-        "code": "71497888",
-        "ids": ",pr71497888,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 5,
-        "dmin": 0.535,
-        "rms": 0.05,
-        "gap": 252,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.1 - 66 km N of Cruz Bay, U.S. Virgin Islands"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -64.7911666666667,
-          18.9328333333333,
-          51.62
-        ]
-      },
-      "id": "pr71497888"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.32,
-        "place": "33 km NW of San Antonio, Puerto Rico",
-        "time": 1760313460380,
-        "updated": 1760314953040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71497878",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71497878.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 170,
-        "net": "pr",
-        "code": "71497878",
-        "ids": ",us6000rgsi,pr71497878,",
-        "sources": ",us,pr,",
-        "types": ",origin,phase-data,",
-        "nst": 22,
-        "dmin": 0.2736,
-        "rms": 0.14,
-        "gap": 295,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.3 - 33 km NW of San Antonio, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -67.2918333333333,
-          18.731,
-          25.55
-        ]
-      },
-      "id": "pr71497878"
     }
   ],
   "bbox": [
