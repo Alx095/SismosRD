@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1760486217000,
+    "generated": 1760491046000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 219
+    "count": 220
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.68,
+        "place": "57 km NNE of Isabela, Puerto Rico",
+        "time": 1760487063180,
+        "updated": 1760490489040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2025288000",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2025288000.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 208,
+        "net": "pr",
+        "code": "2025288000",
+        "ids": ",us6000rh7d,pr2025288000,",
+        "sources": ",us,pr,",
+        "types": ",origin,phase-data,",
+        "nst": 22,
+        "dmin": 0.5823,
+        "rms": 0.46,
+        "gap": 210,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 3.7 - 57 km NNE of Isabela, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.9035,
+          19.0115,
+          7
+        ]
+      },
+      "id": "pr2025288000"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -168,46 +208,6 @@
         ]
       },
       "id": "pr71498013"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.92,
-        "place": "85 km ENE of Punta Cana, Dominican Republic",
-        "time": 1760400596020,
-        "updated": 1760402315830,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71497998",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71497998.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 131,
-        "net": "pr",
-        "code": "71497998",
-        "ids": ",pr71497998,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 8,
-        "dmin": 0.7818,
-        "rms": 0.35,
-        "gap": 254,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.9 - 85 km ENE of Punta Cana, Dominican Republic"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -67.7185,
-          18.9995,
-          14.44
-        ]
-      },
-      "id": "pr71497998"
     }
   ],
   "bbox": [
@@ -215,7 +215,7 @@
     -21.88,
     -2,
     166.5776,
-    65.1234,
+    64.9842,
     444.124
   ]
 }
