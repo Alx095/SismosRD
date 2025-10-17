@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1760736854000,
+    "generated": 1760737269000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
@@ -295,7 +295,7 @@
         "mag": 3.44,
         "place": "48 km S of La Romana, Dominican Republic",
         "time": 1760661970330,
-        "updated": 1760664150990,
+        "updated": 1760737050040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71498228",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71498228.geojson",
@@ -308,8 +308,8 @@
         "sig": 182,
         "net": "pr",
         "code": "71498228",
-        "ids": ",pr71498228,",
-        "sources": ",pr,",
+        "ids": ",us6000rhpk,pr71498228,",
+        "sources": ",us,pr,",
         "types": ",origin,phase-data,",
         "nst": 15,
         "dmin": 0.6503,
