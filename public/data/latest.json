@@ -1,14 +1,94 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1760663704000,
+    "generated": 1760668797000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 255
+    "count": 257
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.6,
+        "place": "92 km NE of Savannah Bight, Honduras",
+        "time": 1760663676243,
+        "updated": 1760664676040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000rhpq",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000rhpq.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 326,
+        "net": "us",
+        "code": "6000rhpq",
+        "ids": ",us6000rhpq,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 55,
+        "dmin": 4.635,
+        "rms": 0.87,
+        "gap": 43,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.6 - 92 km NE of Savannah Bight, Honduras"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.25,
+          17.0517,
+          10
+        ]
+      },
+      "id": "us6000rhpq"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.44,
+        "place": "48 km S of La Romana, Dominican Republic",
+        "time": 1760661970330,
+        "updated": 1760664150990,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71498228",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71498228.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 182,
+        "net": "pr",
+        "code": "71498228",
+        "ids": ",pr71498228,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 15,
+        "dmin": 0.6503,
+        "rms": 0.42,
+        "gap": 245,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 3.4 - 48 km S of La Romana, Dominican Republic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.9821666666667,
+          17.9896666666667,
+          30.12
+        ]
+      },
+      "id": "pr71498228"
+    },
     {
       "type": "Feature",
       "properties": {
