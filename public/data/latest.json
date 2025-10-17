@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1760693571000,
+    "generated": 1760694180000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 252
+    "count": 255
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.54,
+        "place": "20 km NNE of Carrizales, Puerto Rico",
+        "time": 1760693221620,
+        "updated": 1760694052780,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71498278",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71498278.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 99,
+        "net": "pr",
+        "code": "71498278",
+        "ids": ",pr71498278,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 10,
+        "dmin": 0.2704,
+        "rms": 0.08,
+        "gap": 236,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.5 - 20 km NNE of Carrizales, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.7428333333333,
+          18.6573333333333,
+          9.38
+        ]
+      },
+      "id": "pr71498278"
+    },
     {
       "type": "Feature",
       "properties": {
