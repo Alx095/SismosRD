@@ -1,14 +1,94 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1760685187000,
+    "generated": 1760686087000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 254
+    "count": 256
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.22,
+        "place": "9 km SSW of Guánica, Puerto Rico",
+        "time": 1760685438550,
+        "updated": 1760685998780,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71498258",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71498258.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 76,
+        "net": "pr",
+        "code": "71498258",
+        "ids": ",pr71498258,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 6,
+        "dmin": 0.1026,
+        "rms": 0.08,
+        "gap": 239,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.2 - 9 km SSW of Guánica, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.955,
+          17.9016666666667,
+          7.62
+        ]
+      },
+      "id": "pr71498258"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.34,
+        "place": "5 km W of Maricao, Puerto Rico",
+        "time": 1760684520130,
+        "updated": 1760685257730,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71498243",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71498243.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 84,
+        "net": "pr",
+        "code": "71498243",
+        "ids": ",pr71498243,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 15,
+        "dmin": 0.05462,
+        "rms": 0.16,
+        "gap": 71,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.3 - 5 km W of Maricao, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.0285,
+          18.172,
+          24.8
+        ]
+      },
+      "id": "pr71498243"
+    },
     {
       "type": "Feature",
       "properties": {
