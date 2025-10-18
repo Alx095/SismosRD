@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1760770696000,
+    "generated": 1760771798000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 175
+    "count": 176
   },
   "features": [
     {
@@ -248,53 +248,13 @@
         ]
       },
       "id": "pr71498258"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.34,
-        "place": "5 km W of Maricao, Puerto Rico",
-        "time": 1760684520130,
-        "updated": 1760685257730,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71498243",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71498243.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 84,
-        "net": "pr",
-        "code": "71498243",
-        "ids": ",pr71498243,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 15,
-        "dmin": 0.05462,
-        "rms": 0.16,
-        "gap": 71,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.3 - 5 km W of Maricao, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -67.0285,
-          18.172,
-          24.8
-        ]
-      },
-      "id": "pr71498243"
     }
   ],
   "bbox": [
     -178.0331,
     -41.2588,
     -2,
-    179.9355,
+    160.1258,
     67.6048,
     464.622
   ]
