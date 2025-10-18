@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1760749194000,
+    "generated": 1760753941000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 192
+    "count": 188
   },
   "features": [
     {
@@ -288,46 +288,6 @@
         ]
       },
       "id": "pr71498243"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.6,
-        "place": "92 km NE of Savannah Bight, Honduras",
-        "time": 1760663676243,
-        "updated": 1760664676040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000rhpq",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000rhpq.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 326,
-        "net": "us",
-        "code": "6000rhpq",
-        "ids": ",us6000rhpq,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 55,
-        "dmin": 4.635,
-        "rms": 0.87,
-        "gap": 43,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.6 - 92 km NE of Savannah Bight, Honduras"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -85.25,
-          17.0517,
-          10
-        ]
-      },
-      "id": "us6000rhpq"
     }
   ],
   "bbox": [
