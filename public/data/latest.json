@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1760838240000,
+    "generated": 1760843177000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 152
+    "count": 150
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2,
+        "place": "2 km E of Maria Antonia, Puerto Rico",
+        "time": 1760837756010,
+        "updated": 1760839817330,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71498358",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71498358.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 62,
+        "net": "pr",
+        "code": "71498358",
+        "ids": ",pr71498358,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 6,
+        "dmin": 0.007924,
+        "rms": 0.07,
+        "gap": 143,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.0 - 2 km E of Maria Antonia, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.8665,
+          17.9801666666667,
+          15.98
+        ]
+      },
+      "id": "pr71498358"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -171,7 +211,7 @@
     }
   ],
   "bbox": [
-    -173.1051,
+    -177.08066666667,
     -20.6515,
     -1.84,
     170.5345,
