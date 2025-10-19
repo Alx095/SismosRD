@@ -1,53 +1,53 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1760876136000,
+    "generated": 1760878367000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 192
+    "count": 187
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.7,
-        "place": "55 km N of Punta Cana, Dominican Republic",
-        "time": 1760873083523,
-        "updated": 1760874677040,
+        "mag": 3.53,
+        "place": "16 km NE of Punta Cana, Dominican Republic",
+        "time": 1760873085740,
+        "updated": 1760876336303,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ri5d",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000ri5d.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2025292000",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2025292000.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 112,
-        "net": "us",
-        "code": "6000ri5d",
-        "ids": ",us6000ri5d,",
-        "sources": ",us,",
+        "sig": 192,
+        "net": "pr",
+        "code": "2025292000",
+        "ids": ",us6000ri5d,pr2025292000,",
+        "sources": ",us,pr,",
         "types": ",origin,phase-data,",
-        "nst": 13,
-        "dmin": 0.562,
-        "rms": 0.44,
-        "gap": 288,
-        "magType": "ml",
+        "nst": 19,
+        "dmin": 0.1987,
+        "rms": 0.38,
+        "gap": 155,
+        "magType": "md",
         "type": "earthquake",
-        "title": "M 2.7 - 55 km N of Punta Cana, Dominican Republic"
+        "title": "M 3.5 - 16 km NE of Punta Cana, Dominican Republic"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -68.3716,
-          19.0796,
-          35
+          -68.2928,
+          18.6918,
+          72
         ]
       },
-      "id": "us6000ri5d"
+      "id": "pr2025292000"
     },
     {
       "type": "Feature",
@@ -295,7 +295,7 @@
     -20.6515,
     -0.93,
     170.5345,
-    66.0507,
+    65.1191,
     509.129
   ]
 }
