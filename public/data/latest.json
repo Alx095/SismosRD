@@ -1,14 +1,55 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1760988350000,
+    "generated": 1760988892000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 144
+    "count": 143
   },
-  "features": [],
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5,
+        "place": "13 km N of Estebanía, Dominican Republic",
+        "time": 1760987626014,
+        "updated": 1760988811095,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000rich",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000rich.geojson",
+        "felt": 22,
+        "cdi": 4.8,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 395,
+        "net": "us",
+        "code": "6000rich",
+        "ids": ",us6000rich,",
+        "sources": ",us,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": 45,
+        "dmin": 0.732,
+        "rms": 1.13,
+        "gap": 104,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 5.0 - 13 km N of Estebanía, Dominican Republic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.6429,
+          18.5775,
+          10
+        ]
+      },
+      "id": "us6000rich"
+    }
+  ],
   "bbox": [
     -176.9961,
     -52.1445,
