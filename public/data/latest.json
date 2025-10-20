@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1761000545000,
+    "generated": 1761000968000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 154
+    "count": 152
   },
   "features": [
     {
@@ -15,17 +15,17 @@
         "mag": 5,
         "place": "13 km N of Estebanía, Dominican Republic",
         "time": 1760987626014,
-        "updated": 1761000264463,
+        "updated": 1761000572585,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000rich",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000rich.geojson",
-        "felt": 124,
+        "felt": 127,
         "cdi": 4.6,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 442,
+        "sig": 443,
         "net": "us",
         "code": "6000rich",
         "ids": ",us6000rich,",
