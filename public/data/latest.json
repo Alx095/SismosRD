@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1761057937000,
+    "generated": 1761058402000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
@@ -48,6 +48,46 @@
         ]
       },
       "id": "pr71498498"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.68,
+        "place": "20 km E of Miches, Dominican Republic",
+        "time": 1761052231410,
+        "updated": 1761058346527,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2025294001",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2025294001.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 208,
+        "net": "pr",
+        "code": "2025294001",
+        "ids": ",pr2025294001,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 20,
+        "dmin": 0.4473,
+        "rms": 0.86,
+        "gap": 148,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 3.7 - 20 km E of Miches, Dominican Republic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.8531,
+          18.9935,
+          7
+        ]
+      },
+      "id": "pr2025294001"
     },
     {
       "type": "Feature",
