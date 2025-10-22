@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1761111240000,
+    "generated": 1761111902000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
@@ -208,46 +208,6 @@
         ]
       },
       "id": "pr2025294000"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.16,
-        "place": "5 km NW of Orocovis, Puerto Rico",
-        "time": 1761025121920,
-        "updated": 1761025988870,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71498453",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71498453.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 72,
-        "net": "pr",
-        "code": "71498453",
-        "ids": ",pr71498453,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 9,
-        "dmin": 0.2324,
-        "rms": 0.11,
-        "gap": 172,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.2 - 5 km NW of Orocovis, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.4306666666667,
-          18.2605,
-          38.08
-        ]
-      },
-      "id": "pr71498453"
     }
   ],
   "bbox": [
