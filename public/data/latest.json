@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1761168627000,
+    "generated": 1761169107000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 194
+    "count": 193
   },
   "features": [
     {
@@ -128,46 +128,6 @@
         ]
       },
       "id": "pr71498513"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.38,
-        "place": "22 km WNW of Rincón, Puerto Rico",
-        "time": 1761082425630,
-        "updated": 1761083722070,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71498508",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71498508.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 87,
-        "net": "pr",
-        "code": "71498508",
-        "ids": ",pr71498508,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 6,
-        "dmin": 0.3139,
-        "rms": 0.16,
-        "gap": 300,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.4 - 22 km WNW of Rincón, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -67.4395,
-          18.4296666666667,
-          19.93
-        ]
-      },
-      "id": "pr71498508"
     }
   ],
   "bbox": [
