@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1761289969000,
+    "generated": 1761290912000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 174
+    "count": 176
   },
   "features": [
     {
@@ -55,7 +55,7 @@
         "mag": 3.31,
         "place": "10 km SSE of Maria Antonia, Puerto Rico",
         "time": 1761287935010,
-        "updated": 1761289297720,
+        "updated": 1761290010040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71498708",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71498708.geojson",
@@ -68,8 +68,8 @@
         "sig": 169,
         "net": "pr",
         "code": "71498708",
-        "ids": ",pr71498708,",
-        "sources": ",pr,",
+        "ids": ",us6000rj2k,pr71498708,",
+        "sources": ",us,pr,",
         "types": ",origin,phase-data,",
         "nst": 23,
         "dmin": 0.09248,
@@ -333,7 +333,7 @@
   "bbox": [
     -177.9886,
     -56.0025,
-    -1.67,
+    -1.31,
     161.4159,
     65.2576,
     489.97
