@@ -1,21 +1,61 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1761415037000,
+    "generated": 1761416497000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 182
+    "count": 179
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.76,
+        "place": "28 km NNE of Luquillo, Puerto Rico",
+        "time": 1761413580430,
+        "updated": 1761415102030,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71498788",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71498788.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 117,
+        "net": "pr",
+        "code": "71498788",
+        "ids": ",pr71498788,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 9,
+        "dmin": 0.3917,
+        "rms": 0.13,
+        "gap": 193,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.8 - 28 km NNE of Luquillo, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.6058333333333,
+          18.6075,
+          20.36
+        ]
+      },
+      "id": "pr71498788"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 3.41,
         "place": "89 km N of Cruz Bay, U.S. Virgin Islands",
         "time": 1761407865230,
-        "updated": 1761410395370,
+        "updated": 1761415950040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71498778",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71498778.geojson",
@@ -28,8 +68,8 @@
         "sig": 179,
         "net": "pr",
         "code": "71498778",
-        "ids": ",pr71498778,",
-        "sources": ",pr,",
+        "ids": ",us6000rjge,pr71498778,",
+        "sources": ",us,pr,",
         "types": ",origin,phase-data,",
         "nst": 13,
         "dmin": 0.7085,
