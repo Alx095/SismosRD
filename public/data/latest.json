@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1761401277000,
+    "generated": 1761402396000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 186
+    "count": 191
   },
   "features": [
     {
@@ -95,17 +95,17 @@
         "mag": 4.8,
         "place": "27 km WSW of Mucurapo, Trinidad and Tobago",
         "time": 1761349849345,
-        "updated": 1761386660190,
+        "updated": 1761401548597,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000rjbl",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000rjbl.geojson",
-        "felt": 16,
+        "felt": 17,
         "cdi": 4.3,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 361,
+        "sig": 362,
         "net": "us",
         "code": "6000rjbl",
         "ids": ",us6000rjbl,",
