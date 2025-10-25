@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1761366756000,
+    "generated": 1761367383000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 181
+    "count": 182
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.07,
+        "place": "1 km SSW of Adjuntas, Puerto Rico",
+        "time": 1761366295090,
+        "updated": 1761366812330,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71498763",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71498763.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 66,
+        "net": "pr",
+        "code": "71498763",
+        "ids": ",pr71498763,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 8,
+        "dmin": 0.1049,
+        "rms": 0.05,
+        "gap": 88,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.1 - 1 km SSW of Adjuntas, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.7271666666667,
+          18.1491666666667,
+          19.53
+        ]
+      },
+      "id": "pr71498763"
+    },
     {
       "type": "Feature",
       "properties": {
