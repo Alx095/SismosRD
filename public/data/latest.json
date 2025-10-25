@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1761350218000,
+    "generated": 1761355140000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 180
+    "count": 190
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.8,
+        "place": "27 km WSW of Mucurapo, Trinidad and Tobago",
+        "time": 1761349849345,
+        "updated": 1761354983045,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000rjbl",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000rjbl.geojson",
+        "felt": 14,
+        "cdi": 4.3,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 360,
+        "net": "us",
+        "code": "6000rjbl",
+        "ids": ",us6000rjbl,",
+        "sources": ",us,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": 50,
+        "dmin": 4.196,
+        "rms": 1.38,
+        "gap": 50,
+        "magType": "mww",
+        "type": "earthquake",
+        "title": "M 4.8 - 27 km WSW of Mucurapo, Trinidad and Tobago"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -61.7655,
+          10.5555,
+          10
+        ]
+      },
+      "id": "us6000rjbl"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -208,54 +248,14 @@
         ]
       },
       "id": "pr71498693"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.62,
-        "place": "7 km WNW of Adjuntas, Puerto Rico",
-        "time": 1761266947390,
-        "updated": 1761267843580,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71498688",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71498688.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 106,
-        "net": "pr",
-        "code": "71498688",
-        "ids": ",pr71498688,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 9,
-        "dmin": 0.08486,
-        "rms": 0.27,
-        "gap": 105,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.6 - 7 km WNW of Adjuntas, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.787,
-          18.196,
-          11.02
-        ]
-      },
-      "id": "pr71498688"
     }
   ],
   "bbox": [
     -179.4701,
     -56.0025,
-    -1.28,
+    -2.73,
     179.7871,
-    65.2576,
+    65.4386,
     599.457
   ]
 }
