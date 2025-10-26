@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1761499576000,
+    "generated": 1761500178000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 162
+    "count": 159
   },
   "features": [
     {
@@ -168,51 +168,11 @@
         ]
       },
       "id": "pr71498798"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.76,
-        "place": "28 km NNE of Luquillo, Puerto Rico",
-        "time": 1761413580430,
-        "updated": 1761415102030,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71498788",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71498788.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 117,
-        "net": "pr",
-        "code": "71498788",
-        "ids": ",pr71498788,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 9,
-        "dmin": 0.3917,
-        "rms": 0.13,
-        "gap": 193,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.8 - 28 km NNE of Luquillo, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -65.6058333333333,
-          18.6075,
-          20.36
-        ]
-      },
-      "id": "pr71498788"
     }
   ],
   "bbox": [
     -178.7304,
-    -45.6518,
+    -39.6453,
     -2.37,
     177.0522,
     65.3093,
