@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1761468891000,
+    "generated": 1761469797000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
@@ -9,6 +9,46 @@
     "count": 172
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.29,
+        "place": "2 km ESE of Mayagüez, Puerto Rico",
+        "time": 1761468353900,
+        "updated": 1761469070960,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71498828",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71498828.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 81,
+        "net": "pr",
+        "code": "71498828",
+        "ids": ",pr71498828,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 9,
+        "dmin": 0.02846,
+        "rms": 0.13,
+        "gap": 134,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.3 - 2 km ESE of Mayagüez, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.1175,
+          18.1948333333333,
+          20.69
+        ]
+      },
+      "id": "pr71498828"
+    },
     {
       "type": "Feature",
       "properties": {
