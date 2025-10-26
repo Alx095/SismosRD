@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1761474693000,
+    "generated": 1761475319000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
@@ -9,6 +9,46 @@
     "count": 171
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.01,
+        "place": "4 km NNW of Dorado, Puerto Rico",
+        "time": 1761472678330,
+        "updated": 1761474953270,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71498848",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71498848.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 139,
+        "net": "pr",
+        "code": "71498848",
+        "ids": ",pr71498848,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 17,
+        "dmin": 0.2406,
+        "rms": 0.33,
+        "gap": 182,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 3.0 - 4 km NNW of Dorado, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.2773333333333,
+          18.5023333333333,
+          103.08
+        ]
+      },
+      "id": "pr71498848"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -254,7 +294,7 @@
     -178.7304,
     -45.6518,
     -2.37,
-    167.1731,
+    166.389,
     65.3188,
     561.686
   ]
