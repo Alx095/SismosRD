@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1761481014000,
+    "generated": 1761483301000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 164
+    "count": 161
   },
   "features": [
     {
@@ -248,53 +248,13 @@
         ]
       },
       "id": "pr71498778"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.12,
-        "place": "1 km NE of Las Ochenta, Puerto Rico",
-        "time": 1761394663140,
-        "updated": 1761395221580,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71498768",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71498768.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 69,
-        "net": "pr",
-        "code": "71498768",
-        "ids": ",pr71498768,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 6,
-        "dmin": 0.1884,
-        "rms": 0.05,
-        "gap": 191,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.1 - 1 km NE of Las Ochenta, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.3075,
-          17.9943333333333,
-          12.62
-        ]
-      },
-      "id": "pr71498768"
     }
   ],
   "bbox": [
     -178.7304,
     -45.6518,
     -2.37,
-    166.389,
+    169.4761,
     65.3188,
     347.966
   ]
