@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1761576797000,
+    "generated": 1761577813000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 162
+    "count": 164
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.27,
+        "place": "13 km SSE of Guánica, Puerto Rico",
+        "time": 1761575879340,
+        "updated": 1761577103710,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71498943",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71498943.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 79,
+        "net": "pr",
+        "code": "71498943",
+        "ids": ",pr71498943,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 6,
+        "dmin": 0.1152,
+        "rms": 0.25,
+        "gap": 251,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.3 - 13 km SSE of Guánica, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.8603333333333,
+          17.8606666666667,
+          12.33
+        ]
+      },
+      "id": "pr71498943"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -95,7 +135,7 @@
         "mag": 6.5,
         "place": "162 km E of Beauséjour, Guadeloupe",
         "time": 1761568720311,
-        "updated": 1761576095343,
+        "updated": 1761577583732,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000rjq8",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000rjq8.geojson",
