@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1761589281000,
+    "generated": 1761590705000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 185
+    "count": 187
   },
   "features": [
     {
@@ -95,11 +95,11 @@
         "mag": 6,
         "place": "163 km E of Beauséjour, Guadeloupe",
         "time": 1761569699494,
-        "updated": 1761578591692,
+        "updated": 1761589410239,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000rjqj",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000rjqj.geojson",
-        "felt": 6,
+        "felt": 7,
         "cdi": 3.1,
         "mmi": 3.388,
         "alert": "green",
