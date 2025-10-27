@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1761554647000,
+    "generated": 1761555331000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 151
+    "count": 150
   },
   "features": [
     {
@@ -128,86 +128,6 @@
         ]
       },
       "id": "pr71498848"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.43,
-        "place": "122 km N of Charlotte Amalie, U.S. Virgin Islands",
-        "time": 1761468568230,
-        "updated": 1761470744040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71498833",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71498833.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 181,
-        "net": "pr",
-        "code": "71498833",
-        "ids": ",us6000rjjb,pr71498833,",
-        "sources": ",us,pr,",
-        "types": ",origin,phase-data,",
-        "nst": 12,
-        "dmin": 1.122,
-        "rms": 0.29,
-        "gap": 265,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.4 - 122 km N of Charlotte Amalie, U.S. Virgin Islands"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -65.1511666666667,
-          19.4283333333333,
-          56.47
-        ]
-      },
-      "id": "pr71498833"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.29,
-        "place": "2 km ESE of Mayagüez, Puerto Rico",
-        "time": 1761468353900,
-        "updated": 1761469070960,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71498828",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71498828.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 81,
-        "net": "pr",
-        "code": "71498828",
-        "ids": ",pr71498828,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 9,
-        "dmin": 0.02846,
-        "rms": 0.13,
-        "gap": 134,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.3 - 2 km ESE of Mayagüez, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -67.1175,
-          18.1948333333333,
-          20.69
-        ]
-      },
-      "id": "pr71498828"
     }
   ],
   "bbox": [
