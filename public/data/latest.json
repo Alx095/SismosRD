@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1761534293000,
+    "generated": 1761537306000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 149
+    "count": 153
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.91,
+        "place": "1 km WSW of Bayamon, Puerto Rico",
+        "time": 1761533887580,
+        "updated": 1761534974780,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71498868",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71498868.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 130,
+        "net": "pr",
+        "code": "71498868",
+        "ids": ",pr71498868,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 18,
+        "dmin": 0.06675,
+        "rms": 0.18,
+        "gap": 53,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.9 - 1 km WSW of Bayamon, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1308333333333,
+          18.1736666666667,
+          17.91
+        ]
+      },
+      "id": "pr71498868"
+    },
     {
       "type": "Feature",
       "properties": {
