@@ -1,39 +1,79 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1761570158000,
+    "generated": 1761572220000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 160
+    "count": 159
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
+        "mag": 6,
+        "place": "163 km E of Beauséjour, Guadeloupe",
+        "time": 1761569699494,
+        "updated": 1761571989485,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000rjqj",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000rjqj.geojson",
+        "felt": 3,
+        "cdi": 3.1,
+        "mmi": 3.517,
+        "alert": "green",
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 555,
+        "net": "us",
+        "code": "6000rjqj",
+        "ids": ",us6000rjqj,",
+        "sources": ",us,",
+        "types": ",dyfi,ground-failure,losspager,origin,phase-data,shakemap,",
+        "nst": 119,
+        "dmin": 1.463,
+        "rms": 0.79,
+        "gap": 28,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 6.0 - 163 km E of Beauséjour, Guadeloupe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -59.5632,
+          16.5587,
+          10
+        ]
+      },
+      "id": "us6000rjqj"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 6.5,
         "place": "162 km E of Beauséjour, Guadeloupe",
-        "time": 1761568720467,
-        "updated": 1761570149594,
+        "time": 1761568720311,
+        "updated": 1761572051911,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000rjq8",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000rjq8.geojson",
-        "felt": 27,
-        "cdi": 3.9,
-        "mmi": 3.983,
-        "alert": null,
+        "felt": 97,
+        "cdi": 5.3,
+        "mmi": 3.865,
+        "alert": "green",
         "status": "reviewed",
         "tsunami": 1,
-        "sig": 661,
+        "sig": 701,
         "net": "us",
         "code": "6000rjq8",
-        "ids": ",pt25300000,at00t4sj4k,us6000rjq8,",
-        "sources": ",pt,at,us,",
-        "types": ",dyfi,impact-link,origin,phase-data,shakemap,",
-        "nst": 142,
-        "dmin": 1.455,
-        "rms": 0.83,
+        "ids": ",at00t4sj4k,pt25300000,us6000rjq8,",
+        "sources": ",at,pt,us,",
+        "types": ",dyfi,ground-failure,impact-link,losspager,moment-tensor,origin,phase-data,shakemap,",
+        "nst": 139,
+        "dmin": 1.45,
+        "rms": 0.71,
         "gap": 21,
         "magType": "mww",
         "type": "earthquake",
@@ -42,9 +82,9 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -59.5681,
-          16.5372,
-          10
+          -59.5718,
+          16.5295,
+          9
         ]
       },
       "id": "us6000rjq8"
