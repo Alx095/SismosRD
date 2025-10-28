@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1761676407000,
+    "generated": 1761677587000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 223
+    "count": 219
   },
   "features": [
     {
@@ -368,46 +368,6 @@
         ]
       },
       "id": "pr71498988"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.9,
-        "place": "159 km E of Beauséjour, Guadeloupe",
-        "time": 1761590406955,
-        "updated": 1761592150040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000rjsg",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000rjsg.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 369,
-        "net": "us",
-        "code": "6000rjsg",
-        "ids": ",us6000rjsg,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 62,
-        "dmin": 1.424,
-        "rms": 0.53,
-        "gap": 61,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.9 - 159 km E of Beauséjour, Guadeloupe"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -59.5927,
-          16.4829,
-          10
-        ]
-      },
-      "id": "us6000rjsg"
     }
   ],
   "bbox": [
