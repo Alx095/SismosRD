@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1761635856000,
+    "generated": 1761636714000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 213
+    "count": 214
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.01,
+        "place": "4 km SSW of Arroyo, Puerto Rico",
+        "time": 1761636232640,
+        "updated": 1761636695230,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71499088",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71499088.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 62,
+        "net": "pr",
+        "code": "71499088",
+        "ids": ",pr71499088,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 6,
+        "dmin": 0.05086,
+        "rms": 0.14,
+        "gap": 258,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.0 - 4 km SSW of Arroyo, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.0816666666667,
+          17.9313333333333,
+          13.81
+        ]
+      },
+      "id": "pr71499088"
+    },
     {
       "type": "Feature",
       "properties": {
