@@ -1,14 +1,94 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1761615761000,
+    "generated": 1761620309000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 220
+    "count": 219
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.7,
+        "place": "138 km E of Beauséjour, Guadeloupe",
+        "time": 1761618365437,
+        "updated": 1761619988040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000rjuf",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000rjuf.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 340,
+        "net": "us",
+        "code": "6000rjuf",
+        "ids": ",us6000rjuf,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 48,
+        "dmin": 1.232,
+        "rms": 0.56,
+        "gap": 208,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.7 - 138 km E of Beauséjour, Guadeloupe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -59.7962,
+          16.4973,
+          28.056
+        ]
+      },
+      "id": "us6000rjuf"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.6,
+        "place": "147 km E of Beauséjour, Guadeloupe",
+        "time": 1761609097017,
+        "updated": 1761617461040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000rjtz",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000rjtz.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 326,
+        "net": "us",
+        "code": "6000rjtz",
+        "ids": ",us6000rjtz,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 35,
+        "dmin": 1.317,
+        "rms": 0.37,
+        "gap": 146,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.6 - 147 km E of Beauséjour, Guadeloupe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -59.7097,
+          16.514,
+          10
+        ]
+      },
+      "id": "us6000rjtz"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -295,17 +375,17 @@
         "mag": 6.5,
         "place": "162 km E of Beauséjour, Guadeloupe",
         "time": 1761568720311,
-        "updated": 1761608895040,
+        "updated": 1761618344459,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000rjq8",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000rjq8.geojson",
-        "felt": 118,
-        "cdi": 5.3,
+        "felt": 119,
+        "cdi": 6.6,
         "mmi": 3.88,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 1,
-        "sig": 713,
+        "sig": 729,
         "net": "us",
         "code": "6000rjq8",
         "ids": ",pt25300000,at00t4sj4k,us6000rjq8,",
@@ -328,52 +408,12 @@
         ]
       },
       "id": "us6000rjq8"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.91,
-        "place": "1 km WSW of Bayamon, Puerto Rico",
-        "time": 1761533887580,
-        "updated": 1761597054081,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71498868",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71498868.geojson",
-        "felt": 1,
-        "cdi": 2.7,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 131,
-        "net": "pr",
-        "code": "71498868",
-        "ids": ",pr71498868,",
-        "sources": ",pr,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 18,
-        "dmin": 0.06675,
-        "rms": 0.18,
-        "gap": 53,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.9 - 1 km WSW of Bayamon, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.1308333333333,
-          18.1736666666667,
-          17.91
-        ]
-      },
-      "id": "pr71498868"
     }
   ],
   "bbox": [
     -179.4174,
     -21.6155,
-    -2.97,
+    -1.46,
     175.5905,
     65.2437,
     643.16
