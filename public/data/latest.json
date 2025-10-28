@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1761652708000,
+    "generated": 1761655408000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
@@ -495,17 +495,17 @@
         "mag": 6,
         "place": "163 km E of Beauséjour, Guadeloupe",
         "time": 1761569699494,
-        "updated": 1761589410239,
+        "updated": 1761654218158,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000rjqj",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000rjqj.geojson",
-        "felt": 7,
-        "cdi": 3.1,
+        "felt": 8,
+        "cdi": 3.4,
         "mmi": 3.388,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 556,
+        "sig": 557,
         "net": "us",
         "code": "6000rjqj",
         "ids": ",us6000rjqj,",
@@ -528,46 +528,6 @@
         ]
       },
       "id": "us6000rjqj"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 6.5,
-        "place": "162 km E of Beauséjour, Guadeloupe",
-        "time": 1761568720311,
-        "updated": 1761618344459,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000rjq8",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000rjq8.geojson",
-        "felt": 119,
-        "cdi": 6.6,
-        "mmi": 3.88,
-        "alert": "green",
-        "status": "reviewed",
-        "tsunami": 1,
-        "sig": 729,
-        "net": "us",
-        "code": "6000rjq8",
-        "ids": ",pt25300000,at00t4sj4k,us6000rjq8,",
-        "sources": ",pt,at,us,",
-        "types": ",dyfi,ground-failure,impact-link,losspager,moment-tensor,origin,phase-data,shakemap,",
-        "nst": 139,
-        "dmin": 1.45,
-        "rms": 0.71,
-        "gap": 21,
-        "magType": "mww",
-        "type": "earthquake",
-        "title": "M 6.5 - 162 km E of Beauséjour, Guadeloupe"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -59.5718,
-          16.5295,
-          9
-        ]
-      },
-      "id": "us6000rjq8"
     }
   ],
   "bbox": [
