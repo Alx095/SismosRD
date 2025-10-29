@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1761699994000,
+    "generated": 1761706249000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 211
+    "count": 205
   },
   "features": [
     {
@@ -168,93 +168,13 @@
         ]
       },
       "id": "pr71499078"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.5,
-        "place": "147 km E of Beauséjour, Guadeloupe",
-        "time": 1761618374715,
-        "updated": 1761620748040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000rjui",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000rjui.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 312,
-        "net": "us",
-        "code": "6000rjui",
-        "ids": ",us6000rjui,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 16,
-        "dmin": 1.314,
-        "rms": 0.66,
-        "gap": 235,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.5 - 147 km E of Beauséjour, Guadeloupe"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -59.6998,
-          16.3976,
-          12.601
-        ]
-      },
-      "id": "us6000rjui"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.7,
-        "place": "138 km E of Beauséjour, Guadeloupe",
-        "time": 1761618365437,
-        "updated": 1761619988040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000rjuf",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000rjuf.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 340,
-        "net": "us",
-        "code": "6000rjuf",
-        "ids": ",us6000rjuf,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 48,
-        "dmin": 1.232,
-        "rms": 0.56,
-        "gap": 208,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.7 - 138 km E of Beauséjour, Guadeloupe"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -59.7962,
-          16.4973,
-          28.056
-        ]
-      },
-      "id": "us6000rjuf"
     }
   ],
   "bbox": [
-    -170.8033,
+    -164.01883333333,
     -31.5175,
     -3.39,
-    157.393,
+    160.2617,
     65.2443,
     531.156
   ]
