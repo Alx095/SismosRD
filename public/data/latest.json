@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1761710469000,
+    "generated": 1761712384000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 211
+    "count": 209
   },
   "features": [
     {
@@ -128,46 +128,6 @@
         ]
       },
       "id": "pr71499088"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.38,
-        "place": "7 km SW of Tallaboa, Puerto Rico",
-        "time": 1761624680850,
-        "updated": 1761625247990,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71499078",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71499078.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 87,
-        "net": "pr",
-        "code": "71499078",
-        "ids": ",pr71499078,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 11,
-        "dmin": 0.08492,
-        "rms": 0.16,
-        "gap": 172,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.4 - 7 km SW of Tallaboa, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.7548333333333,
-          17.9421666666667,
-          8.47
-        ]
-      },
-      "id": "pr71499078"
     }
   ],
   "bbox": [
