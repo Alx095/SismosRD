@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1761947219000,
+    "generated": 1761947656000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
@@ -9,6 +9,46 @@
     "count": 248
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.58,
+        "place": "52 km NNE of Miches, Dominican Republic",
+        "time": 1761945068380,
+        "updated": 1761947211881,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2025304001",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2025304001.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 197,
+        "net": "pr",
+        "code": "2025304001",
+        "ids": ",pr2025304001,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 8,
+        "dmin": 0.9623,
+        "rms": 0.23,
+        "gap": 322,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 3.6 - 52 km NNE of Miches, Dominican Republic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.7891,
+          19.3856,
+          30
+        ]
+      },
+      "id": "pr2025304001"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -373,7 +413,7 @@
   "bbox": [
     -175.0535,
     -59.5772,
-    -1.07,
+    -1.61,
     179.9835,
     65.1468,
     522.682
