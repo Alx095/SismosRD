@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1761879659000,
+    "generated": 1761882419000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
@@ -9,6 +9,46 @@
     "count": 205
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.28,
+        "place": "1 km S of Pájaros, Puerto Rico",
+        "time": 1761878953810,
+        "updated": 1761880490620,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71499348",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71499348.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 166,
+        "net": "pr",
+        "code": "71499348",
+        "ids": ",pr71499348,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 20,
+        "dmin": 0.1355,
+        "rms": 0.14,
+        "gap": 170,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 3.3 - 1 km S of Pájaros, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.2191666666667,
+          18.3515,
+          125.54
+        ]
+      },
+      "id": "pr71499348"
+    },
     {
       "type": "Feature",
       "properties": {
