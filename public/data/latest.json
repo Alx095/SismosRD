@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1761929834000,
+    "generated": 1761930958000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 234
+    "count": 239
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.5,
+        "place": "46 km N of Hatillo, Puerto Rico",
+        "time": 1761929559574,
+        "updated": 1761930199040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000rklc",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000rklc.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 188,
+        "net": "us",
+        "code": "6000rklc",
+        "ids": ",us6000rklc,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 15,
+        "dmin": 0.497,
+        "rms": 0.28,
+        "gap": 191,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.5 - 46 km N of Hatillo, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.793,
+          18.909,
+          35
+        ]
+      },
+      "id": "us6000rklc"
+    },
     {
       "type": "Feature",
       "properties": {
