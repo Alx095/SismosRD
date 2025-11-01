@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1761960033000,
+    "generated": 1761965391000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 243
+    "count": 233
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.35,
+        "place": "32 km NNE of Luquillo, Puerto Rico",
+        "time": 1761960534890,
+        "updated": 1761961940040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71499458",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71499458.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 173,
+        "net": "pr",
+        "code": "71499458",
+        "ids": ",us6000rkvw,pr71499458,",
+        "sources": ",us,pr,",
+        "types": ",origin,phase-data,",
+        "nst": 30,
+        "dmin": 0.3096,
+        "rms": 0.3,
+        "gap": 193,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 3.4 - 32 km NNE of Luquillo, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.5731666666667,
+          18.6363333333333,
+          68.63
+        ]
+      },
+      "id": "pr71499458"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -368,86 +408,6 @@
         ]
       },
       "id": "pr71499358"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.28,
-        "place": "1 km S of Pájaros, Puerto Rico",
-        "time": 1761878953810,
-        "updated": 1761880490620,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71499348",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71499348.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 166,
-        "net": "pr",
-        "code": "71499348",
-        "ids": ",pr71499348,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 20,
-        "dmin": 0.1355,
-        "rms": 0.14,
-        "gap": 170,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.3 - 1 km S of Pájaros, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.2191666666667,
-          18.3515,
-          125.54
-        ]
-      },
-      "id": "pr71499348"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.36,
-        "place": "8 km SSW of Tallaboa, Puerto Rico",
-        "time": 1761875468750,
-        "updated": 1761876162390,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71499328",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71499328.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 86,
-        "net": "pr",
-        "code": "71499328",
-        "ids": ",pr71499328,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 9,
-        "dmin": 0.102,
-        "rms": 0.18,
-        "gap": 230,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.4 - 8 km SSW of Tallaboa, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.7455,
-          17.9273333333333,
-          7.67
-        ]
-      },
-      "id": "pr71499328"
     }
   ],
   "bbox": [
