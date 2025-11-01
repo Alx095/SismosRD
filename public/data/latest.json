@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1762006261000,
+    "generated": 1762007281000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 184
+    "count": 186
   },
   "features": [
     {
@@ -328,46 +328,6 @@
         ]
       },
       "id": "pr71499398"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.82,
-        "place": "44 km N of Carrizales, Puerto Rico",
-        "time": 1761920122560,
-        "updated": 1761921760600,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71499388",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71499388.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 122,
-        "net": "pr",
-        "code": "71499388",
-        "ids": ",pr71499388,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 14,
-        "dmin": 0.4382,
-        "rms": 0.25,
-        "gap": 262,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.8 - 44 km N of Carrizales, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.7278333333333,
-          18.875,
-          55.51
-        ]
-      },
-      "id": "pr71499388"
     }
   ],
   "bbox": [
