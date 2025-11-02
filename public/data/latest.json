@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1762046520000,
+    "generated": 1762052004000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 171
+    "count": 173
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.78,
+        "place": "0 km SSE of Guánica, Puerto Rico",
+        "time": 1762050729020,
+        "updated": 1762051735340,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71499528",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71499528.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 119,
+        "net": "pr",
+        "code": "71499528",
+        "ids": ",pr71499528,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 18,
+        "dmin": 0.02793,
+        "rms": 0.31,
+        "gap": 172,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.8 - 0 km SSE of Guánica, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.906,
+          17.9635,
+          7.3
+        ]
+      },
+      "id": "pr71499528"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -208,46 +248,6 @@
         ]
       },
       "id": "pr71499473"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.35,
-        "place": "32 km NNE of Luquillo, Puerto Rico",
-        "time": 1761960534890,
-        "updated": 1761961940040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71499458",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71499458.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 173,
-        "net": "pr",
-        "code": "71499458",
-        "ids": ",us6000rkvw,pr71499458,",
-        "sources": ",us,pr,",
-        "types": ",origin,phase-data,",
-        "nst": 30,
-        "dmin": 0.3096,
-        "rms": 0.3,
-        "gap": 193,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.4 - 32 km NNE of Luquillo, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -65.5731666666667,
-          18.6363333333333,
-          68.63
-        ]
-      },
-      "id": "pr71499458"
     }
   ],
   "bbox": [
