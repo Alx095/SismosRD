@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1762116975000,
+    "generated": 1762117949000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 183
+    "count": 181
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.2,
+        "place": "5 km SE of San Germán, Puerto Rico",
+        "time": 1762115728630,
+        "updated": 1762117073890,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71499563",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71499563.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 74,
+        "net": "pr",
+        "code": "71499563",
+        "ids": ",pr71499563,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 8,
+        "dmin": 0.08524,
+        "rms": 0.11,
+        "gap": 85,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.2 - 5 km SE of San Germán, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.0065,
+          18.0471666666667,
+          11.61
+        ]
+      },
+      "id": "pr71499563"
+    },
     {
       "type": "Feature",
       "properties": {
