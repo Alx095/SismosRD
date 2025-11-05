@@ -1,14 +1,95 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1762316420000,
+    "generated": 1762317585000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 234
+    "count": 236
   },
-  "features": [],
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.83,
+        "place": "35 km N of Garrochales, Puerto Rico",
+        "time": 1762315496600,
+        "updated": 1762317375410,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71499633",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71499633.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 123,
+        "net": "pr",
+        "code": "71499633",
+        "ids": ",pr71499633,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 13,
+        "dmin": 0.2989,
+        "rms": 0.18,
+        "gap": 252,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.8 - 35 km N of Garrochales, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.5745,
+          18.7745,
+          29.85
+        ]
+      },
+      "id": "pr71499633"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.76,
+        "place": "14 km NNE of Isabela, Puerto Rico",
+        "time": 1762314531040,
+        "updated": 1762316664800,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71499628",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71499628.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 117,
+        "net": "pr",
+        "code": "71499628",
+        "ids": ",pr71499628,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 19,
+        "dmin": 0.1394,
+        "rms": 0.19,
+        "gap": 243,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.8 - 14 km NNE of Isabela, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.9556666666667,
+          18.6165,
+          14.33
+        ]
+      },
+      "id": "pr71499628"
+    }
+  ],
   "bbox": [
     -174.13,
     -54.6816,
