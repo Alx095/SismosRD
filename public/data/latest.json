@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1762401727000,
+    "generated": 1762403640000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 216
+    "count": 212
   },
   "features": [
     {
@@ -128,50 +128,10 @@
         ]
       },
       "id": "pr71499648"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.83,
-        "place": "35 km N of Garrochales, Puerto Rico",
-        "time": 1762315496600,
-        "updated": 1762317375410,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71499633",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71499633.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 123,
-        "net": "pr",
-        "code": "71499633",
-        "ids": ",pr71499633,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 13,
-        "dmin": 0.2989,
-        "rms": 0.18,
-        "gap": 252,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.8 - 35 km N of Garrochales, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.5745,
-          18.7745,
-          29.85
-        ]
-      },
-      "id": "pr71499633"
     }
   ],
   "bbox": [
-    -168.365,
+    -169.88966666667,
     -58.0489,
     -1.73,
     178.41,
