@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1762794843000,
+    "generated": 1762795863000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 235
+    "count": 232
   },
   "features": [
     {
@@ -15,7 +15,7 @@
         "mag": 2.64,
         "place": "3 km E of Yauco, Puerto Rico",
         "time": 1762792798630,
-        "updated": 1762793957960,
+        "updated": 1762795209040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71499928",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71499928.geojson",
@@ -28,8 +28,8 @@
         "sig": 107,
         "net": "pr",
         "code": "71499928",
-        "ids": ",pr71499928,",
-        "sources": ",pr,",
+        "ids": ",us6000rmmr,pr71499928,",
+        "sources": ",us,pr,",
         "types": ",origin,phase-data,",
         "nst": 21,
         "dmin": 0.03673,
