@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1762844400000,
+    "generated": 1762845845000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 189
+    "count": 188
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.06,
+        "place": "13 km S of Arroyo, Puerto Rico",
+        "time": 1762842189030,
+        "updated": 1762844899207,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71499958",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71499958.geojson",
+        "felt": 1,
+        "cdi": 2,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 144,
+        "net": "pr",
+        "code": "71499958",
+        "ids": ",pr71499958,",
+        "sources": ",pr,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": 14,
+        "dmin": 0.1816,
+        "rms": 0.21,
+        "gap": 218,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 3.1 - 13 km S of Arroyo, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.0656666666667,
+          17.8403333333333,
+          10.86
+        ]
+      },
+      "id": "pr71499958"
+    },
     {
       "type": "Feature",
       "properties": {
