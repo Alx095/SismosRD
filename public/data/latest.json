@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1762858663000,
+    "generated": 1762859838000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
@@ -55,7 +55,7 @@
         "mag": 3.06,
         "place": "13 km S of Arroyo, Puerto Rico",
         "time": 1762842189030,
-        "updated": 1762844899207,
+        "updated": 1762859084040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71499958",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71499958.geojson",
@@ -68,8 +68,8 @@
         "sig": 144,
         "net": "pr",
         "code": "71499958",
-        "ids": ",pr71499958,",
-        "sources": ",pr,",
+        "ids": ",pr71499958,us6000rmqk,",
+        "sources": ",pr,us,",
         "types": ",dyfi,origin,phase-data,",
         "nst": 14,
         "dmin": 0.1816,
