@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1762832255000,
+    "generated": 1762833617000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 187
+    "count": 195
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5,
+        "place": "134 km NE of Crane, Barbados",
+        "time": 1762831717114,
+        "updated": 1762832751040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000rmpy",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000rmpy.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 385,
+        "net": "us",
+        "code": "6000rmpy",
+        "ids": ",us6000rmpy,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 73,
+        "dmin": 2.76,
+        "rms": 1.09,
+        "gap": 59,
+        "magType": "mww",
+        "type": "earthquake",
+        "title": "M 5.0 - 134 km NE of Crane, Barbados"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.4616,
+          13.8471,
+          10
+        ]
+      },
+      "id": "us6000rmpy"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -91,9 +131,9 @@
     }
   ],
   "bbox": [
-    -164.00183333333,
+    -167.40166666667,
     -38.8562,
-    -1.98,
+    -2.4,
     175.0747,
     73.2159,
     236.796
