@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1763088595000,
+    "generated": 1763091449000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
@@ -15,12 +15,12 @@
         "mag": 3.19,
         "place": "10 km NW of Puerto Real, Puerto Rico",
         "time": 1763083830440,
-        "updated": 1763086561740,
+        "updated": 1763090788399,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71500078",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71500078.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -30,7 +30,7 @@
         "code": "71500078",
         "ids": ",pr71500078,",
         "sources": ",pr,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 15,
         "dmin": 0.1158,
         "rms": 0.18,
@@ -176,6 +176,6 @@
     -3.19,
     178.0589,
     67.8786,
-    646.822
+    538.903
   ]
 }
