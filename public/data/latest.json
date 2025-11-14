@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1763131803000,
+    "generated": 1763132242000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 211
+    "count": 209
   },
   "features": [
     {
@@ -128,46 +128,6 @@
         ]
       },
       "id": "pr71500053"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.39,
-        "place": "7 km SE of Adjuntas, Puerto Rico",
-        "time": 1763045431870,
-        "updated": 1763046190500,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71500033",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71500033.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 88,
-        "net": "pr",
-        "code": "71500033",
-        "ids": ",pr71500033,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 9,
-        "dmin": 0.09658,
-        "rms": 0.13,
-        "gap": 122,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.4 - 7 km SE of Adjuntas, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.6663333333333,
-          18.1246666666667,
-          19.79
-        ]
-      },
-      "id": "pr71500033"
     }
   ],
   "bbox": [
