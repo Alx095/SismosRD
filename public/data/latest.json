@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1763186230000,
+    "generated": 1763187884000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 179
+    "count": 184
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.56,
+        "place": "2 km NE of Fuig, Puerto Rico",
+        "time": 1763185617790,
+        "updated": 1763186319490,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71500143",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71500143.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 101,
+        "net": "pr",
+        "code": "71500143",
+        "ids": ",pr71500143,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 19,
+        "dmin": 0.03482,
+        "rms": 0.21,
+        "gap": 128,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.6 - 2 km NE of Fuig, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.9008333333333,
+          18.0033333333333,
+          10.59
+        ]
+      },
+      "id": "pr71500143"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -128,6 +168,46 @@
         ]
       },
       "id": "pr71500103"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.5,
+        "place": "153 km E of Beauséjour, Guadeloupe",
+        "time": 1763106540846,
+        "updated": 1763187078040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000rn7r",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000rn7r.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 312,
+        "net": "us",
+        "code": "6000rn7r",
+        "ids": ",us6000rn7r,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 42,
+        "dmin": 1.373,
+        "rms": 0.99,
+        "gap": 160,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.5 - 153 km E of Beauséjour, Guadeloupe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -59.6455,
+          16.479,
+          10
+        ]
+      },
+      "id": "us6000rn7r"
     }
   ],
   "bbox": [
