@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1763301073000,
+    "generated": 1763301461000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 215
+    "count": 214
   },
   "features": [
     {
@@ -168,46 +168,6 @@
         ]
       },
       "id": "us6000rngx"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.19,
-        "place": "11 km SSE of Jobos, Puerto Rico",
-        "time": 1763214945650,
-        "updated": 1763215811220,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71500193",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71500193.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 74,
-        "net": "pr",
-        "code": "71500193",
-        "ids": ",pr71500193,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 13,
-        "dmin": 0.1108,
-        "rms": 0.2,
-        "gap": 208,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.2 - 11 km SSE of Jobos, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.1113333333333,
-          17.8606666666667,
-          8.41
-        ]
-      },
-      "id": "pr71500193"
     }
   ],
   "bbox": [
