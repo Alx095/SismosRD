@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1763401678000,
+    "generated": 1763402118000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 230
+    "count": 231
   },
   "features": [
     {
@@ -15,11 +15,11 @@
         "mag": 5.3,
         "place": "12 km WSW of Ciudad Sandino, Nicaragua",
         "time": 1763400183682,
-        "updated": 1763401536178,
+        "updated": 1763401842692,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000rnrz",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000rnrz.geojson",
-        "felt": 1,
+        "felt": 3,
         "cdi": 3.8,
         "mmi": null,
         "alert": null,
@@ -255,11 +255,11 @@
         "mag": 4.2,
         "place": "2 km SE of Luperón, Dominican Republic",
         "time": 1763323180270,
-        "updated": 1763334137712,
+        "updated": 1763401890821,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000rnmg",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000rnmg.geojson",
-        "felt": 1,
+        "felt": 2,
         "cdi": 3.8,
         "mmi": null,
         "alert": null,
