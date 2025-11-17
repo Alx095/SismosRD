@@ -1,11 +1,11 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1763422320000,
+    "generated": 1763422898000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
-    "api": "2.2.0",
+    "api": "1.14.1",
     "count": 241
   },
   "features": [
@@ -95,11 +95,11 @@
         "mag": 5.3,
         "place": "12 km WSW of Ciudad Sandino, Nicaragua",
         "time": 1763400183682,
-        "updated": 1763413308594,
+        "updated": 1763422489940,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000rnrz",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000rnrz.geojson",
-        "felt": 12,
+        "felt": 13,
         "cdi": 3.8,
         "mmi": null,
         "alert": null,
@@ -288,46 +288,6 @@
         ]
       },
       "id": "pr71500303"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.78,
-        "place": "2 km SSE of Liborio Negron Torres, Puerto Rico",
-        "time": 1763336292160,
-        "updated": 1763337401470,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71500293",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71500293.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 119,
-        "net": "pr",
-        "code": "71500293",
-        "ids": ",pr71500293,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 16,
-        "dmin": 0.0697,
-        "rms": 0.22,
-        "gap": 133,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.8 - 2 km SSE of Liborio Negron Torres, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.933,
-          18.0226666666667,
-          7.85
-        ]
-      },
-      "id": "pr71500293"
     }
   ],
   "bbox": [
