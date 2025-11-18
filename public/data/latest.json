@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1763485237000,
+    "generated": 1763486623000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
-    "api": "2.2.0",
-    "count": 186
+    "api": "1.14.1",
+    "count": 188
   },
   "features": [
     {
@@ -168,46 +168,6 @@
         ]
       },
       "id": "pr71500368"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5.3,
-        "place": "12 km WSW of Ciudad Sandino, Nicaragua",
-        "time": 1763400183682,
-        "updated": 1763473730776,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000rnrz",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000rnrz.geojson",
-        "felt": 16,
-        "cdi": 3.8,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 438,
-        "net": "us",
-        "code": "6000rnrz",
-        "ids": ",us6000rnrz,",
-        "sources": ",us,",
-        "types": ",dyfi,moment-tensor,origin,phase-data,",
-        "nst": 66,
-        "dmin": 0.793,
-        "rms": 1.18,
-        "gap": 126,
-        "magType": "mww",
-        "type": "earthquake",
-        "title": "M 5.3 - 12 km WSW of Ciudad Sandino, Nicaragua"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -86.4514,
-          12.1277,
-          128.024
-        ]
-      },
-      "id": "us6000rnrz"
     }
   ],
   "bbox": [
