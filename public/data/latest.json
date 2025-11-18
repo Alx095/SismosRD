@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1763497303000,
+    "generated": 1763502062000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
-    "api": "2.2.0",
-    "count": 189
+    "api": "1.14.1",
+    "count": 193
   },
   "features": [
     {
@@ -88,86 +88,6 @@
         ]
       },
       "id": "pr71500393"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.11,
-        "place": "5 km SSW of Tallaboa, Puerto Rico",
-        "time": 1763415363210,
-        "updated": 1763416142460,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71500383",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71500383.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 68,
-        "net": "pr",
-        "code": "71500383",
-        "ids": ",pr71500383,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 9,
-        "dmin": 0.08018,
-        "rms": 0.11,
-        "gap": 172,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.1 - 5 km SSW of Tallaboa, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.7441666666667,
-          17.9533333333333,
-          16.7
-        ]
-      },
-      "id": "pr71500383"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.76,
-        "place": "29 km W of Pole Ojea, Puerto Rico",
-        "time": 1763411150870,
-        "updated": 1763411879050,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71500368",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71500368.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 117,
-        "net": "pr",
-        "code": "71500368",
-        "ids": ",pr71500368,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 9,
-        "dmin": 0.289,
-        "rms": 0.13,
-        "gap": 305,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.8 - 29 km W of Pole Ojea, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -67.4595,
-          17.9485,
-          10.97
-        ]
-      },
-      "id": "pr71500368"
     }
   ],
   "bbox": [
