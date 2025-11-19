@@ -1,14 +1,94 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1763514900000,
+    "generated": 1763520543000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "2.2.0",
-    "count": 214
+    "count": 218
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5,
+        "place": "34 km NNE of Yaguaraparo, Venezuela",
+        "time": 1763516333994,
+        "updated": 1763518432916,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000rp2d",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000rp2d.geojson",
+        "felt": 1,
+        "cdi": 2.7,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 385,
+        "net": "us",
+        "code": "6000rp2d",
+        "ids": ",us6000rp2d,",
+        "sources": ",us,",
+        "types": ",dyfi,moment-tensor,origin,phase-data,",
+        "nst": 65,
+        "dmin": 4.144,
+        "rms": 1.2,
+        "gap": 92,
+        "magType": "mww",
+        "type": "earthquake",
+        "title": "M 5.0 - 34 km NNE of Yaguaraparo, Venezuela"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -62.7566,
+          10.8709,
+          122.975
+        ]
+      },
+      "id": "us6000rp2d"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.22,
+        "place": "3 km SSW of Guánica, Puerto Rico",
+        "time": 1763515859820,
+        "updated": 1763516353070,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71500418",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71500418.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 76,
+        "net": "pr",
+        "code": "71500418",
+        "ids": ",pr71500418,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 9,
+        "dmin": 0.05481,
+        "rms": 0.06,
+        "gap": 224,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.2 - 3 km SSW of Guánica, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.9225,
+          17.9386666666667,
+          14.98
+        ]
+      },
+      "id": "pr71500418"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -48,46 +128,6 @@
         ]
       },
       "id": "pr71500408"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.44,
-        "place": "20 km SSW of Saint Croix, U.S. Virgin Islands",
-        "time": 1763432655370,
-        "updated": 1763464545433,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71500393",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71500393.geojson",
-        "felt": 1,
-        "cdi": 1,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 182,
-        "net": "pr",
-        "code": "71500393",
-        "ids": ",pr71500393,",
-        "sources": ",pr,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 15,
-        "dmin": 0.7869,
-        "rms": 0.3,
-        "gap": 258,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.4 - 20 km SSW of Saint Croix, U.S. Virgin Islands"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -64.8383333333333,
-          17.5693333333333,
-          120.68
-        ]
-      },
-      "id": "pr71500393"
     }
   ],
   "bbox": [
