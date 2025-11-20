@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1763627217000,
+    "generated": 1763628471000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 258
+    "count": 260
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.6,
+        "place": "15 km SSE of Conchagua, El Salvador",
+        "time": 1763623563760,
+        "updated": 1763628288040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000rpb0",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000rpb0.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 326,
+        "net": "us",
+        "code": "6000rpb0",
+        "ids": ",us6000rpb0,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 78,
+        "dmin": 3.92,
+        "rms": 0.7,
+        "gap": 152,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.6 - 15 km SSE of Conchagua, El Salvador"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.8212,
+          13.1789,
+          190.493
+        ]
+      },
+      "id": "us6000rpb0"
+    },
     {
       "type": "Feature",
       "properties": {
