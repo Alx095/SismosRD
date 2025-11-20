@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1763600615000,
+    "generated": 1763606673000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 284
+    "count": 290
   },
   "features": [
     {
@@ -168,90 +168,10 @@
         ]
       },
       "id": "pr71500428"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5,
-        "place": "34 km NNE of Yaguaraparo, Venezuela",
-        "time": 1763516333994,
-        "updated": 1763518432916,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000rp2d",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000rp2d.geojson",
-        "felt": 1,
-        "cdi": 2.7,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 385,
-        "net": "us",
-        "code": "6000rp2d",
-        "ids": ",us6000rp2d,",
-        "sources": ",us,",
-        "types": ",dyfi,moment-tensor,origin,phase-data,",
-        "nst": 65,
-        "dmin": 4.144,
-        "rms": 1.2,
-        "gap": 92,
-        "magType": "mww",
-        "type": "earthquake",
-        "title": "M 5.0 - 34 km NNE of Yaguaraparo, Venezuela"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -62.7566,
-          10.8709,
-          122.975
-        ]
-      },
-      "id": "us6000rp2d"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.22,
-        "place": "3 km SSW of Guánica, Puerto Rico",
-        "time": 1763515859820,
-        "updated": 1763516353070,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71500418",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71500418.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 76,
-        "net": "pr",
-        "code": "71500418",
-        "ids": ",pr71500418,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 9,
-        "dmin": 0.05481,
-        "rms": 0.06,
-        "gap": 224,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.2 - 3 km SSW of Guánica, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.9225,
-          17.9386666666667,
-          14.98
-        ]
-      },
-      "id": "pr71500418"
     }
   ],
   "bbox": [
-    -176.8865,
+    -178.7643,
     -57.9631,
     -2.25,
     171.571,
