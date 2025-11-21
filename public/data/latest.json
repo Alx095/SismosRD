@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1763767801000,
+    "generated": 1763768393000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 259
+    "count": 260
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.02,
+        "place": "68 km N of Tierras Nuevas Poniente, Puerto Rico",
+        "time": 1763767656030,
+        "updated": 1763768367880,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71500573",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71500573.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 140,
+        "net": "pr",
+        "code": "71500573",
+        "ids": ",pr71500573,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 11,
+        "dmin": 0.6003,
+        "rms": 0.15,
+        "gap": 282,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 3.0 - 68 km N of Tierras Nuevas Poniente, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.5701666666667,
+          19.0793333333333,
+          18.27
+        ]
+      },
+      "id": "pr71500573"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -176,6 +216,6 @@
     -2.27,
     179.9218,
     65.758186340332,
-    621.063
+    561.114
   ]
 }
