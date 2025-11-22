@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1763808113000,
+    "generated": 1763808520000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 223
+    "count": 222
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.5,
+        "place": "11 km NW of San José, Costa Rica",
+        "time": 1763807341558,
+        "updated": 1763808420040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000rptb",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000rptb.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 312,
+        "net": "us",
+        "code": "6000rptb",
+        "ids": ",us6000rptb,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 29,
+        "dmin": 0.185,
+        "rms": 0.82,
+        "gap": 88,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.5 - 11 km NW of San José, Costa Rica"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.2184,
+          11.0187,
+          221.975
+        ]
+      },
+      "id": "us6000rptb"
+    },
     {
       "type": "Feature",
       "properties": {
