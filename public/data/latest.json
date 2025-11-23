@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1763938653000,
+    "generated": 1763939820000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
@@ -55,11 +55,11 @@
         "mag": 3.33,
         "place": "3 km SE of Naranjito, Puerto Rico",
         "time": 1763888853580,
-        "updated": 1763905149310,
+        "updated": 1763939008079,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71500658",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71500658.geojson",
-        "felt": 2,
+        "felt": 3,
         "cdi": 2.2,
         "mmi": null,
         "alert": null,
