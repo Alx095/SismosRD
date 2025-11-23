@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1763892902000,
+    "generated": 1763894005000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 171
+    "count": 173
   },
   "features": [
     {
@@ -15,12 +15,12 @@
         "mag": 3.33,
         "place": "3 km SE of Naranjito, Puerto Rico",
         "time": 1763888853580,
-        "updated": 1763890704920,
+        "updated": 1763893811208,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71500658",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71500658.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2.2,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -30,7 +30,7 @@
         "code": "71500658",
         "ids": ",pr71500658,",
         "sources": ",pr,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 36,
         "dmin": 0.1194,
         "rms": 0.18,
@@ -88,46 +88,6 @@
         ]
       },
       "id": "pr71500643"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.5,
-        "place": "11 km NW of San José, Costa Rica",
-        "time": 1763807341558,
-        "updated": 1763808420040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000rptb",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000rptb.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 312,
-        "net": "us",
-        "code": "6000rptb",
-        "ids": ",us6000rptb,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 29,
-        "dmin": 0.185,
-        "rms": 0.82,
-        "gap": 88,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.5 - 11 km NW of San José, Costa Rica"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -85.2184,
-          11.0187,
-          221.975
-        ]
-      },
-      "id": "us6000rptb"
     }
   ],
   "bbox": [
@@ -136,6 +96,6 @@
     -0.56,
     161.0624,
     65.7675,
-    221.975
+    185.972
   ]
 }
