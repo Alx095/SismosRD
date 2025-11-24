@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1764028164000,
+    "generated": 1764028594000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 275
+    "count": 272
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.74,
+        "place": "11 km SSW of Stella, Puerto Rico",
+        "time": 1764027441170,
+        "updated": 1764028461770,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71500833",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71500833.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 116,
+        "net": "pr",
+        "code": "71500833",
+        "ids": ",pr71500833,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 10,
+        "dmin": 0.1923,
+        "rms": 0.12,
+        "gap": 251,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.7 - 11 km SSW of Stella, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.282,
+          18.223,
+          73.52
+        ]
+      },
+      "id": "pr71500833"
+    },
     {
       "type": "Feature",
       "properties": {
