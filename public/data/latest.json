@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1763963461000,
+    "generated": 1763963881000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 213
+    "count": 212
   },
   "features": [
     {
@@ -55,7 +55,7 @@
         "mag": 3.4,
         "place": "101 km N of San Juan, Puerto Rico",
         "time": 1763960010060,
-        "updated": 1763962081960,
+        "updated": 1763963783040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71500748",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71500748.geojson",
@@ -68,8 +68,8 @@
         "sig": 178,
         "net": "pr",
         "code": "71500748",
-        "ids": ",pr71500748,",
-        "sources": ",pr,",
+        "ids": ",us6000rq19,pr71500748,",
+        "sources": ",us,pr,",
         "types": ",origin,phase-data,",
         "nst": 23,
         "dmin": 0.9445,
@@ -95,7 +95,7 @@
         "mag": 3.6,
         "place": "94 km NNE of Cruz Bay, U.S. Virgin Islands",
         "time": 1763949011350,
-        "updated": 1763952619455,
+        "updated": 1763963466040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2025328000",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2025328000.geojson",
@@ -108,8 +108,8 @@
         "sig": 199,
         "net": "pr",
         "code": "2025328000",
-        "ids": ",pr2025328000,",
-        "sources": ",pr,",
+        "ids": ",us6000rq0w,pr2025328000,",
+        "sources": ",us,pr,",
         "types": ",origin,phase-data,",
         "nst": 13,
         "dmin": 0.6734,
