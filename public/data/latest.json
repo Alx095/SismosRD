@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1763974727000,
+    "generated": 1763976347000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 207
+    "count": 206
   },
   "features": [
     {
@@ -288,51 +288,11 @@
         ]
       },
       "id": "pr71500683"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.33,
-        "place": "3 km SE of Naranjito, Puerto Rico",
-        "time": 1763888853580,
-        "updated": 1763939008079,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71500658",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71500658.geojson",
-        "felt": 3,
-        "cdi": 2.2,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 171,
-        "net": "pr",
-        "code": "71500658",
-        "ids": ",pr71500658,",
-        "sources": ",pr,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 36,
-        "dmin": 0.1194,
-        "rms": 0.18,
-        "gap": 109,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.3 - 3 km SE of Naranjito, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.2233333333333,
-          18.281,
-          68.83
-        ]
-      },
-      "id": "pr71500658"
     }
   ],
   "bbox": [
     -177.0025,
-    -58.2041,
+    -28.6014,
     -0.50999999046326,
     160.6478,
     65.544494628906,
