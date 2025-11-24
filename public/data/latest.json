@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1763995105000,
+    "generated": 1763995860000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 226
+    "count": 227
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.84,
+        "place": "13 km SSE of Emajagua, Puerto Rico",
+        "time": 1763994459500,
+        "updated": 1763995168010,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71500798",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71500798.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 124,
+        "net": "pr",
+        "code": "71500798",
+        "ids": ",pr71500798,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 14,
+        "dmin": 0.2258,
+        "rms": 0.24,
+        "gap": 210,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.8 - 13 km SSE of Emajagua, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.8253333333333,
+          17.8915,
+          42.4
+        ]
+      },
+      "id": "pr71500798"
+    },
     {
       "type": "Feature",
       "properties": {
