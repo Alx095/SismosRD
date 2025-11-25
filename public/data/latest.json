@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1764047768000,
+    "generated": 1764048934000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 266
+    "count": 269
   },
   "features": [
     {
@@ -208,46 +208,6 @@
         ]
       },
       "id": "pr71500763"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.37,
-        "place": "5 km W of Mayagüez, Puerto Rico",
-        "time": 1763961698300,
-        "updated": 1763962630360,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71500758",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71500758.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 86,
-        "net": "pr",
-        "code": "71500758",
-        "ids": ",pr71500758,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 7,
-        "dmin": 0.1039,
-        "rms": 0.22,
-        "gap": 219,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.4 - 5 km W of Mayagüez, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -67.192,
-          18.2003333333333,
-          28.05
-        ]
-      },
-      "id": "pr71500758"
     }
   ],
   "bbox": [
