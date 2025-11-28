@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1764334837000,
+    "generated": 1764336892000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 281
+    "count": 279
   },
   "features": [
     {
@@ -15,7 +15,7 @@
         "mag": 2.47,
         "place": "2 km S of Puerto Real, Puerto Rico",
         "time": 1764328881070,
-        "updated": 1764330294597,
+        "updated": 1764336786040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71500948",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71500948.geojson",
@@ -28,8 +28,8 @@
         "sig": 94,
         "net": "pr",
         "code": "71500948",
-        "ids": ",pr71500948,",
-        "sources": ",pr,",
+        "ids": ",pr71500948,us7000rebp,",
+        "sources": ",pr,us,",
         "types": ",dyfi,origin,phase-data,",
         "nst": 9,
         "dmin": 0.1358,
