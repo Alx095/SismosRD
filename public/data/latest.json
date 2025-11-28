@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1764338103000,
+    "generated": 1764339178000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 278
+    "count": 276
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.7,
+        "place": "133 km NE of Punta Cana, Dominican Republic",
+        "time": 1764331117116,
+        "updated": 1764338409040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000rebs",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000rebs.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 112,
+        "net": "us",
+        "code": "7000rebs",
+        "ids": ",us7000rebs,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 8,
+        "dmin": 1.24,
+        "rms": 0.94,
+        "gap": 334,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.7 - 133 km NE of Punta Cana, Dominican Republic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.6952,
+          19.5836,
+          10
+        ]
+      },
+      "id": "us7000rebs"
+    },
     {
       "type": "Feature",
       "properties": {
