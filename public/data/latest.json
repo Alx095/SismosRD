@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1764412570000,
+    "generated": 1764413155000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 227
+    "count": 226
   },
   "features": [
     {
@@ -128,46 +128,6 @@
         ]
       },
       "id": "pr71500948"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.47,
-        "place": "2 km NNE of Boquerón, Puerto Rico",
-        "time": 1764326422480,
-        "updated": 1764327889960,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71500938",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71500938.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 94,
-        "net": "pr",
-        "code": "71500938",
-        "ids": ",pr71500938,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 7,
-        "dmin": 0.1156,
-        "rms": 0.1,
-        "gap": 266,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.5 - 2 km NNE of Boquerón, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -67.1643333333333,
-          18.048,
-          13.47
-        ]
-      },
-      "id": "pr71500938"
     }
   ],
   "bbox": [
