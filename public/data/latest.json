@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1764516594000,
+    "generated": 1764517258000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 182
+    "count": 181
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.12,
+        "place": "2 km SW of Indios, Puerto Rico",
+        "time": 1764515266980,
+        "updated": 1764516849740,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71501078",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71501078.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 69,
+        "net": "pr",
+        "code": "71501078",
+        "ids": ",pr71501078,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 7,
+        "dmin": 0.04073,
+        "rms": 0.11,
+        "gap": 188,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.1 - 2 km SW of Indios, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.837,
+          17.9815,
+          14.76
+        ]
+      },
+      "id": "pr71501078"
+    },
     {
       "type": "Feature",
       "properties": {
