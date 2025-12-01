@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1764606349000,
+    "generated": 1764607895000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 189
+    "count": 191
   },
   "features": [
     {
@@ -95,7 +95,7 @@
         "mag": 3.22,
         "place": "12 km NNE of Carrizales, Puerto Rico",
         "time": 1764571212990,
-        "updated": 1764572510100,
+        "updated": 1764606878040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71501128",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71501128.geojson",
@@ -108,8 +108,8 @@
         "sig": 160,
         "net": "pr",
         "code": "71501128",
-        "ids": ",pr71501128,",
-        "sources": ",pr,",
+        "ids": ",us7000reu8,pr71501128,",
+        "sources": ",us,pr,",
         "types": ",origin,phase-data,",
         "nst": 35,
         "dmin": 0.2023,
@@ -135,7 +135,7 @@
         "mag": 3.3,
         "place": "17 km SW of Stella, Puerto Rico",
         "time": 1764569761090,
-        "updated": 1764572839390,
+        "updated": 1764607372040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71501113",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71501113.geojson",
@@ -148,8 +148,8 @@
         "sig": 168,
         "net": "pr",
         "code": "71501113",
-        "ids": ",pr71501113,",
-        "sources": ",pr,",
+        "ids": ",us7000reu5,pr71501113,",
+        "sources": ",us,pr,",
         "types": ",origin,phase-data,",
         "nst": 26,
         "dmin": 0.1643,
