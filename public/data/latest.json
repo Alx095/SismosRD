@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1764719835000,
+    "generated": 1764724913000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 220
+    "count": 207
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.51,
+        "place": "7 km SE of Pole Ojea, Puerto Rico",
+        "time": 1764720030120,
+        "updated": 1764721049310,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71501268",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71501268.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 97,
+        "net": "pr",
+        "code": "71501268",
+        "ids": ",pr71501268,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 12,
+        "dmin": 0.08354,
+        "rms": 0.06,
+        "gap": 264,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.5 - 7 km SE of Pole Ojea, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.1338333333333,
+          17.9256666666667,
+          12.54
+        ]
+      },
+      "id": "pr71501268"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -248,54 +288,14 @@
         ]
       },
       "id": "pr71501193"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.5,
-        "place": "18 km S of La Parguera, Puerto Rico",
-        "time": 1764633844450,
-        "updated": 1764634524860,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71501188",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71501188.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 96,
-        "net": "pr",
-        "code": "71501188",
-        "ids": ",pr71501188,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 7,
-        "dmin": 0.1576,
-        "rms": 0.19,
-        "gap": 280,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.5 - 18 km S of La Parguera, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -67.0333333333333,
-          17.8113333333333,
-          29.37
-        ]
-      },
-      "id": "pr71501188"
     }
   ],
   "bbox": [
     -178.9351,
-    -27.673,
-    -0.8,
+    -32.31,
+    -0.79,
     179.4707,
-    64.953399658203,
+    64.807579040527,
     613.568
   ]
 }
