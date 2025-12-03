@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1764778417000,
+    "generated": 1764780350000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 201
+    "count": 199
   },
   "features": [
     {
@@ -128,46 +128,6 @@
         ]
       },
       "id": "pr71501263"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.67,
-        "place": "2 km SSE of Guaymate, Dominican Republic",
-        "time": 1764692038970,
-        "updated": 1764700505040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2025336002",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2025336002.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 207,
-        "net": "pr",
-        "code": "2025336002",
-        "ids": ",us7000rf26,pr2025336002,",
-        "sources": ",us,pr,",
-        "types": ",origin,phase-data,",
-        "nst": 10,
-        "dmin": 0.5919,
-        "rms": 0.43,
-        "gap": 205,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.7 - 2 km SSE of Guaymate, Dominican Republic"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -68.9708,
-          18.5683,
-          113
-        ]
-      },
-      "id": "pr2025336002"
     }
   ],
   "bbox": [
