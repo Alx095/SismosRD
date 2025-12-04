@@ -1,53 +1,53 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1764879599000,
+    "generated": 1764880866000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 273
+    "count": 271
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.8,
-        "place": "82 km NNE of Luquillo, Puerto Rico",
-        "time": 1764876232281,
-        "updated": 1764877365040,
+        "mag": 3.27,
+        "place": "82 km N of Culebra, Puerto Rico",
+        "time": 1764876233350,
+        "updated": 1764880061370,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000rflv",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000rflv.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71501443",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71501443.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 121,
-        "net": "us",
-        "code": "7000rflv",
-        "ids": ",us7000rflv,",
-        "sources": ",us,",
+        "sig": 165,
+        "net": "pr",
+        "code": "71501443",
+        "ids": ",us7000rflv,pr71501443,",
+        "sources": ",us,pr,",
         "types": ",origin,phase-data,",
-        "nst": 15,
-        "dmin": 0.804,
-        "rms": 0.26,
-        "gap": 220,
-        "magType": "ml",
+        "nst": 19,
+        "dmin": 0.7916,
+        "rms": 0.22,
+        "gap": 236,
+        "magType": "md",
         "type": "earthquake",
-        "title": "M 2.8 - 82 km NNE of Luquillo, Puerto Rico"
+        "title": "M 3.3 - 82 km N of Culebra, Puerto Rico"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -65.3915,
-          19.0466,
-          35
+          -65.3743333333333,
+          19.0415,
+          47.35
         ]
       },
-      "id": "us7000rflv"
+      "id": "pr71501443"
     },
     {
       "type": "Feature",
