@@ -1,14 +1,94 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1764885179000,
+    "generated": 1764886019000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 274
+    "count": 269
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.65,
+        "place": "6 km S of Bajadero, Puerto Rico",
+        "time": 1764884909080,
+        "updated": 1764885598970,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71501488",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71501488.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 108,
+        "net": "pr",
+        "code": "71501488",
+        "ids": ",pr71501488,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 13,
+        "dmin": 0.06309,
+        "rms": 0.24,
+        "gap": 160,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.7 - 6 km S of Bajadero, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.6905,
+          18.3653333333333,
+          19.14
+        ]
+      },
+      "id": "pr71501488"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.98,
+        "place": "2 km NW of Indios, Puerto Rico",
+        "time": 1764884367580,
+        "updated": 1764885719700,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71501493",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71501493.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 60,
+        "net": "pr",
+        "code": "71501493",
+        "ids": ",pr71501493,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 6,
+        "dmin": 0.05221,
+        "rms": 0.07,
+        "gap": 145,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.0 - 2 km NW of Indios, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.8333333333333,
+          18.0128333333333,
+          14.4
+        ]
+      },
+      "id": "pr71501493"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -573,7 +653,7 @@
   "bbox": [
     -179.1858,
     -55.443,
-    -0.98,
+    -0.79000002145767,
     176.5624,
     67.126113891602,
     603.659
