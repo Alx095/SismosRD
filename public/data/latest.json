@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1764832391000,
+    "generated": 1764833561000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 227
+    "count": 221
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.73,
+        "place": "25 km NW of Rincón, Puerto Rico",
+        "time": 1764831508340,
+        "updated": 1764832924190,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71501363",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71501363.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 115,
+        "net": "pr",
+        "code": "71501363",
+        "ids": ",pr71501363,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 11,
+        "dmin": 0.2828,
+        "rms": 0.26,
+        "gap": 301,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.7 - 25 km NW of Rincón, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.4041666666667,
+          18.5195,
+          11.68
+        ]
+      },
+      "id": "pr71501363"
+    },
     {
       "type": "Feature",
       "properties": {
