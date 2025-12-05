@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1764965932000,
+    "generated": 1764967145000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
@@ -488,126 +488,6 @@
         ]
       },
       "id": "pr71501468"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.13,
-        "place": "76 km E of Cruz Bay, U.S. Virgin Islands",
-        "time": 1764880460190,
-        "updated": 1764882736040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71501458",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71501458.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 151,
-        "net": "pr",
-        "code": "71501458",
-        "ids": ",us7000rfmb,pr71501458,",
-        "sources": ",us,pr,",
-        "types": ",origin,phase-data,",
-        "nst": 9,
-        "dmin": 0.354,
-        "rms": 0.48,
-        "gap": 324,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.1 - 76 km E of Cruz Bay, U.S. Virgin Islands"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -64.0675,
-          18.3336666666667,
-          33.16
-        ]
-      },
-      "id": "pr71501458"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.74,
-        "place": "8 km WSW of Guánica, Puerto Rico",
-        "time": 1764880417440,
-        "updated": 1764882107800,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71501478",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71501478.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 47,
-        "net": "pr",
-        "code": "71501478",
-        "ids": ",pr71501478,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 4,
-        "dmin": 0.07342,
-        "rms": 0.04,
-        "gap": 228,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 1.7 - 8 km WSW of Guánica, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.976,
-          17.935,
-          10.67
-        ]
-      },
-      "id": "pr71501478"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.6,
-        "place": "60 km NE of Christiansted, U.S. Virgin Islands",
-        "time": 1764880413240,
-        "updated": 1764883134040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000rfmm",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000rfmm.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 104,
-        "net": "us",
-        "code": "7000rfmm",
-        "ids": ",us7000rfmm,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 12,
-        "dmin": 0.489,
-        "rms": 0.49,
-        "gap": 166,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.6 - 60 km NE of Christiansted, U.S. Virgin Islands"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -64.2506,
-          18.0781,
-          10
-        ]
-      },
-      "id": "us7000rfmm"
     }
   ],
   "bbox": [
