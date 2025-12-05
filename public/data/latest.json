@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1764970963000,
+    "generated": 1764971406000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
@@ -328,46 +328,6 @@
         ]
       },
       "id": "pr71501508"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.65,
-        "place": "6 km S of Bajadero, Puerto Rico",
-        "time": 1764884909080,
-        "updated": 1764885598970,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71501488",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71501488.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 108,
-        "net": "pr",
-        "code": "71501488",
-        "ids": ",pr71501488,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 13,
-        "dmin": 0.06309,
-        "rms": 0.24,
-        "gap": 160,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.7 - 6 km S of Bajadero, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.6905,
-          18.3653333333333,
-          19.14
-        ]
-      },
-      "id": "pr71501488"
     }
   ],
   "bbox": [
