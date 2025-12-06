@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1765015871000,
+    "generated": 1765017137000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 235
+    "count": 233
   },
   "features": [
     {
@@ -328,46 +328,6 @@
         ]
       },
       "id": "pr71501578"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.78,
-        "place": "22 km SE of Boca de Yuma, Dominican Republic",
-        "time": 1764930529610,
-        "updated": 1764932437675,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2025339002",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2025339002.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 220,
-        "net": "pr",
-        "code": "2025339002",
-        "ids": ",us7000rfr6,pr2025339002,",
-        "sources": ",us,pr,",
-        "types": ",origin,phase-data,",
-        "nst": 23,
-        "dmin": 0.2945,
-        "rms": 0.44,
-        "gap": 180,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.8 - 22 km SE of Boca de Yuma, Dominican Republic"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -68.4658,
-          18.2318,
-          88
-        ]
-      },
-      "id": "pr2025339002"
     }
   ],
   "bbox": [
