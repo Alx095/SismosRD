@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1765002539000,
+    "generated": 1765003733000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 240
+    "count": 241
   },
   "features": [
     {
@@ -375,7 +375,7 @@
         "mag": 3.84,
         "place": "4 km ENE of Guaymate, Dominican Republic",
         "time": 1764926248690,
-        "updated": 1764928150796,
+        "updated": 1765003625040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2025339001",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2025339001.geojson",
@@ -388,8 +388,8 @@
         "sig": 227,
         "net": "pr",
         "code": "2025339001",
-        "ids": ",pr2025339001,",
-        "sources": ",pr,",
+        "ids": ",us7000rfr0,pr2025339001,",
+        "sources": ",us,pr,",
         "types": ",origin,phase-data,",
         "nst": 19,
         "dmin": 0.5651,
@@ -413,7 +413,7 @@
   "bbox": [
     -176.168,
     -60.18,
-    -2.33,
+    -2.88,
     179.59683333333,
     65.240280151367,
     167
