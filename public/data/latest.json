@@ -1,14 +1,94 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1765151710000,
+    "generated": 1765155701000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 304
+    "count": 297
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.03,
+        "place": "62 km NNW of San Antonio, Puerto Rico",
+        "time": 1765153121050,
+        "updated": 1765154477430,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71501768",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71501768.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 141,
+        "net": "pr",
+        "code": "71501768",
+        "ids": ",pr71501768,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 15,
+        "dmin": 0.5774,
+        "rms": 0.13,
+        "gap": 234,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 3.0 - 62 km NNW of San Antonio, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.3105,
+          19.016,
+          21.85
+        ]
+      },
+      "id": "pr71501768"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.32,
+        "place": "15 km SSW of Guánica, Puerto Rico",
+        "time": 1765149874100,
+        "updated": 1765154532000,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71501763",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71501763.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 83,
+        "net": "pr",
+        "code": "71501763",
+        "ids": ",pr71501763,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 6,
+        "dmin": 0.1531,
+        "rms": 0.11,
+        "gap": 263,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.3 - 15 km SSW of Guánica, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.9386666666667,
+          17.832,
+          9.73
+        ]
+      },
+      "id": "pr71501763"
+    },
     {
       "type": "Feature",
       "properties": {
