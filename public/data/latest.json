@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1765176661000,
+    "generated": 1765177997000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 257
+    "count": 253
   },
   "features": [
     {
@@ -288,46 +288,6 @@
         ]
       },
       "id": "pr71501738"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3,
-        "place": "30 km SW of Pole Ojea, Puerto Rico",
-        "time": 1765091050710,
-        "updated": 1765092285520,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71501728",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71501728.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 138,
-        "net": "pr",
-        "code": "71501728",
-        "ids": ",pr71501728,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 20,
-        "dmin": 0.3203,
-        "rms": 0.26,
-        "gap": 303,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.0 - 30 km SW of Pole Ojea, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -67.4163333333333,
-          17.811,
-          22.58
-        ]
-      },
-      "id": "pr71501728"
     }
   ],
   "bbox": [
