@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1765238341000,
+    "generated": 1765245074000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 261
+    "count": 266
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.28,
+        "place": "1 km SW of Palmarejo, Puerto Rico",
+        "time": 1765237448790,
+        "updated": 1765238591010,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71501868",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71501868.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 80,
+        "net": "pr",
+        "code": "71501868",
+        "ids": ",pr71501868,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 12,
+        "dmin": 0.03443,
+        "rms": 0.09,
+        "gap": 77,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.3 - 1 km SW of Palmarejo, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.0845,
+          18.0313333333333,
+          14.65
+        ]
+      },
+      "id": "pr71501868"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -168,50 +208,10 @@
         ]
       },
       "id": "pr71501778"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.03,
-        "place": "62 km NNW of San Antonio, Puerto Rico",
-        "time": 1765153121050,
-        "updated": 1765154477430,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71501768",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71501768.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 141,
-        "net": "pr",
-        "code": "71501768",
-        "ids": ",pr71501768,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 15,
-        "dmin": 0.5774,
-        "rms": 0.13,
-        "gap": 234,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.0 - 62 km NNW of San Antonio, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -67.3105,
-          19.016,
-          21.85
-        ]
-      },
-      "id": "pr71501768"
     }
   ],
   "bbox": [
-    -175.8625,
+    -176.1718,
     -58.8089,
     -2.06,
     179.9727,
