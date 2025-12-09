@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1765245074000,
+    "generated": 1765249750000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 266
+    "count": 261
   },
   "features": [
     {
@@ -128,86 +128,6 @@
         ]
       },
       "id": "pr71501813"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.5,
-        "place": "48 km ENE of Pueblo Nuevo, Venezuela",
-        "time": 1765160835047,
-        "updated": 1765161427040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000rtah",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000rtah.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 312,
-        "net": "us",
-        "code": "6000rtah",
-        "ids": ",us6000rtah,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 28,
-        "dmin": 3.372,
-        "rms": 0.5,
-        "gap": 106,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.5 - 48 km ENE of Pueblo Nuevo, Venezuela"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -69.4973,
-          12.085,
-          10
-        ]
-      },
-      "id": "us6000rtah"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.1,
-        "place": "8 km ESE of Comunas, Puerto Rico",
-        "time": 1765160684070,
-        "updated": 1765161272980,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71501778",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71501778.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 68,
-        "net": "pr",
-        "code": "71501778",
-        "ids": ",pr71501778,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 7,
-        "dmin": 0.1138,
-        "rms": 0.17,
-        "gap": 177,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.1 - 8 km ESE of Comunas, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -65.7695,
-          18.0565,
-          20.41
-        ]
-      },
-      "id": "pr71501778"
     }
   ],
   "bbox": [
