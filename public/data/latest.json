@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1765490364000,
+    "generated": 1765491902000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 217
+    "count": 218
   },
   "features": [
     {
@@ -128,46 +128,6 @@
         ]
       },
       "id": "pr71502003"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.8,
-        "place": "80 km N of San Juan, Puerto Rico",
-        "time": 1765405047900,
-        "updated": 1765406839840,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71501993",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71501993.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 121,
-        "net": "pr",
-        "code": "71501993",
-        "ids": ",pr71501993,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 11,
-        "dmin": 0.8785,
-        "rms": 0.11,
-        "gap": 292,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.8 - 80 km N of San Juan, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -65.9686666666667,
-          19.1805,
-          26.61
-        ]
-      },
-      "id": "pr71501993"
     }
   ],
   "bbox": [
