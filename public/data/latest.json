@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1765430472000,
+    "generated": 1765431742000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 195
+    "count": 191
   },
   "features": [
     {
@@ -328,46 +328,6 @@
         ]
       },
       "id": "pr71501928"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.32,
-        "place": "69 km NNE of Isabela, Puerto Rico",
-        "time": 1765345073370,
-        "updated": 1765353950330,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71501913",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71501913.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 170,
-        "net": "pr",
-        "code": "71501913",
-        "ids": ",pr71501913,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 20,
-        "dmin": 0.6398,
-        "rms": 0.28,
-        "gap": 273,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.3 - 69 km NNE of Isabela, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.8795,
-          19.1156666666667,
-          25.49
-        ]
-      },
-      "id": "pr71501913"
     }
   ],
   "bbox": [
