@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1765611210000,
+    "generated": 1765611741000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 182
+    "count": 183
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.77,
+        "place": "1 km SE of Jauca, Puerto Rico",
+        "time": 1765610134830,
+        "updated": 1765611389470,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71502148",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71502148.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 118,
+        "net": "pr",
+        "code": "71502148",
+        "ids": ",pr71502148,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 21,
+        "dmin": 0.1767,
+        "rms": 0.31,
+        "gap": 158,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.8 - 1 km SE of Jauca, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.3583333333333,
+          17.961,
+          7.26
+        ]
+      },
+      "id": "pr71502148"
+    },
     {
       "type": "Feature",
       "properties": {
