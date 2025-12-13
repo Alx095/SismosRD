@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1765636499000,
+    "generated": 1765637069000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 153
+    "count": 154
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.21,
+        "place": "3 km WSW of Guánica, Puerto Rico",
+        "time": 1765635964240,
+        "updated": 1765636739770,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71502168",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71502168.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 75,
+        "net": "pr",
+        "code": "71502168",
+        "ids": ",pr71502168,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 10,
+        "dmin": 0.06136,
+        "rms": 0.19,
+        "gap": 198,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.2 - 3 km WSW of Guánica, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.9415,
+          17.959,
+          8.76
+        ]
+      },
+      "id": "pr71502168"
+    },
     {
       "type": "Feature",
       "properties": {
