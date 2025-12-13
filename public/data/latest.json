@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1765614000000,
+    "generated": 1765615262000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 181
+    "count": 179
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.97,
+        "place": "9 km NNW of Sabana, Puerto Rico",
+        "time": 1765612610130,
+        "updated": 1765614670760,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71502158",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71502158.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 136,
+        "net": "pr",
+        "code": "71502158",
+        "ids": ",pr71502158,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 15,
+        "dmin": 0.3745,
+        "rms": 0.16,
+        "gap": 212,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 3.0 - 9 km NNW of Sabana, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.4025,
+          18.5308333333333,
+          70.05
+        ]
+      },
+      "id": "pr71502158"
+    },
     {
       "type": "Feature",
       "properties": {
