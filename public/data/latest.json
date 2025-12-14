@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1765732867000,
+    "generated": 1765733697000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 219
+    "count": 217
   },
   "features": [
     {
@@ -128,46 +128,6 @@
         ]
       },
       "id": "pr2025348000"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.5,
-        "place": "5 km N of Coamo, Puerto Rico",
-        "time": 1765646698330,
-        "updated": 1765649562850,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71502188",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71502188.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 96,
-        "net": "pr",
-        "code": "71502188",
-        "ids": ",pr71502188,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 10,
-        "dmin": 0.2227,
-        "rms": 0.13,
-        "gap": 142,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.5 - 5 km N of Coamo, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.3518333333333,
-          18.1285,
-          13.62
-        ]
-      },
-      "id": "pr71502188"
     }
   ],
   "bbox": [
