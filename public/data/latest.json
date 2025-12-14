@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1765706881000,
+    "generated": 1765708400000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
@@ -9,6 +9,46 @@
     "count": 202
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.9,
+        "place": "4 km NW of Coamo, Puerto Rico",
+        "time": 1765706841040,
+        "updated": 1765708138090,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71502203",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71502203.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 129,
+        "net": "pr",
+        "code": "71502203",
+        "ids": ",pr71502203,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 17,
+        "dmin": 0.1067,
+        "rms": 0.32,
+        "gap": 95,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.9 - 4 km NW of Coamo, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.3795,
+          18.1096666666667,
+          6.61
+        ]
+      },
+      "id": "pr71502203"
+    },
     {
       "type": "Feature",
       "properties": {
