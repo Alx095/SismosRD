@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1765727015000,
+    "generated": 1765727471000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 213
+    "count": 215
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3,
+        "place": "22 km N of San Antonio, Puerto Rico",
+        "time": 1765724520920,
+        "updated": 1765727024920,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71502223",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71502223.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 138,
+        "net": "pr",
+        "code": "71502223",
+        "ids": ",pr71502223,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 18,
+        "dmin": 0.2255,
+        "rms": 0.16,
+        "gap": 284,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 3.0 - 22 km N of San Antonio, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.0888333333333,
+          18.6931666666667,
+          57.32
+        ]
+      },
+      "id": "pr71502223"
+    },
     {
       "type": "Feature",
       "properties": {
