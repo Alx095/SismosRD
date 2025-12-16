@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1765850379000,
+    "generated": 1765855631000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 250
+    "count": 252
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.19,
+        "place": "2 km SSW of Magas Arriba, Puerto Rico",
+        "time": 1765850432450,
+        "updated": 1765851620370,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71502323",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71502323.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 74,
+        "net": "pr",
+        "code": "71502323",
+        "ids": ",pr71502323,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 17,
+        "dmin": 0.02788,
+        "rms": 0.17,
+        "gap": 163,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.2 - 2 km SSW of Magas Arriba, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.7758333333333,
+          17.9963333333333,
+          15.35
+        ]
+      },
+      "id": "pr71502323"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -248,50 +288,10 @@
         ]
       },
       "id": "pr71502268"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.41,
-        "place": "6 km WSW of Guánica, Puerto Rico",
-        "time": 1765766024930,
-        "updated": 1765766892120,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71502238",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71502238.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 89,
-        "net": "pr",
-        "code": "71502238",
-        "ids": ",pr71502238,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 7,
-        "dmin": 0.08472,
-        "rms": 0.08,
-        "gap": 223,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.4 - 6 km WSW of Guánica, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.9611666666667,
-          17.9388333333333,
-          6.31
-        ]
-      },
-      "id": "pr71502238"
     }
   ],
   "bbox": [
-    -178.83083333333,
+    -178.5923,
     -40.4278,
     -1.14,
     178.54716666667,
