@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1765860340000,
+    "generated": 1765861195000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 254
+    "count": 252
   },
   "features": [
     {
@@ -15,17 +15,17 @@
         "mag": 3.2,
         "place": "2 km SSE of Cayey, Puerto Rico",
         "time": 1765858439209,
-        "updated": 1765860098901,
+        "updated": 1765861180218,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000rv7q",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000rv7q.geojson",
-        "felt": 3,
-        "cdi": 2.1,
+        "felt": 8,
+        "cdi": 2.7,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 158,
+        "sig": 160,
         "net": "us",
         "code": "6000rv7q",
         "ids": ",us6000rv7q,",
