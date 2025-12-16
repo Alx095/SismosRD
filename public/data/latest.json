@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1765890485000,
+    "generated": 1765892881000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 239
+    "count": 238
   },
   "features": [
     {
@@ -255,11 +255,11 @@
         "mag": 3.24,
         "place": "2 km SW of G. L. Garcia, Puerto Rico",
         "time": 1765858440520,
-        "updated": 1765885691800,
+        "updated": 1765891336899,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2025350000",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2025350000.geojson",
-        "felt": 10,
+        "felt": 11,
         "cdi": 2.7,
         "mmi": null,
         "alert": null,
