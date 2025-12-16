@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1765863978000,
+    "generated": 1765864522000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 251
+    "count": 250
   },
   "features": [
     {
@@ -55,17 +55,17 @@
         "mag": 4.4,
         "place": "22 km SSE of Masachapa, Nicaragua",
         "time": 1765860951517,
-        "updated": 1765862859297,
+        "updated": 1765864005909,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000rv7u",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000rv7u.geojson",
-        "felt": 2,
+        "felt": 3,
         "cdi": 2.7,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 298,
+        "sig": 299,
         "net": "us",
         "code": "6000rv7u",
         "ids": ",us6000rv7u,",
