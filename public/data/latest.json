@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1765861195000,
+    "generated": 1765862941000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
@@ -12,42 +12,82 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 3.2,
-        "place": "2 km SSE of Cayey, Puerto Rico",
-        "time": 1765858439209,
-        "updated": 1765861180218,
+        "mag": 4.4,
+        "place": "22 km SSE of Masachapa, Nicaragua",
+        "time": 1765860951517,
+        "updated": 1765862859297,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000rv7q",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000rv7q.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000rv7u",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000rv7u.geojson",
+        "felt": 2,
+        "cdi": 2.7,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 298,
+        "net": "us",
+        "code": "6000rv7u",
+        "ids": ",us6000rv7u,",
+        "sources": ",us,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": 43,
+        "dmin": 1.227,
+        "rms": 0.85,
+        "gap": 137,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.4 - 22 km SSE of Masachapa, Nicaragua"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.4593,
+          11.5921,
+          81.624
+        ]
+      },
+      "id": "us6000rv7u"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.24,
+        "place": "2 km SW of G. L. Garcia, Puerto Rico",
+        "time": 1765858440520,
+        "updated": 1765861587950,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2025350000",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2025350000.geojson",
         "felt": 8,
         "cdi": 2.7,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 160,
-        "net": "us",
-        "code": "6000rv7q",
-        "ids": ",us6000rv7q,",
-        "sources": ",us,",
+        "sig": 164,
+        "net": "pr",
+        "code": "2025350000",
+        "ids": ",us6000rv7q,pr2025350000,",
+        "sources": ",us,pr,",
         "types": ",dyfi,origin,phase-data,",
-        "nst": 15,
-        "dmin": 0.134,
-        "rms": 0.57,
-        "gap": 104,
-        "magType": "ml",
+        "nst": 25,
+        "dmin": 0.0329,
+        "rms": 0.17,
+        "gap": 67,
+        "magType": "md",
         "type": "earthquake",
-        "title": "M 3.2 - 2 km SSE of Cayey, Puerto Rico"
+        "title": "M 3.2 - 2 km SW of G. L. Garcia, Puerto Rico"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -66.1614,
-          18.0902,
-          31.287
+          -66.1173,
+          18.1125,
+          24
         ]
       },
-      "id": "us6000rv7q"
+      "id": "pr2025350000"
     },
     {
       "type": "Feature",
@@ -288,46 +328,6 @@
         ]
       },
       "id": "pr71502293"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.22,
-        "place": "3 km SSE of Guánica, Puerto Rico",
-        "time": 1765775493560,
-        "updated": 1765776065040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71502283",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71502283.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 76,
-        "net": "pr",
-        "code": "71502283",
-        "ids": ",pr71502283,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 11,
-        "dmin": 0.03694,
-        "rms": 0.13,
-        "gap": 217,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.2 - 3 km SSE of Guánica, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.8943333333333,
-          17.9408333333333,
-          9.95
-        ]
-      },
-      "id": "pr71502283"
     }
   ],
   "bbox": [
