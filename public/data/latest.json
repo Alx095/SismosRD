@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1765862941000,
+    "generated": 1765863978000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 252
+    "count": 251
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.29,
+        "place": "6 km SW of Liborio Negron Torres, Puerto Rico",
+        "time": 1765861544160,
+        "updated": 1765863325250,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71502378",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71502378.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 81,
+        "net": "pr",
+        "code": "71502378",
+        "ids": ",pr71502378,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 7,
+        "dmin": 0.06534,
+        "rms": 0.12,
+        "gap": 138,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.3 - 6 km SW of Liborio Negron Torres, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.9838333333333,
+          18.0006666666667,
+          8.07
+        ]
+      },
+      "id": "pr71502378"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -48,6 +88,46 @@
         ]
       },
       "id": "us6000rv7u"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.47,
+        "place": "19 km S of Guánica, Puerto Rico",
+        "time": 1765859773200,
+        "updated": 1765863015274,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71502363",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71502363.geojson",
+        "felt": 1,
+        "cdi": 0,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 94,
+        "net": "pr",
+        "code": "71502363",
+        "ids": ",pr71502363,",
+        "sources": ",pr,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": 8,
+        "dmin": 0.187,
+        "rms": 0.1,
+        "gap": 246,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.5 - 19 km S of Guánica, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.9396666666667,
+          17.7961666666667,
+          13.09
+        ]
+      },
+      "id": "pr71502363"
     },
     {
       "type": "Feature",
