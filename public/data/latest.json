@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1766015944000,
+    "generated": 1766022983000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 237
+    "count": 257
   },
   "features": [
     {
@@ -55,7 +55,7 @@
         "mag": 3.46,
         "place": "39 km SSW of Boca de Yuma, Dominican Republic",
         "time": 1765989838250,
-        "updated": 1765992476786,
+        "updated": 1766020959040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2025351000",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2025351000.geojson",
@@ -68,8 +68,8 @@
         "sig": 184,
         "net": "pr",
         "code": "2025351000",
-        "ids": ",pr2025351000,",
-        "sources": ",pr,",
+        "ids": ",us6000rvhl,pr2025351000,",
+        "sources": ",us,pr,",
         "types": ",origin,phase-data,",
         "nst": 10,
         "dmin": 0.578,
