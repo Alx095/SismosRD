@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1766085156000,
+    "generated": 1766085941000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
@@ -328,46 +328,6 @@
         ]
       },
       "id": "pr71502483"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.22,
-        "place": "6 km SE of La Parguera, Puerto Rico",
-        "time": 1765998924490,
-        "updated": 1765999604820,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71502468",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71502468.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 76,
-        "net": "pr",
-        "code": "71502468",
-        "ids": ",pr71502468,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 13,
-        "dmin": 0.05008,
-        "rms": 0.1,
-        "gap": 230,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.2 - 6 km SE of La Parguera, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -67.006,
-          17.9348333333333,
-          5.8
-        ]
-      },
-      "id": "pr71502468"
     }
   ],
   "bbox": [
