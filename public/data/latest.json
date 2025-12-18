@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1766030611000,
+    "generated": 1766032845000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 258
+    "count": 253
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.74,
+        "place": "1 km E of Palmas, Puerto Rico",
+        "time": 1766030590500,
+        "updated": 1766031515720,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71502483",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71502483.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 116,
+        "net": "pr",
+        "code": "71502483",
+        "ids": ",pr71502483,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 8,
+        "dmin": 0.03285,
+        "rms": 0.13,
+        "gap": 182,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.7 - 1 km E of Palmas, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.008,
+          17.988,
+          79.71
+        ]
+      },
+      "id": "pr71502483"
+    },
     {
       "type": "Feature",
       "properties": {
