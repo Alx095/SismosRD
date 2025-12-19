@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1766166553000,
+    "generated": 1766166991000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 241
+    "count": 240
   },
   "features": [
     {
@@ -328,46 +328,6 @@
         ]
       },
       "id": "pr2025352001"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.19,
-        "place": "9 km WSW of Esperanza, Puerto Rico",
-        "time": 1766080176240,
-        "updated": 1766082140260,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71502553",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71502553.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 157,
-        "net": "pr",
-        "code": "71502553",
-        "ids": ",pr71502553,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 6,
-        "dmin": 0.04452,
-        "rms": 0.16,
-        "gap": 213,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.2 - 9 km WSW of Esperanza, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -65.5436666666667,
-          18.0533333333333,
-          16.78
-        ]
-      },
-      "id": "pr71502553"
     }
   ],
   "bbox": [
