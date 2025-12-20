@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1766256825000,
+    "generated": 1766257606000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 237
+    "count": 235
   },
   "features": [
     {
@@ -168,46 +168,6 @@
         ]
       },
       "id": "pr71502663"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.28,
-        "place": "18 km NW of Puerto Real, Puerto Rico",
-        "time": 1766170850780,
-        "updated": 1766171366810,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71502648",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71502648.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 80,
-        "net": "pr",
-        "code": "71502648",
-        "ids": ",pr71502648,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 7,
-        "dmin": 0.1875,
-        "rms": 0.07,
-        "gap": 268,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.3 - 18 km NW of Puerto Real, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -67.3301666666667,
-          18.1698333333333,
-          17.64
-        ]
-      },
-      "id": "pr71502648"
     }
   ],
   "bbox": [
