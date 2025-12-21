@@ -1,53 +1,53 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1766325346000,
+    "generated": 1766326378000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 198
+    "count": 197
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.7,
-        "place": "105 km NW of San Antonio, Puerto Rico",
-        "time": 1766323115809,
-        "updated": 1766325228040,
+        "mag": 3.48,
+        "place": "110 km NE of Punta Cana, Dominican Republic",
+        "time": 1766323116070,
+        "updated": 1766326158721,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000rwbx",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000rwbx.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2025355000",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2025355000.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 112,
-        "net": "us",
-        "code": "6000rwbx",
-        "ids": ",us6000rwbx,",
-        "sources": ",us,",
+        "sig": 186,
+        "net": "pr",
+        "code": "2025355000",
+        "ids": ",us6000rwbx,pr2025355000,",
+        "sources": ",us,pr,",
         "types": ",origin,phase-data,",
-        "nst": 12,
-        "dmin": 0.959,
-        "rms": 0.6,
-        "gap": 257,
-        "magType": "ml",
+        "nst": 23,
+        "dmin": 1.054,
+        "rms": 0.56,
+        "gap": 212,
+        "magType": "md",
         "type": "earthquake",
-        "title": "M 2.7 - 105 km NW of San Antonio, Puerto Rico"
+        "title": "M 3.5 - 110 km NE of Punta Cana, Dominican Republic"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -67.6875,
-          19.2606,
-          35
+          -67.7553,
+          19.3618,
+          53
         ]
       },
-      "id": "us6000rwbx"
+      "id": "pr2025355000"
     },
     {
       "type": "Feature",
