@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1766420522000,
+    "generated": 1766421974000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 223
+    "count": 227
   },
   "features": [
     {
@@ -288,54 +288,14 @@
         ]
       },
       "id": "pr71502788"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.25,
-        "place": "6 km ENE of Naranjito, Puerto Rico",
-        "time": 1766334859870,
-        "updated": 1766336762500,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71502778",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71502778.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 78,
-        "net": "pr",
-        "code": "71502778",
-        "ids": ",pr71502778,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 9,
-        "dmin": 0.2112,
-        "rms": 0.26,
-        "gap": 172,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.3 - 6 km ENE of Naranjito, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.1891666666667,
-          18.3181666666667,
-          14.1
-        ]
-      },
-      "id": "pr71502778"
     }
   ],
   "bbox": [
-    -155.50883483887,
+    -177.9085,
     -55.3061,
     -0.72000002861023,
     160.7244,
     64.998,
-    156.226
+    436.665
   ]
 }
