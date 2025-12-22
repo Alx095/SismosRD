@@ -1,53 +1,53 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1766434458000,
+    "generated": 1766435703000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 234
+    "count": 235
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 3.6,
-        "place": "18 km N of Brenas, Puerto Rico",
-        "time": 1766433409071,
-        "updated": 1766434050122,
+        "mag": 3.55,
+        "place": "22 km N of Brenas, Puerto Rico",
+        "time": 1766433410440,
+        "updated": 1766434813403,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000rk6n",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000rk6n.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2025356000",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2025356000.geojson",
         "felt": 1,
         "cdi": 2,
-        "mmi": 2.618,
+        "mmi": 2.251,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 200,
-        "net": "us",
-        "code": "7000rk6n",
-        "ids": ",us7000rk6n,",
-        "sources": ",us,",
+        "sig": 194,
+        "net": "pr",
+        "code": "2025356000",
+        "ids": ",us7000rk6n,pr2025356000,",
+        "sources": ",us,pr,",
         "types": ",dyfi,origin,phase-data,shakemap,",
-        "nst": 19,
-        "dmin": 0.242,
-        "rms": 0.31,
-        "gap": 153,
-        "magType": "ml",
+        "nst": 23,
+        "dmin": 0.2694,
+        "rms": 0.18,
+        "gap": 207,
+        "magType": "md",
         "type": "earthquake",
-        "title": "M 3.6 - 18 km N of Brenas, Puerto Rico"
+        "title": "M 3.6 - 22 km N of Brenas, Puerto Rico"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -66.3328,
-          18.6315,
-          79.634
+          -66.3375,
+          18.6661,
+          70
         ]
       },
-      "id": "us7000rk6n"
+      "id": "pr2025356000"
     },
     {
       "type": "Feature",
