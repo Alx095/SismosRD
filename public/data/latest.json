@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1766361292000,
+    "generated": 1766365466000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 198
+    "count": 200
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.81,
+        "place": "3 km E of La Parguera, Puerto Rico",
+        "time": 1766364193200,
+        "updated": 1766364588460,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71502803",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71502803.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 50,
+        "net": "pr",
+        "code": "71502803",
+        "ids": ",pr71502803,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 4,
+        "dmin": 0.02975,
+        "rms": 0.05,
+        "gap": 176,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 1.8 - 3 km E of La Parguera, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.0131666666667,
+          17.9728333333333,
+          10.09
+        ]
+      },
+      "id": "pr71502803"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -248,46 +288,6 @@
         ]
       },
       "id": "pr71502733"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.68,
-        "place": "2 km NE of Lluveras, Puerto Rico",
-        "time": 1766278518580,
-        "updated": 1766279414900,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71502723",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71502723.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 43,
-        "net": "pr",
-        "code": "71502723",
-        "ids": ",pr71502723,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 7,
-        "dmin": 0.07764,
-        "rms": 0.13,
-        "gap": 86,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 1.7 - 2 km NE of Lluveras, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.8895,
-          18.0525,
-          11.08
-        ]
-      },
-      "id": "pr71502723"
     }
   ],
   "bbox": [
