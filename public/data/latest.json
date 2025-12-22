@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1766406210000,
+    "generated": 1766408762000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 210
+    "count": 216
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.75,
+        "place": "4 km SSE of Cayey, Puerto Rico",
+        "time": 1766407183050,
+        "updated": 1766408205210,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71502858",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71502858.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 116,
+        "net": "pr",
+        "code": "71502858",
+        "ids": ",pr71502858,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 11,
+        "dmin": 0.03704,
+        "rms": 0.13,
+        "gap": 84,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.8 - 4 km SSE of Cayey, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1561666666667,
+          18.0723333333333,
+          67.14
+        ]
+      },
+      "id": "pr71502858"
+    },
     {
       "type": "Feature",
       "properties": {
