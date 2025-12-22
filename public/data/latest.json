@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1766426090000,
+    "generated": 1766427560000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 226
+    "count": 228
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.3,
+        "place": "74 km WSW of San Juan del Sur, Nicaragua",
+        "time": 1766426035520,
+        "updated": 1766427267040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000rk4i",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000rk4i.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 284,
+        "net": "us",
+        "code": "7000rk4i",
+        "ids": ",us7000rk4i,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 18,
+        "dmin": 1.135,
+        "rms": 0.8,
+        "gap": 196,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.3 - 74 km WSW of San Juan del Sur, Nicaragua"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.4782,
+          10.9538,
+          19.175
+        ]
+      },
+      "id": "us7000rk4i"
+    },
     {
       "type": "Feature",
       "properties": {
