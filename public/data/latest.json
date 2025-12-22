@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1766365466000,
+    "generated": 1766372697000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 200
+    "count": 186
   },
   "features": [
     {
@@ -208,86 +208,6 @@
         ]
       },
       "id": "pr2025355000"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.23,
-        "place": "13 km ESE of Cruz Bay, U.S. Virgin Islands",
-        "time": 1766281618250,
-        "updated": 1766283984650,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71502763",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71502763.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 161,
-        "net": "pr",
-        "code": "71502763",
-        "ids": ",pr71502763,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 12,
-        "dmin": 0.1506,
-        "rms": 0.18,
-        "gap": 207,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.2 - 13 km ESE of Cruz Bay, U.S. Virgin Islands"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -64.6776666666667,
-          18.279,
-          84.29
-        ]
-      },
-      "id": "pr71502763"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.8,
-        "place": "2 km SSW of Magas Arriba, Puerto Rico",
-        "time": 1766281275040,
-        "updated": 1766282425990,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71502733",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71502733.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 121,
-        "net": "pr",
-        "code": "71502733",
-        "ids": ",pr71502733,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 25,
-        "dmin": 0.02549,
-        "rms": 0.26,
-        "gap": 140,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.8 - 2 km SSW of Magas Arriba, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.7816666666667,
-          17.9961666666667,
-          13.1
-        ]
-      },
-      "id": "pr71502733"
     }
   ],
   "bbox": [
@@ -295,7 +215,7 @@
     -61.9834,
     -1.6,
     161.4175,
-    64.857,
+    64.889,
     432.202
   ]
 }
