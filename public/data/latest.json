@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1766510730000,
+    "generated": 1766511694000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 224
+    "count": 230
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.66,
+        "place": "1 km SW of La Parguera, Puerto Rico",
+        "time": 1766509952020,
+        "updated": 1766511061400,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71502983",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71502983.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 109,
+        "net": "pr",
+        "code": "71502983",
+        "ids": ",pr71502983,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 6,
+        "dmin": 0.009614,
+        "rms": 0.16,
+        "gap": 221,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.7 - 1 km SW of La Parguera, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.0536666666667,
+          17.966,
+          13.39
+        ]
+      },
+      "id": "pr71502983"
+    },
     {
       "type": "Feature",
       "properties": {
