@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1766577466000,
+    "generated": 1766580090000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 227
+    "count": 223
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.53,
+        "place": "3 km SSE of Indios, Puerto Rico",
+        "time": 1766578756500,
+        "updated": 1766579801840,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71503018",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71503018.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 98,
+        "net": "pr",
+        "code": "71503018",
+        "ids": ",pr71503018,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 11,
+        "dmin": 0.0608,
+        "rms": 0.3,
+        "gap": 168,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.5 - 3 km SSE of Indios, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.8095,
+          17.9613333333333,
+          12.37
+        ]
+      },
+      "id": "pr71503018"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -292,7 +332,7 @@
   ],
   "bbox": [
     -177.975,
-    -58.4066,
+    -32.3616,
     -2.21,
     179.993,
     66.312,
