@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1766591169000,
+    "generated": 1766591701000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 220
+    "count": 221
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.43,
+        "place": "2 km N of La Playa, Puerto Rico",
+        "time": 1766590545830,
+        "updated": 1766591654430,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71503038",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71503038.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 91,
+        "net": "pr",
+        "code": "71503038",
+        "ids": ",pr71503038,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 8,
+        "dmin": 0.09946,
+        "rms": 0.28,
+        "gap": 279,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.4 - 2 km N of La Playa, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.1886666666667,
+          18.3078333333333,
+          26.72
+        ]
+      },
+      "id": "pr71503038"
+    },
     {
       "type": "Feature",
       "properties": {
