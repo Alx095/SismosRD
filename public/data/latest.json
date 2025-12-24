@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1766589189000,
+    "generated": 1766590436000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
@@ -328,46 +328,6 @@
         ]
       },
       "id": "pr71502963"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.68,
-        "place": "1 km SSW of Mayagüez, Puerto Rico",
-        "time": 1766503457380,
-        "updated": 1766515038040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71502953",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71502953.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 110,
-        "net": "pr",
-        "code": "71502953",
-        "ids": ",us7000rkct,pr71502953,",
-        "sources": ",us,pr,",
-        "types": ",origin,phase-data,",
-        "nst": 16,
-        "dmin": 0.02707,
-        "rms": 0.11,
-        "gap": 139,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.7 - 1 km SSW of Mayagüez, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -67.1463333333333,
-          18.1888333333333,
-          23.28
-        ]
-      },
-      "id": "pr71502953"
     }
   ],
   "bbox": [
