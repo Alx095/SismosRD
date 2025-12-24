@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1766539161000,
+    "generated": 1766545166000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 221
+    "count": 224
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.05,
+        "place": "6 km SW of Guánica, Puerto Rico",
+        "time": 1766537893950,
+        "updated": 1766539288560,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71503003",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71503003.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 65,
+        "net": "pr",
+        "code": "71503003",
+        "ids": ",pr71503003,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 5,
+        "dmin": 0.08083,
+        "rms": 0.08,
+        "gap": 229,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.1 - 6 km SW of Guánica, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.9468333333333,
+          17.9258333333333,
+          8.01
+        ]
+      },
+      "id": "pr71503003"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -288,86 +328,6 @@
         ]
       },
       "id": "pr71502923"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3,
-        "place": "67 km NNE of San Juan, Puerto Rico",
-        "time": 1766457516500,
-        "updated": 1766458680020,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71502908",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71502908.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 138,
-        "net": "pr",
-        "code": "71502908",
-        "ids": ",pr71502908,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 14,
-        "dmin": 0.7504,
-        "rms": 0.17,
-        "gap": 290,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.0 - 67 km NNE of San Juan, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -65.9241666666667,
-          19.048,
-          25.94
-        ]
-      },
-      "id": "pr71502908"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.77,
-        "place": "2 km NNW of La Plena, Puerto Rico",
-        "time": 1766456175570,
-        "updated": 1766458143260,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71502898",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71502898.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 48,
-        "net": "pr",
-        "code": "71502898",
-        "ids": ",pr71502898,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 12,
-        "dmin": 0.04417,
-        "rms": 0.18,
-        "gap": 77,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 1.8 - 2 km NNW of La Plena, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.2098333333333,
-          18.0665,
-          18.25
-        ]
-      },
-      "id": "pr71502898"
     }
   ],
   "bbox": [
@@ -376,6 +336,6 @@
     -1.3600000143051,
     179.7554,
     66.312,
-    514.931
+    612.289
   ]
 }
