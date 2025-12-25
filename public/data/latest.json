@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1766665812000,
+    "generated": 1766668123000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 181
+    "count": 179
   },
   "features": [
     {
@@ -55,7 +55,7 @@
         "mag": 3.43,
         "place": "76 km NE of Punta Cana, Dominican Republic",
         "time": 1766649678690,
-        "updated": 1766652561720,
+        "updated": 1766665965040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71503063",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71503063.geojson",
@@ -68,8 +68,8 @@
         "sig": 181,
         "net": "pr",
         "code": "71503063",
-        "ids": ",pr71503063,",
-        "sources": ",pr,",
+        "ids": ",us7000rkph,pr71503063,",
+        "sources": ",us,pr,",
         "types": ",origin,phase-data,",
         "nst": 21,
         "dmin": 0.732,
@@ -168,46 +168,6 @@
         ]
       },
       "id": "pr71503038"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.31,
-        "place": "100 km NE of Cruz Bay, U.S. Virgin Islands",
-        "time": 1766579635680,
-        "updated": 1766651345752,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71503028",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71503028.geojson",
-        "felt": 1,
-        "cdi": 2,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 169,
-        "net": "pr",
-        "code": "71503028",
-        "ids": ",pr71503028,us7000rkk9,",
-        "sources": ",pr,us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 9,
-        "dmin": 0.6089,
-        "rms": 0.17,
-        "gap": 299,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.3 - 100 km NE of Cruz Bay, U.S. Virgin Islands"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -64.2605,
-          19.0873333333333,
-          24.47
-        ]
-      },
-      "id": "pr71503028"
     }
   ],
   "bbox": [
