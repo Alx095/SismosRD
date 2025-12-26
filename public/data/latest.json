@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1766750274000,
+    "generated": 1766752931000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 219
+    "count": 222
   },
   "features": [
     {
@@ -15,7 +15,7 @@
         "mag": 3.29,
         "place": "9 km N of Tierras Nuevas Poniente, Puerto Rico",
         "time": 1766740460560,
-        "updated": 1766741624320,
+        "updated": 1766750881040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71503128",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71503128.geojson",
@@ -28,8 +28,8 @@
         "sig": 167,
         "net": "pr",
         "code": "71503128",
-        "ids": ",pr71503128,",
-        "sources": ",pr,",
+        "ids": ",us7000rkve,pr71503128,",
+        "sources": ",us,pr,",
         "types": ",origin,phase-data,",
         "nst": 27,
         "dmin": 0.07308,
