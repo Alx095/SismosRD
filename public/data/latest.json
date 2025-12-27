@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1766847560000,
+    "generated": 1766848970000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 192
+    "count": 190
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.66,
+        "place": "1 km WNW of Guayanilla, Puerto Rico",
+        "time": 1766845437230,
+        "updated": 1766848478330,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71503213",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71503213.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 42,
+        "net": "pr",
+        "code": "71503213",
+        "ids": ",pr71503213,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 3,
+        "dmin": 0.2237,
+        "rms": 0.3,
+        "gap": 181,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 1.7 - 1 km WNW of Guayanilla, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.8081666666667,
+          18.024,
+          8.47
+        ]
+      },
+      "id": "pr71503213"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -128,46 +168,6 @@
         ]
       },
       "id": "pr71503168"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.37,
-        "place": "6 km SSW of Indios, Puerto Rico",
-        "time": 1766761953430,
-        "updated": 1766762535040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71503163",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71503163.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 86,
-        "net": "pr",
-        "code": "71503163",
-        "ids": ",pr71503163,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 8,
-        "dmin": 0.05182,
-        "rms": 0.17,
-        "gap": 216,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.4 - 6 km SSW of Indios, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.8413333333333,
-          17.9376666666667,
-          12.77
-        ]
-      },
-      "id": "pr71503163"
     }
   ],
   "bbox": [
