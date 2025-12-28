@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1766887599000,
+    "generated": 1766893996000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 181
+    "count": 185
   },
   "features": [
     {
@@ -55,7 +55,7 @@
         "mag": 3.53,
         "place": "20 km NE of Otra Banda, Dominican Republic",
         "time": 1766874690610,
-        "updated": 1766881753612,
+        "updated": 1766893249040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2025361000",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2025361000.geojson",
@@ -68,8 +68,8 @@
         "sig": 192,
         "net": "pr",
         "code": "2025361000",
-        "ids": ",pr2025361000,",
-        "sources": ",pr,",
+        "ids": ",us7000rl4m,pr2025361000,",
+        "sources": ",us,pr,",
         "types": ",origin,phase-data,",
         "nst": 11,
         "dmin": 0.3283,
@@ -173,8 +173,8 @@
   "bbox": [
     -178.5078,
     -28.27,
-    -0.18,
-    158.6967,
+    -0.84,
+    141.9521,
     65.002,
     598.436
   ]
