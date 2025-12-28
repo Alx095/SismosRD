@@ -1,53 +1,53 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1766951591000,
+    "generated": 1766952624000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 186
+    "count": 190
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 3,
-        "place": "38 km NW of San Antonio, Puerto Rico",
-        "time": 1766949837926,
-        "updated": 1766950489040,
+        "mag": 3.46,
+        "place": "42 km NW of San Antonio, Puerto Rico",
+        "time": 1766949838530,
+        "updated": 1766952055334,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000rl8b",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000rl8b.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2025362001",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2025362001.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 138,
-        "net": "us",
-        "code": "7000rl8b",
-        "ids": ",us7000rl8b,",
-        "sources": ",us,",
+        "sig": 184,
+        "net": "pr",
+        "code": "2025362001",
+        "ids": ",us7000rl8b,pr2025362001,",
+        "sources": ",us,pr,",
         "types": ",origin,phase-data,",
-        "nst": 14,
-        "dmin": 0.353,
-        "rms": 0.25,
-        "gap": 211,
-        "magType": "ml",
+        "nst": 23,
+        "dmin": 0.3999,
+        "rms": 0.19,
+        "gap": 188,
+        "magType": "md",
         "type": "earthquake",
-        "title": "M 3.0 - 38 km NW of San Antonio, Puerto Rico"
+        "title": "M 3.5 - 42 km NW of San Antonio, Puerto Rico"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -67.3472,
-          18.7415,
-          35.919
+          -67.3756,
+          18.7675,
+          8
         ]
       },
-      "id": "us7000rl8b"
+      "id": "pr2025362001"
     },
     {
       "type": "Feature",
@@ -213,7 +213,7 @@
   "bbox": [
     -178.6674,
     -59.8223,
-    -0.89999997615814,
+    -1.46,
     156.0604,
     65.002,
     615.27
