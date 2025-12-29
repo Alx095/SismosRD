@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1766966205000,
+    "generated": 1766972529000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 189
+    "count": 185
   },
   "features": [
     {
@@ -168,54 +168,14 @@
         ]
       },
       "id": "pr2025362000"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.11,
-        "place": "1 km SSE of Las Marías, Puerto Rico",
-        "time": 1766881483860,
-        "updated": 1766882311430,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71503243",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71503243.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 68,
-        "net": "pr",
-        "code": "71503243",
-        "ids": ",pr71503243,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 7,
-        "dmin": 0.1119,
-        "rms": 0.26,
-        "gap": 162,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.1 - 1 km SSE of Las Marías, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.9888333333333,
-          18.2395,
-          22.08
-        ]
-      },
-      "id": "pr71503243"
     }
   ],
   "bbox": [
     -178.6674,
     -59.8223,
-    -1.46,
+    -0.89999997615814,
     156.0604,
-    65.002,
+    64.498,
     615.27
   ]
 }
