@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1767145204000,
+    "generated": 1767150971000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 212
+    "count": 230
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.25,
+        "place": "107 km N of San Juan, Puerto Rico",
+        "time": 1767144509530,
+        "updated": 1767147046550,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71503423",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71503423.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 162,
+        "net": "pr",
+        "code": "71503423",
+        "ids": ",pr71503423,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 16,
+        "dmin": 1.089,
+        "rms": 0.25,
+        "gap": 264,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 3.3 - 107 km N of San Juan, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.9561666666667,
+          19.4268333333333,
+          14.21
+        ]
+      },
+      "id": "pr71503423"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -48,52 +88,12 @@
         ]
       },
       "id": "pr71503398"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.38,
-        "place": "6 km NNE of Yauco, Puerto Rico",
-        "time": 1767060107330,
-        "updated": 1767062818420,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71503383",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71503383.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 87,
-        "net": "pr",
-        "code": "71503383",
-        "ids": ",pr71503383,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 14,
-        "dmin": 0.123,
-        "rms": 0.12,
-        "gap": 109,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.4 - 6 km NNE of Yauco, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.8191666666667,
-          18.0845,
-          16.48
-        ]
-      },
-      "id": "pr71503383"
     }
   ],
   "bbox": [
     -178.3999,
     -42.6392,
-    -2.0199999809265,
+    -2.27,
     155.273,
     65.8577,
     555.388
