@@ -1,14 +1,94 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1767232763000,
+    "generated": 1767239550000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 238
+    "count": 242
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.46,
+        "place": "2 km NNW of Las Marias, Puerto Rico",
+        "time": 1767236897930,
+        "updated": 1767238287330,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71503513",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71503513.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 93,
+        "net": "pr",
+        "code": "71503513",
+        "ids": ",pr71503513,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 11,
+        "dmin": 0.08976,
+        "rms": 0.18,
+        "gap": 113,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.5 - 2 km NNW of Las Marias, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.158,
+          18.3168333333333,
+          24.82
+        ]
+      },
+      "id": "pr71503513"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.29,
+        "place": "4 km S of Indios, Puerto Rico",
+        "time": 1767232159980,
+        "updated": 1767233362280,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71503508",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71503508.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 81,
+        "net": "pr",
+        "code": "71503508",
+        "ids": ",pr71503508,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 7,
+        "dmin": 0.05744,
+        "rms": 0.13,
+        "gap": 212,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.3 - 4 km S of Indios, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.8226666666667,
+          17.955,
+          11.33
+        ]
+      },
+      "id": "pr71503508"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -296,6 +376,6 @@
     -1.46,
     170.8778,
     64.999,
-    173.524
+    176.055
   ]
 }
