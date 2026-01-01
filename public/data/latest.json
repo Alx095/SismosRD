@@ -1,53 +1,53 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1767281572000,
+    "generated": 1767282301000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 267
+    "count": 261
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 3.3,
-        "place": "55 km NNE of Miches, Dominican Republic",
-        "time": 1767274530015,
-        "updated": 1767278410040,
+        "mag": 3.99,
+        "place": "27 km NNE of Miches, Dominican Republic",
+        "time": 1767274534520,
+        "updated": 1767281613501,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000rlxb",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000rlxb.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2026001000",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2026001000.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 168,
-        "net": "us",
-        "code": "7000rlxb",
-        "ids": ",us7000rlxb,",
-        "sources": ",us,",
+        "sig": 245,
+        "net": "pr",
+        "code": "2026001000",
+        "ids": ",us7000rlxb,pr2026001000,",
+        "sources": ",us,pr,",
         "types": ",origin,phase-data,",
-        "nst": 16,
-        "dmin": 1.03,
-        "rms": 0.26,
-        "gap": 201,
-        "magType": "ml",
+        "nst": 24,
+        "dmin": 0.9033,
+        "rms": 0.7,
+        "gap": 189,
+        "magType": "md",
         "type": "earthquake",
-        "title": "M 3.3 - 55 km NNE of Miches, Dominican Republic"
+        "title": "M 4.0 - 27 km NNE of Miches, Dominican Republic"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -68.8458,
-          19.451,
-          10
+          -68.9508,
+          19.2151,
+          37
         ]
       },
-      "id": "us7000rlxb"
+      "id": "pr2026001000"
     },
     {
       "type": "Feature",
@@ -488,46 +488,6 @@
         ]
       },
       "id": "pr2025365000"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.7,
-        "place": "4 km ESE of Jagual, Puerto Rico",
-        "time": 1767195745890,
-        "updated": 1767196872020,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71503448",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71503448.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 112,
-        "net": "pr",
-        "code": "71503448",
-        "ids": ",pr71503448,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 15,
-        "dmin": 0.1018,
-        "rms": 0.13,
-        "gap": 110,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.7 - 4 km ESE of Jagual, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -65.9558333333333,
-          18.1445,
-          21.77
-        ]
-      },
-      "id": "pr71503448"
     }
   ],
   "bbox": [
