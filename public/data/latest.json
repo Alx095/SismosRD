@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1767268451000,
+    "generated": 1767270191000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 261
+    "count": 264
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.91,
+        "place": "1 km ENE of Fuig, Puerto Rico",
+        "time": 1767268184190,
+        "updated": 1767269769370,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71503608",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71503608.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 56,
+        "net": "pr",
+        "code": "71503608",
+        "ids": ",pr71503608,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 5,
+        "dmin": 0.02638,
+        "rms": 0.04,
+        "gap": 137,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 1.9 - 1 km ENE of Fuig, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.9016666666667,
+          17.9906666666667,
+          11.49
+        ]
+      },
+      "id": "pr71503608"
+    },
     {
       "type": "Feature",
       "properties": {
