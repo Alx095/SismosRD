@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1767287857000,
+    "generated": 1767288938000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 261
+    "count": 255
   },
   "features": [
     {
@@ -448,46 +448,6 @@
         ]
       },
       "id": "pr71503483"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.82,
-        "place": "3 km N of San Germán, Puerto Rico",
-        "time": 1767201757240,
-        "updated": 1767202681150,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71503473",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71503473.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 122,
-        "net": "pr",
-        "code": "71503473",
-        "ids": ",pr71503473,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 18,
-        "dmin": 0.03006,
-        "rms": 0.17,
-        "gap": 83,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.8 - 3 km N of San Germán, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -67.0513333333333,
-          18.116,
-          20.97
-        ]
-      },
-      "id": "pr71503473"
     }
   ],
   "bbox": [
