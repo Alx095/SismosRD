@@ -1,25 +1,65 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1767409863000,
+    "generated": 1767412884000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 199
+    "count": 196
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.02,
+        "place": "9 km S of Emajagua, Puerto Rico",
+        "time": 1767410871110,
+        "updated": 1767411858940,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71503743",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71503743.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 63,
+        "net": "pr",
+        "code": "71503743",
+        "ids": ",pr71503743,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 5,
+        "dmin": 0.1639,
+        "rms": 0.17,
+        "gap": 223,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.0 - 9 km S of Emajagua, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.8855,
+          17.9178333333333,
+          13.85
+        ]
+      },
+      "id": "pr71503743"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 5.5,
         "place": "58 km NE of Sainte-Marie, Martinique",
         "time": 1767390506553,
-        "updated": 1767406163062,
+        "updated": 1767411319184,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000rm6i",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000rm6i.geojson",
-        "felt": 40,
+        "felt": 41,
         "cdi": 4.8,
         "mmi": 4.329,
         "alert": "green",
@@ -213,7 +253,7 @@
   "bbox": [
     -168.152,
     -53.6401,
-    -1.37,
+    -1.09,
     159.67,
     65.659,
     264.986
