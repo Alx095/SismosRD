@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1767419843000,
+    "generated": 1767421823000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 195
+    "count": 194
   },
   "features": [
     {
@@ -55,17 +55,17 @@
         "mag": 5.5,
         "place": "58 km NE of Sainte-Marie, Martinique",
         "time": 1767390506553,
-        "updated": 1767411319184,
+        "updated": 1767420134251,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000rm6i",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000rm6i.geojson",
-        "felt": 41,
+        "felt": 42,
         "cdi": 4.8,
         "mmi": 4.329,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 485,
+        "sig": 486,
         "net": "us",
         "code": "7000rm6i",
         "ids": ",us7000rm6i,",
