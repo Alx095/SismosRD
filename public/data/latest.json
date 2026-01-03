@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1767442840000,
+    "generated": 1767445304000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 184
+    "count": 181
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.94,
+        "place": "64 km NNE of Luquillo, Puerto Rico",
+        "time": 1767436523510,
+        "updated": 1767444371780,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71503773",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71503773.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 133,
+        "net": "pr",
+        "code": "71503773",
+        "ids": ",pr71503773,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 19,
+        "dmin": 0.7095,
+        "rms": 0.32,
+        "gap": 224,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.9 - 64 km NNE of Luquillo, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.4656666666667,
+          18.9063333333333,
+          24.99
+        ]
+      },
+      "id": "pr71503773"
+    },
     {
       "type": "Feature",
       "properties": {
