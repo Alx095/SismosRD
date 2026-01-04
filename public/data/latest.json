@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1767510927000,
+    "generated": 1767511974000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 206
+    "count": 204
   },
   "features": [
     {
@@ -328,53 +328,13 @@
         ]
       },
       "id": "pr2026003000"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.18,
-        "place": "1 km SE of Palomas, Puerto Rico",
-        "time": 1767425088050,
-        "updated": 1767425745760,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71503758",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71503758.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 73,
-        "net": "pr",
-        "code": "71503758",
-        "ids": ",pr71503758,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 6,
-        "dmin": 0.03442,
-        "rms": 0.18,
-        "gap": 130,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.2 - 1 km SE of Palomas, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.8641666666667,
-          18.0065,
-          12.36
-        ]
-      },
-      "id": "pr71503758"
     }
   ],
   "bbox": [
     -178.6115,
     -45.4026,
     -1.7,
-    178.73,
+    178.6457,
     64.974,
     605.06
   ]
