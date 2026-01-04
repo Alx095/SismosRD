@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1767531761000,
+    "generated": 1767533722000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 216
+    "count": 215
   },
   "features": [
     {
@@ -408,46 +408,6 @@
         ]
       },
       "id": "pr2026004000"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.93,
-        "place": "3 km E of G. L. Garcia, Puerto Rico",
-        "time": 1767446148070,
-        "updated": 1767448088180,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71503788",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71503788.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 57,
-        "net": "pr",
-        "code": "71503788",
-        "ids": ",pr71503788,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 8,
-        "dmin": 0.07772,
-        "rms": 0.27,
-        "gap": 89,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 1.9 - 3 km E of G. L. Garcia, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.0708333333333,
-          18.1285,
-          29.1
-        ]
-      },
-      "id": "pr71503788"
     }
   ],
   "bbox": [
