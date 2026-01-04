@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1767508367000,
+    "generated": 1767509739000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 204
+    "count": 205
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.55,
+        "place": "2 km WSW of Ponce, Puerto Rico",
+        "time": 1767507837340,
+        "updated": 1767508776530,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71503828",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71503828.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 100,
+        "net": "pr",
+        "code": "71503828",
+        "ids": ",pr71503828,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 13,
+        "dmin": 0.09224,
+        "rms": 0.23,
+        "gap": 127,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.6 - 2 km WSW of Ponce, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.6423333333333,
+          18.0045,
+          14.01
+        ]
+      },
+      "id": "pr71503828"
+    },
     {
       "type": "Feature",
       "properties": {
