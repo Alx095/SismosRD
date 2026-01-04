@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1767558407000,
+    "generated": 1767559369000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 209
+    "count": 212
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.26,
+        "place": "5 km NNE of Aguas Buenas, Puerto Rico",
+        "time": 1767556079100,
+        "updated": 1767558697440,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71503948",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71503948.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 164,
+        "net": "pr",
+        "code": "71503948",
+        "ids": ",pr71503948,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 6,
+        "dmin": 0.2688,
+        "rms": 0.06,
+        "gap": 196,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 3.3 - 5 km NNE of Aguas Buenas, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.0808333333333,
+          18.297,
+          133
+        ]
+      },
+      "id": "pr71503948"
+    },
     {
       "type": "Feature",
       "properties": {
