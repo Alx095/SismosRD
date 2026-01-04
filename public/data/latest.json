@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1767506267000,
+    "generated": 1767508367000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 208
+    "count": 204
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.24,
+        "place": "1 km WNW of Indios, Puerto Rico",
+        "time": 1767506505550,
+        "updated": 1767507244120,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71503823",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71503823.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 77,
+        "net": "pr",
+        "code": "71503823",
+        "ids": ",pr71503823,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 6,
+        "dmin": 0.0488,
+        "rms": 0.1,
+        "gap": 171,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.2 - 1 km WNW of Indios, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.8336666666667,
+          17.9975,
+          14.57
+        ]
+      },
+      "id": "pr71503823"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -288,52 +328,12 @@
         ]
       },
       "id": "pr71503758"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.84,
-        "place": "2 km NW of Levittown, Puerto Rico",
-        "time": 1767421391970,
-        "updated": 1767422306480,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71503753",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71503753.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 124,
-        "net": "pr",
-        "code": "71503753",
-        "ids": ",pr71503753,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 12,
-        "dmin": 0.3551,
-        "rms": 0.27,
-        "gap": 197,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.8 - 2 km NW of Levittown, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.1996666666667,
-          18.463,
-          100.88
-        ]
-      },
-      "id": "pr71503753"
     }
   ],
   "bbox": [
     -178.6115,
     -45.4026,
-    -2.58,
+    -1.7,
     178.73,
     64.974,
     605.06
