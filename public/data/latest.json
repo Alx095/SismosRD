@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1767622550000,
+    "generated": 1767624257000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 163
+    "count": 159
   },
   "features": [
     {
@@ -368,46 +368,6 @@
         ]
       },
       "id": "pr71503908"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.8,
-        "place": "38 km WSW of Jiquilillo, Nicaragua",
-        "time": 1767536431470,
-        "updated": 1767537292040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000rmfn",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000rmfn.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 354,
-        "net": "us",
-        "code": "7000rmfn",
-        "ids": ",us7000rmfn,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 44,
-        "dmin": 1.001,
-        "rms": 0.97,
-        "gap": 155,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.8 - 38 km WSW of Jiquilillo, Nicaragua"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -87.7816,
-          12.6136,
-          99.315
-        ]
-      },
-      "id": "us7000rmfn"
     }
   ],
   "bbox": [
