@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1767644505000,
+    "generated": 1767645730000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 160
+    "count": 155
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.19,
+        "place": "5 km SSW of Indios, Puerto Rico",
+        "time": 1767644047430,
+        "updated": 1767644719400,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71504038",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71504038.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 74,
+        "net": "pr",
+        "code": "71504038",
+        "ids": ",pr71504038,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 5,
+        "dmin": 0.05525,
+        "rms": 0.08,
+        "gap": 259,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.2 - 5 km SSW of Indios, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.8303333333333,
+          17.9451666666667,
+          12.16
+        ]
+      },
+      "id": "pr71504038"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -168,86 +208,6 @@
         ]
       },
       "id": "pr2026005000"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.08,
-        "place": "1 km NNW of Palomas, Puerto Rico",
-        "time": 1767559006490,
-        "updated": 1767559911660,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71503968",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71503968.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 67,
-        "net": "pr",
-        "code": "71503968",
-        "ids": ",pr71503968,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 5,
-        "dmin": 0.0486,
-        "rms": 0.05,
-        "gap": 113,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.1 - 1 km NNW of Palomas, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.8763333333333,
-          18.0238333333333,
-          14.46
-        ]
-      },
-      "id": "pr71503968"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.93,
-        "place": "2 km NNW of Guayanilla, Puerto Rico",
-        "time": 1767558481560,
-        "updated": 1767559966870,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71503958",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71503958.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 57,
-        "net": "pr",
-        "code": "71503958",
-        "ids": ",pr71503958,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 7,
-        "dmin": 0.102,
-        "rms": 0.1,
-        "gap": 148,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 1.9 - 2 km NNW of Guayanilla, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.799,
-          18.043,
-          12.23
-        ]
-      },
-      "id": "pr71503958"
     }
   ],
   "bbox": [
