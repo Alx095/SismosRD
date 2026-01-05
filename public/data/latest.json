@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1767649554000,
+    "generated": 1767649973000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 157
+    "count": 155
   },
   "features": [
     {
@@ -15,7 +15,7 @@
         "mag": 2.93,
         "place": "27 km NNW of San Juan, Puerto Rico",
         "time": 1767645435170,
-        "updated": 1767646546990,
+        "updated": 1767649754040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71504048",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71504048.geojson",
@@ -28,8 +28,8 @@
         "sig": 132,
         "net": "pr",
         "code": "71504048",
-        "ids": ",pr71504048,",
-        "sources": ",pr,",
+        "ids": ",us7000rmn4,pr71504048,",
+        "sources": ",us,pr,",
         "types": ",origin,phase-data,",
         "nst": 18,
         "dmin": 0.4043,
