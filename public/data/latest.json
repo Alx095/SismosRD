@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1767729469000,
+    "generated": 1767730981000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 234
+    "count": 236
   },
   "features": [
     {
@@ -55,7 +55,7 @@
         "mag": 2.96,
         "place": "66 km N of Tierras Nuevas Poniente, Puerto Rico",
         "time": 1767726100750,
-        "updated": 1767728190410,
+        "updated": 1767729749040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71504313",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71504313.geojson",
@@ -68,8 +68,8 @@
         "sig": 135,
         "net": "pr",
         "code": "71504313",
-        "ids": ",pr71504313,",
-        "sources": ",pr,",
+        "ids": ",us7000rmzq,pr71504313,",
+        "sources": ",us,pr,",
         "types": ",origin,phase-data,",
         "nst": 15,
         "dmin": 0.5799,
@@ -135,7 +135,7 @@
         "mag": 3.18,
         "place": "69 km N of Tierras Nuevas Poniente, Puerto Rico",
         "time": 1767724555380,
-        "updated": 1767726686030,
+        "updated": 1767729988040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71504278",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71504278.geojson",
@@ -148,8 +148,8 @@
         "sig": 156,
         "net": "pr",
         "code": "71504278",
-        "ids": ",pr71504278,",
-        "sources": ",pr,",
+        "ids": ",us7000rmzi,pr71504278,",
+        "sources": ",us,pr,",
         "types": ",origin,phase-data,",
         "nst": 15,
         "dmin": 0.6081,
@@ -1008,46 +1008,6 @@
         ]
       },
       "id": "pr71504048"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.19,
-        "place": "5 km SSW of Indios, Puerto Rico",
-        "time": 1767644047430,
-        "updated": 1767644719400,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71504038",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71504038.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 74,
-        "net": "pr",
-        "code": "71504038",
-        "ids": ",pr71504038,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 5,
-        "dmin": 0.05525,
-        "rms": 0.08,
-        "gap": 259,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.2 - 5 km SSW of Indios, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.8303333333333,
-          17.9451666666667,
-          12.16
-        ]
-      },
-      "id": "pr71504038"
     }
   ],
   "bbox": [
