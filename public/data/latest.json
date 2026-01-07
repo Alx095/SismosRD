@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1767790505000,
+    "generated": 1767792802000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 231
+    "count": 242
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.35,
+        "place": "1 km W of Yauco, Puerto Rico",
+        "time": 1767790221920,
+        "updated": 1767791090900,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71504463",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71504463.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 85,
+        "net": "pr",
+        "code": "71504463",
+        "ids": ",pr71504463,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 11,
+        "dmin": 0.06128,
+        "rms": 0.17,
+        "gap": 76,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.4 - 1 km W of Yauco, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.8686666666667,
+          18.0358333333333,
+          12.97
+        ]
+      },
+      "id": "pr71504463"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -808,86 +848,6 @@
         ]
       },
       "id": "pr71504243"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.77,
-        "place": "72 km N of Tierras Nuevas Poniente, Puerto Rico",
-        "time": 1767706322580,
-        "updated": 1767711667850,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71504223",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71504223.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 118,
-        "net": "pr",
-        "code": "71504223",
-        "ids": ",pr71504223,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 8,
-        "dmin": 0.6361,
-        "rms": 0.22,
-        "gap": 308,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.8 - 72 km N of Tierras Nuevas Poniente, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.4973333333333,
-          19.1158333333333,
-          27.01
-        ]
-      },
-      "id": "pr71504223"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.15,
-        "place": "66 km N of Tierras Nuevas Poniente, Puerto Rico",
-        "time": 1767704309900,
-        "updated": 1767789069040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71504183",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71504183.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 153,
-        "net": "pr",
-        "code": "71504183",
-        "ids": ",us7000rmw5,pr71504183,",
-        "sources": ",us,pr,",
-        "types": ",origin,phase-data,",
-        "nst": 14,
-        "dmin": 0.5794,
-        "rms": 0.15,
-        "gap": 286,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.2 - 66 km N of Tierras Nuevas Poniente, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.4981666666667,
-          19.0588333333333,
-          32.34
-        ]
-      },
-      "id": "pr71504183"
     }
   ],
   "bbox": [
