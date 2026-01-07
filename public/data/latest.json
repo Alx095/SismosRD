@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1767781201000,
+    "generated": 1767782651000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 248
+    "count": 245
   },
   "features": [
     {
@@ -15,12 +15,12 @@
         "mag": 3.67,
         "place": "92 km N of Suárez, Puerto Rico",
         "time": 1767777976260,
-        "updated": 1767779247326,
+        "updated": 1767782208284,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2026007000",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2026007000.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -30,7 +30,7 @@
         "code": "2026007000",
         "ids": ",pr2026007000,",
         "sources": ",pr,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 16,
         "dmin": 1.0165,
         "rms": 0.5,
