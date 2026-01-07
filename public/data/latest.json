@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1767795701000,
+    "generated": 1767797165000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 237
+    "count": 238
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.77,
+        "place": "44 km SSE of Boca de Yuma, Dominican Republic",
+        "time": 1767792026270,
+        "updated": 1767796410537,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2026007001",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2026007001.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 219,
+        "net": "pr",
+        "code": "2026007001",
+        "ids": ",pr2026007001,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 14,
+        "dmin": 0.5328,
+        "rms": 0.52,
+        "gap": 244,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 3.8 - 44 km SSE of Boca de Yuma, Dominican Republic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.4978,
+          17.994,
+          87
+        ]
+      },
+      "id": "pr2026007001"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -728,46 +768,6 @@
         ]
       },
       "id": "pr71504253"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.08,
-        "place": "59 km N of Tierras Nuevas Poniente, Puerto Rico",
-        "time": 1767709393530,
-        "updated": 1767710314390,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71504218",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71504218.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 146,
-        "net": "pr",
-        "code": "71504218",
-        "ids": ",pr71504218,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 10,
-        "dmin": 0.5193,
-        "rms": 0.17,
-        "gap": 292,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.1 - 59 km N of Tierras Nuevas Poniente, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.5281666666667,
-          18.9991666666667,
-          29.81
-        ]
-      },
-      "id": "pr71504218"
     }
   ],
   "bbox": [
