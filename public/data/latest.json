@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1767856754000,
+    "generated": 1767858011000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 258
+    "count": 264
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.18,
+        "place": "14 km NNW of Camuy, Puerto Rico",
+        "time": 1767855174290,
+        "updated": 1767857034000,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71504613",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71504613.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 156,
+        "net": "pr",
+        "code": "71504613",
+        "ids": ",pr71504613,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 17,
+        "dmin": 0.2444,
+        "rms": 0.23,
+        "gap": 221,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 3.2 - 14 km NNW of Camuy, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.8978333333333,
+          18.6051666666667,
+          100.08
+        ]
+      },
+      "id": "pr71504613"
+    },
     {
       "type": "Feature",
       "properties": {
