@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1767890375000,
+    "generated": 1767891644000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
@@ -9,6 +9,46 @@
     "count": 259
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.4,
+        "place": "2 km WSW of Coto Laurel, Puerto Rico",
+        "time": 1767890609620,
+        "updated": 1767891527810,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71504653",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71504653.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 89,
+        "net": "pr",
+        "code": "71504653",
+        "ids": ",pr71504653,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 13,
+        "dmin": 0.028,
+        "rms": 0.17,
+        "gap": 96,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.4 - 2 km WSW of Coto Laurel, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.5768333333333,
+          18.0415,
+          18.87
+        ]
+      },
+      "id": "pr71504653"
+    },
     {
       "type": "Feature",
       "properties": {
