@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1767916689000,
+    "generated": 1767923163000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 229
+    "count": 222
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.81,
+        "place": "3 km NNE of Jobos, Puerto Rico",
+        "time": 1767922043330,
+        "updated": 1767923156910,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71504668",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71504668.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 50,
+        "net": "pr",
+        "code": "71504668",
+        "ids": ",pr71504668,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 14,
+        "dmin": 0.03477,
+        "rms": 0.16,
+        "gap": 156,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 1.8 - 3 km NNE of Jobos, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1485,
+          17.9836666666667,
+          16.55
+        ]
+      },
+      "id": "pr71504668"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -291,7 +331,7 @@
     }
   ],
   "bbox": [
-    -156.682,
+    -166.6465,
     -39.8814,
     -1.65,
     176.3386,
