@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1768127732000,
+    "generated": 1768128475000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 188
+    "count": 185
   },
   "features": [
     {
@@ -208,46 +208,6 @@
         ]
       },
       "id": "pr71504753"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.03,
-        "place": "3 km SSE of Magas Arriba, Puerto Rico",
-        "time": 1768041934000,
-        "updated": 1768044144600,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71504733",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71504733.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 63,
-        "net": "pr",
-        "code": "71504733",
-        "ids": ",pr71504733,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 10,
-        "dmin": 0.1174,
-        "rms": 0.11,
-        "gap": 152,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.0 - 3 km SSE of Magas Arriba, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.7563333333333,
-          17.9843333333333,
-          12.2
-        ]
-      },
-      "id": "pr71504733"
     }
   ],
   "bbox": [
