@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1768149553000,
+    "generated": 1768150348000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 169
+    "count": 168
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.08,
+        "place": "1 km SSE of Guaynabo, Puerto Rico",
+        "time": 1768146422000,
+        "updated": 1768150071880,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71504843",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71504843.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 146,
+        "net": "pr",
+        "code": "71504843",
+        "ids": ",pr71504843,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 23,
+        "dmin": 0.04115,
+        "rms": 0.27,
+        "gap": 155,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 3.1 - 1 km SSE of Guaynabo, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1051666666667,
+          18.345,
+          117.35
+        ]
+      },
+      "id": "pr71504843"
+    },
     {
       "type": "Feature",
       "properties": {
