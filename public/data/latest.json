@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1768254359000,
+    "generated": 1768254808000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
@@ -15,7 +15,7 @@
         "mag": 3.36,
         "place": "133 km NNE of Vieques, Puerto Rico",
         "time": 1768250591250,
-        "updated": 1768253973390,
+        "updated": 1768254545040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71504988",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71504988.geojson",
@@ -28,8 +28,8 @@
         "sig": 174,
         "net": "pr",
         "code": "71504988",
-        "ids": ",pr71504988,",
-        "sources": ",pr,",
+        "ids": ",us7000rp9g,pr71504988,",
+        "sources": ",us,pr,",
         "types": ",origin,phase-data,",
         "nst": 13,
         "dmin": 1.271,
@@ -493,7 +493,7 @@
   "bbox": [
     -167.864,
     -58.561,
-    -0.91000002622604,
+    -2.47,
     176.757,
     64.653,
     402.822
