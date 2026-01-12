@@ -1,14 +1,94 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1768183050000,
+    "generated": 1768189620000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 185
+    "count": 186
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.35,
+        "place": "56 km NNE of Punta Cana, Dominican Republic",
+        "time": 1768185181310,
+        "updated": 1768187519040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71504928",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71504928.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 173,
+        "net": "pr",
+        "code": "71504928",
+        "ids": ",us7000rp43,pr71504928,",
+        "sources": ",us,pr,",
+        "types": ",origin,phase-data,",
+        "nst": 16,
+        "dmin": 0.5663,
+        "rms": 0.42,
+        "gap": 281,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 3.4 - 56 km NNE of Punta Cana, Dominican Republic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.3,
+          19.0785,
+          38.23
+        ]
+      },
+      "id": "pr71504928"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.12,
+        "place": "59 km N of Hatillo, Puerto Rico",
+        "time": 1768182579060,
+        "updated": 1768184106480,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71504918",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71504918.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 150,
+        "net": "pr",
+        "code": "71504918",
+        "ids": ",pr71504918,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 16,
+        "dmin": 0.6011,
+        "rms": 0.26,
+        "gap": 258,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 3.1 - 59 km N of Hatillo, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.8623333333333,
+          19.0233333333333,
+          19.66
+        ]
+      },
+      "id": "pr71504918"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -452,10 +532,10 @@
   ],
   "bbox": [
     -178.72,
-    -21.137,
+    -58.561,
     -0.74,
     156.142,
     64.98,
-    258.995
+    402.822
   ]
 }
