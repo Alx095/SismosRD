@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1768262368000,
+    "generated": 1768269868000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 188
+    "count": 193
   },
   "features": [
     {
@@ -328,134 +328,14 @@
         ]
       },
       "id": "pr71504928"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.12,
-        "place": "59 km N of Hatillo, Puerto Rico",
-        "time": 1768182579060,
-        "updated": 1768184106480,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71504918",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71504918.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 150,
-        "net": "pr",
-        "code": "71504918",
-        "ids": ",pr71504918,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 16,
-        "dmin": 0.6011,
-        "rms": 0.26,
-        "gap": 258,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.1 - 59 km N of Hatillo, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.8623333333333,
-          19.0233333333333,
-          19.66
-        ]
-      },
-      "id": "pr71504918"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.2,
-        "place": "98 km N of Suárez, Puerto Rico",
-        "time": 1768179960640,
-        "updated": 1768181246580,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71504908",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71504908.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 158,
-        "net": "pr",
-        "code": "71504908",
-        "ids": ",pr71504908,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 13,
-        "dmin": 1.034,
-        "rms": 0.33,
-        "gap": 257,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.2 - 98 km N of Suárez, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -65.8085,
-          19.3148333333333,
-          72.3
-        ]
-      },
-      "id": "pr71504908"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.13,
-        "place": "54 km NNE of Punta Cana, Dominican Republic",
-        "time": 1768177607150,
-        "updated": 1768179620490,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71504898",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71504898.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 151,
-        "net": "pr",
-        "code": "71504898",
-        "ids": ",pr71504898,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 10,
-        "dmin": 0.5494,
-        "rms": 0.22,
-        "gap": 277,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.1 - 54 km NNE of Punta Cana, Dominican Republic"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -68.2476666666667,
-          19.052,
-          24.46
-        ]
-      },
-      "id": "pr71504898"
     }
   ],
   "bbox": [
-    -167.864,
+    -161.8745,
     -59.9202,
-    -2.47,
+    -1.96,
     176.757,
-    64.741,
-    402.822
+    64.97,
+    162.208
   ]
 }
