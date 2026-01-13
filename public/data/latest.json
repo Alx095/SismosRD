@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1768275781000,
+    "generated": 1768278385000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 201
+    "count": 211
   },
   "features": [
     {
@@ -208,86 +208,6 @@
         ]
       },
       "id": "pr71504958"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.86,
-        "place": "67 km NNE of Isabela, Puerto Rico",
-        "time": 1768190301220,
-        "updated": 1768191601000,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71504948",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71504948.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 126,
-        "net": "pr",
-        "code": "71504948",
-        "ids": ",pr71504948,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 13,
-        "dmin": 0.661,
-        "rms": 0.12,
-        "gap": 288,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.9 - 67 km NNE of Isabela, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.8781666666667,
-          19.0938333333333,
-          34.31
-        ]
-      },
-      "id": "pr71504948"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.1,
-        "place": "51 km N of Hatillo, Puerto Rico",
-        "time": 1768189403460,
-        "updated": 1768191170240,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71504938",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71504938.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 148,
-        "net": "pr",
-        "code": "71504938",
-        "ids": ",pr71504938,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 18,
-        "dmin": 0.4923,
-        "rms": 0.14,
-        "gap": 275,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.1 - 51 km N of Hatillo, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.8403333333333,
-          18.95,
-          15.58
-        ]
-      },
-      "id": "pr71504938"
     }
   ],
   "bbox": [
