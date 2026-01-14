@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1768433902000,
+    "generated": 1768434383000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 233
+    "count": 236
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.88,
+        "place": "1 km ENE of Cayey, Puerto Rico",
+        "time": 1768433541190,
+        "updated": 1768434305840,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71505168",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71505168.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 54,
+        "net": "pr",
+        "code": "71505168",
+        "ids": ",pr71505168,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 13,
+        "dmin": 0.007995,
+        "rms": 0.11,
+        "gap": 98,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 1.9 - 1 km ENE of Cayey, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1536666666667,
+          18.1163333333333,
+          25.62
+        ]
+      },
+      "id": "pr71505168"
+    },
     {
       "type": "Feature",
       "properties": {
