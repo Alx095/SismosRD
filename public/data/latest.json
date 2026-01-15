@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1768519435000,
+    "generated": 1768520389000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 333
+    "count": 337
   },
   "features": [
     {
@@ -248,86 +248,6 @@
         ]
       },
       "id": "pr71505178"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.88,
-        "place": "1 km ENE of Cayey, Puerto Rico",
-        "time": 1768433541190,
-        "updated": 1768434305840,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71505168",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71505168.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 54,
-        "net": "pr",
-        "code": "71505168",
-        "ids": ",pr71505168,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 13,
-        "dmin": 0.007995,
-        "rms": 0.11,
-        "gap": 98,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 1.9 - 1 km ENE of Cayey, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.1536666666667,
-          18.1163333333333,
-          25.62
-        ]
-      },
-      "id": "pr71505168"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.75,
-        "place": "2 km E of Cayey, Puerto Rico",
-        "time": 1768433312130,
-        "updated": 1768434447710,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71505153",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71505153.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 47,
-        "net": "pr",
-        "code": "71505153",
-        "ids": ",pr71505153,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 8,
-        "dmin": 0.007013,
-        "rms": 0.05,
-        "gap": 99,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 1.8 - 2 km E of Cayey, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.1426666666667,
-          18.1098333333333,
-          25.51
-        ]
-      },
-      "id": "pr71505153"
     }
   ],
   "bbox": [
