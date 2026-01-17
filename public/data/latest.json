@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1768686024000,
+    "generated": 1768686508000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 228
+    "count": 229
   },
   "features": [
     {
@@ -48,6 +48,46 @@
         ]
       },
       "id": "pr71505368"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.67,
+        "place": "16 km N of Punta Cana, Dominican Republic",
+        "time": 1768652823680,
+        "updated": 1768686367938,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2026017000",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2026017000.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 207,
+        "net": "pr",
+        "code": "2026017000",
+        "ids": ",pr2026017000,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 19,
+        "dmin": 0.2244,
+        "rms": 0.06,
+        "gap": 254,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 3.7 - 16 km N of Punta Cana, Dominican Republic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.4263,
+          18.7338,
+          95
+        ]
+      },
+      "id": "pr2026017000"
     },
     {
       "type": "Feature",
