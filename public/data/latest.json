@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1768776508000,
+    "generated": 1768776930000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 267
+    "count": 265
   },
   "features": [
     {
@@ -128,46 +128,6 @@
         ]
       },
       "id": "pr71505398"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.05,
-        "place": "10 km SSW of Guánica, Puerto Rico",
-        "time": 1768690140640,
-        "updated": 1768690717370,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71505393",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71505393.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 65,
-        "net": "pr",
-        "code": "71505393",
-        "ids": ",pr71505393,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 7,
-        "dmin": 0.1039,
-        "rms": 0.09,
-        "gap": 246,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.1 - 10 km SSW of Guánica, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.9325,
-          17.8838333333333,
-          12.67
-        ]
-      },
-      "id": "pr71505393"
     }
   ],
   "bbox": [
