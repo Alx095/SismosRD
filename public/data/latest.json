@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1768843919000,
+    "generated": 1768844921000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 276
+    "count": 274
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.07,
+        "place": "13 km SSW of Cruz Bay, U.S. Virgin Islands",
+        "time": 1768843424590,
+        "updated": 1768844296320,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71505438",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71505438.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 145,
+        "net": "pr",
+        "code": "71505438",
+        "ids": ",pr71505438,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 6,
+        "dmin": 0.1888,
+        "rms": 0.27,
+        "gap": 206,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 3.1 - 13 km SSW of Cruz Bay, U.S. Virgin Islands"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -64.8181666666667,
+          18.2161666666667,
+          19.41
+        ]
+      },
+      "id": "pr71505438"
+    },
     {
       "type": "Feature",
       "properties": {
