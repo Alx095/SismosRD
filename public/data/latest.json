@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1768839132000,
+    "generated": 1768841260000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 275
+    "count": 272
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.4,
+        "place": "52 km W of Puerto Real, Puerto Rico",
+        "time": 1768837652270,
+        "updated": 1768839738710,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71505423",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71505423.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 178,
+        "net": "pr",
+        "code": "71505423",
+        "ids": ",pr71505423,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 10,
+        "dmin": 0.522,
+        "rms": 0.25,
+        "gap": 329,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 3.4 - 52 km W of Puerto Real, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.6783333333333,
+          18.0936666666667,
+          146.5
+        ]
+      },
+      "id": "pr71505423"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -52,7 +92,7 @@
   ],
   "bbox": [
     -177.032,
-    -48.247,
+    -22.4227,
     -1.1399999856949,
     176.613,
     66.055,
