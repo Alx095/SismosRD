@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1768928598000,
+    "generated": 1768930690000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 439
+    "count": 445
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.05,
+        "place": "4 km ENE of La Parguera, Puerto Rico",
+        "time": 1768929578420,
+        "updated": 1768930009940,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71505498",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71505498.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 65,
+        "net": "pr",
+        "code": "71505498",
+        "ids": ",pr71505498,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 6,
+        "dmin": 0.04156,
+        "rms": 0.05,
+        "gap": 146,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.1 - 4 km ENE of La Parguera, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.0058333333333,
+          17.9893333333333,
+          12.92
+        ]
+      },
+      "id": "pr71505498"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -168,46 +208,6 @@
         ]
       },
       "id": "pr71505443"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.07,
-        "place": "13 km SSW of Cruz Bay, U.S. Virgin Islands",
-        "time": 1768843424590,
-        "updated": 1768845083040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71505438",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71505438.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 145,
-        "net": "pr",
-        "code": "71505438",
-        "ids": ",us7000rql5,pr71505438,",
-        "sources": ",us,pr,",
-        "types": ",origin,phase-data,",
-        "nst": 6,
-        "dmin": 0.1888,
-        "rms": 0.27,
-        "gap": 206,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.1 - 13 km SSW of Cruz Bay, U.S. Virgin Islands"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -64.8181666666667,
-          18.2161666666667,
-          19.41
-        ]
-      },
-      "id": "pr71505438"
     }
   ],
   "bbox": [
