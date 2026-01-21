@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1768953397000,
+    "generated": 1768958543000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "2.3.0",
-    "count": 560
+    "count": 571
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.2,
+        "place": "11 km SSE of Maria Antonia, Puerto Rico",
+        "time": 1768955733990,
+        "updated": 1768956213340,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71505518",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71505518.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 74,
+        "net": "pr",
+        "code": "71505518",
+        "ids": ",pr71505518,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 11,
+        "dmin": 0.09245,
+        "rms": 0.08,
+        "gap": 219,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.2 - 11 km SSE of Maria Antonia, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.8393333333333,
+          17.8836666666667,
+          10.61
+        ]
+      },
+      "id": "pr71505518"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -208,51 +248,11 @@
         ]
       },
       "id": "pr71505473"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.85,
-        "place": "46 km N of Brenas, Puerto Rico",
-        "time": 1768870695170,
-        "updated": 1768875081710,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71505443",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71505443.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 125,
-        "net": "pr",
-        "code": "71505443",
-        "ids": ",pr71505443,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 14,
-        "dmin": 0.4534,
-        "rms": 0.36,
-        "gap": 270,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.9 - 46 km N of Brenas, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.3091666666667,
-          18.8816666666667,
-          32.31
-        ]
-      },
-      "id": "pr71505443"
     }
   ],
   "bbox": [
     -179.9598,
-    -23.697,
+    -30.4087,
     -1.19,
     179.4563,
     65.596,
