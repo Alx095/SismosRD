@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1768987033000,
+    "generated": 1768988850000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
-    "api": "1.14.1",
-    "count": 436
+    "api": "2.3.0",
+    "count": 435
   },
   "features": [
     {
@@ -248,86 +248,6 @@
         ]
       },
       "id": "pr71505498"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.4,
-        "place": "6 km SSW of Sainte-Rose, Guadeloupe",
-        "time": 1768901476972,
-        "updated": 1768902380040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000rqsn",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000rqsn.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 298,
-        "net": "us",
-        "code": "7000rqsn",
-        "ids": ",us7000rqsn,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 86,
-        "dmin": 0.036,
-        "rms": 0.43,
-        "gap": 107,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.4 - 6 km SSW of Sainte-Rose, Guadeloupe"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -61.7281,
-          16.2852,
-          144.749
-        ]
-      },
-      "id": "us7000rqsn"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.25,
-        "place": "3 km ESE of Maria Antonia, Puerto Rico",
-        "time": 1768901149390,
-        "updated": 1768902150310,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71505478",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71505478.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 78,
-        "net": "pr",
-        "code": "71505478",
-        "ids": ",pr71505478,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 7,
-        "dmin": 0.0118,
-        "rms": 0.09,
-        "gap": 206,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.3 - 3 km ESE of Maria Antonia, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.863,
-          17.9616666666667,
-          17.94
-        ]
-      },
-      "id": "pr71505478"
     }
   ],
   "bbox": [
