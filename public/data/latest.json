@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1769039862000,
+    "generated": 1769046890000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 386
+    "count": 382
   },
   "features": [
     {
@@ -248,93 +248,13 @@
         ]
       },
       "id": "pr71505533"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.4,
-        "place": "56 km N of Cruz Bay, U.S. Virgin Islands",
-        "time": 1768959331290,
-        "updated": 1768962889070,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71505528",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71505528.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 178,
-        "net": "pr",
-        "code": "71505528",
-        "ids": ",pr71505528,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 16,
-        "dmin": 0.451,
-        "rms": 0.32,
-        "gap": 261,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.4 - 56 km N of Cruz Bay, U.S. Virgin Islands"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -64.802,
-          18.8391666666667,
-          93.27
-        ]
-      },
-      "id": "pr71505528"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.2,
-        "place": "11 km SSE of Maria Antonia, Puerto Rico",
-        "time": 1768955733990,
-        "updated": 1768956213340,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71505518",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71505518.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 74,
-        "net": "pr",
-        "code": "71505518",
-        "ids": ",pr71505518,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 11,
-        "dmin": 0.09245,
-        "rms": 0.08,
-        "gap": 219,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.2 - 11 km SSE of Maria Antonia, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.8393333333333,
-          17.8836666666667,
-          10.61
-        ]
-      },
-      "id": "pr71505518"
     }
   ],
   "bbox": [
-    -179.8189,
+    -166.549,
     -59.3852,
-    -0.34000000357628,
-    168.1925,
+    -0.18000000715256,
+    142.6416,
     65.226,
     489.419
   ]
