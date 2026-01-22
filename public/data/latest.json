@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1769082952000,
+    "generated": 1769085541000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 327
+    "count": 312
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4,
+        "place": "27 km W of Villa El Carmen, Nicaragua",
+        "time": 1769080424148,
+        "updated": 1769083384214,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000rrbc",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000rrbc.geojson",
+        "felt": 1,
+        "cdi": 3.1,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 246,
+        "net": "us",
+        "code": "7000rrbc",
+        "ids": ",us7000rrbc,",
+        "sources": ",us,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": 25,
+        "dmin": 2.149,
+        "rms": 0.92,
+        "gap": 170,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.0 - 27 km W of Villa El Carmen, Nicaragua"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.7572,
+          11.9485,
+          65.978
+        ]
+      },
+      "id": "us7000rrbc"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -128,50 +168,10 @@
         ]
       },
       "id": "pr71505598"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.44,
-        "place": "9 km S of Guánica, Puerto Rico",
-        "time": 1768996571540,
-        "updated": 1768998172600,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71505568",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71505568.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 92,
-        "net": "pr",
-        "code": "71505568",
-        "ids": ",pr71505568,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 7,
-        "dmin": 0.08996,
-        "rms": 0.15,
-        "gap": 243,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.4 - 9 km S of Guánica, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.8993333333333,
-          17.8866666666667,
-          9.73
-        ]
-      },
-      "id": "pr71505568"
     }
   ],
   "bbox": [
-    -157.411,
+    -164.1987,
     -22.3468,
     -0.13,
     145.4769,
