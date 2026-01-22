@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1769070363000,
+    "generated": 1769072164000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 368
+    "count": 354
   },
   "features": [
     {
@@ -208,53 +208,13 @@
         ]
       },
       "id": "pr71505558"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.71,
-        "place": "5 km N of Quebradillas, Puerto Rico",
-        "time": 1768984389450,
-        "updated": 1768986588180,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71505543",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71505543.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 113,
-        "net": "pr",
-        "code": "71505543",
-        "ids": ",pr71505543,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 22,
-        "dmin": 0.08913,
-        "rms": 0.18,
-        "gap": 193,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.7 - 5 km N of Quebradillas, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.9403333333333,
-          18.5236666666667,
-          16.38
-        ]
-      },
-      "id": "pr71505543"
     }
   ],
   "bbox": [
     -157.411,
     -22.3468,
     -0.13,
-    145.4769,
+    152.9183,
     65.226,
     194.09
   ]
