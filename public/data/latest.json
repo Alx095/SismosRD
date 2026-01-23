@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1769183823000,
+    "generated": 1769185683000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 318
+    "count": 323
   },
   "features": [
     {
@@ -328,46 +328,6 @@
         ]
       },
       "id": "pr71505688"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.03,
-        "place": "2 km E of Lajas, Puerto Rico",
-        "time": 1769099082180,
-        "updated": 1769100587470,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71505678",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71505678.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 63,
-        "net": "pr",
-        "code": "71505678",
-        "ids": ",pr71505678,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 3,
-        "dmin": 0.07673,
-        "rms": 0.09,
-        "gap": 204,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.0 - 2 km E of Lajas, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -67.0378333333333,
-          18.0463333333333,
-          13.22
-        ]
-      },
-      "id": "pr71505678"
     }
   ],
   "bbox": [
