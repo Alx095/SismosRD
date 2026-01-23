@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1769165974000,
+    "generated": 1769167544000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
-    "api": "2.3.0",
-    "count": 330
+    "api": "1.14.1",
+    "count": 327
   },
   "features": [
     {
@@ -488,46 +488,6 @@
         ]
       },
       "id": "pr2026022000"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4,
-        "place": "27 km W of Villa El Carmen, Nicaragua",
-        "time": 1769080424148,
-        "updated": 1769083384214,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000rrbc",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000rrbc.geojson",
-        "felt": 1,
-        "cdi": 3.1,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 246,
-        "net": "us",
-        "code": "7000rrbc",
-        "ids": ",us7000rrbc,",
-        "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 25,
-        "dmin": 2.149,
-        "rms": 0.92,
-        "gap": 170,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.0 - 27 km W of Villa El Carmen, Nicaragua"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -86.7572,
-          11.9485,
-          65.978
-        ]
-      },
-      "id": "us7000rrbc"
     }
   ],
   "bbox": [
@@ -535,7 +495,7 @@
     -43.4609,
     -1.39,
     178.3195,
-    65.639,
+    66.375,
     159.3
   ]
 }
