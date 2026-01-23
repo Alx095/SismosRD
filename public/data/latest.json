@@ -1,14 +1,94 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1769145422000,
+    "generated": 1769147137000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
-    "api": "1.14.1",
-    "count": 299
+    "api": "2.3.0",
+    "count": 300
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.72,
+        "place": "5 km WSW of Central Aguirre, Puerto Rico",
+        "time": 1769145450910,
+        "updated": 1769146879160,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71505723",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71505723.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 114,
+        "net": "pr",
+        "code": "71505723",
+        "ids": ",pr71505723,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 21,
+        "dmin": 0.1043,
+        "rms": 0.31,
+        "gap": 183,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.7 - 5 km WSW of Central Aguirre, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.2708333333333,
+          17.93,
+          11.06
+        ]
+      },
+      "id": "pr71505723"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.11,
+        "place": "5 km WSW of Central Aguirre, Puerto Rico",
+        "time": 1769145324470,
+        "updated": 1769146185010,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71505718",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71505718.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 68,
+        "net": "pr",
+        "code": "71505718",
+        "ids": ",pr71505718,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 13,
+        "dmin": 0.1011,
+        "rms": 0.31,
+        "gap": 198,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.1 - 5 km WSW of Central Aguirre, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.2713333333333,
+          17.9335,
+          13.65
+        ]
+      },
+      "id": "pr71505718"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -328,50 +408,10 @@
         ]
       },
       "id": "us7000rrbc"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.06,
-        "place": "82 km N of Charlotte Amalie, U.S. Virgin Islands",
-        "time": 1769059683690,
-        "updated": 1769060688780,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71505638",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71505638.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 144,
-        "net": "pr",
-        "code": "71505638",
-        "ids": ",pr71505638,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 10,
-        "dmin": 0.727,
-        "rms": 0.22,
-        "gap": 255,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.1 - 82 km N of Charlotte Amalie, U.S. Virgin Islands"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -65.0165,
-          19.081,
-          30.24
-        ]
-      },
-      "id": "pr71505638"
     }
   ],
   "bbox": [
-    -164.1987,
+    -166.698,
     -43.4609,
     -0.69999998807907,
     178.46183333333,
