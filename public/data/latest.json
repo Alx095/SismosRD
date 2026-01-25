@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1769345629000,
+    "generated": 1769347498000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
-    "api": "2.3.0",
+    "api": "1.14.1",
     "count": 246
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.29,
+        "place": "89 km N of Suárez, Puerto Rico",
+        "time": 1769344223570,
+        "updated": 1769346559800,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71505903",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71505903.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 167,
+        "net": "pr",
+        "code": "71505903",
+        "ids": ",pr71505903,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 16,
+        "dmin": 0.9757,
+        "rms": 0.33,
+        "gap": 249,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 3.3 - 89 km N of Suárez, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.7411666666667,
+          19.2341666666667,
+          106.39
+        ]
+      },
+      "id": "pr71505903"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -175,17 +215,17 @@
         "mag": 3.4,
         "place": "4 km NNW of Charlotte Amalie, U.S. Virgin Islands",
         "time": 1769305474200,
-        "updated": 1769345165241,
+        "updated": 1769347274332,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71505833",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71505833.geojson",
-        "felt": 27,
+        "felt": 29,
         "cdi": 3.4,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 187,
+        "sig": 188,
         "net": "pr",
         "code": "71505833",
         "ids": ",pr71505833,us7000rrvz,",
