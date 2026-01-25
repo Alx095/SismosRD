@@ -1,14 +1,94 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1769312861000,
+    "generated": 1769316059000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "2.3.0",
-    "count": 202
+    "count": 208
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.37,
+        "place": "3 km N of Sabana Eneas, Puerto Rico",
+        "time": 1769314106680,
+        "updated": 1769314881630,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71505868",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71505868.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 86,
+        "net": "pr",
+        "code": "71505868",
+        "ids": ",pr71505868,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 13,
+        "dmin": 0.04254,
+        "rms": 0.18,
+        "gap": 69,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.4 - 3 km N of Sabana Eneas, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.0741666666667,
+          18.1201666666667,
+          24.69
+        ]
+      },
+      "id": "pr71505868"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.13,
+        "place": "87 km N of Cruz Bay, U.S. Virgin Islands",
+        "time": 1769313174610,
+        "updated": 1769314139270,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71505858",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71505858.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 151,
+        "net": "pr",
+        "code": "71505858",
+        "ids": ",pr71505858,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 9,
+        "dmin": 0.6679,
+        "rms": 0.28,
+        "gap": 273,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 3.1 - 87 km N of Cruz Bay, U.S. Virgin Islands"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -64.6623333333333,
+          19.1143333333333,
+          43.04
+        ]
+      },
+      "id": "pr71505858"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -174,8 +254,8 @@
     -179.7186,
     -36.2373,
     -1.23,
-    139.9546,
-    66.339,
+    179.6857,
+    66.343,
     590.366
   ]
 }
