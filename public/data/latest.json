@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1769422363000,
+    "generated": 1769424351000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
-    "api": "2.3.0",
-    "count": 233
+    "api": "1.14.1",
+    "count": 239
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.5,
+        "place": "12 km NNE of Villa El Carmen, Nicaragua",
+        "time": 1769414510968,
+        "updated": 1769422648040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000rs33",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000rs33.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 312,
+        "net": "us",
+        "code": "7000rs33",
+        "ids": ",us7000rs33,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 50,
+        "dmin": 2.284,
+        "rms": 0.71,
+        "gap": 130,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.5 - 12 km NNE of Villa El Carmen, Nicaragua"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.4585,
+          12.0795,
+          170.17
+        ]
+      },
+      "id": "us7000rs33"
+    },
     {
       "type": "Feature",
       "properties": {
