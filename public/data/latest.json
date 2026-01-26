@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1769428634000,
+    "generated": 1769431534000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
@@ -168,46 +168,6 @@
         ]
       },
       "id": "pr71505913"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.29,
-        "place": "89 km N of Suárez, Puerto Rico",
-        "time": 1769344223570,
-        "updated": 1769346559800,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71505903",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71505903.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 167,
-        "net": "pr",
-        "code": "71505903",
-        "ids": ",pr71505903,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 16,
-        "dmin": 0.9757,
-        "rms": 0.33,
-        "gap": 249,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.3 - 89 km N of Suárez, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -65.7411666666667,
-          19.2341666666667,
-          106.39
-        ]
-      },
-      "id": "pr71505903"
     }
   ],
   "bbox": [
