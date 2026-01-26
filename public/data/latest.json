@@ -1,11 +1,11 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1769413325000,
+    "generated": 1769414046000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
-    "api": "2.3.0",
+    "api": "1.14.1",
     "count": 239
   },
   "features": [
@@ -168,46 +168,6 @@
         ]
       },
       "id": "pr2026025000"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.87,
-        "place": "2 km SE of Adjuntas, Puerto Rico",
-        "time": 1769327120790,
-        "updated": 1769328636600,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71505878",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71505878.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 127,
-        "net": "pr",
-        "code": "71505878",
-        "ids": ",pr71505878,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 30,
-        "dmin": 0.105,
-        "rms": 0.18,
-        "gap": 67,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.9 - 2 km SE of Adjuntas, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.7113333333333,
-          18.1475,
-          20.97
-        ]
-      },
-      "id": "pr71505878"
     }
   ],
   "bbox": [
