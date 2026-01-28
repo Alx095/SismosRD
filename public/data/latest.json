@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1769601527000,
+    "generated": 1769604961000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 312
+    "count": 315
   },
   "features": [
     {
@@ -55,11 +55,11 @@
         "mag": 3.2,
         "place": "7 km SE of Mona Heights, Jamaica",
         "time": 1769590058722,
-        "updated": 1769595083000,
+        "updated": 1769603490643,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000s4z1",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000s4z1.geojson",
-        "felt": 5,
+        "felt": 6,
         "cdi": 4.3,
         "mmi": null,
         "alert": null,
@@ -611,7 +611,7 @@
     }
   ],
   "bbox": [
-    -174.1139,
+    -168.24583333333,
     -55.8888,
     -2.13,
     160.0786,
