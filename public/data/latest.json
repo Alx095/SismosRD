@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1769609780000,
+    "generated": 1769611897000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 320
+    "count": 315
   },
   "features": [
     {
@@ -53,9 +53,9 @@
       "type": "Feature",
       "properties": {
         "mag": 3.2,
-        "place": "7 km SE of Mona Heights, Jamaica",
-        "time": 1769590058722,
-        "updated": 1769603490643,
+        "place": "3 km SW of Mavis Bank, Jamaica",
+        "time": 1769590058888,
+        "updated": 1769609905525,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000s4z1",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000s4z1.geojson",
@@ -72,18 +72,18 @@
         "sources": ",us,",
         "types": ",dyfi,origin,phase-data,",
         "nst": 8,
-        "dmin": 0.836,
+        "dmin": 0.828,
         "rms": 0.94,
-        "gap": 142,
+        "gap": 138,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.2 - 7 km SE of Mona Heights, Jamaica"
+        "title": "M 3.2 - 3 km SW of Mavis Bank, Jamaica"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -76.6997,
-          17.9642,
+          -76.6932,
+          18.0098,
           10
         ]
       },
