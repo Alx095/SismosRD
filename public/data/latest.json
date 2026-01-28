@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1769579228000,
+    "generated": 1769579932000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 288
+    "count": 291
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.15,
+        "place": "72 km N of Charlotte Amalie, U.S. Virgin Islands",
+        "time": 1769574522000,
+        "updated": 1769579321010,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71506028",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71506028.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 153,
+        "net": "pr",
+        "code": "71506028",
+        "ids": ",pr71506028,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 13,
+        "dmin": 0.6418,
+        "rms": 0.31,
+        "gap": 243,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 3.2 - 72 km N of Charlotte Amalie, U.S. Virgin Islands"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -64.9568333333333,
+          18.9976666666667,
+          24.52
+        ]
+      },
+      "id": "pr71506028"
+    },
     {
       "type": "Feature",
       "properties": {
