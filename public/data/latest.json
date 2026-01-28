@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1769619591000,
+    "generated": 1769621691000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 299
+    "count": 295
   },
   "features": [
     {
@@ -55,12 +55,12 @@
         "mag": 3.2,
         "place": "3 km SW of Mavis Bank, Jamaica",
         "time": 1769590058888,
-        "updated": 1769609905525,
+        "updated": 1769619723230,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000s4z1",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000s4z1.geojson",
-        "felt": 6,
-        "cdi": 4.3,
+        "felt": 7,
+        "cdi": 4.1,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -573,7 +573,7 @@
   "bbox": [
     -168.24583333333,
     -55.8888,
-    -1.2,
+    -1.5700000524521,
     160.0786,
     65.391,
     309.212
