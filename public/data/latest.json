@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1769594322000,
+    "generated": 1769596273000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "2.3.0",
-    "count": 315
+    "count": 319
   },
   "features": [
     {
@@ -48,6 +48,46 @@
         ]
       },
       "id": "pr71506093"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.2,
+        "place": "7 km SE of Mona Heights, Jamaica",
+        "time": 1769590058722,
+        "updated": 1769595083000,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000s4z1",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000s4z1.geojson",
+        "felt": 5,
+        "cdi": 4.3,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 160,
+        "net": "us",
+        "code": "6000s4z1",
+        "ids": ",us6000s4z1,",
+        "sources": ",us,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": 8,
+        "dmin": 0.836,
+        "rms": 0.94,
+        "gap": 142,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.2 - 7 km SE of Mona Heights, Jamaica"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.6997,
+          17.9642,
+          10
+        ]
+      },
+      "id": "us6000s4z1"
     },
     {
       "type": "Feature",
@@ -571,7 +611,7 @@
     }
   ],
   "bbox": [
-    -178.8365,
+    -174.1139,
     -31.0398,
     -2.13,
     160.0786,
