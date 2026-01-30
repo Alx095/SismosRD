@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1769771735000,
+    "generated": 1769773415000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 216
+    "count": 214
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.93,
+        "place": "8 km SW of Charlotte Amalie, U.S. Virgin Islands",
+        "time": 1769770729120,
+        "updated": 1769771951020,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71506198",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71506198.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 132,
+        "net": "pr",
+        "code": "71506198",
+        "ids": ",pr71506198,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 9,
+        "dmin": 0.07241,
+        "rms": 0.22,
+        "gap": 183,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.9 - 8 km SW of Charlotte Amalie, U.S. Virgin Islands"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -64.984,
+          18.2845,
+          32.56
+        ]
+      },
+      "id": "pr71506198"
+    },
     {
       "type": "Feature",
       "properties": {
