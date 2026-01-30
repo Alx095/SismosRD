@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1769783456000,
+    "generated": 1769785426000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 222
+    "count": 224
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.81,
+        "place": "3 km N of Quebradillas, Puerto Rico",
+        "time": 1769783225390,
+        "updated": 1769784316060,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71506208",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71506208.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 121,
+        "net": "pr",
+        "code": "71506208",
+        "ids": ",pr71506208,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 6,
+        "dmin": 0.1691,
+        "rms": 0.29,
+        "gap": 211,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.8 - 3 km N of Quebradillas, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.9381666666667,
+          18.5083333333333,
+          13.59
+        ]
+      },
+      "id": "pr71506208"
+    },
     {
       "type": "Feature",
       "properties": {
