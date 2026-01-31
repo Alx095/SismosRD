@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1769845802000,
+    "generated": 1769846281000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 274
+    "count": 272
   },
   "features": [
     {
@@ -248,86 +248,6 @@
         ]
       },
       "id": "pr71506198"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.07,
-        "place": "7 km SE of Maricao, Puerto Rico",
-        "time": 1769759670780,
-        "updated": 1769761176800,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71506188",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71506188.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 66,
-        "net": "pr",
-        "code": "71506188",
-        "ids": ",pr71506188,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 10,
-        "dmin": 0.134,
-        "rms": 0.14,
-        "gap": 115,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.1 - 7 km SE of Maricao, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.9215,
-          18.142,
-          24.45
-        ]
-      },
-      "id": "pr71506188"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.13,
-        "place": "5 km ESE of Maricao, Puerto Rico",
-        "time": 1769759581940,
-        "updated": 1769838684040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71506183",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71506183.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 151,
-        "net": "pr",
-        "code": "71506183",
-        "ids": ",us6000s5f0,pr71506183,",
-        "sources": ",us,pr,",
-        "types": ",origin,phase-data,",
-        "nst": 38,
-        "dmin": 0.05645,
-        "rms": 0.19,
-        "gap": 47,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.1 - 5 km ESE of Maricao, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.9306666666667,
-          18.1558333333333,
-          22.11
-        ]
-      },
-      "id": "pr71506183"
     }
   ],
   "bbox": [
