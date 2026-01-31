@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1769838685000,
+    "generated": 1769840404000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
-    "api": "2.3.0",
-    "count": 279
+    "api": "1.14.1",
+    "count": 277
   },
   "features": [
     {
@@ -295,7 +295,7 @@
         "mag": 3.13,
         "place": "5 km ESE of Maricao, Puerto Rico",
         "time": 1769759581940,
-        "updated": 1769761768210,
+        "updated": 1769838684040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71506183",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71506183.geojson",
@@ -308,8 +308,8 @@
         "sig": 151,
         "net": "pr",
         "code": "71506183",
-        "ids": ",pr71506183,",
-        "sources": ",pr,",
+        "ids": ",us6000s5f0,pr71506183,",
+        "sources": ",us,pr,",
         "types": ",origin,phase-data,",
         "nst": 38,
         "dmin": 0.05645,
