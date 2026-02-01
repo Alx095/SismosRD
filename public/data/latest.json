@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1769939142000,
+    "generated": 1769939954000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 172
+    "count": 170
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.06,
+        "place": "9 km SSE of Daguao, Puerto Rico",
+        "time": 1769937339200,
+        "updated": 1769939149630,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71506318",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71506318.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 144,
+        "net": "pr",
+        "code": "71506318",
+        "ids": ",pr71506318,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 13,
+        "dmin": 0.1123,
+        "rms": 0.23,
+        "gap": 140,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 3.1 - 9 km SSE of Daguao, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.659,
+          18.1465,
+          129.82
+        ]
+      },
+      "id": "pr71506318"
+    },
     {
       "type": "Feature",
       "properties": {
