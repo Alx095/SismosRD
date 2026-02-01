@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1769903914000,
+    "generated": 1769913266000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "2.3.0",
-    "count": 166
+    "count": 159
   },
   "features": [
     {
@@ -168,93 +168,13 @@
         ]
       },
       "id": "pr71506268"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.44,
-        "place": "111 km NNE of Cruz Bay, U.S. Virgin Islands",
-        "time": 1769824790320,
-        "updated": 1769827034040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71506243",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71506243.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 182,
-        "net": "pr",
-        "code": "71506243",
-        "ids": ",us6000s5p5,pr71506243,",
-        "sources": ",us,pr,",
-        "types": ",origin,phase-data,",
-        "nst": 16,
-        "dmin": 0.8021,
-        "rms": 0.24,
-        "gap": 286,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.4 - 111 km NNE of Cruz Bay, U.S. Virgin Islands"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -64.4911666666667,
-          19.2921666666667,
-          16.23
-        ]
-      },
-      "id": "pr71506243"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.34,
-        "place": "88 km NNE of Punta Cana, Dominican Republic",
-        "time": 1769823275920,
-        "updated": 1769826364230,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71506233",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71506233.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 172,
-        "net": "pr",
-        "code": "71506233",
-        "ids": ",pr71506233,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 14,
-        "dmin": 0.8391,
-        "rms": 0.3,
-        "gap": 224,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.3 - 88 km NNE of Punta Cana, Dominican Republic"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -67.94,
-          19.2461666666667,
-          51.99
-        ]
-      },
-      "id": "pr71506233"
     }
   ],
   "bbox": [
     -177.5527,
     -57.9427,
-    0.0307,
-    160.0721,
+    0,
+    179.7862,
     65.356,
     584.727
   ]
