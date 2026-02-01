@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1769982462000,
+    "generated": 1769983033000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
-    "api": "2.3.0",
-    "count": 159
+    "api": "1.14.1",
+    "count": 158
   },
   "features": [
     {
@@ -208,46 +208,6 @@
         ]
       },
       "id": "pr71506288"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.6,
-        "place": "2 km SW of Campo Rico, Puerto Rico",
-        "time": 1769896100290,
-        "updated": 1769897616220,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71506283",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71506283.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 104,
-        "net": "pr",
-        "code": "71506283",
-        "ids": ",pr71506283,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 6,
-        "dmin": 0.1894,
-        "rms": 0.18,
-        "gap": 200,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.6 - 2 km SW of Campo Rico, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -65.9155,
-          18.3215,
-          31.78
-        ]
-      },
-      "id": "pr71506283"
     }
   ],
   "bbox": [
