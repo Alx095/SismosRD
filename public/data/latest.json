@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1770056559000,
+    "generated": 1770073298000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "2.3.0",
-    "count": 230
+    "count": 261
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.08,
+        "place": "1 km S of Indios, Puerto Rico",
+        "time": 1770058265930,
+        "updated": 1770060589950,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71506383",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71506383.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 67,
+        "net": "pr",
+        "code": "71506383",
+        "ids": ",pr71506383,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 8,
+        "dmin": 0.0497,
+        "rms": 0.12,
+        "gap": 194,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.1 - 1 km S of Indios, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.8163333333333,
+          17.9771666666667,
+          15.9
+        ]
+      },
+      "id": "pr71506383"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -248,54 +288,14 @@
         ]
       },
       "id": "pr71506333"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.07,
-        "place": "68 km N of Hatillo, Puerto Rico",
-        "time": 1769978991350,
-        "updated": 1769980194620,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71506323",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71506323.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 145,
-        "net": "pr",
-        "code": "71506323",
-        "ids": ",pr71506323,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 15,
-        "dmin": 0.6842,
-        "rms": 0.27,
-        "gap": 285,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.1 - 68 km N of Hatillo, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.8268333333333,
-          19.104,
-          21.16
-        ]
-      },
-      "id": "pr71506323"
     }
   ],
   "bbox": [
-    -156.176,
-    -57.5469,
+    -177.796,
+    -56.1537,
     -2.2999999523163,
     165.4903,
-    64.949,
-    200.197
+    65.285,
+    491.42
   ]
 }
