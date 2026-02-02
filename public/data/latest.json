@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1770007000000,
+    "generated": 1770011277000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
-    "api": "1.14.1",
-    "count": 146
+    "api": "2.3.0",
+    "count": 149
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.85,
+        "place": "0 km E of Indios, Puerto Rico",
+        "time": 1770005914330,
+        "updated": 1770007465480,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71506338",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71506338.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 53,
+        "net": "pr",
+        "code": "71506338",
+        "ids": ",pr71506338,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 11,
+        "dmin": 0.0576,
+        "rms": 0.18,
+        "gap": 171,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 1.9 - 0 km E of Indios, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.8126666666667,
+          17.9951666666667,
+          14.93
+        ]
+      },
+      "id": "pr71506338"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -168,46 +208,6 @@
         ]
       },
       "id": "pr71506313"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.18,
-        "place": "0 km NNW of Guayanilla, Puerto Rico",
-        "time": 1769923713200,
-        "updated": 1769924756040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71506303",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71506303.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 73,
-        "net": "pr",
-        "code": "71506303",
-        "ids": ",pr71506303,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 30,
-        "dmin": 0.05986,
-        "rms": 0.25,
-        "gap": 115,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.2 - 0 km NNW of Guayanilla, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.7946666666667,
-          18.0265,
-          14.69
-        ]
-      },
-      "id": "pr71506303"
     }
   ],
   "bbox": [
