@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1770124756000,
+    "generated": 1770127833000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
-    "api": "2.3.0",
-    "count": 264
+    "api": "1.14.1",
+    "count": 261
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.98,
+        "place": "4 km WNW of Yaurel, Puerto Rico",
+        "time": 1770124361890,
+        "updated": 1770125608960,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71506393",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71506393.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 60,
+        "net": "pr",
+        "code": "71506393",
+        "ids": ",pr71506393,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 6,
+        "dmin": 0.07564,
+        "rms": 0.17,
+        "gap": 75,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.0 - 4 km WNW of Yaurel, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.095,
+          18.0486666666667,
+          30.11
+        ]
+      },
+      "id": "pr71506393"
+    },
     {
       "type": "Feature",
       "properties": {
