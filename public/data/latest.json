@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1770368963000,
+    "generated": 1770371913000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
-    "api": "2.3.0",
-    "count": 229
+    "api": "1.14.1",
+    "count": 227
   },
   "features": [
     {
@@ -168,86 +168,6 @@
         ]
       },
       "id": "pr71506513"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.17,
-        "place": "3 km N of Sabana Eneas, Puerto Rico",
-        "time": 1770283480280,
-        "updated": 1770284827550,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71506503",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71506503.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 72,
-        "net": "pr",
-        "code": "71506503",
-        "ids": ",pr71506503,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 14,
-        "dmin": 0.04602,
-        "rms": 0.19,
-        "gap": 140,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.2 - 3 km N of Sabana Eneas, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -67.0856666666667,
-          18.115,
-          24.4
-        ]
-      },
-      "id": "pr71506503"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.99,
-        "place": "85 km NNE of Cruz Bay, U.S. Virgin Islands",
-        "time": 1770282882200,
-        "updated": 1770284181210,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71506498",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71506498.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 138,
-        "net": "pr",
-        "code": "71506498",
-        "ids": ",pr71506498,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 6,
-        "dmin": 0.5499,
-        "rms": 0.2,
-        "gap": 297,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.0 - 85 km NNE of Cruz Bay, U.S. Virgin Islands"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -64.462,
-          19.0401666666667,
-          9.91
-        ]
-      },
-      "id": "pr71506498"
     }
   ],
   "bbox": [
