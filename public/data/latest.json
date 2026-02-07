@@ -1,21 +1,61 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1770483146000,
+    "generated": 1770484466000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
-    "api": "2.3.0",
+    "api": "1.14.1",
     "count": 232
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
+        "mag": 2.15,
+        "place": "4 km SSW of Guánica, Puerto Rico",
+        "time": 1770479849800,
+        "updated": 1770483244500,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71506708",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71506708.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 71,
+        "net": "pr",
+        "code": "71506708",
+        "ids": ",pr71506708,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 6,
+        "dmin": 0.05741,
+        "rms": 0.07,
+        "gap": 219,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.2 - 4 km SSW of Guánica, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.9255,
+          17.938,
+          9.89
+        ]
+      },
+      "id": "pr71506708"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 2.86,
         "place": "62 km ENE of Cruz Bay, U.S. Virgin Islands",
         "time": 1770479405360,
-        "updated": 1770480831650,
+        "updated": 1770484326040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71506703",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71506703.geojson",
@@ -28,8 +68,8 @@
         "sig": 126,
         "net": "pr",
         "code": "71506703",
-        "ids": ",pr71506703,",
-        "sources": ",pr,",
+        "ids": ",us6000s75r,pr71506703,",
+        "sources": ",us,pr,",
         "types": ",origin,phase-data,",
         "nst": 7,
         "dmin": 0.1587,
