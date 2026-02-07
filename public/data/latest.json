@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1770484466000,
+    "generated": 1770486206000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 232
+    "count": 234
   },
   "features": [
     {
@@ -488,46 +488,6 @@
         ]
       },
       "id": "pr71506573"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.12,
-        "place": "30 km SE of Emajagua, Puerto Rico",
-        "time": 1770399462150,
-        "updated": 1770400720470,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71506563",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71506563.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 150,
-        "net": "pr",
-        "code": "71506563",
-        "ids": ",pr71506563,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 15,
-        "dmin": 0.3247,
-        "rms": 0.2,
-        "gap": 217,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.1 - 30 km SE of Emajagua, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -65.6846666666667,
-          17.7961666666667,
-          37.63
-        ]
-      },
-      "id": "pr71506563"
     }
   ],
   "bbox": [
