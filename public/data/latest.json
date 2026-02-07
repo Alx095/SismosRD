@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1770500066000,
+    "generated": 1770501170000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
-    "api": "2.3.0",
-    "count": 208
+    "api": "1.14.1",
+    "count": 209
   },
   "features": [
     {
@@ -15,7 +15,7 @@
         "mag": 3.01,
         "place": "22 km N of San Antonio, Puerto Rico",
         "time": 1770489195950,
-        "updated": 1770491261680,
+        "updated": 1770501063040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71506713",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71506713.geojson",
@@ -28,8 +28,8 @@
         "sig": 139,
         "net": "pr",
         "code": "71506713",
-        "ids": ",pr71506713,",
-        "sources": ",pr,",
+        "ids": ",us6000s763,pr71506713,",
+        "sources": ",us,pr,",
         "types": ",origin,phase-data,",
         "nst": 27,
         "dmin": 0.2298,
