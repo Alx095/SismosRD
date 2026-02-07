@@ -1,53 +1,53 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1770471146000,
+    "generated": 1770472821000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "2.3.0",
-    "count": 233
+    "count": 236
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 3.9,
-        "place": "63 km NNE of Otra Banda, Dominican Republic",
-        "time": 1770466382029,
-        "updated": 1770466736040,
+        "mag": 3.92,
+        "place": "35 km NNE of Otra Banda, Dominican Republic",
+        "time": 1770466386150,
+        "updated": 1770471555402,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000s751",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000s751.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2026038000",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2026038000.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 234,
-        "net": "us",
-        "code": "6000s751",
-        "ids": ",us6000s751,",
-        "sources": ",us,",
+        "sig": 236,
+        "net": "pr",
+        "code": "2026038000",
+        "ids": ",us6000s751,pr2026038000,",
+        "sources": ",us,pr,",
         "types": ",origin,phase-data,",
-        "nst": 18,
-        "dmin": 0.65,
-        "rms": 0.62,
-        "gap": 148,
-        "magType": "ml",
+        "nst": 24,
+        "dmin": 0.476,
+        "rms": 0.65,
+        "gap": 163,
+        "magType": "md",
         "type": "earthquake",
-        "title": "M 3.9 - 63 km NNE of Otra Banda, Dominican Republic"
+        "title": "M 3.9 - 35 km NNE of Otra Banda, Dominican Republic"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -68.4099,
-          19.167,
-          7.679
+          -68.5601,
+          18.9551,
+          45
         ]
       },
-      "id": "us6000s751"
+      "id": "pr2026038000"
     },
     {
       "type": "Feature",
