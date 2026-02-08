@@ -1,14 +1,94 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1770551904000,
+    "generated": 1770555209000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
-    "api": "1.14.1",
-    "count": 228
+    "api": "2.3.0",
+    "count": 230
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5.5,
+        "place": "45 km SSW of Maisí, Cuba",
+        "time": 1770552009030,
+        "updated": 1770554800561,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000s799",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000s799.geojson",
+        "felt": 8,
+        "cdi": 3,
+        "mmi": 4.996,
+        "alert": "green",
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 468,
+        "net": "us",
+        "code": "6000s799",
+        "ids": ",us6000s799,",
+        "sources": ",us,",
+        "types": ",dyfi,losspager,moment-tensor,origin,phase-data,shakemap,",
+        "nst": 88,
+        "dmin": 0.697,
+        "rms": 0.81,
+        "gap": 31,
+        "magType": "mww",
+        "type": "earthquake",
+        "title": "M 5.5 - 45 km SSW of Maisí, Cuba"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.371,
+          19.8899,
+          10
+        ]
+      },
+      "id": "us6000s799"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.88,
+        "place": "3 km SSW of Salinas, Puerto Rico",
+        "time": 1770549653200,
+        "updated": 1770554911870,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71506828",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71506828.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 54,
+        "net": "pr",
+        "code": "71506828",
+        "ids": ",pr71506828,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 6,
+        "dmin": 0.1045,
+        "rms": 0.25,
+        "gap": 221,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 1.9 - 3 km SSW of Salinas, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.3066666666667,
+          17.9496666666667,
+          14.33
+        ]
+      },
+      "id": "pr71506828"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -488,86 +568,6 @@
         ]
       },
       "id": "pr71506703"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.92,
-        "place": "35 km NNE of Otra Banda, Dominican Republic",
-        "time": 1770466386150,
-        "updated": 1770471555402,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2026038000",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2026038000.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 236,
-        "net": "pr",
-        "code": "2026038000",
-        "ids": ",us6000s751,pr2026038000,",
-        "sources": ",us,pr,",
-        "types": ",origin,phase-data,",
-        "nst": 24,
-        "dmin": 0.476,
-        "rms": 0.65,
-        "gap": 163,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.9 - 35 km NNE of Otra Banda, Dominican Republic"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -68.5601,
-          18.9551,
-          45
-        ]
-      },
-      "id": "pr2026038000"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.19,
-        "place": "59 km N of Isabela, Puerto Rico",
-        "time": 1770465797360,
-        "updated": 1770473175700,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71506683",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71506683.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 157,
-        "net": "pr",
-        "code": "71506683",
-        "ids": ",pr71506683,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 14,
-        "dmin": 0.5697,
-        "rms": 0.31,
-        "gap": 297,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.2 - 59 km N of Isabela, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -67.0545,
-          19.0376666666667,
-          21.8
-        ]
-      },
-      "id": "pr71506683"
     }
   ],
   "bbox": [
