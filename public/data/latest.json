@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1770530751000,
+    "generated": 1770534171000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 222
+    "count": 221
   },
   "features": [
     {
@@ -15,7 +15,7 @@
         "mag": 3.43,
         "place": "91 km NNE of Cruz Bay, U.S. Virgin Islands",
         "time": 1770527324780,
-        "updated": 1770529230160,
+        "updated": 1770532046040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71506803",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71506803.geojson",
@@ -28,8 +28,8 @@
         "sig": 181,
         "net": "pr",
         "code": "71506803",
-        "ids": ",pr71506803,",
-        "sources": ",pr,",
+        "ids": ",us6000s781,pr71506803,",
+        "sources": ",us,pr,",
         "types": ",origin,phase-data,",
         "nst": 15,
         "dmin": 0.6193,
