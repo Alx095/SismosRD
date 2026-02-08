@@ -1,25 +1,65 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1770557741000,
+    "generated": 1770559344000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
-    "api": "1.14.1",
-    "count": 228
+    "api": "2.3.0",
+    "count": 223
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.4,
+        "place": "88 km NNE of Cruz Bay, U.S. Virgin Islands",
+        "time": 1770556715087,
+        "updated": 1770558479040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000s79f",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000s79f.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 178,
+        "net": "us",
+        "code": "6000s79f",
+        "ids": ",us6000s79f,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 18,
+        "dmin": 0.669,
+        "rms": 0.69,
+        "gap": 243,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.4 - 88 km NNE of Cruz Bay, U.S. Virgin Islands"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -64.4942,
+          19.0823,
+          35
+        ]
+      },
+      "id": "us6000s79f"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 5.5,
         "place": "45 km SSW of Maisí, Cuba",
         "time": 1770552009030,
-        "updated": 1770556604305,
+        "updated": 1770558418906,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000s799",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000s799.geojson",
-        "felt": 11,
+        "felt": 13,
         "cdi": 3.1,
         "mmi": 4.996,
         "alert": "green",
@@ -575,7 +615,7 @@
     -21.3368,
     -0.89999997615814,
     161.1579,
-    65.126,
+    64.969,
     585.826
   ]
 }
