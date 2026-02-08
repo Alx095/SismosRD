@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1770588812000,
+    "generated": 1770590876000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
@@ -92,10 +92,50 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 3.3,
+        "place": "105 km NNE of Cruz Bay, U.S. Virgin Islands",
+        "time": 1770584410430,
+        "updated": 1770589794400,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71507068",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71507068.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 168,
+        "net": "pr",
+        "code": "71507068",
+        "ids": ",pr71507068,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 9,
+        "dmin": 0.694,
+        "rms": 0.29,
+        "gap": 294,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 3.3 - 105 km NNE of Cruz Bay, U.S. Virgin Islands"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -64.3478333333333,
+          19.186,
+          29.71
+        ]
+      },
+      "id": "pr71507068"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 3.08,
         "place": "99 km NNE of Cruz Bay, U.S. Virgin Islands",
         "time": 1770583673950,
-        "updated": 1770586946580,
+        "updated": 1770589326040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71507053",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71507053.geojson",
@@ -108,8 +148,8 @@
         "sig": 146,
         "net": "pr",
         "code": "71507053",
-        "ids": ",pr71507053,",
-        "sources": ",pr,",
+        "ids": ",us6000s7ck,pr71507053,",
+        "sources": ",us,pr,",
         "types": ",origin,phase-data,",
         "nst": 13,
         "dmin": 0.6627,
