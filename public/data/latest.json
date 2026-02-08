@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1770527462000,
+    "generated": 1770530751000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
-    "api": "2.3.0",
+    "api": "1.14.1",
     "count": 222
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.43,
+        "place": "91 km NNE of Cruz Bay, U.S. Virgin Islands",
+        "time": 1770527324780,
+        "updated": 1770529230160,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71506803",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71506803.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 181,
+        "net": "pr",
+        "code": "71506803",
+        "ids": ",pr71506803,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 15,
+        "dmin": 0.6193,
+        "rms": 0.35,
+        "gap": 281,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 3.4 - 91 km NNE of Cruz Bay, U.S. Virgin Islands"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -64.4865,
+          19.1076666666667,
+          20.81
+        ]
+      },
+      "id": "pr71506803"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -448,46 +488,6 @@
         ]
       },
       "id": "pr71506683"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.59,
-        "place": "12 km SSE of Guánica, Puerto Rico",
-        "time": 1770441612470,
-        "updated": 1770442509250,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71506658",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71506658.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 103,
-        "net": "pr",
-        "code": "71506658",
-        "ids": ",pr71506658,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 20,
-        "dmin": 0.1137,
-        "rms": 0.16,
-        "gap": 220,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.6 - 12 km SSE of Guánica, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.8808333333333,
-          17.8586666666667,
-          9.53
-        ]
-      },
-      "id": "pr71506658"
     }
   ],
   "bbox": [
