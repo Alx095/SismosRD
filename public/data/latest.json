@@ -1,11 +1,11 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1770648921000,
+    "generated": 1770652179000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
-    "api": "1.14.1",
+    "api": "2.3.0",
     "count": 253
   },
   "features": [
@@ -15,7 +15,7 @@
         "mag": 3.21,
         "place": "97 km NE of Cruz Bay, U.S. Virgin Islands",
         "time": 1770645916090,
-        "updated": 1770648510920,
+        "updated": 1770648963040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71507408",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71507408.geojson",
@@ -28,8 +28,8 @@
         "sig": 159,
         "net": "pr",
         "code": "71507408",
-        "ids": ",pr71507408,",
-        "sources": ",pr,",
+        "ids": ",us6000s7g2,pr71507408,",
+        "sources": ",us,pr,",
         "types": ",origin,phase-data,",
         "nst": 9,
         "dmin": 0.5834,
@@ -52,82 +52,82 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.8,
-        "place": "83 km NNE of Cruz Bay, U.S. Virgin Islands",
-        "time": 1770645397797,
-        "updated": 1770648640040,
+        "mag": 3.41,
+        "place": "77 km NNE of Cruz Bay, U.S. Virgin Islands",
+        "time": 1770645386090,
+        "updated": 1770650643170,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000s7fw",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000s7fw.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71507403",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71507403.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 121,
-        "net": "us",
-        "code": "6000s7fw",
-        "ids": ",us6000s7fw,",
-        "sources": ",us,",
+        "sig": 179,
+        "net": "pr",
+        "code": "71507403",
+        "ids": ",us6000s7fw,pr71507403,",
+        "sources": ",us,pr,",
         "types": ",origin,phase-data,",
-        "nst": 14,
-        "dmin": 0.643,
-        "rms": 0.32,
-        "gap": 289,
-        "magType": "ml",
+        "nst": 5,
+        "dmin": 0.4458,
+        "rms": 0.1,
+        "gap": 304,
+        "magType": "md",
         "type": "earthquake",
-        "title": "M 2.8 - 83 km NNE of Cruz Bay, U.S. Virgin Islands"
+        "title": "M 3.4 - 77 km NNE of Cruz Bay, U.S. Virgin Islands"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -64.6191,
-          19.0664,
-          16.494
+          -64.4218333333333,
+          18.938,
+          72.46
         ]
       },
-      "id": "us6000s7fw"
+      "id": "pr71507403"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 4.5,
-        "place": "85 km NNE of Cruz Bay, U.S. Virgin Islands",
-        "time": 1770644189992,
-        "updated": 1770644863040,
+        "mag": 4.39,
+        "place": "107 km NNE of Cruz Bay, U.S. Virgin Islands",
+        "time": 1770644189150,
+        "updated": 1770652034979,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000s7fr",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000s7fr.geojson",
-        "felt": null,
-        "cdi": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2026040005",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2026040005.geojson",
+        "felt": 2,
+        "cdi": 3.4,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 312,
-        "net": "us",
-        "code": "6000s7fr",
-        "ids": ",us6000s7fr,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 47,
-        "dmin": 0.634,
-        "rms": 0.88,
-        "gap": 139,
-        "magType": "mb",
+        "sig": 297,
+        "net": "pr",
+        "code": "2026040005",
+        "ids": ",pr2026040005,us6000s7fr,",
+        "sources": ",pr,us,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": 25,
+        "dmin": 0.7328,
+        "rms": 0.25,
+        "gap": 287,
+        "magType": "md",
         "type": "earthquake",
-        "title": "M 4.5 - 85 km NNE of Cruz Bay, U.S. Virgin Islands"
+        "title": "M 4.4 - 107 km NNE of Cruz Bay, U.S. Virgin Islands"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -64.4741,
-          19.0426,
-          32.311
+          -64.3846,
+          19.223,
+          27
         ]
       },
-      "id": "us6000s7fr"
+      "id": "pr2026040005"
     },
     {
       "type": "Feature",
@@ -1528,46 +1528,6 @@
         ]
       },
       "id": "pr2026039004"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.28,
-        "place": "98 km NNE of Cruz Bay, U.S. Virgin Islands",
-        "time": 1770564255890,
-        "updated": 1770569203540,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71506908",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71506908.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 166,
-        "net": "pr",
-        "code": "71506908",
-        "ids": ",us6000s7a1,pr71506908,",
-        "sources": ",us,pr,",
-        "types": ",origin,phase-data,",
-        "nst": 12,
-        "dmin": 0.6681,
-        "rms": 0.21,
-        "gap": 285,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.3 - 98 km NNE of Cruz Bay, U.S. Virgin Islands"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -64.4448333333333,
-          19.1606666666667,
-          23.25
-        ]
-      },
-      "id": "pr71506908"
     }
   ],
   "bbox": [
