@@ -1,14 +1,94 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1770645561000,
+    "generated": 1770648921000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 245
+    "count": 253
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.21,
+        "place": "97 km NE of Cruz Bay, U.S. Virgin Islands",
+        "time": 1770645916090,
+        "updated": 1770648510920,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71507408",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71507408.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 159,
+        "net": "pr",
+        "code": "71507408",
+        "ids": ",pr71507408,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 9,
+        "dmin": 0.5834,
+        "rms": 0.17,
+        "gap": 302,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 3.2 - 97 km NE of Cruz Bay, U.S. Virgin Islands"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -64.2781666666667,
+          19.0646666666667,
+          59.51
+        ]
+      },
+      "id": "pr71507408"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.8,
+        "place": "83 km NNE of Cruz Bay, U.S. Virgin Islands",
+        "time": 1770645397797,
+        "updated": 1770648640040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000s7fw",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000s7fw.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 121,
+        "net": "us",
+        "code": "6000s7fw",
+        "ids": ",us6000s7fw,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 14,
+        "dmin": 0.643,
+        "rms": 0.32,
+        "gap": 289,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.8 - 83 km NNE of Cruz Bay, U.S. Virgin Islands"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -64.6191,
+          19.0664,
+          16.494
+        ]
+      },
+      "id": "us6000s7fw"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -1488,54 +1568,14 @@
         ]
       },
       "id": "pr71506908"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.32,
-        "place": "99 km NNE of Cruz Bay, U.S. Virgin Islands",
-        "time": 1770562374500,
-        "updated": 1770565964040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71506893",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71506893.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 170,
-        "net": "pr",
-        "code": "71506893",
-        "ids": ",us6000s79s,pr71506893,",
-        "sources": ",us,pr,",
-        "types": ",origin,phase-data,",
-        "nst": 10,
-        "dmin": 0.6667,
-        "rms": 0.2,
-        "gap": 294,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.3 - 99 km NNE of Cruz Bay, U.S. Virgin Islands"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -64.4283333333333,
-          19.16,
-          20.44
-        ]
-      },
-      "id": "pr71506893"
     }
   ],
   "bbox": [
     -176.9535,
     -22.5558,
     -0.77999997138977,
-    159.6802,
-    65.523,
+    163.4389,
+    65.243,
     357.917
   ]
 }
