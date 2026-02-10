@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1770762763000,
+    "generated": 1770764996000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 253
+    "count": 260
   },
   "features": [
     {
@@ -15,7 +15,7 @@
         "mag": 5,
         "place": "101 km WSW of Pole Ojea, Puerto Rico",
         "time": 1770756550723,
-        "updated": 1770760162469,
+        "updated": 1770764363543,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000s7p9",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000s7p9.geojson",
