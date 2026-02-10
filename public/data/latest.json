@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1770721759000,
+    "generated": 1770724682000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
-    "api": "1.14.1",
-    "count": 247
+    "api": "2.3.0",
+    "count": 233
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.85,
+        "place": "2 km SSE of Palmarejo, Puerto Rico",
+        "time": 1770721295430,
+        "updated": 1770724103920,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71507603",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71507603.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 125,
+        "net": "pr",
+        "code": "71507603",
+        "ids": ",pr71507603,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 5,
+        "dmin": 0.03752,
+        "rms": 0.05,
+        "gap": 145,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.9 - 2 km SSE of Palmarejo, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.0711666666667,
+          18.0148333333333,
+          15.11
+        ]
+      },
+      "id": "pr71507603"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -928,46 +968,6 @@
         ]
       },
       "id": "pr2026040004"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.15,
-        "place": "1 km SE of Indios, Puerto Rico",
-        "time": 1770636344800,
-        "updated": 1770638450420,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71507323",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71507323.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 71,
-        "net": "pr",
-        "code": "71507323",
-        "ids": ",pr71507323,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 14,
-        "dmin": 0.05726,
-        "rms": 0.12,
-        "gap": 146,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.2 - 1 km SE of Indios, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.8101666666667,
-          17.9871666666667,
-          12.96
-        ]
-      },
-      "id": "pr71507323"
     }
   ],
   "bbox": [
