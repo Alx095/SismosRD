@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1770710878000,
+    "generated": 1770714524000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
-    "api": "1.14.1",
-    "count": 257
+    "api": "2.3.0",
+    "count": 258
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5,
+        "place": "84 km ENE of Manchioneal, Jamaica",
+        "time": 1770711497942,
+        "updated": 1770714048938,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000s7lg",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000s7lg.geojson",
+        "felt": 13,
+        "cdi": 3.8,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 390,
+        "net": "us",
+        "code": "6000s7lg",
+        "ids": ",us6000s7lg,",
+        "sources": ",us,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": 60,
+        "dmin": 1.719,
+        "rms": 1.18,
+        "gap": 38,
+        "magType": "mww",
+        "type": "earthquake",
+        "title": "M 5.0 - 84 km ENE of Manchioneal, Jamaica"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.5007,
+          18.2392,
+          10
+        ]
+      },
+      "id": "us6000s7lg"
+    },
     {
       "type": "Feature",
       "properties": {
