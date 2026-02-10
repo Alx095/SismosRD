@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1770755167000,
+    "generated": 1770757578000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "2.3.0",
-    "count": 240
+    "count": 251
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.5,
+        "place": "108 km WSW of Pole Ojea, Puerto Rico",
+        "time": 1770756549000,
+        "updated": 1770757374952,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pt26041001",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pt26041001.geojson",
+        "felt": 1,
+        "cdi": 2.2,
+        "mmi": null,
+        "alert": null,
+        "status": "REVIEWED",
+        "tsunami": 0,
+        "sig": 312,
+        "net": "pt",
+        "code": "26041001",
+        "ids": ",pt26041001,",
+        "sources": ",pt,",
+        "types": ",dyfi,origin,",
+        "nst": 23,
+        "dmin": null,
+        "rms": null,
+        "gap": 197.99998416000128,
+        "magType": "Ml",
+        "type": "earthquake",
+        "title": "M 4.5 - 108 km WSW of Pole Ojea, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.075,
+          17.485,
+          14.1
+        ]
+      },
+      "id": "pt26041001"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -373,8 +413,8 @@
   "bbox": [
     -178.8008,
     -35.5019,
-    -1.88,
-    159.6355,
+    -2.3,
+    167.4506,
     64.889,
     550.399
   ]
