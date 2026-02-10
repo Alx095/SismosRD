@@ -1,53 +1,53 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1770757578000,
+    "generated": 1770760537000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
-    "api": "2.3.0",
-    "count": 251
+    "api": "1.14.1",
+    "count": 257
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 4.5,
-        "place": "108 km WSW of Pole Ojea, Puerto Rico",
-        "time": 1770756549000,
-        "updated": 1770757374952,
+        "mag": 5,
+        "place": "101 km WSW of Pole Ojea, Puerto Rico",
+        "time": 1770756550723,
+        "updated": 1770760162469,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pt26041001",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pt26041001.geojson",
-        "felt": 1,
-        "cdi": 2.2,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000s7p9",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000s7p9.geojson",
+        "felt": 3,
+        "cdi": 4.1,
         "mmi": null,
         "alert": null,
-        "status": "REVIEWED",
+        "status": "reviewed",
         "tsunami": 0,
-        "sig": 312,
-        "net": "pt",
-        "code": "26041001",
-        "ids": ",pt26041001,",
-        "sources": ",pt,",
-        "types": ",dyfi,origin,",
-        "nst": 23,
-        "dmin": null,
-        "rms": null,
-        "gap": 197.99998416000128,
-        "magType": "Ml",
+        "sig": 386,
+        "net": "us",
+        "code": "6000s7p9",
+        "ids": ",pt26041001,us6000s7p9,",
+        "sources": ",pt,us,",
+        "types": ",dyfi,oaf,origin,phase-data,",
+        "nst": 104,
+        "dmin": 0.973,
+        "rms": 0.7,
+        "gap": 36,
+        "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.5 - 108 km WSW of Pole Ojea, Puerto Rico"
+        "title": "M 5.0 - 101 km WSW of Pole Ojea, Puerto Rico"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -68.075,
-          17.485,
-          14.1
+          -68.0569,
+          17.5869,
+          20.737
         ]
       },
-      "id": "pt26041001"
+      "id": "us6000s7p9"
     },
     {
       "type": "Feature",
