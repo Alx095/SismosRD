@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1770835576000,
+    "generated": 1770838980000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "2.3.0",
-    "count": 233
+    "count": 235
   },
   "features": [
     {
@@ -128,86 +128,6 @@
         ]
       },
       "id": "pr2026041000"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.11,
-        "place": "105 km NNE of Cruz Bay, U.S. Virgin Islands",
-        "time": 1770750333660,
-        "updated": 1770768994940,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71507613",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71507613.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 149,
-        "net": "pr",
-        "code": "71507613",
-        "ids": ",pr71507613,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 4,
-        "dmin": 0.6876,
-        "rms": 0.31,
-        "gap": 319,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.1 - 105 km NNE of Cruz Bay, U.S. Virgin Islands"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -64.3258333333333,
-          19.1776666666667,
-          15.32
-        ]
-      },
-      "id": "pr71507613"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.12,
-        "place": "1 km ESE of Mayagüez, Puerto Rico",
-        "time": 1770749526310,
-        "updated": 1770769001930,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71507608",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71507608.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 69,
-        "net": "pr",
-        "code": "71507608",
-        "ids": ",pr71507608,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 5,
-        "dmin": 0.1904,
-        "rms": 0.13,
-        "gap": 187,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.1 - 1 km ESE of Mayagüez, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -67.1241666666667,
-          18.1973333333333,
-          19.39
-        ]
-      },
-      "id": "pr71507608"
     }
   ],
   "bbox": [
@@ -215,7 +135,7 @@
     -51.4357,
     -1.6799999475479,
     167.4506,
-    64.645,
+    69.563,
     510.944
   ]
 }
