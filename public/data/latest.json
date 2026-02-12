@@ -1,61 +1,20 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1770854235000,
+    "generated": 1770861926000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 245
+    "count": 263
   },
-  "features": [
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.22,
-        "place": "2 km SE of Palmarejo, Puerto Rico",
-        "time": 1770769178790,
-        "updated": 1770770996330,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71507643",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71507643.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 76,
-        "net": "pr",
-        "code": "71507643",
-        "ids": ",pr71507643,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 21,
-        "dmin": 0.05366,
-        "rms": 0.18,
-        "gap": 84,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.2 - 2 km SE of Palmarejo, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -67.056,
-          18.0231666666667,
-          13.45
-        ]
-      },
-      "id": "pr71507643"
-    }
-  ],
+  "features": [],
   "bbox": [
     -178.567,
     -51.4357,
     -1.18,
     159.3208,
-    69.549,
+    69.483,
     397.112
   ]
 }
