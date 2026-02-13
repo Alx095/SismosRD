@@ -1,14 +1,94 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1770948576000,
+    "generated": 1770956873000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
-    "api": "1.14.1",
-    "count": 265
+    "api": "2.3.0",
+    "count": 269
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.6,
+        "place": "4 km SSE of Maria Antonia, Puerto Rico",
+        "time": 1770953914063,
+        "updated": 1770955116040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000s8p1",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000s8p1.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 104,
+        "net": "us",
+        "code": "6000s8p1",
+        "ids": ",us6000s8p1,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 16,
+        "dmin": 0.17,
+        "rms": 1,
+        "gap": 184,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.6 - 4 km SSE of Maria Antonia, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.8682,
+          17.9402,
+          10
+        ]
+      },
+      "id": "us6000s8p1"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.4,
+        "place": "16 km SSE of Guánica, Puerto Rico",
+        "time": 1770947542900,
+        "updated": 1770948606500,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71507738",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71507738.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 89,
+        "net": "pr",
+        "code": "71507738",
+        "ids": ",pr71507738,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 7,
+        "dmin": 0.1427,
+        "rms": 0.17,
+        "gap": 258,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.4 - 16 km SSE of Guánica, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.858,
+          17.833,
+          6.52
+        ]
+      },
+      "id": "pr71507738"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -48,53 +128,13 @@
         ]
       },
       "id": "pr71507688"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.06,
-        "place": "94 km NNE of Cruz Bay, U.S. Virgin Islands",
-        "time": 1770869735160,
-        "updated": 1770871137950,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71507678",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71507678.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 144,
-        "net": "pr",
-        "code": "71507678",
-        "ids": ",pr71507678,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 9,
-        "dmin": 0.63,
-        "rms": 0.26,
-        "gap": 288,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.1 - 94 km NNE of Cruz Bay, U.S. Virgin Islands"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -64.4495,
-          19.122,
-          24.26
-        ]
-      },
-      "id": "pr71507678"
     }
   ],
   "bbox": [
     -178.0852,
-    -41.7017,
-    -2.55,
-    148.9281,
+    -30.8012,
+    -1.95,
+    149.0556,
     64.969,
     554.907
   ]
