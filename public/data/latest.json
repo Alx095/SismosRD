@@ -1,14 +1,94 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1771005251000,
+    "generated": 1771007471000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 289
+    "count": 293
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.41,
+        "place": "39 km SSE of Boca de Yuma, Dominican Republic",
+        "time": 1771005411410,
+        "updated": 1771006566740,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71507843",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71507843.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 179,
+        "net": "pr",
+        "code": "71507843",
+        "ids": ",pr71507843,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 10,
+        "dmin": 0.4804,
+        "rms": 0.47,
+        "gap": 220,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 3.4 - 39 km SSE of Boca de Yuma, Dominican Republic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.4921666666667,
+          18.0433333333333,
+          57.47
+        ]
+      },
+      "id": "pr71507843"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.67,
+        "place": "107 km NNE of Cruz Bay, U.S. Virgin Islands",
+        "time": 1771004972080,
+        "updated": 1771006896325,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2026044001",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2026044001.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 207,
+        "net": "pr",
+        "code": "2026044001",
+        "ids": ",pr2026044001,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 21,
+        "dmin": 0.8364,
+        "rms": 0.55,
+        "gap": 304,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 3.7 - 107 km NNE of Cruz Bay, U.S. Virgin Islands"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -64.3433,
+          19.2048,
+          30
+        ]
+      },
+      "id": "pr2026044001"
+    },
     {
       "type": "Feature",
       "properties": {
