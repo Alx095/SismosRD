@@ -1,53 +1,53 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1770956873000,
+    "generated": 1770961332000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "2.3.0",
-    "count": 269
+    "count": 274
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.6,
-        "place": "4 km SSE of Maria Antonia, Puerto Rico",
-        "time": 1770953914063,
-        "updated": 1770955116040,
+        "mag": 3.07,
+        "place": "3 km SW of Indios, Puerto Rico",
+        "time": 1770953914490,
+        "updated": 1770960066653,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000s8p1",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000s8p1.geojson",
-        "felt": null,
-        "cdi": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71507748",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71507748.geojson",
+        "felt": 1,
+        "cdi": 2,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 104,
-        "net": "us",
-        "code": "6000s8p1",
-        "ids": ",us6000s8p1,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 16,
-        "dmin": 0.17,
-        "rms": 1,
-        "gap": 184,
-        "magType": "ml",
+        "sig": 145,
+        "net": "pr",
+        "code": "71507748",
+        "ids": ",pr71507748,us6000s8p1,",
+        "sources": ",pr,us,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": 38,
+        "dmin": 0.02974,
+        "rms": 0.25,
+        "gap": 166,
+        "magType": "md",
         "type": "earthquake",
-        "title": "M 2.6 - 4 km SSE of Maria Antonia, Puerto Rico"
+        "title": "M 3.1 - 3 km SW of Indios, Puerto Rico"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -66.8682,
-          17.9402,
-          10
+          -66.8373333333333,
+          17.9685,
+          11.95
         ]
       },
-      "id": "us6000s8p1"
+      "id": "pr71507748"
     },
     {
       "type": "Feature",
