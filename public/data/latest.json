@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1771037172000,
+    "generated": 1771042992000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
@@ -9,6 +9,46 @@
     "count": 270
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.41,
+        "place": "102 km N of Charlotte Amalie, U.S. Virgin Islands",
+        "time": 1771037981650,
+        "updated": 1771040141310,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71507913",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71507913.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 179,
+        "net": "pr",
+        "code": "71507913",
+        "ids": ",us6000s958,pr71507913,",
+        "sources": ",us,pr,",
+        "types": ",origin,phase-data,",
+        "nst": 25,
+        "dmin": 0.9006,
+        "rms": 0.31,
+        "gap": 269,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 3.4 - 102 km N of Charlotte Amalie, U.S. Virgin Islands"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -64.9496666666667,
+          19.2695,
+          22.99
+        ]
+      },
+      "id": "pr71507913"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -328,53 +368,13 @@
         ]
       },
       "id": "pr2026044000"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.07,
-        "place": "3 km SW of Indios, Puerto Rico",
-        "time": 1770953914490,
-        "updated": 1770960066653,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71507748",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71507748.geojson",
-        "felt": 1,
-        "cdi": 2,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 145,
-        "net": "pr",
-        "code": "71507748",
-        "ids": ",pr71507748,us6000s8p1,",
-        "sources": ",pr,us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 38,
-        "dmin": 0.02974,
-        "rms": 0.25,
-        "gap": 166,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.1 - 3 km SW of Indios, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.8373333333333,
-          17.9685,
-          11.95
-        ]
-      },
-      "id": "pr71507748"
     }
   ],
   "bbox": [
     -178.5036,
-    -18.1243,
+    -20.5653,
     -1.74,
-    166.6064,
+    166.6013,
     64.975,
     590.598
   ]
