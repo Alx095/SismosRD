@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1771113556000,
+    "generated": 1771122905000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
-    "api": "2.3.0",
-    "count": 195
+    "api": "1.14.1",
+    "count": 181
   },
   "features": [
     {
@@ -408,86 +408,6 @@
         ]
       },
       "id": "pr71507913"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.6,
-        "place": "65 km SE of Punta Cana, Dominican Republic",
-        "time": 1771031410790,
-        "updated": 1771033887996,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2026045000",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2026045000.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 199,
-        "net": "pr",
-        "code": "2026045000",
-        "ids": ",us6000s94e,pr2026045000,",
-        "sources": ",us,pr,",
-        "types": ",origin,phase-data,",
-        "nst": 16,
-        "dmin": 0.5572,
-        "rms": 0.5,
-        "gap": 187,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.6 - 65 km SE of Punta Cana, Dominican Republic"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -67.9075,
-          18.2208,
-          116
-        ]
-      },
-      "id": "pr2026045000"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.03,
-        "place": "2 km SSE of Indios, Puerto Rico",
-        "time": 1771030505710,
-        "updated": 1771031325480,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71507873",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71507873.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 63,
-        "net": "pr",
-        "code": "71507873",
-        "ids": ",pr71507873,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 8,
-        "dmin": 0.06624,
-        "rms": 0.2,
-        "gap": 199,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.0 - 2 km SSE of Indios, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.8096666666667,
-          17.9751666666667,
-          15.61
-        ]
-      },
-      "id": "pr71507873"
     }
   ],
   "bbox": [
@@ -495,7 +415,7 @@
     -48.3605,
     -0.75999999046326,
     178.3977,
-    64.975,
+    64.984,
     604.149
   ]
 }
