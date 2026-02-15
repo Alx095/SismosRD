@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1771141904000,
+    "generated": 1771143367000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
-    "api": "2.3.0",
-    "count": 179
+    "api": "1.14.1",
+    "count": 177
   },
   "features": [
     {
@@ -15,7 +15,7 @@
         "mag": 3.36,
         "place": "70 km N of Culebra, Puerto Rico",
         "time": 1771137952260,
-        "updated": 1771139127960,
+        "updated": 1771142039040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71508023",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71508023.geojson",
@@ -28,8 +28,8 @@
         "sig": 174,
         "net": "pr",
         "code": "71508023",
-        "ids": ",pr71508023,",
-        "sources": ",pr,",
+        "ids": ",us6000s9cl,pr71508023,",
+        "sources": ",us,pr,",
         "types": ",origin,phase-data,",
         "nst": 20,
         "dmin": 0.6331,
