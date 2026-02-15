@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1771177986000,
+    "generated": 1771179486000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "2.3.0",
-    "count": 193
+    "count": 196
   },
   "features": [
     {
@@ -208,86 +208,6 @@
         ]
       },
       "id": "pr71508013"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.24,
-        "place": "58 km N of Hatillo, Puerto Rico",
-        "time": 1771092182200,
-        "updated": 1771093314410,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71508003",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71508003.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 162,
-        "net": "pr",
-        "code": "71508003",
-        "ids": ",pr71508003,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 9,
-        "dmin": 0.6716,
-        "rms": 0.19,
-        "gap": 291,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.2 - 58 km N of Hatillo, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.829,
-          19.018,
-          23.28
-        ]
-      },
-      "id": "pr71508003"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.13,
-        "place": "0 km NE of Indios, Puerto Rico",
-        "time": 1771091602100,
-        "updated": 1771093676890,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71507998",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71507998.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 70,
-        "net": "pr",
-        "code": "71507998",
-        "ids": ",pr71507998,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 6,
-        "dmin": 0.2206,
-        "rms": 0.16,
-        "gap": 192,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.1 - 0 km NE of Indios, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.8143333333333,
-          17.9978333333333,
-          12.13
-        ]
-      },
-      "id": "pr71507998"
     }
   ],
   "bbox": [
