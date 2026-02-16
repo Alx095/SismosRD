@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1771243420000,
+    "generated": 1771248244000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
-    "api": "1.14.1",
-    "count": 178
+    "api": "2.3.0",
+    "count": 180
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.62,
+        "place": "4 km S of Indios, Puerto Rico",
+        "time": 1771245402220,
+        "updated": 1771246435580,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71508083",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71508083.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 106,
+        "net": "pr",
+        "code": "71508083",
+        "ids": ",pr71508083,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 11,
+        "dmin": 0.04833,
+        "rms": 0.23,
+        "gap": 171,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.6 - 4 km S of Indios, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.8208333333333,
+          17.9551666666667,
+          11.88
+        ]
+      },
+      "id": "pr71508083"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -48,94 +88,14 @@
         ]
       },
       "id": "pr2026046001"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.5,
-        "place": "118 km N of Brenas, Puerto Rico",
-        "time": 1771161284750,
-        "updated": 1771167085893,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2026046000",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2026046000.geojson",
-        "felt": 1,
-        "cdi": 2.2,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 189,
-        "net": "pr",
-        "code": "2026046000",
-        "ids": ",pr2026046000,",
-        "sources": ",pr,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 12,
-        "dmin": 1.2454,
-        "rms": 0.08,
-        "gap": 283,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.5 - 118 km N of Brenas, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.2755,
-          19.5395,
-          37
-        ]
-      },
-      "id": "pr2026046000"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.7,
-        "place": "11 km NNW of Camuy, Puerto Rico",
-        "time": 1771159036930,
-        "updated": 1771161151680,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71508053",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71508053.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 112,
-        "net": "pr",
-        "code": "71508053",
-        "ids": ",pr71508053,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 11,
-        "dmin": 0.2401,
-        "rms": 0.12,
-        "gap": 225,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.7 - 11 km NNW of Camuy, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.8885,
-          18.5821666666667,
-          12.51
-        ]
-      },
-      "id": "pr71508053"
     }
   ],
   "bbox": [
     -178.0749,
     -35.2327,
     -0.74000000953674,
-    159.5427,
-    66.012,
+    154.5612,
+    65.153,
     270.983
   ]
 }
