@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1771388868000,
+    "generated": 1771393320000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 234
+    "count": 228
   },
   "features": [
     {
@@ -168,46 +168,6 @@
         ]
       },
       "id": "us6000s9rp"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.62,
-        "place": "11 km S of Guánica, Puerto Rico",
-        "time": 1771303902210,
-        "updated": 1771305157210,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71508123",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71508123.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 106,
-        "net": "pr",
-        "code": "71508123",
-        "ids": ",pr71508123,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 9,
-        "dmin": 0.1101,
-        "rms": 0.16,
-        "gap": 248,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.6 - 11 km S of Guánica, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.9158333333333,
-          17.8715,
-          10.91
-        ]
-      },
-      "id": "pr71508123"
     }
   ],
   "bbox": [
