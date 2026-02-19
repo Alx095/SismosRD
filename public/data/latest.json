@@ -1,14 +1,134 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1771466933000,
+    "generated": 1771475153000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
-    "api": "2.3.0",
-    "count": 189
+    "api": "1.14.1",
+    "count": 184
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.45,
+        "place": "2 km NW of Guayanilla, Puerto Rico",
+        "time": 1771470136800,
+        "updated": 1771471115710,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71508248",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71508248.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 92,
+        "net": "pr",
+        "code": "71508248",
+        "ids": ",pr71508248,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 14,
+        "dmin": 0.02608,
+        "rms": 0.22,
+        "gap": 92,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.5 - 2 km NW of Guayanilla, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.8128333333333,
+          18.0365,
+          15.81
+        ]
+      },
+      "id": "pr71508248"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.7,
+        "place": "29 km S of La Conquista, Nicaragua",
+        "time": 1771470009777,
+        "updated": 1771473648349,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000sa3l",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000sa3l.geojson",
+        "felt": 17,
+        "cdi": 4.1,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 347,
+        "net": "us",
+        "code": "6000sa3l",
+        "ids": ",us6000sa3l,",
+        "sources": ",us,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": 77,
+        "dmin": 1.07,
+        "rms": 1.38,
+        "gap": 134,
+        "magType": "mww",
+        "type": "earthquake",
+        "title": "M 4.7 - 29 km S of La Conquista, Nicaragua"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.2297,
+          11.4685,
+          84.336
+        ]
+      },
+      "id": "us6000sa3l"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.22,
+        "place": "4 km WSW of Fuig, Puerto Rico",
+        "time": 1771468613150,
+        "updated": 1771469259980,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71508243",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71508243.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 76,
+        "net": "pr",
+        "code": "71508243",
+        "ids": ",pr71508243,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 10,
+        "dmin": 0.0472,
+        "rms": 0.12,
+        "gap": 182,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.2 - 4 km WSW of Fuig, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.9581666666667,
+          17.9696666666667,
+          13.82
+        ]
+      },
+      "id": "pr71508243"
+    },
     {
       "type": "Feature",
       "properties": {
