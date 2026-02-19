@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1771530773000,
+    "generated": 1771532242000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 227
+    "count": 234
   },
   "features": [
     {
@@ -135,17 +135,17 @@
         "mag": 4.7,
         "place": "29 km S of La Conquista, Nicaragua",
         "time": 1771470009777,
-        "updated": 1771525573851,
+        "updated": 1771531892080,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000sa3l",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000sa3l.geojson",
-        "felt": 21,
+        "felt": 22,
         "cdi": 3.6,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 347,
+        "sig": 348,
         "net": "us",
         "code": "6000sa3l",
         "ids": ",us6000sa3l,",
@@ -254,8 +254,8 @@
     -179.9581,
     -39.5847,
     -0.74000000953674,
-    179.52666666667,
-    63.849,
+    179.708,
+    63.857,
     383.212
   ]
 }
