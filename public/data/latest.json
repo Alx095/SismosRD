@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1771529033000,
+    "generated": 1771530773000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 224
+    "count": 227
   },
   "features": [
     {
@@ -15,17 +15,17 @@
         "mag": 5.1,
         "place": "155 km N of Arecibo, Puerto Rico",
         "time": 1771510686650,
-        "updated": 1771527077076,
+        "updated": 1771529488112,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2026050001",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2026050001.geojson",
-        "felt": 35,
+        "felt": 36,
         "cdi": 4.3,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 1,
-        "sig": 415,
+        "sig": 416,
         "net": "pr",
         "code": "2026050001",
         "ids": ",at00tapme6,us6000sa6k,pr2026050001,",
