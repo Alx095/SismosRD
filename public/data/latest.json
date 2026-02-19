@@ -1,53 +1,53 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1771513312000,
+    "generated": 1771516659000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
-    "api": "2.3.0",
-    "count": 218
+    "api": "1.14.1",
+    "count": 225
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
         "mag": 5.1,
-        "place": "156 km N of Carrizales, Puerto Rico",
-        "time": 1771510684702,
-        "updated": 1771513293922,
+        "place": "155 km N of Arecibo, Puerto Rico",
+        "time": 1771510686650,
+        "updated": 1771515364341,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000sa6k",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000sa6k.geojson",
-        "felt": 19,
-        "cdi": 3.9,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2026050001",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2026050001.geojson",
+        "felt": 29,
+        "cdi": 4.3,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 1,
-        "sig": 408,
-        "net": "us",
-        "code": "6000sa6k",
-        "ids": ",at00tapme6,us6000sa6k,",
-        "sources": ",at,us,",
+        "sig": 413,
+        "net": "pr",
+        "code": "2026050001",
+        "ids": ",at00tapme6,us6000sa6k,pr2026050001,",
+        "sources": ",at,us,pr,",
         "types": ",dyfi,impact-link,origin,phase-data,",
-        "nst": 188,
-        "dmin": 1.399,
-        "rms": 0.8,
-        "gap": 36,
-        "magType": "mb",
+        "nst": 32,
+        "dmin": 1.3941,
+        "rms": 0.34,
+        "gap": 220,
+        "magType": "ml",
         "type": "earthquake",
-        "title": "M 5.1 - 156 km N of Carrizales, Puerto Rico"
+        "title": "M 5.1 - 155 km N of Arecibo, Puerto Rico"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -66.57,
-          19.8834,
-          31.502
+          -66.5455,
+          19.8711,
+          34
         ]
       },
-      "id": "us6000sa6k"
+      "id": "pr2026050001"
     },
     {
       "type": "Feature",
@@ -253,7 +253,7 @@
   "bbox": [
     -179.9581,
     -39.5847,
-    -1.08,
+    -0.74000000953674,
     154.9929,
     64.929,
     383.212
