@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1771509966000,
+    "generated": 1771513312000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "2.3.0",
-    "count": 214
+    "count": 218
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5.1,
+        "place": "156 km N of Carrizales, Puerto Rico",
+        "time": 1771510684702,
+        "updated": 1771513293922,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000sa6k",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000sa6k.geojson",
+        "felt": 19,
+        "cdi": 3.9,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 1,
+        "sig": 408,
+        "net": "us",
+        "code": "6000sa6k",
+        "ids": ",at00tapme6,us6000sa6k,",
+        "sources": ",at,us,",
+        "types": ",dyfi,impact-link,origin,phase-data,",
+        "nst": 188,
+        "dmin": 1.399,
+        "rms": 0.8,
+        "gap": 36,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 5.1 - 156 km N of Carrizales, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.57,
+          19.8834,
+          31.502
+        ]
+      },
+      "id": "us6000sa6k"
+    },
     {
       "type": "Feature",
       "properties": {
