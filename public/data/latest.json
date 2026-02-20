@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1771603431000,
+    "generated": 1771606429000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 183
+    "count": 178
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.43,
+        "place": "1 km WSW of Las Ochenta, Puerto Rico",
+        "time": 1771601737560,
+        "updated": 1771604781780,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71508328",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71508328.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 91,
+        "net": "pr",
+        "code": "71508328",
+        "ids": ",pr71508328,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 18,
+        "dmin": 0.1019,
+        "rms": 0.21,
+        "gap": 151,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.4 - 1 km WSW of Las Ochenta, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.3288333333333,
+          17.98,
+          12.66
+        ]
+      },
+      "id": "pr71508328"
+    },
     {
       "type": "Feature",
       "properties": {
