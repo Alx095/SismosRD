@@ -1,11 +1,11 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1771545651000,
+    "generated": 1771555612000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
-    "api": "2.3.0",
+    "api": "1.14.1",
     "count": 245
   },
   "features": [
@@ -95,11 +95,11 @@
         "mag": 5.1,
         "place": "155 km N of Arecibo, Puerto Rico",
         "time": 1771510686650,
-        "updated": 1771529488112,
+        "updated": 1771554053865,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2026050001",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2026050001.geojson",
-        "felt": 36,
+        "felt": 37,
         "cdi": 4.3,
         "mmi": null,
         "alert": null,
@@ -248,46 +248,6 @@
         ]
       },
       "id": "us6000sa3l"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.22,
-        "place": "4 km WSW of Fuig, Puerto Rico",
-        "time": 1771468613150,
-        "updated": 1771469259980,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71508243",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71508243.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 76,
-        "net": "pr",
-        "code": "71508243",
-        "ids": ",pr71508243,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 10,
-        "dmin": 0.0472,
-        "rms": 0.12,
-        "gap": 182,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.2 - 4 km WSW of Fuig, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.9581666666667,
-          17.9696666666667,
-          13.82
-        ]
-      },
-      "id": "pr71508243"
     }
   ],
   "bbox": [
