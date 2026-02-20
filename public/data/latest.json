@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1771555612000,
+    "generated": 1771561680000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 245
+    "count": 233
   },
   "features": [
     {
@@ -95,11 +95,11 @@
         "mag": 5.1,
         "place": "155 km N of Arecibo, Puerto Rico",
         "time": 1771510686650,
-        "updated": 1771554053865,
+        "updated": 1771560963606,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2026050001",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2026050001.geojson",
-        "felt": 37,
+        "felt": 38,
         "cdi": 4.3,
         "mmi": null,
         "alert": null,
@@ -168,94 +168,14 @@
         ]
       },
       "id": "pr2026050000"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.45,
-        "place": "2 km NW of Guayanilla, Puerto Rico",
-        "time": 1771470136800,
-        "updated": 1771471115710,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71508248",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71508248.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 92,
-        "net": "pr",
-        "code": "71508248",
-        "ids": ",pr71508248,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 14,
-        "dmin": 0.02608,
-        "rms": 0.22,
-        "gap": 92,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.5 - 2 km NW of Guayanilla, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.8128333333333,
-          18.0365,
-          15.81
-        ]
-      },
-      "id": "pr71508248"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.7,
-        "place": "29 km S of La Conquista, Nicaragua",
-        "time": 1771470009777,
-        "updated": 1771531892080,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000sa3l",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000sa3l.geojson",
-        "felt": 22,
-        "cdi": 3.6,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 348,
-        "net": "us",
-        "code": "6000sa3l",
-        "ids": ",us6000sa3l,",
-        "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 77,
-        "dmin": 1.07,
-        "rms": 1.38,
-        "gap": 134,
-        "magType": "mww",
-        "type": "earthquake",
-        "title": "M 4.7 - 29 km S of La Conquista, Nicaragua"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -86.2297,
-          11.4685,
-          84.336
-        ]
-      },
-      "id": "us6000sa3l"
     }
   ],
   "bbox": [
     -179.9581,
     -39.5847,
     -0.74000000953674,
-    179.708,
-    63.857,
+    166.9869,
+    63.762,
     590.024
   ]
 }
