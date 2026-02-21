@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1771657665000,
+    "generated": 1771659707000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
-    "api": "2.3.0",
-    "count": 195
+    "api": "1.14.1",
+    "count": 194
   },
   "features": [
     {
@@ -15,12 +15,12 @@
         "mag": 2.16,
         "place": "1 km SSW of Indios, Puerto Rico",
         "time": 1771653899370,
-        "updated": 1771654452710,
+        "updated": 1771657944751,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71508388",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71508388.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -30,7 +30,7 @@
         "code": "71508388",
         "ids": ",pr71508388,",
         "sources": ",pr,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 9,
         "dmin": 0.04199,
         "rms": 0.16,
@@ -372,7 +372,7 @@
   ],
   "bbox": [
     -174.15433333333,
-    -36.9701,
+    -30.6461,
     -1.4299999475479,
     179.2416,
     65.396,
