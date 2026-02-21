@@ -1,11 +1,11 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1771708802000,
+    "generated": 1771710106000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
-    "api": "2.3.0",
+    "api": "1.14.1",
     "count": 240
   },
   "features": [
@@ -288,46 +288,6 @@
         ]
       },
       "id": "pr71508358"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.78,
-        "place": "7 km NNE of Yauco, Puerto Rico",
-        "time": 1771623224710,
-        "updated": 1771626564560,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71508353",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71508353.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 49,
-        "net": "pr",
-        "code": "71508353",
-        "ids": ",pr71508353,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 7,
-        "dmin": 0.1305,
-        "rms": 0.16,
-        "gap": 123,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 1.8 - 7 km NNE of Yauco, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.8273333333333,
-          18.0965,
-          22.65
-        ]
-      },
-      "id": "pr71508353"
     }
   ],
   "bbox": [
