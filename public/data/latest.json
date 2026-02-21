@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1771694840000,
+    "generated": 1771696200000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "2.3.0",
-    "count": 194
+    "count": 206
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.95,
+        "place": "3 km WNW of Orocovis, Puerto Rico",
+        "time": 1771694976230,
+        "updated": 1771695746650,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71508418",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71508418.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 58,
+        "net": "pr",
+        "code": "71508418",
+        "ids": ",pr71508418,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 14,
+        "dmin": 0.0968,
+        "rms": 0.12,
+        "gap": 58,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.0 - 3 km WNW of Orocovis, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.4225,
+          18.2398333333333,
+          39.87
+        ]
+      },
+      "id": "pr71508418"
+    },
     {
       "type": "Feature",
       "properties": {
