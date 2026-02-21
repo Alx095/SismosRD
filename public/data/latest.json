@@ -1,14 +1,94 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1771639250000,
+    "generated": 1771647044000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 198
+    "count": 200
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.28,
+        "place": "80 km N of Tierras Nuevas Poniente, Puerto Rico",
+        "time": 1771643383060,
+        "updated": 1771645000250,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71508373",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71508373.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 166,
+        "net": "pr",
+        "code": "71508373",
+        "ids": ",pr71508373,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 25,
+        "dmin": 0.7122,
+        "rms": 0.27,
+        "gap": 259,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 3.3 - 80 km N of Tierras Nuevas Poniente, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.4878333333333,
+          19.192,
+          23.36
+        ]
+      },
+      "id": "pr71508373"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3,
+        "place": "61 km NNE of Miches, Dominican Republic",
+        "time": 1771638266962,
+        "updated": 1771645269040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000sajv",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000sajv.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 138,
+        "net": "us",
+        "code": "6000sajv",
+        "ids": ",us6000sajv,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 17,
+        "dmin": 1.07,
+        "rms": 0.84,
+        "gap": 208,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.0 - 61 km NNE of Miches, Dominican Republic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.828,
+          19.5029,
+          10
+        ]
+      },
+      "id": "us6000sajv"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -253,7 +333,7 @@
   "bbox": [
     -176.668,
     -36.9701,
-    -1.4299999475479,
+    -2.61,
     179.2416,
     65.002,
     608.731
