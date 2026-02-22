@@ -1,14 +1,134 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1771718086000,
+    "generated": 1771723379000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
-    "api": "2.3.0",
-    "count": 248
+    "api": "1.14.1",
+    "count": 259
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.37,
+        "place": "126 km NNE of Vieques, Puerto Rico",
+        "time": 1771718841290,
+        "updated": 1771720768050,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71508448",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71508448.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 175,
+        "net": "pr",
+        "code": "71508448",
+        "ids": ",pr71508448,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 8,
+        "dmin": 1.404,
+        "rms": 0.15,
+        "gap": 317,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 3.4 - 126 km NNE of Vieques, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.433,
+          19.5043333333333,
+          46.76
+        ]
+      },
+      "id": "pr71508448"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.07,
+        "place": "2 km NNE of Guayanilla, Puerto Rico",
+        "time": 1771718113570,
+        "updated": 1771720386560,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71508438",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71508438.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 66,
+        "net": "pr",
+        "code": "71508438",
+        "ids": ",pr71508438,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 7,
+        "dmin": 0.1054,
+        "rms": 0.1,
+        "gap": 143,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.1 - 2 km NNE of Guayanilla, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.7823333333333,
+          18.0391666666667,
+          15.6
+        ]
+      },
+      "id": "pr71508438"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.37,
+        "place": "120 km NE of Cruz Bay, U.S. Virgin Islands",
+        "time": 1771717924460,
+        "updated": 1771719739600,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71508433",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71508433.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 175,
+        "net": "pr",
+        "code": "71508433",
+        "ids": ",pr71508433,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 9,
+        "dmin": 0.9169,
+        "rms": 0.19,
+        "gap": 320,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 3.4 - 120 km NE of Cruz Bay, U.S. Virgin Islands"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -64.1165,
+          19.2073333333333,
+          38.82
+        ]
+      },
+      "id": "pr71508433"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -295,7 +415,7 @@
     -62.9686,
     -0.83999997377396,
     169.547,
-    64.835,
+    64.969,
     605.972
   ]
 }
