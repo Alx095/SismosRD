@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1771752465000,
+    "generated": 1771753994000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
-    "api": "2.3.0",
-    "count": 262
+    "api": "1.14.1",
+    "count": 257
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.01,
+        "place": "1 km SSE of Cidra, Puerto Rico",
+        "time": 1771752863570,
+        "updated": 1771753577140,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71508488",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71508488.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 62,
+        "net": "pr",
+        "code": "71508488",
+        "ids": ",pr71508488,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 9,
+        "dmin": 0.05382,
+        "rms": 0.24,
+        "gap": 75,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.0 - 1 km SSE of Cidra, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.155,
+          18.163,
+          29.88
+        ]
+      },
+      "id": "pr71508488"
+    },
     {
       "type": "Feature",
       "properties": {
