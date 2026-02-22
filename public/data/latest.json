@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1771743585000,
+    "generated": 1771745906000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
-    "api": "2.3.0",
-    "count": 267
+    "api": "1.14.1",
+    "count": 264
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.16,
+        "place": "3 km SSW of Tallaboa, Puerto Rico",
+        "time": 1771742464650,
+        "updated": 1771745152283,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71508468",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71508468.geojson",
+        "felt": 1,
+        "cdi": 2,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 154,
+        "net": "pr",
+        "code": "71508468",
+        "ids": ",pr71508468,",
+        "sources": ",pr,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": 34,
+        "dmin": 0.07843,
+        "rms": 0.29,
+        "gap": 159,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 3.2 - 3 km SSW of Tallaboa, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.7305,
+          17.967,
+          9.27
+        ]
+      },
+      "id": "pr71508468"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -248,46 +288,6 @@
         ]
       },
       "id": "pr71508418"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.03,
-        "place": "47 km NNE of Vieques, Puerto Rico",
-        "time": 1771658874180,
-        "updated": 1771660332140,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71508403",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71508403.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 141,
-        "net": "pr",
-        "code": "71508403",
-        "ids": ",pr71508403,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 21,
-        "dmin": 0.5651,
-        "rms": 0.26,
-        "gap": 226,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.0 - 47 km NNE of Vieques, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -65.6525,
-          18.8221666666667,
-          17.48
-        ]
-      },
-      "id": "pr71508403"
     }
   ],
   "bbox": [
