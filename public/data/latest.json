@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1771837905000,
+    "generated": 1771841454000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 206
+    "count": 211
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.32,
+        "place": "16 km SSE of Guánica, Puerto Rico",
+        "time": 1771839933420,
+        "updated": 1771840896660,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71508543",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71508543.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 83,
+        "net": "pr",
+        "code": "71508543",
+        "ids": ",pr71508543,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 6,
+        "dmin": 0.146,
+        "rms": 0.05,
+        "gap": 259,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.3 - 16 km SSE of Guánica, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.8546666666667,
+          17.8301666666667,
+          13.1
+        ]
+      },
+      "id": "pr71508543"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -48,46 +88,6 @@
         ]
       },
       "id": "pr71508498"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.01,
-        "place": "1 km SSE of Cidra, Puerto Rico",
-        "time": 1771752863570,
-        "updated": 1771753577140,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71508488",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71508488.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 62,
-        "net": "pr",
-        "code": "71508488",
-        "ids": ",pr71508488,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 9,
-        "dmin": 0.05382,
-        "rms": 0.24,
-        "gap": 75,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.0 - 1 km SSE of Cidra, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.155,
-          18.163,
-          29.88
-        ]
-      },
-      "id": "pr71508488"
     }
   ],
   "bbox": [
