@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1771882801000,
+    "generated": 1771885421000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 256
+    "count": 267
   },
   "features": [
     {
@@ -52,42 +52,42 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.6,
-        "place": "28 km N of Otra Banda, Dominican Republic",
-        "time": 1771872759214,
-        "updated": 1771877766340,
+        "mag": 2.62,
+        "place": "36 km ENE of Miches, Dominican Republic",
+        "time": 1771872757650,
+        "updated": 1771884955496,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000rzt8",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000rzt8.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71508578",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71508578.geojson",
         "felt": 1,
         "cdi": 1,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 104,
-        "net": "us",
-        "code": "7000rzt8",
-        "ids": ",us7000rzt8,",
-        "sources": ",us,",
+        "sig": 106,
+        "net": "pr",
+        "code": "71508578",
+        "ids": ",us7000rzt8,pr71508578,",
+        "sources": ",us,pr,",
         "types": ",dyfi,origin,phase-data,",
-        "nst": 14,
-        "dmin": 0.473,
-        "rms": 0.37,
-        "gap": 179,
-        "magType": "ml",
+        "nst": 4,
+        "dmin": 0.4556,
+        "rms": 0.34,
+        "gap": 211,
+        "magType": "md",
         "type": "earthquake",
-        "title": "M 2.6 - 28 km N of Otra Banda, Dominican Republic"
+        "title": "M 2.6 - 36 km ENE of Miches, Dominican Republic"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -68.6593,
-          18.9088,
-          46.656
+          -68.7065,
+          19.0496666666667,
+          35.27
         ]
       },
-      "id": "us7000rzt8"
+      "id": "pr71508578"
     },
     {
       "type": "Feature",
