@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1771885421000,
+    "generated": 1771887881000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 267
+    "count": 269
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.01,
+        "place": "3 km SE of Tallaboa Alta, Puerto Rico",
+        "time": 1771882217220,
+        "updated": 1771886770530,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71508593",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71508593.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 62,
+        "net": "pr",
+        "code": "71508593",
+        "ids": ",pr71508593,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 12,
+        "dmin": 0.06183,
+        "rms": 0.18,
+        "gap": 119,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.0 - 3 km SE of Tallaboa Alta, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.6701666666667,
+          18.0316666666667,
+          16
+        ]
+      },
+      "id": "pr71508593"
+    },
     {
       "type": "Feature",
       "properties": {
