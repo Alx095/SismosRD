@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1771951082000,
+    "generated": 1771954680000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
-    "api": "2.3.0",
-    "count": 215
+    "api": "1.14.1",
+    "count": 209
   },
   "features": [
     {
@@ -328,54 +328,14 @@
         ]
       },
       "id": "pr71508573"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.72,
-        "place": "2 km NW of Las Ollas, Puerto Rico",
-        "time": 1771866825030,
-        "updated": 1771867924780,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71508563",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71508563.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 46,
-        "net": "pr",
-        "code": "71508563",
-        "ids": ",pr71508563,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 4,
-        "dmin": 0.1361,
-        "rms": 0.18,
-        "gap": 256,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 1.7 - 2 km NW of Las Ollas, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.44,
-          18.0433333333333,
-          5
-        ]
-      },
-      "id": "pr71508563"
     }
   ],
   "bbox": [
-    -178.431,
-    -20.5225,
+    -179.7053,
+    -31.2259,
     -2.71,
     160.7474,
     65.16,
-    260.134
+    313.507
   ]
 }
