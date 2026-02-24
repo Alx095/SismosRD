@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1771961556000,
+    "generated": 1771963120000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 220
+    "count": 216
   },
   "features": [
     {
@@ -208,46 +208,6 @@
         ]
       },
       "id": "pr71508593"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.17,
-        "place": "86 km WNW of Sandy Ground Village, Anguilla",
-        "time": 1771875344000,
-        "updated": 1771877692300,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71508583",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71508583.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 155,
-        "net": "pr",
-        "code": "71508583",
-        "ids": ",pr71508583,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 4,
-        "dmin": 0.7853,
-        "rms": 0.22,
-        "gap": 356,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.2 - 86 km WNW of Sandy Ground Village, Anguilla"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -63.8095,
-          18.5783333333333,
-          42.82
-        ]
-      },
-      "id": "pr71508583"
     }
   ],
   "bbox": [
