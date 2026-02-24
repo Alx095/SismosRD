@@ -1,14 +1,94 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1771907380000,
+    "generated": 1771911700000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 247
+    "count": 240
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.12,
+        "place": "1 km SW of Indios, Puerto Rico",
+        "time": 1771908128190,
+        "updated": 1771911096320,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71508623",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71508623.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 69,
+        "net": "pr",
+        "code": "71508623",
+        "ids": ",pr71508623,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 12,
+        "dmin": 0.04763,
+        "rms": 0.14,
+        "gap": 175,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.1 - 1 km SW of Indios, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.8301666666667,
+          17.9843333333333,
+          15.82
+        ]
+      },
+      "id": "pr71508623"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.41,
+        "place": "3 km SSE of Salinas, Puerto Rico",
+        "time": 1771906773960,
+        "updated": 1771911267970,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71508618",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71508618.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 89,
+        "net": "pr",
+        "code": "71508618",
+        "ids": ",pr71508618,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 18,
+        "dmin": 0.09547,
+        "rms": 0.17,
+        "gap": 188,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.4 - 3 km SSE of Salinas, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.2893333333333,
+          17.9485,
+          61.11
+        ]
+      },
+      "id": "pr71508618"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -373,7 +453,7 @@
   "bbox": [
     -179.7674,
     -24.1732,
-    -2.84,
+    -0.81,
     153.6737,
     65.09,
     547.098
