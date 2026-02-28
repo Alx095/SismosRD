@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1772265486000,
+    "generated": 1772267311000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
-    "api": "1.14.1",
-    "count": 233
+    "api": "2.3.0",
+    "count": 234
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.44,
+        "place": "92 km N of Hatillo, Puerto Rico",
+        "time": 1772263036420,
+        "updated": 1772266186230,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71508738",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71508738.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 182,
+        "net": "pr",
+        "code": "71508738",
+        "ids": ",pr71508738,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 46,
+        "dmin": 0.8413,
+        "rms": 0.33,
+        "gap": 210,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 3.4 - 92 km N of Hatillo, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.7493333333333,
+          19.3166666666667,
+          45.18
+        ]
+      },
+      "id": "pr71508738"
+    },
     {
       "type": "Feature",
       "properties": {
