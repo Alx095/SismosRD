@@ -1,31 +1,71 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1772382897000,
+    "generated": 1772384066000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "2.3.0",
-    "count": 215
+    "count": 223
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.19,
+        "place": "5 km SSW of La Playa, Puerto Rico",
+        "time": 1772382588910,
+        "updated": 1772383375040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71508813",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71508813.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 74,
+        "net": "pr",
+        "code": "71508813",
+        "ids": ",pr71508813,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 8,
+        "dmin": 0.1311,
+        "rms": 0.37,
+        "gap": 223,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.2 - 5 km SSW of La Playa, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.2055,
+          18.2411666666667,
+          11.43
+        ]
+      },
+      "id": "pr71508813"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 3.8,
         "place": "3 km E of Annotto Bay, Jamaica",
         "time": 1772372061925,
-        "updated": 1772378474066,
+        "updated": 1772382990646,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000s18c",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000s18c.geojson",
-        "felt": 19,
-        "cdi": 3.9,
+        "felt": 20,
+        "cdi": 3.6,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 230,
+        "sig": 229,
         "net": "us",
         "code": "7000s18c",
         "ids": ",us7000s18c,",
