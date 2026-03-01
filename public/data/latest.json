@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1772358999000,
+    "generated": 1772360460000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
@@ -48,46 +48,6 @@
         ]
       },
       "id": "pr71508783"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.81,
-        "place": "7 km ESE of G. L. Garcia, Puerto Rico",
-        "time": 1772273362910,
-        "updated": 1772276446830,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71508758",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71508758.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 50,
-        "net": "pr",
-        "code": "71508758",
-        "ids": ",pr71508758,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 7,
-        "dmin": 0.07881,
-        "rms": 0.11,
-        "gap": 87,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 1.8 - 7 km ESE of G. L. Garcia, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.0476666666667,
-          18.0935,
-          26.36
-        ]
-      },
-      "id": "pr71508758"
     }
   ],
   "bbox": [
