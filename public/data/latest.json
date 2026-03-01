@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1772373120000,
+    "generated": 1772374270000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
-    "api": "1.14.1",
-    "count": 234
+    "api": "2.3.0",
+    "count": 231
   },
   "features": [
     {
@@ -15,17 +15,17 @@
         "mag": 3.7,
         "place": "5 km ENE of Annotto Bay, Jamaica",
         "time": 1772372061830,
-        "updated": 1772373048233,
+        "updated": 1772373992085,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000s18c",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000s18c.geojson",
-        "felt": 4,
+        "felt": 14,
         "cdi": 3.8,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 212,
+        "sig": 216,
         "net": "us",
         "code": "7000s18c",
         "ids": ",us7000s18c,",
