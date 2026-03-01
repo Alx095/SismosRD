@@ -1,49 +1,49 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1772376016000,
+    "generated": 1772376919000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
-    "api": "2.3.0",
-    "count": 228
+    "api": "1.14.1",
+    "count": 223
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 3.7,
-        "place": "5 km ENE of Annotto Bay, Jamaica",
-        "time": 1772372061830,
-        "updated": 1772374598441,
+        "mag": 3.8,
+        "place": "3 km E of Annotto Bay, Jamaica",
+        "time": 1772372061925,
+        "updated": 1772376582744,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000s18c",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000s18c.geojson",
-        "felt": 17,
+        "felt": 18,
         "cdi": 3.9,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 217,
+        "sig": 229,
         "net": "us",
         "code": "7000s18c",
         "ids": ",us7000s18c,",
         "sources": ",us,",
         "types": ",dyfi,origin,phase-data,",
-        "nst": 23,
-        "dmin": 0.778,
-        "rms": 0.58,
+        "nst": 47,
+        "dmin": 0.761,
+        "rms": 0.86,
         "gap": 56,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 3.7 - 5 km ENE of Annotto Bay, Jamaica"
+        "title": "M 3.8 - 3 km E of Annotto Bay, Jamaica"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -76.7191,
-          18.2963,
+          -76.7352,
+          18.2664,
           10
         ]
       },
