@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1772634240000,
+    "generated": 1772636479000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "2.3.0",
-    "count": 258
+    "count": 255
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.1,
+        "place": "2 km NNW of Indios, Puerto Rico",
+        "time": 1772633114860,
+        "updated": 1772635125490,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71508988",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71508988.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 68,
+        "net": "pr",
+        "code": "71508988",
+        "ids": ",pr71508988,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 9,
+        "dmin": 0.05917,
+        "rms": 0.18,
+        "gap": 151,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.1 - 2 km NNW of Indios, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.8306666666667,
+          18.0121666666667,
+          15.8
+        ]
+      },
+      "id": "pr71508988"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -288,126 +328,6 @@
         ]
       },
       "id": "pr71508928"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.08,
-        "place": "8 km SW of La Parguera, Puerto Rico",
-        "time": 1772549242320,
-        "updated": 1772549940440,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71508923",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71508923.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 67,
-        "net": "pr",
-        "code": "71508923",
-        "ids": ",pr71508923,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 6,
-        "dmin": 0.07498,
-        "rms": 0.07,
-        "gap": 255,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.1 - 8 km SW of La Parguera, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -67.106,
-          17.9226666666667,
-          7.21
-        ]
-      },
-      "id": "pr71508923"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.12,
-        "place": "3 km WSW of Fuig, Puerto Rico",
-        "time": 1772549007360,
-        "updated": 1772549654330,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71508913",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71508913.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 69,
-        "net": "pr",
-        "code": "71508913",
-        "ids": ",pr71508913,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 6,
-        "dmin": 0.06687,
-        "rms": 0.17,
-        "gap": 180,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.1 - 3 km WSW of Fuig, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.9495,
-          17.9738333333333,
-          6.48
-        ]
-      },
-      "id": "pr71508913"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.17,
-        "place": "3 km WSW of Fuig, Puerto Rico",
-        "time": 1772548788540,
-        "updated": 1772549327250,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71508908",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71508908.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 72,
-        "net": "pr",
-        "code": "71508908",
-        "ids": ",pr71508908,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 6,
-        "dmin": 0.06325,
-        "rms": 0.15,
-        "gap": 170,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.2 - 3 km WSW of Fuig, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.9455,
-          17.9801666666667,
-          9.84
-        ]
-      },
-      "id": "pr71508908"
     }
   ],
   "bbox": [
