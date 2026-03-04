@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1772589288000,
+    "generated": 1772596801000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "2.3.0",
-    "count": 286
+    "count": 276
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.8,
+        "place": "41 km SE of Esperanza, Puerto Rico",
+        "time": 1772591686510,
+        "updated": 1772594871180,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71508963",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71508963.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 121,
+        "net": "pr",
+        "code": "71508963",
+        "ids": ",pr71508963,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 13,
+        "dmin": 0.381,
+        "rms": 0.58,
+        "gap": 170,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.8 - 41 km SE of Esperanza, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.1578333333333,
+          17.8685,
+          8.09
+        ]
+      },
+      "id": "pr71508963"
+    },
     {
       "type": "Feature",
       "properties": {
