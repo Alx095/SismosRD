@@ -1,14 +1,94 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1772582212000,
+    "generated": 1772589288000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "2.3.0",
-    "count": 276
+    "count": 286
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.01,
+        "place": "4 km WSW of Guánica, Puerto Rico",
+        "time": 1772584667120,
+        "updated": 1772585488580,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71508958",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71508958.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 62,
+        "net": "pr",
+        "code": "71508958",
+        "ids": ",pr71508958,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 5,
+        "dmin": 0.06272,
+        "rms": 0.08,
+        "gap": 208,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.0 - 4 km WSW of Guánica, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.9416666666667,
+          17.9548333333333,
+          10.67
+        ]
+      },
+      "id": "pr71508958"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.91,
+        "place": "3 km WSW of Fuig, Puerto Rico",
+        "time": 1772581684550,
+        "updated": 1772585734650,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71508953",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71508953.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 56,
+        "net": "pr",
+        "code": "71508953",
+        "ids": ",pr71508953,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 6,
+        "dmin": 0.06141,
+        "rms": 0.08,
+        "gap": 183,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 1.9 - 3 km WSW of Fuig, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.9436666666667,
+          17.9715,
+          8.18
+        ]
+      },
+      "id": "pr71508953"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -448,46 +528,6 @@
         ]
       },
       "id": "pr71508858"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.59,
-        "place": "1 km SW of G. L. Garcia, Puerto Rico",
-        "time": 1772496867930,
-        "updated": 1772497338360,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71508853",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71508853.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 39,
-        "net": "pr",
-        "code": "71508853",
-        "ids": ",pr71508853,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 5,
-        "dmin": 0.0349,
-        "rms": 0.06,
-        "gap": 180,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 1.6 - 1 km SW of G. L. Garcia, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.1136666666667,
-          18.114,
-          24.54
-        ]
-      },
-      "id": "pr71508853"
     }
   ],
   "bbox": [
