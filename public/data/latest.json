@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1772733556000,
+    "generated": 1772738300000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "2.3.0",
-    "count": 292
+    "count": 284
   },
   "features": [
     {
@@ -368,46 +368,6 @@
         ]
       },
       "id": "pr71509033"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.22,
-        "place": "3 km W of Fuig, Puerto Rico",
-        "time": 1772649268750,
-        "updated": 1772650129820,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71509018",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71509018.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 76,
-        "net": "pr",
-        "code": "71509018",
-        "ids": ",pr71509018,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 8,
-        "dmin": 0.07026,
-        "rms": 0.1,
-        "gap": 152,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.2 - 3 km W of Fuig, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.9508333333333,
-          17.9923333333333,
-          10.9
-        ]
-      },
-      "id": "pr71509018"
     }
   ],
   "bbox": [
