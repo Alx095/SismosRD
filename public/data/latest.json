@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1772770935000,
+    "generated": 1772774775000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "2.3.0",
-    "count": 325
+    "count": 305
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.32,
+        "place": "5 km W of Campo Rico, Puerto Rico",
+        "time": 1772771892150,
+        "updated": 1772773734280,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71509158",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71509158.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 83,
+        "net": "pr",
+        "code": "71509158",
+        "ids": ",pr71509158,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 8,
+        "dmin": 0.1326,
+        "rms": 0.31,
+        "gap": 209,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.3 - 5 km W of Campo Rico, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.9463333333333,
+          18.333,
+          31.1
+        ]
+      },
+      "id": "pr71509158"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -248,46 +288,6 @@
         ]
       },
       "id": "pr71509098"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.27,
-        "place": "6 km NNE of Tallaboa Alta, Puerto Rico",
-        "time": 1772688176700,
-        "updated": 1772688915250,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71509078",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71509078.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 79,
-        "net": "pr",
-        "code": "71509078",
-        "ids": ",pr71509078,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 10,
-        "dmin": 0.08041,
-        "rms": 0.11,
-        "gap": 105,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.3 - 6 km NNE of Tallaboa Alta, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.6668333333333,
-          18.0991666666667,
-          19.8
-        ]
-      },
-      "id": "pr71509078"
     }
   ],
   "bbox": [
