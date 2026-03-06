@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1772791108000,
+    "generated": 1772793315000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "2.3.0",
-    "count": 294
+    "count": 289
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5,
+        "place": "62 km SSW of Maisí, Cuba",
+        "time": 1772790975823,
+        "updated": 1772791856040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000s2h2",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000s2h2.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 385,
+        "net": "us",
+        "code": "7000s2h2",
+        "ids": ",us7000s2h2,",
+        "sources": ",us,",
+        "types": ",moment-tensor,origin,phase-data,",
+        "nst": 71,
+        "dmin": 0.464,
+        "rms": 0.7,
+        "gap": 65,
+        "magType": "mww",
+        "type": "earthquake",
+        "title": "M 5.0 - 62 km SSW of Maisí, Cuba"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.4084,
+          19.7401,
+          10
+        ]
+      },
+      "id": "us7000s2h2"
+    },
     {
       "type": "Feature",
       "properties": {
