@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1772856354000,
+    "generated": 1772859896000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "2.3.0",
-    "count": 248
+    "count": 243
   },
   "features": [
     {
@@ -208,46 +208,6 @@
         ]
       },
       "id": "us7000s2h2"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.32,
-        "place": "5 km W of Campo Rico, Puerto Rico",
-        "time": 1772771892150,
-        "updated": 1772773734280,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71509158",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71509158.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 83,
-        "net": "pr",
-        "code": "71509158",
-        "ids": ",pr71509158,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 8,
-        "dmin": 0.1326,
-        "rms": 0.31,
-        "gap": 209,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.3 - 5 km W of Campo Rico, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -65.9463333333333,
-          18.333,
-          31.1
-        ]
-      },
-      "id": "pr71509158"
     }
   ],
   "bbox": [
