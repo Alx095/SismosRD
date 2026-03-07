@@ -1,14 +1,94 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1772849081000,
+    "generated": 1772856354000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "2.3.0",
-    "count": 239
+    "count": 248
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.2,
+        "place": "113 km N of Culebra, Puerto Rico",
+        "time": 1772853612110,
+        "updated": 1772854559190,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71509238",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71509238.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 158,
+        "net": "pr",
+        "code": "71509238",
+        "ids": ",pr71509238,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 9,
+        "dmin": 1.005,
+        "rms": 0.51,
+        "gap": 259,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 3.2 - 113 km N of Culebra, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.2358333333333,
+          19.3266666666667,
+          63.62
+        ]
+      },
+      "id": "pr71509238"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.48,
+        "place": "2 km WSW of Maricao, Puerto Rico",
+        "time": 1772853012110,
+        "updated": 1772854341040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71509233",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71509233.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 95,
+        "net": "pr",
+        "code": "71509233",
+        "ids": ",us7000s2py,pr71509233,",
+        "sources": ",us,pr,",
+        "types": ",origin,phase-data,",
+        "nst": 19,
+        "dmin": 0.02729,
+        "rms": 0.14,
+        "gap": 53,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.5 - 2 km WSW of Maricao, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.0051666666667,
+          18.1686666666667,
+          23.15
+        ]
+      },
+      "id": "pr71509233"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -168,46 +248,6 @@
         ]
       },
       "id": "pr71509158"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.02,
-        "place": "2 km SE of Palomas, Puerto Rico",
-        "time": 1772768452760,
-        "updated": 1772770589610,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71509153",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71509153.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 63,
-        "net": "pr",
-        "code": "71509153",
-        "ids": ",pr71509153,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 9,
-        "dmin": 0.02615,
-        "rms": 0.16,
-        "gap": 139,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.0 - 2 km SE of Palomas, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.854,
-          17.9948333333333,
-          12.17
-        ]
-      },
-      "id": "pr71509153"
     }
   ],
   "bbox": [
@@ -216,6 +256,6 @@
     -1.53,
     176.5424,
     64.903,
-    386.29
+    422.51
   ]
 }
