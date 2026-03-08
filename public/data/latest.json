@@ -1,14 +1,94 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1772937226000,
+    "generated": 1772943858000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "2.3.0",
-    "count": 252
+    "count": 251
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.17,
+        "place": "35 km SSE of Boca de Yuma, Dominican Republic",
+        "time": 1772940097090,
+        "updated": 1772942852231,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2026067000",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2026067000.geojson",
+        "felt": 1,
+        "cdi": 2,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 268,
+        "net": "pr",
+        "code": "2026067000",
+        "ids": ",us7000s2x0,pr2026067000,",
+        "sources": ",us,pr,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": 34,
+        "dmin": 0.451,
+        "rms": 0.46,
+        "gap": 192,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 4.2 - 35 km SSE of Boca de Yuma, Dominican Republic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.4915,
+          18.0765,
+          71
+        ]
+      },
+      "id": "pr2026067000"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.11,
+        "place": "90 km N of Arecibo, Puerto Rico",
+        "time": 1772937192490,
+        "updated": 1772938781910,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71509318",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71509318.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 149,
+        "net": "pr",
+        "code": "71509318",
+        "ids": ",pr71509318,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 24,
+        "dmin": 0.8018,
+        "rms": 0.28,
+        "gap": 262,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 3.1 - 90 km N of Arecibo, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.5963333333333,
+          19.2806666666667,
+          19.72
+        ]
+      },
+      "id": "pr71509318"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -55,7 +135,7 @@
         "mag": 3.15,
         "place": "92 km N of Arecibo, Puerto Rico",
         "time": 1772919513580,
-        "updated": 1772924472903,
+        "updated": 1772943610040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71509288",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71509288.geojson",
@@ -68,8 +148,8 @@
         "sig": 153,
         "net": "pr",
         "code": "71509288",
-        "ids": ",pr71509288,",
-        "sources": ",pr,",
+        "ids": ",pr71509288,us7000s2vl,",
+        "sources": ",pr,us,",
         "types": ",dyfi,origin,phase-data,",
         "nst": 21,
         "dmin": 0.8248,
@@ -248,86 +328,6 @@
         ]
       },
       "id": "pr2026066000"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.2,
-        "place": "113 km N of Culebra, Puerto Rico",
-        "time": 1772853612110,
-        "updated": 1772854559190,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71509238",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71509238.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 158,
-        "net": "pr",
-        "code": "71509238",
-        "ids": ",pr71509238,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 9,
-        "dmin": 1.005,
-        "rms": 0.51,
-        "gap": 259,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.2 - 113 km N of Culebra, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -65.2358333333333,
-          19.3266666666667,
-          63.62
-        ]
-      },
-      "id": "pr71509238"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.48,
-        "place": "2 km WSW of Maricao, Puerto Rico",
-        "time": 1772853012110,
-        "updated": 1772854341040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71509233",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71509233.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 95,
-        "net": "pr",
-        "code": "71509233",
-        "ids": ",us7000s2py,pr71509233,",
-        "sources": ",us,pr,",
-        "types": ",origin,phase-data,",
-        "nst": 19,
-        "dmin": 0.02729,
-        "rms": 0.14,
-        "gap": 53,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.5 - 2 km WSW of Maricao, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -67.0051666666667,
-          18.1686666666667,
-          23.15
-        ]
-      },
-      "id": "pr71509233"
     }
   ],
   "bbox": [
@@ -335,7 +335,7 @@
     -31.6647,
     -1.2300000190735,
     179.9795,
-    65.026,
-    197.059
+    73.2271,
+    460.223
   ]
 }
