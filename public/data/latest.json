@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1773038349000,
+    "generated": 1773041771000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "2.3.0",
-    "count": 264
+    "count": 260
   },
   "features": [
     {
@@ -248,46 +248,6 @@
         ]
       },
       "id": "pr71509368"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.07,
-        "place": "28 km SE of Cruz Bay, U.S. Virgin Islands",
-        "time": 1772954931290,
-        "updated": 1772956980510,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71509353",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71509353.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 145,
-        "net": "pr",
-        "code": "71509353",
-        "ids": ",pr71509353,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 8,
-        "dmin": 0.2851,
-        "rms": 0.29,
-        "gap": 172,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.1 - 28 km SE of Cruz Bay, U.S. Virgin Islands"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -64.6171666666667,
-          18.1335,
-          6.56
-        ]
-      },
-      "id": "pr71509353"
     }
   ],
   "bbox": [
