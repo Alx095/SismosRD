@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1773076026000,
+    "generated": 1773079026000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "2.3.0",
-    "count": 289
+    "count": 281
   },
   "features": [
     {
@@ -208,46 +208,6 @@
         ]
       },
       "id": "pr71509388"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.5,
-        "place": "35 km SW of Tamarindo, Costa Rica",
-        "time": 1772991720947,
-        "updated": 1772992393040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000s308",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000s308.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 312,
-        "net": "us",
-        "code": "7000s308",
-        "ids": ",us7000s308,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 23,
-        "dmin": 1.07,
-        "rms": 0.65,
-        "gap": 176,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.5 - 35 km SW of Tamarindo, Costa Rica"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -86.0843,
-          10.0938,
-          10
-        ]
-      },
-      "id": "us7000s308"
     }
   ],
   "bbox": [
