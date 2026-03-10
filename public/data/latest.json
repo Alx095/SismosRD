@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1773107866000,
+    "generated": 1773115815000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "2.3.0",
-    "count": 309
+    "count": 311
   },
   "features": [
     {
@@ -248,86 +248,6 @@
         ]
       },
       "id": "pr71509428"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.22,
-        "place": "46 km WSW of Stella, Puerto Rico",
-        "time": 1773027060350,
-        "updated": 1773028951970,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71509408",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71509408.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 160,
-        "net": "pr",
-        "code": "71509408",
-        "ids": ",us7000s32y,pr71509408,",
-        "sources": ",us,pr,",
-        "types": ",origin,phase-data,",
-        "nst": 23,
-        "dmin": 0.4254,
-        "rms": 0.26,
-        "gap": 187,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.2 - 46 km WSW of Stella, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -67.644,
-          18.1348333333333,
-          68.11
-        ]
-      },
-      "id": "pr71509408"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.92,
-        "place": "76 km NNW of Charlotte Amalie, U.S. Virgin Islands",
-        "time": 1773023732680,
-        "updated": 1773024539180,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71509398",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71509398.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 131,
-        "net": "pr",
-        "code": "71509398",
-        "ids": ",pr71509398,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 10,
-        "dmin": 0.6674,
-        "rms": 0.13,
-        "gap": 239,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.9 - 76 km NNW of Charlotte Amalie, U.S. Virgin Islands"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -65.1093333333333,
-          19.0073333333333,
-          31.34
-        ]
-      },
-      "id": "pr71509398"
     }
   ],
   "bbox": [
@@ -335,7 +255,7 @@
     -38.3188,
     -3.17,
     179.8769,
-    65.395,
+    65.878,
     557.13
   ]
 }
