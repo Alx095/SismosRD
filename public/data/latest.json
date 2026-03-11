@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1773230528000,
+    "generated": 1773235215000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
@@ -9,6 +9,46 @@
     "count": 235
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.92,
+        "place": "59 km N of Culebra, Puerto Rico",
+        "time": 1773230788580,
+        "updated": 1773232494500,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71509593",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71509593.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 131,
+        "net": "pr",
+        "code": "71509593",
+        "ids": ",pr71509593,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 11,
+        "dmin": 0.5932,
+        "rms": 0.13,
+        "gap": 221,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.9 - 59 km N of Culebra, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.31,
+          18.8443333333333,
+          19.4
+        ]
+      },
+      "id": "pr71509593"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -208,53 +248,13 @@
         ]
       },
       "id": "pr71509548"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.27,
-        "place": "5 km SE of Indios, Puerto Rico",
-        "time": 1773146567840,
-        "updated": 1773149445690,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71509498",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71509498.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 79,
-        "net": "pr",
-        "code": "71509498",
-        "ids": ",pr71509498,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 4,
-        "dmin": 0.08731,
-        "rms": 0.06,
-        "gap": 221,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.3 - 5 km SE of Indios, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.7901666666667,
-          17.9541666666667,
-          18.32
-        ]
-      },
-      "id": "pr71509498"
     }
   ],
   "bbox": [
     -179.3487,
     -33.6771,
     -0.91,
-    176.21,
+    142.7867,
     65.363,
     204.53
   ]
