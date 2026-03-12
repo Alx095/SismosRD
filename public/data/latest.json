@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1773345740000,
+    "generated": 1773348440000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "2.3.0",
-    "count": 280
+    "count": 270
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.52,
+        "place": "32 km SSE of La Romana, Dominican Republic",
+        "time": 1773345558480,
+        "updated": 1773348398542,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2026071001",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2026071001.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 191,
+        "net": "pr",
+        "code": "2026071001",
+        "ids": ",pr2026071001,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 11,
+        "dmin": 0.5862,
+        "rms": 0.3,
+        "gap": 227,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 3.5 - 32 km SSE of La Romana, Dominican Republic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.8478,
+          18.1588,
+          107
+        ]
+      },
+      "id": "pr2026071001"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -248,52 +288,12 @@
         ]
       },
       "id": "pr2026071000"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.63,
-        "place": "30 km SSE of Boca de Yuma, Dominican Republic",
-        "time": 1773261749670,
-        "updated": 1773264389817,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2026070000",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2026070000.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 203,
-        "net": "pr",
-        "code": "2026070000",
-        "ids": ",us7000s3s8,pr2026070000,",
-        "sources": ",us,pr,",
-        "types": ",origin,phase-data,",
-        "nst": 18,
-        "dmin": 0.4391,
-        "rms": 0.49,
-        "gap": 216,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.6 - 30 km SSE of Boca de Yuma, Dominican Republic"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -68.549,
-          18.108,
-          114
-        ]
-      },
-      "id": "pr2026070000"
     }
   ],
   "bbox": [
     -179.5707,
     -33.4094,
-    -0.64,
+    -0.93,
     179.611,
     75.6946,
     583.592
