@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1773312000000,
+    "generated": 1773314339000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "2.3.0",
-    "count": 292
+    "count": 287
   },
   "features": [
     {
@@ -175,11 +175,11 @@
         "mag": 3.55,
         "place": "3 km NW of Guayanilla, Puerto Rico",
         "time": 1773290046010,
-        "updated": 1773309668636,
+        "updated": 1773312357481,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2026071000",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2026071000.geojson",
-        "felt": 5,
+        "felt": 6,
         "cdi": 3.4,
         "mmi": null,
         "alert": null,
