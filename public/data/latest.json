@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1773304139000,
+    "generated": 1773306479000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "2.3.0",
-    "count": 278
+    "count": 277
   },
   "features": [
     {
@@ -175,7 +175,7 @@
         "mag": 3.55,
         "place": "3 km NW of Guayanilla, Puerto Rico",
         "time": 1773290046010,
-        "updated": 1773303654921,
+        "updated": 1773306065367,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2026071000",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2026071000.geojson",
@@ -328,46 +328,6 @@
         ]
       },
       "id": "pr71509593"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.21,
-        "place": "77 km NE of Punta Cana, Dominican Republic",
-        "time": 1773219521050,
-        "updated": 1773221093810,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71509588",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71509588.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 159,
-        "net": "pr",
-        "code": "71509588",
-        "ids": ",pr71509588,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 12,
-        "dmin": 0.7269,
-        "rms": 0.43,
-        "gap": 253,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.2 - 77 km NE of Punta Cana, Dominican Republic"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -67.8628333333333,
-          19.0535,
-          36.35
-        ]
-      },
-      "id": "pr71509588"
     }
   ],
   "bbox": [
