@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1773331680000,
+    "generated": 1773335317000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
@@ -9,6 +9,46 @@
     "count": 272
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.29,
+        "place": "4 km NE of Yauco, Puerto Rico",
+        "time": 1773331221690,
+        "updated": 1773332864740,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71509688",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71509688.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 81,
+        "net": "pr",
+        "code": "71509688",
+        "ids": ",pr71509688,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 7,
+        "dmin": 0.1035,
+        "rms": 0.2,
+        "gap": 115,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.3 - 4 km NE of Yauco, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.826,
+          18.0658333333333,
+          11.87
+        ]
+      },
+      "id": "pr71509688"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -175,7 +215,7 @@
         "mag": 3.55,
         "place": "3 km NW of Guayanilla, Puerto Rico",
         "time": 1773290046010,
-        "updated": 1773327971276,
+        "updated": 1773334596868,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2026071000",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2026071000.geojson",
@@ -248,52 +288,12 @@
         ]
       },
       "id": "pr2026070000"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.8,
-        "place": "5 km SSW of Moyogalpa, Nicaragua",
-        "time": 1773247037230,
-        "updated": 1773281456612,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000s3n2",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000s3n2.geojson",
-        "felt": 2,
-        "cdi": 2.7,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 355,
-        "net": "us",
-        "code": "7000s3n2",
-        "ids": ",us7000s3n2,",
-        "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 73,
-        "dmin": 0.738,
-        "rms": 1.01,
-        "gap": 85,
-        "magType": "mww",
-        "type": "earthquake",
-        "title": "M 4.8 - 5 km SSW of Moyogalpa, Nicaragua"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -85.7259,
-          11.4953,
-          196.51
-        ]
-      },
-      "id": "us7000s3n2"
     }
   ],
   "bbox": [
     -179.5707,
     -33.4094,
-    -1.3500000238419,
+    -0.91,
     179.611,
     75.6946,
     583.592
