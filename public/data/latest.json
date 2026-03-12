@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1773281313000,
+    "generated": 1773289176000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "2.3.0",
-    "count": 280
+    "count": 289
   },
   "features": [
     {
@@ -55,12 +55,12 @@
         "mag": 4.8,
         "place": "5 km SSW of Moyogalpa, Nicaragua",
         "time": 1773247037230,
-        "updated": 1773249106285,
+        "updated": 1773281456612,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000s3n2",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000s3n2.geojson",
-        "felt": 1,
-        "cdi": 2.2,
+        "felt": 2,
+        "cdi": 2.7,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -254,7 +254,7 @@
     -179.5707,
     -34.3501,
     -1.3500000238419,
-    176.6725,
+    179.611,
     69.54,
     583.592
   ]
