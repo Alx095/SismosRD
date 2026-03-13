@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1773439258000,
+    "generated": 1773441301000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "2.3.0",
-    "count": 226
+    "count": 233
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.79,
+        "place": "30 km NNE of Luquillo, Puerto Rico",
+        "time": 1773438751890,
+        "updated": 1773441241408,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2026072000",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2026072000.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 221,
+        "net": "pr",
+        "code": "2026072000",
+        "ids": ",us6000sg60,pr2026072000,",
+        "sources": ",us,pr,",
+        "types": ",origin,phase-data,",
+        "nst": 26,
+        "dmin": 0.5279,
+        "rms": 0.24,
+        "gap": 191,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 3.8 - 30 km NNE of Luquillo, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.5941,
+          18.6235,
+          76
+        ]
+      },
+      "id": "pr2026072000"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -48,6 +88,166 @@
         ]
       },
       "id": "us6000sg56"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.6,
+        "place": "26 km SE of El Negro, Puerto Rico",
+        "time": 1773402165700,
+        "updated": 1773439485560,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71509733",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71509733.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 104,
+        "net": "pr",
+        "code": "71509733",
+        "ids": ",pr71509733,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 11,
+        "dmin": 0.2376,
+        "rms": 0.21,
+        "gap": 219,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.6 - 26 km SE of El Negro, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.662,
+          17.8825,
+          8.87
+        ]
+      },
+      "id": "pr71509733"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.09,
+        "place": "3 km NNW of Palomas, Puerto Rico",
+        "time": 1773379824820,
+        "updated": 1773439751490,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71509728",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71509728.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 67,
+        "net": "pr",
+        "code": "71509728",
+        "ids": ",pr71509728,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 16,
+        "dmin": 0.1013,
+        "rms": 0.24,
+        "gap": 123,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.1 - 3 km NNW of Palomas, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.2735,
+          18.2631666666667,
+          13.75
+        ]
+      },
+      "id": "pr71509728"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.19,
+        "place": "0 km SSE of Fuig, Puerto Rico",
+        "time": 1773371475050,
+        "updated": 1773439435130,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71509723",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71509723.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 74,
+        "net": "pr",
+        "code": "71509723",
+        "ids": ",pr71509723,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 9,
+        "dmin": 0.03228,
+        "rms": 0.19,
+        "gap": 168,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.2 - 0 km SSE of Fuig, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.9128333333333,
+          17.9796666666667,
+          8.2
+        ]
+      },
+      "id": "pr71509723"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.48,
+        "place": "11 km SSW of Guánica, Puerto Rico",
+        "time": 1773360232770,
+        "updated": 1773439254140,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71509718",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71509718.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 34,
+        "net": "pr",
+        "code": "71509718",
+        "ids": ",pr71509718,",
+        "sources": ",pr,",
+        "types": ",origin,",
+        "nst": 3,
+        "dmin": 0.1175,
+        "rms": 0.19,
+        "gap": 271,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 1.5 - 11 km SSW of Guánica, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.9606666666667,
+          17.8825,
+          3.09
+        ]
+      },
+      "id": "pr71509718"
     }
   ],
   "bbox": [
