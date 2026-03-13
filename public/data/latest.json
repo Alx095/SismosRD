@@ -1,14 +1,55 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1773438221000,
+    "generated": 1773439258000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "2.3.0",
-    "count": 225
+    "count": 226
   },
-  "features": [],
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.4,
+        "place": "39 km NNW of The Valley, Anguilla",
+        "time": 1773431607757,
+        "updated": 1773438938020,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000sg56",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000sg56.geojson",
+        "felt": 1,
+        "cdi": 2.7,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 298,
+        "net": "us",
+        "code": "6000sg56",
+        "ids": ",us6000sg56,",
+        "sources": ",us,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": 41,
+        "dmin": 0.931,
+        "rms": 0.77,
+        "gap": 148,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.4 - 39 km NNW of The Valley, Anguilla"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.1664,
+          18.5542,
+          43.046
+        ]
+      },
+      "id": "us6000sg56"
+    }
+  ],
   "bbox": [
     -177.125,
     -35.7987,
