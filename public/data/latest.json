@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1773388380000,
+    "generated": 1773390240000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "2.3.0",
-    "count": 225
+    "count": 224
   },
   "features": [
     {
@@ -128,46 +128,6 @@
         ]
       },
       "id": "pr71509688"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.33,
-        "place": "3 km NNW of Guayanilla, Puerto Rico",
-        "time": 1773302041220,
-        "updated": 1773303161590,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71509678",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71509678.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 84,
-        "net": "pr",
-        "code": "71509678",
-        "ids": ",pr71509678,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 14,
-        "dmin": 0.03097,
-        "rms": 0.15,
-        "gap": 71,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.3 - 3 km NNW of Guayanilla, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.8091666666667,
-          18.0461666666667,
-          16.18
-        ]
-      },
-      "id": "pr71509678"
     }
   ],
   "bbox": [
