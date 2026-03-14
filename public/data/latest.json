@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1773446536000,
+    "generated": 1773456282000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "2.3.0",
-    "count": 234
+    "count": 232
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.02,
+        "place": "56 km N of Arecibo, Puerto Rico",
+        "time": 1773446354820,
+        "updated": 1773448406810,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71509803",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71509803.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 140,
+        "net": "pr",
+        "code": "71509803",
+        "ids": ",pr71509803,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 12,
+        "dmin": 0.5185,
+        "rms": 0.17,
+        "gap": 283,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 3.0 - 56 km N of Arecibo, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.678,
+          18.9788333333333,
+          17.59
+        ]
+      },
+      "id": "pr71509803"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -208,46 +248,6 @@
         ]
       },
       "id": "pr71509723"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.48,
-        "place": "11 km SSW of Guánica, Puerto Rico",
-        "time": 1773360232770,
-        "updated": 1773439254140,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71509718",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71509718.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 34,
-        "net": "pr",
-        "code": "71509718",
-        "ids": ",pr71509718,",
-        "sources": ",pr,",
-        "types": ",origin,",
-        "nst": 3,
-        "dmin": 0.1175,
-        "rms": 0.19,
-        "gap": 271,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 1.5 - 11 km SSW of Guánica, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.9606666666667,
-          17.8825,
-          3.09
-        ]
-      },
-      "id": "pr71509718"
     }
   ],
   "bbox": [
