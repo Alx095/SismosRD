@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1773524595000,
+    "generated": 1773525495000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "2.3.0",
-    "count": 257
+    "count": 256
   },
   "features": [
     {
@@ -368,53 +368,13 @@
         ]
       },
       "id": "pr71509803"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.79,
-        "place": "30 km NNE of Luquillo, Puerto Rico",
-        "time": 1773438751890,
-        "updated": 1773441241408,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2026072000",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2026072000.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 221,
-        "net": "pr",
-        "code": "2026072000",
-        "ids": ",us6000sg60,pr2026072000,",
-        "sources": ",us,pr,",
-        "types": ",origin,phase-data,",
-        "nst": 26,
-        "dmin": 0.5279,
-        "rms": 0.24,
-        "gap": 191,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.8 - 30 km NNE of Luquillo, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -65.5941,
-          18.6235,
-          76
-        ]
-      },
-      "id": "pr2026072000"
     }
   ],
   "bbox": [
     -177.9295,
     -58.7858,
     -0.60000002384186,
-    176.4435,
+    176.5308,
     66.373,
     519.203
   ]
