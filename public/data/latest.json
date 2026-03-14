@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1773488476000,
+    "generated": 1773489316000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
@@ -368,46 +368,6 @@
         ]
       },
       "id": "us6000sg56"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.6,
-        "place": "26 km SE of El Negro, Puerto Rico",
-        "time": 1773402165700,
-        "updated": 1773439485560,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71509733",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71509733.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 104,
-        "net": "pr",
-        "code": "71509733",
-        "ids": ",pr71509733,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 11,
-        "dmin": 0.2376,
-        "rms": 0.21,
-        "gap": 219,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.6 - 26 km SE of El Negro, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -65.662,
-          17.8825,
-          8.87
-        ]
-      },
-      "id": "pr71509733"
     }
   ],
   "bbox": [
