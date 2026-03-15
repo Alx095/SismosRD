@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1773583333000,
+    "generated": 1773585582000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
@@ -9,6 +9,86 @@
     "count": 198
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.85,
+        "place": "0 km SW of G. L. Garcia, Puerto Rico",
+        "time": 1773573625260,
+        "updated": 1773584918100,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71509923",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71509923.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 53,
+        "net": "pr",
+        "code": "71509923",
+        "ids": ",pr71509923,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 5,
+        "dmin": 0.1337,
+        "rms": 0.16,
+        "gap": 134,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 1.9 - 0 km SW of G. L. Garcia, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1071666666667,
+          18.1251666666667,
+          24.58
+        ]
+      },
+      "id": "pr71509923"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.37,
+        "place": "7 km NNE of Sabana Eneas, Puerto Rico",
+        "time": 1773570842670,
+        "updated": 1773583981390,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71509913",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71509913.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 86,
+        "net": "pr",
+        "code": "71509913",
+        "ids": ",pr71509913,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 8,
+        "dmin": 0.03934,
+        "rms": 0.1,
+        "gap": 116,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.4 - 7 km NNE of Sabana Eneas, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.0566666666667,
+          18.1476666666667,
+          17.11
+        ]
+      },
+      "id": "pr71509913"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -92,8 +172,8 @@
   ],
   "bbox": [
     -177.6605,
-    -45.6923,
-    -0.60000002384186,
+    -45.741,
+    -0.0099999997764826,
     176.5308,
     69.447,
     519.203
