@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1773655387000,
+    "generated": 1773659160000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "2.3.0",
-    "count": 224
+    "count": 236
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.32,
+        "place": "81 km NNE of Cruz Bay, U.S. Virgin Islands",
+        "time": 1773655483240,
+        "updated": 1773659091910,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71509948",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71509948.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 170,
+        "net": "pr",
+        "code": "71509948",
+        "ids": ",pr71509948,",
+        "sources": ",pr,",
+        "types": ",origin,",
+        "nst": 16,
+        "dmin": 0.4599,
+        "rms": 0.4,
+        "gap": 286,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 3.3 - 81 km NNE of Cruz Bay, U.S. Virgin Islands"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -64.374,
+          18.9518333333333,
+          47.25
+        ]
+      },
+      "id": "pr71509948"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -88,46 +128,6 @@
         ]
       },
       "id": "pr71509923"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.37,
-        "place": "7 km NNE of Sabana Eneas, Puerto Rico",
-        "time": 1773570842670,
-        "updated": 1773583981390,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71509913",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71509913.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 86,
-        "net": "pr",
-        "code": "71509913",
-        "ids": ",pr71509913,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 8,
-        "dmin": 0.03934,
-        "rms": 0.1,
-        "gap": 116,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.4 - 7 km NNE of Sabana Eneas, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -67.0566666666667,
-          18.1476666666667,
-          17.11
-        ]
-      },
-      "id": "pr71509913"
     }
   ],
   "bbox": [
