@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1773726121000,
+    "generated": 1773729759000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "2.3.0",
-    "count": 280
+    "count": 270
   },
   "features": [
     {
@@ -55,17 +55,17 @@
         "mag": 5.8,
         "place": "49 km SSW of Maisí, Cuba",
         "time": 1773721705013,
-        "updated": 1773725221559,
+        "updated": 1773728493156,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000sgrt",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000sgrt.geojson",
-        "felt": 10,
+        "felt": 11,
         "cdi": 4.8,
         "mmi": 5.33,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 522,
+        "sig": 523,
         "net": "us",
         "code": "6000sgrt",
         "ids": ",us6000sgrt,",
@@ -255,7 +255,7 @@
         "mag": 2.98,
         "place": "67 km NNE of Cruz Bay, U.S. Virgin Islands",
         "time": 1773654833570,
-        "updated": 1773708536820,
+        "updated": 1773727828040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71509988",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71509988.geojson",
@@ -268,8 +268,8 @@
         "sig": 137,
         "net": "pr",
         "code": "71509988",
-        "ids": ",pr71509988,",
-        "sources": ",pr,",
+        "ids": ",us6000sgr0,pr71509988,",
+        "sources": ",us,pr,",
         "types": ",origin,phase-data,",
         "nst": 8,
         "dmin": 0.4685,
@@ -295,7 +295,7 @@
         "mag": 3.01,
         "place": "74 km NNE of Cruz Bay, U.S. Virgin Islands",
         "time": 1773653167030,
-        "updated": 1773707323070,
+        "updated": 1773729138040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71509973",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71509973.geojson",
@@ -308,8 +308,8 @@
         "sig": 139,
         "net": "pr",
         "code": "71509973",
-        "ids": ",pr71509973,",
-        "sources": ",pr,",
+        "ids": ",us6000sgqz,pr71509973,",
+        "sources": ",us,pr,",
         "types": ",origin,phase-data,",
         "nst": 10,
         "dmin": 0.4768,
@@ -371,10 +371,10 @@
     }
   ],
   "bbox": [
-    -178.738,
+    -178.762,
     -62.4511,
     -0.6,
-    179.8699,
+    177.2008,
     69.445,
     588.116
   ]
