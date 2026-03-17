@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1773764130000,
+    "generated": 1773767855000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "2.3.0",
-    "count": 265
+    "count": 264
   },
   "features": [
     {
@@ -215,11 +215,11 @@
         "mag": 5.8,
         "place": "49 km SSW of Maisí, Cuba",
         "time": 1773721705013,
-        "updated": 1773749497894,
+        "updated": 1773764473199,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000sgrt",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000sgrt.geojson",
-        "felt": 13,
+        "felt": 14,
         "cdi": 4.8,
         "mmi": 5.389,
         "alert": "green",
