@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1773750932000,
+    "generated": 1773756017000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "2.3.0",
-    "count": 235
+    "count": 239
   },
   "features": [
     {
@@ -15,7 +15,7 @@
         "mag": 3.52,
         "place": "57 km N of Isabela, Puerto Rico",
         "time": 1773744277980,
-        "updated": 1773746298880,
+        "updated": 1773752564040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2026076001",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2026076001.geojson",
@@ -28,9 +28,9 @@
         "sig": 191,
         "net": "pr",
         "code": "2026076001",
-        "ids": ",pr2026076001,",
-        "sources": ",pr,",
-        "types": ",origin,",
+        "ids": ",us6000sgu9,pr2026076001,",
+        "sources": ",us,pr,",
+        "types": ",origin,phase-data,",
         "nst": 19,
         "dmin": 0.5557,
         "rms": 0.28,
@@ -332,10 +332,10 @@
   ],
   "bbox": [
     -178.8697,
-    -62.4511,
-    -0.6,
+    -31.8075,
+    -0.80000001192093,
     177.2008,
     69.445,
-    588.116
+    577.621
   ]
 }
