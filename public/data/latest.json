@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1773788285000,
+    "generated": 1773790270000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "2.3.0",
-    "count": 282
+    "count": 281
   },
   "features": [
     {
@@ -172,6 +172,46 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 3.14,
+        "place": "77 km N of Charlotte Amalie, U.S. Virgin Islands",
+        "time": 1773730065980,
+        "updated": 1773789616610,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71510028",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71510028.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 152,
+        "net": "pr",
+        "code": "71510028",
+        "ids": ",pr71510028,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 14,
+        "dmin": 0.6822,
+        "rms": 0.24,
+        "gap": 245,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 3.1 - 77 km N of Charlotte Amalie, U.S. Virgin Islands"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -64.9816666666667,
+          19.0378333333333,
+          20.87
+        ]
+      },
+      "id": "pr71510028"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 4.7,
         "place": "60 km SSW of Maisí, Cuba",
         "time": 1773722649528,
@@ -328,46 +368,6 @@
         ]
       },
       "id": "pr71509993"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.65,
-        "place": "57 km NE of Cruz Bay, U.S. Virgin Islands",
-        "time": 1773702966720,
-        "updated": 1773711884040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2026075000",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2026075000.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 205,
-        "net": "pr",
-        "code": "2026075000",
-        "ids": ",us6000sgqn,pr2026075000,",
-        "sources": ",us,pr,",
-        "types": ",origin,phase-data,",
-        "nst": 18,
-        "dmin": 0.2562,
-        "rms": 0.25,
-        "gap": 273,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.7 - 57 km NE of Cruz Bay, U.S. Virgin Islands"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -64.4556,
-          18.7411,
-          60
-        ]
-      },
-      "id": "pr2026075000"
     }
   ],
   "bbox": [
@@ -375,7 +375,7 @@
     -33.1987,
     -0.91,
     178.615,
-    64.978,
+    65,
     577.621
   ]
 }
