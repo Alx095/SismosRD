@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1773923190000,
+    "generated": 1773927933000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "2.3.0",
-    "count": 214
+    "count": 231
   },
   "features": [
     {
@@ -214,8 +214,8 @@
       "properties": {
         "mag": 3.5,
         "place": "2 km SW of Tisma, Nicaragua",
-        "time": 1773884866975,
-        "updated": 1773898981922,
+        "time": 1773884866500,
+        "updated": 1773926311990,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000shal",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000shal.geojson",
@@ -231,9 +231,9 @@
         "ids": ",us6000shal,",
         "sources": ",us,",
         "types": ",dyfi,origin,phase-data,",
-        "nst": 9,
-        "dmin": 1.151,
-        "rms": 0.69,
+        "nst": 10,
+        "dmin": 1.154,
+        "rms": 0.33,
         "gap": 191,
         "magType": "ml",
         "type": "earthquake",
@@ -242,8 +242,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -86.0349,
-          12.0624,
+          -86.0323,
+          12.0604,
           10
         ]
       },
