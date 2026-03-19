@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1773894840000,
+    "generated": 1773898984000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "2.3.0",
-    "count": 211
+    "count": 210
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.37,
+        "place": "105 km N of Charlotte Amalie, U.S. Virgin Islands",
+        "time": 1773893730480,
+        "updated": 1773895978040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71510198",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71510198.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 175,
+        "net": "pr",
+        "code": "71510198",
+        "ids": ",us6000shbg,pr71510198,",
+        "sources": ",us,pr,",
+        "types": ",origin,phase-data,",
+        "nst": 15,
+        "dmin": 0.9365,
+        "rms": 0.5,
+        "gap": 259,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 3.4 - 105 km N of Charlotte Amalie, U.S. Virgin Islands"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.1096666666667,
+          19.2825,
+          87.21
+        ]
+      },
+      "id": "pr71510198"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -48,6 +88,46 @@
         ]
       },
       "id": "pr71510188"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.5,
+        "place": "2 km SW of Tisma, Nicaragua",
+        "time": 1773884866975,
+        "updated": 1773898929040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000shal",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000shal.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 188,
+        "net": "us",
+        "code": "6000shal",
+        "ids": ",us6000shal,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 9,
+        "dmin": 1.151,
+        "rms": 0.69,
+        "gap": 191,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.5 - 2 km SW of Tisma, Nicaragua"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.0349,
+          12.0624,
+          10
+        ]
+      },
+      "id": "us6000shal"
     },
     {
       "type": "Feature",
@@ -334,7 +414,7 @@
     -179.9644,
     -59.3269,
     -0.91,
-    176.4408,
+    145.4382,
     69.523,
     572.494
   ]
