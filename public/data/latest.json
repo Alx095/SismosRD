@@ -1,14 +1,94 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1773968119000,
+    "generated": 1773977148000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "2.3.0",
-    "count": 296
+    "count": 301
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.48,
+        "place": "14 km SSE of Ponce, Puerto Rico",
+        "time": 1773973740210,
+        "updated": 1773975349680,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71510328",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71510328.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 95,
+        "net": "pr",
+        "code": "71510328",
+        "ids": ",pr71510328,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 9,
+        "dmin": 0.06386,
+        "rms": 0.15,
+        "gap": 196,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.5 - 14 km SSE of Ponce, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.5936666666667,
+          17.8828333333333,
+          7.29
+        ]
+      },
+      "id": "pr71510328"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.98,
+        "place": "2 km WSW of Indios, Puerto Rico",
+        "time": 1773967077510,
+        "updated": 1773968389130,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71510323",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71510323.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 60,
+        "net": "pr",
+        "code": "71510323",
+        "ids": ",pr71510323,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 5,
+        "dmin": 0.04185,
+        "rms": 0.09,
+        "gap": 189,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.0 - 2 km WSW of Indios, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.8363333333333,
+          17.9841666666667,
+          17.21
+        ]
+      },
+      "id": "pr71510323"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -55,12 +135,12 @@
         "mag": 5.2,
         "place": "93 km NNE of The Valley, Anguilla",
         "time": 1773960407575,
-        "updated": 1773961551040,
+        "updated": 1773973270382,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000shkh",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000shkh.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -70,7 +150,7 @@
         "code": "6000shkh",
         "ids": ",us6000shkh,",
         "sources": ",us,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 68,
         "dmin": 1.447,
         "rms": 0.72,
@@ -88,6 +168,46 @@
         ]
       },
       "id": "us6000shkh"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.09,
+        "place": "7 km S of Saint Croix, U.S. Virgin Islands",
+        "time": 1773959602220,
+        "updated": 1773970886860,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71510258",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71510258.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 147,
+        "net": "pr",
+        "code": "71510258",
+        "ids": ",pr71510258,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 5,
+        "dmin": 0.7202,
+        "rms": 0.17,
+        "gap": 270,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 3.1 - 7 km S of Saint Croix, U.S. Virgin Islands"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -64.735,
+          17.66,
+          36.32
+        ]
+      },
+      "id": "pr71510258"
     },
     {
       "type": "Feature",
@@ -248,126 +368,6 @@
         ]
       },
       "id": "pr71510198"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.26,
-        "place": "94 km NNW of Charlotte Amalie, U.S. Virgin Islands",
-        "time": 1773888376540,
-        "updated": 1773894309040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71510188",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71510188.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 164,
-        "net": "pr",
-        "code": "71510188",
-        "ids": ",us6000shb3,pr71510188,",
-        "sources": ",us,pr,",
-        "types": ",origin,phase-data,",
-        "nst": 27,
-        "dmin": 0.8326,
-        "rms": 0.3,
-        "gap": 241,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.3 - 94 km NNW of Charlotte Amalie, U.S. Virgin Islands"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -65.1975,
-          19.1573333333333,
-          25.18
-        ]
-      },
-      "id": "pr71510188"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.5,
-        "place": "2 km SW of Tisma, Nicaragua",
-        "time": 1773884866500,
-        "updated": 1773926311990,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000shal",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000shal.geojson",
-        "felt": 1,
-        "cdi": 3.1,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 189,
-        "net": "us",
-        "code": "6000shal",
-        "ids": ",us6000shal,",
-        "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 10,
-        "dmin": 1.154,
-        "rms": 0.33,
-        "gap": 191,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.5 - 2 km SW of Tisma, Nicaragua"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -86.0323,
-          12.0604,
-          10
-        ]
-      },
-      "id": "us6000shal"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.3,
-        "place": "53 km SSW of Maisí, Cuba",
-        "time": 1773881724705,
-        "updated": 1773890740070,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000shae",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000shae.geojson",
-        "felt": 1,
-        "cdi": 1,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 285,
-        "net": "us",
-        "code": "6000shae",
-        "ids": ",us6000shae,",
-        "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 36,
-        "dmin": 0.392,
-        "rms": 0.75,
-        "gap": 51,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.3 - 53 km SSW of Maisí, Cuba"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -74.3155,
-          19.7892,
-          9.668
-        ]
-      },
-      "id": "us6000shae"
     }
   ],
   "bbox": [
@@ -375,7 +375,7 @@
     -61.1525,
     -1.8999999761581,
     179.3256,
-    69.472,
-    533.663
+    68.227,
+    750
   ]
 }
