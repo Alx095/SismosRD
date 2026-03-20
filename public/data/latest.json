@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1774049148000,
+    "generated": 1774050588000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "2.3.0",
-    "count": 369
+    "count": 364
   },
   "features": [
     {
@@ -328,46 +328,6 @@
         ]
       },
       "id": "pr71510323"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.02,
-        "place": "76 km N of Brenas, Puerto Rico",
-        "time": 1773962793090,
-        "updated": 1773966277820,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71510298",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71510298.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 140,
-        "net": "pr",
-        "code": "71510298",
-        "ids": ",pr71510298,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 11,
-        "dmin": 0.6875,
-        "rms": 0.16,
-        "gap": 277,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.0 - 76 km N of Brenas, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.394,
-          19.1561666666667,
-          23.91
-        ]
-      },
-      "id": "pr71510298"
     }
   ],
   "bbox": [
