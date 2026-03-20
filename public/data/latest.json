@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1774003980000,
+    "generated": 1774005661000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "2.3.0",
-    "count": 303
+    "count": 302
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.16,
+        "place": "1 km SSE of Lluveras, Puerto Rico",
+        "time": 1774004075910,
+        "updated": 1774004818890,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71510373",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71510373.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 72,
+        "net": "pr",
+        "code": "71510373",
+        "ids": ",pr71510373,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 6,
+        "dmin": 0.05143,
+        "rms": 0.06,
+        "gap": 117,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.2 - 1 km SSE of Lluveras, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.8976666666667,
+          18.0236666666667,
+          9.31
+        ]
+      },
+      "id": "pr71510373"
+    },
     {
       "type": "Feature",
       "properties": {
