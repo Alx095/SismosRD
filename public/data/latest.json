@@ -1,14 +1,94 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1773977148000,
+    "generated": 1773982795000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "2.3.0",
-    "count": 301
+    "count": 291
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.98,
+        "place": "43 km NNW of San Antonio, Puerto Rico",
+        "time": 1773978413670,
+        "updated": 1773979412680,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71510353",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71510353.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 137,
+        "net": "pr",
+        "code": "71510353",
+        "ids": ",pr71510353,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 19,
+        "dmin": 0.3662,
+        "rms": 0.11,
+        "gap": 300,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 3.0 - 43 km NNW of San Antonio, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.2951666666667,
+          18.8345,
+          10
+        ]
+      },
+      "id": "pr71510353"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.06,
+        "place": "21 km NE of Culebra, Puerto Rico",
+        "time": 1773975763140,
+        "updated": 1773977626190,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71510343",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71510343.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 144,
+        "net": "pr",
+        "code": "71510343",
+        "ids": ",pr71510343,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 11,
+        "dmin": 0.1768,
+        "rms": 0.39,
+        "gap": 176,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 3.1 - 21 km NE of Culebra, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.1413333333333,
+          18.4233333333333,
+          113.07
+        ]
+      },
+      "id": "pr71510343"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -328,46 +408,6 @@
         ]
       },
       "id": "pr71510218"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.37,
-        "place": "105 km N of Charlotte Amalie, U.S. Virgin Islands",
-        "time": 1773893730480,
-        "updated": 1773895978040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71510198",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71510198.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 175,
-        "net": "pr",
-        "code": "71510198",
-        "ids": ",us6000shbg,pr71510198,",
-        "sources": ",us,pr,",
-        "types": ",origin,phase-data,",
-        "nst": 15,
-        "dmin": 0.9365,
-        "rms": 0.5,
-        "gap": 259,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.4 - 105 km N of Charlotte Amalie, U.S. Virgin Islands"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -65.1096666666667,
-          19.2825,
-          87.21
-        ]
-      },
-      "id": "pr71510198"
     }
   ],
   "bbox": [
