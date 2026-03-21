@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1774054257000,
+    "generated": 1774062674000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "2.3.0",
-    "count": 362
+    "count": 351
   },
   "features": [
     {
@@ -248,94 +248,14 @@
         ]
       },
       "id": "pr71510353"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.06,
-        "place": "21 km NE of Culebra, Puerto Rico",
-        "time": 1773975763140,
-        "updated": 1773977626190,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71510343",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71510343.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 144,
-        "net": "pr",
-        "code": "71510343",
-        "ids": ",pr71510343,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 11,
-        "dmin": 0.1768,
-        "rms": 0.39,
-        "gap": 176,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.1 - 21 km NE of Culebra, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -65.1413333333333,
-          18.4233333333333,
-          113.07
-        ]
-      },
-      "id": "pr71510343"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.48,
-        "place": "14 km SSE of Ponce, Puerto Rico",
-        "time": 1773973740210,
-        "updated": 1774010486451,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71510328",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71510328.geojson",
-        "felt": 1,
-        "cdi": 2,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 95,
-        "net": "pr",
-        "code": "71510328",
-        "ids": ",pr71510328,",
-        "sources": ",pr,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 9,
-        "dmin": 0.06386,
-        "rms": 0.15,
-        "gap": 196,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.5 - 14 km SSE of Ponce, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.5936666666667,
-          17.8828333333333,
-          7.29
-        ]
-      },
-      "id": "pr71510328"
     }
   ],
   "bbox": [
     -179.908,
-    -61.1312,
-    -1.75,
-    179.39,
+    -32.1967,
+    -2.41,
+    179.9,
     66.136,
-    750
+    599
   ]
 }
