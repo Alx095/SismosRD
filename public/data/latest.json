@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1774128597000,
+    "generated": 1774129751000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "2.3.0",
-    "count": 261
+    "count": 260
   },
   "features": [
     {
@@ -55,17 +55,17 @@
         "mag": 4.3,
         "place": "10 km E of Ramón Santana, Dominican Republic",
         "time": 1774083539477,
-        "updated": 1774097519268,
+        "updated": 1774128997398,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000si44",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000si44.geojson",
-        "felt": 3,
+        "felt": 5,
         "cdi": 3.1,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 285,
+        "sig": 286,
         "net": "us",
         "code": "6000si44",
         "ids": ",us6000si44,",
