@@ -1,14 +1,94 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1774196635000,
+    "generated": 1774198255000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "2.3.0",
-    "count": 251
+    "count": 254
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.03,
+        "place": "11 km SSE of Punta Santiago, Puerto Rico",
+        "time": 1774196693190,
+        "updated": 1774197968760,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71510563",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71510563.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 63,
+        "net": "pr",
+        "code": "71510563",
+        "ids": ",pr71510563,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 3,
+        "dmin": 0.1632,
+        "rms": 0.08,
+        "gap": 201,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.0 - 11 km SSE of Punta Santiago, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.6925,
+          18.0745,
+          32.91
+        ]
+      },
+      "id": "pr71510563"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.42,
+        "place": "89 km N of Cruz Bay, U.S. Virgin Islands",
+        "time": 1774196113420,
+        "updated": 1774197591890,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71510553",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71510553.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 180,
+        "net": "pr",
+        "code": "71510553",
+        "ids": ",pr71510553,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 14,
+        "dmin": 0.7192,
+        "rms": 0.32,
+        "gap": 265,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 3.4 - 89 km N of Cruz Bay, U.S. Virgin Islands"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -64.74,
+          19.1378333333333,
+          58.57
+        ]
+      },
+      "id": "pr71510553"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -251,7 +331,7 @@
     }
   ],
   "bbox": [
-    -179.848,
+    -179.8805,
     -59.6689,
     -1.6599999666214,
     178.605,
