@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1774168983000,
+    "generated": 1774170236000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "2.3.0",
-    "count": 254
+    "count": 257
   },
   "features": [
     {
@@ -128,46 +128,6 @@
         ]
       },
       "id": "pr71510453"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.3,
-        "place": "10 km E of Ramón Santana, Dominican Republic",
-        "time": 1774083539477,
-        "updated": 1774128997398,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000si44",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000si44.geojson",
-        "felt": 5,
-        "cdi": 3.1,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 286,
-        "net": "us",
-        "code": "6000si44",
-        "ids": ",us6000si44,",
-        "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 32,
-        "dmin": 0.665,
-        "rms": 0.82,
-        "gap": 109,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.3 - 10 km E of Ramón Santana, Dominican Republic"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -69.0814,
-          18.5345,
-          127.618
-        ]
-      },
-      "id": "us6000si44"
     }
   ],
   "bbox": [
