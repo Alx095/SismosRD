@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1774208035000,
+    "generated": 1774208942000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "2.3.0",
-    "count": 257
+    "count": 255
   },
   "features": [
     {
@@ -15,7 +15,7 @@
         "mag": 3.43,
         "place": "60 km NNE of Otra Banda, Dominican Republic",
         "time": 1774206630620,
-        "updated": 1774207937550,
+        "updated": 1774208189040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71510593",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71510593.geojson",
@@ -28,8 +28,8 @@
         "sig": 181,
         "net": "pr",
         "code": "71510593",
-        "ids": ",pr71510593,",
-        "sources": ",pr,",
+        "ids": ",us6000sik2,pr71510593,",
+        "sources": ",us,pr,",
         "types": ",origin,phase-data,",
         "nst": 9,
         "dmin": 0.647,
@@ -48,6 +48,46 @@
         ]
       },
       "id": "pr71510593"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.8,
+        "place": "42 km W of Pole Ojea, Puerto Rico",
+        "time": 1774205258421,
+        "updated": 1774208356040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000sijp",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000sijp.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 121,
+        "net": "us",
+        "code": "6000sijp",
+        "ids": ",us6000sijp,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 16,
+        "dmin": 0.449,
+        "rms": 0.64,
+        "gap": 209,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.8 - 42 km W of Pole Ojea, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.5813,
+          18.0059,
+          17.96
+        ]
+      },
+      "id": "us6000sijp"
     },
     {
       "type": "Feature",
