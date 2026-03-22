@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1774151079000,
+    "generated": 1774156246000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
@@ -128,53 +128,13 @@
         ]
       },
       "id": "us6000si44"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.19,
-        "place": "4 km SSW of Maricao, Puerto Rico",
-        "time": 1774067050470,
-        "updated": 1774068265370,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71510428",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71510428.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 74,
-        "net": "pr",
-        "code": "71510428",
-        "ids": ",pr71510428,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 13,
-        "dmin": 0.08647,
-        "rms": 0.14,
-        "gap": 67,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.2 - 4 km SSW of Maricao, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.9993333333333,
-          18.1488333333333,
-          27.82
-        ]
-      },
-      "id": "pr71510428"
     }
   ],
   "bbox": [
     -179.0714,
-    -30.2134,
+    -41.2577,
     -3.4,
-    166.8808,
+    175.577,
     69.47,
     502.627
   ]
