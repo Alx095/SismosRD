@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1774239190000,
+    "generated": 1774244754000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "2.3.0",
-    "count": 279
+    "count": 281
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.91,
+        "place": "5 km ENE of La Parguera, Puerto Rico",
+        "time": 1774240079390,
+        "updated": 1774240795990,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71510628",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71510628.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 56,
+        "net": "pr",
+        "code": "71510628",
+        "ids": ",pr71510628,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 10,
+        "dmin": 0.0458,
+        "rms": 0.25,
+        "gap": 157,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 1.9 - 5 km ENE of La Parguera, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.999,
+          17.9851666666667,
+          9.03
+        ]
+      },
+      "id": "pr71510628"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -575,7 +615,7 @@
     -59.6689,
     -1.6599999666214,
     179.8449,
-    69.406,
+    65.018,
     618.3
   ]
 }
