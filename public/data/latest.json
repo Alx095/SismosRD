@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1774297462000,
+    "generated": 1774299505000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "2.3.0",
-    "count": 332
+    "count": 329
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.93,
+        "place": "2 km ESE of Palomas, Puerto Rico",
+        "time": 1774289658050,
+        "updated": 1774298800300,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71510738",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71510738.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 57,
+        "net": "pr",
+        "code": "71510738",
+        "ids": ",pr71510738,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 8,
+        "dmin": 0.01686,
+        "rms": 0.35,
+        "gap": 146,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 1.9 - 2 km ESE of Palomas, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.8513333333333,
+          18.0068333333333,
+          12.23
+        ]
+      },
+      "id": "pr71510738"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -488,46 +528,6 @@
         ]
       },
       "id": "pr71510603"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.3,
-        "place": "63 km W of Masachapa, Nicaragua",
-        "time": 1774212627626,
-        "updated": 1774297033040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000sikv",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000sikv.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 284,
-        "net": "us",
-        "code": "6000sikv",
-        "ids": ",us6000sikv,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 38,
-        "dmin": 1.013,
-        "rms": 0.81,
-        "gap": 164,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.3 - 63 km W of Masachapa, Nicaragua"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -87.091,
-          11.6796,
-          35
-        ]
-      },
-      "id": "us6000sikv"
     }
   ],
   "bbox": [
