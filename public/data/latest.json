@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1774283457000,
+    "generated": 1774286823000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "2.3.0",
-    "count": 306
+    "count": 307
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.11,
+        "place": "2 km SSE of Yauco, Puerto Rico",
+        "time": 1774284762070,
+        "updated": 1774285479820,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71510683",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71510683.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 68,
+        "net": "pr",
+        "code": "71510683",
+        "ids": ",pr71510683,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 7,
+        "dmin": 0.05763,
+        "rms": 0.14,
+        "gap": 141,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.1 - 2 km SSE of Yauco, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.8376666666667,
+          18.0171666666667,
+          10.97
+        ]
+      },
+      "id": "pr71510683"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -408,53 +448,13 @@
         ]
       },
       "id": "pr71510573"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.05,
-        "place": "2 km SW of Indios, Puerto Rico",
-        "time": 1774199257440,
-        "updated": 1774203595350,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71510568",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71510568.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 65,
-        "net": "pr",
-        "code": "71510568",
-        "ids": ",pr71510568,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 6,
-        "dmin": 0.0393,
-        "rms": 0.09,
-        "gap": 200,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.1 - 2 km SW of Indios, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.838,
-          17.9766666666667,
-          12.5
-        ]
-      },
-      "id": "pr71510568"
     }
   ],
   "bbox": [
     -178.7267,
     -48.7998,
     -0.79,
-    179.8449,
+    179.7171,
     69.537,
     618.3
   ]
