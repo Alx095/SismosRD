@@ -1,14 +1,94 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1774255033000,
+    "generated": 1774258884000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "2.3.0",
-    "count": 283
+    "count": 281
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.12,
+        "place": "1 km WSW of Guayanilla, Puerto Rico",
+        "time": 1774258155630,
+        "updated": 1774258711400,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71510678",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71510678.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 69,
+        "net": "pr",
+        "code": "71510678",
+        "ids": ",pr71510678,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 6,
+        "dmin": 0.0798,
+        "rms": 0.12,
+        "gap": 168,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.1 - 1 km WSW of Guayanilla, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.8056666666667,
+          18.0135,
+          18.8
+        ]
+      },
+      "id": "pr71510678"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.23,
+        "place": "84 km NW of San Antonio, Puerto Rico",
+        "time": 1774255761080,
+        "updated": 1774257119090,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71510668",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71510668.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 161,
+        "net": "pr",
+        "code": "71510668",
+        "ids": ",pr71510668,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 11,
+        "dmin": 0.7721,
+        "rms": 0.4,
+        "gap": 248,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 3.2 - 84 km NW of San Antonio, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.6315,
+          19.0648333333333,
+          35.51
+        ]
+      },
+      "id": "pr71510668"
+    },
     {
       "type": "Feature",
       "properties": {
