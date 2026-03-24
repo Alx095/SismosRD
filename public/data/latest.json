@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1774344464000,
+    "generated": 1774347169000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "2.3.0",
-    "count": 281
+    "count": 277
   },
   "features": [
     {
@@ -328,46 +328,6 @@
         ]
       },
       "id": "pr71510683"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.12,
-        "place": "1 km WSW of Guayanilla, Puerto Rico",
-        "time": 1774258155630,
-        "updated": 1774258711400,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71510678",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71510678.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 69,
-        "net": "pr",
-        "code": "71510678",
-        "ids": ",pr71510678,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 6,
-        "dmin": 0.0798,
-        "rms": 0.12,
-        "gap": 168,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.1 - 1 km WSW of Guayanilla, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.8056666666667,
-          18.0135,
-          18.8
-        ]
-      },
-      "id": "pr71510678"
     }
   ],
   "bbox": [
