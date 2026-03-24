@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1774372520000,
+    "generated": 1774375700000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "2.3.0",
-    "count": 257
+    "count": 248
   },
   "features": [
     {
@@ -288,93 +288,13 @@
         ]
       },
       "id": "pr71510738"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.39,
-        "place": "30 km SSW of Charlotte Amalie, U.S. Virgin Islands",
-        "time": 1774289165870,
-        "updated": 1774290319310,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71510733",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71510733.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 88,
-        "net": "pr",
-        "code": "71510733",
-        "ids": ",pr71510733,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 6,
-        "dmin": 0.2787,
-        "rms": 0.08,
-        "gap": 218,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.4 - 30 km SSW of Charlotte Amalie, U.S. Virgin Islands"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -65.0365,
-          18.0828333333333,
-          13.85
-        ]
-      },
-      "id": "pr71510733"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.17,
-        "place": "4 km SE of Maria Antonia, Puerto Rico",
-        "time": 1774288392510,
-        "updated": 1774289908530,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71510723",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71510723.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 72,
-        "net": "pr",
-        "code": "71510723",
-        "ids": ",pr71510723,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 9,
-        "dmin": 0.033,
-        "rms": 0.16,
-        "gap": 210,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.2 - 4 km SE of Maria Antonia, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.8628333333333,
-          17.9458333333333,
-          15.68
-        ]
-      },
-      "id": "pr71510723"
     }
   ],
   "bbox": [
     -179.6566,
     -23.9111,
     -1.8,
-    176,
+    176.065,
     69.555,
     489.894
   ]
