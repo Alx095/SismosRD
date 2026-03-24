@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1774347169000,
+    "generated": 1774350534000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "2.3.0",
-    "count": 277
+    "count": 273
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.13,
+        "place": "18 km NW of Saint Croix, U.S. Virgin Islands",
+        "time": 1774346323360,
+        "updated": 1774350143703,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71510773",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71510773.geojson",
+        "felt": 1,
+        "cdi": 1,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 151,
+        "net": "pr",
+        "code": "71510773",
+        "ids": ",pr71510773,",
+        "sources": ",pr,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": 7,
+        "dmin": 0.1358,
+        "rms": 0.33,
+        "gap": 162,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 3.1 - 18 km NW of Saint Croix, U.S. Virgin Islands"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -64.8888333333333,
+          17.8193333333333,
+          7.41
+        ]
+      },
+      "id": "pr71510773"
+    },
     {
       "type": "Feature",
       "properties": {
