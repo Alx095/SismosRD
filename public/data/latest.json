@@ -1,14 +1,94 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1774409721000,
+    "generated": 1774415489000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "2.3.0",
-    "count": 241
+    "count": 236
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.43,
+        "place": "3 km SSW of Tallaboa, Puerto Rico",
+        "time": 1774411982350,
+        "updated": 1774413409000,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71510848",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71510848.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 91,
+        "net": "pr",
+        "code": "71510848",
+        "ids": ",pr71510848,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 15,
+        "dmin": 0.08312,
+        "rms": 0.19,
+        "gap": 161,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.4 - 3 km SSW of Tallaboa, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.7275,
+          17.9631666666667,
+          16.34
+        ]
+      },
+      "id": "pr71510848"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.14,
+        "place": "48 km NW of San Antonio, Puerto Rico",
+        "time": 1774406657780,
+        "updated": 1774409759350,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71510838",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71510838.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 152,
+        "net": "pr",
+        "code": "71510838",
+        "ids": ",pr71510838,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 21,
+        "dmin": 0.4053,
+        "rms": 0.31,
+        "gap": 210,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 3.1 - 48 km NW of San Antonio, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.4045,
+          18.8168333333333,
+          13.95
+        ]
+      },
+      "id": "pr71510838"
+    },
     {
       "type": "Feature",
       "properties": {
