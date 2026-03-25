@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1774453728000,
+    "generated": 1774457232000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "2.3.0",
-    "count": 207
+    "count": 219
   },
   "features": [
     {
@@ -208,50 +208,10 @@
         ]
       },
       "id": "pr71510818"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.63,
-        "place": "2 km WSW of G. L. Garcia, Puerto Rico",
-        "time": 1774369376700,
-        "updated": 1774370465120,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71510803",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71510803.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 106,
-        "net": "pr",
-        "code": "71510803",
-        "ids": ",pr71510803,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 18,
-        "dmin": 0.02539,
-        "rms": 0.24,
-        "gap": 66,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.6 - 2 km WSW of G. L. Garcia, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.1275,
-          18.1228333333333,
-          25.14
-        ]
-      },
-      "id": "pr71510803"
     }
   ],
   "bbox": [
-    -176.6553,
+    -176.129,
     -24.2287,
     -2.62,
     176.4127,
