@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1774436098000,
+    "generated": 1774438560000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "2.3.0",
-    "count": 213
+    "count": 210
   },
   "features": [
     {
@@ -208,46 +208,6 @@
         ]
       },
       "id": "pr71510803"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2,
-        "place": "2 km SSW of Vázquez, Puerto Rico",
-        "time": 1774349941300,
-        "updated": 1774350873390,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71510783",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71510783.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 62,
-        "net": "pr",
-        "code": "71510783",
-        "ids": ",pr71510783,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 10,
-        "dmin": 0.01894,
-        "rms": 0.12,
-        "gap": 143,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.0 - 2 km SSW of Vázquez, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.249,
-          18.042,
-          15.39
-        ]
-      },
-      "id": "pr71510783"
     }
   ],
   "bbox": [
