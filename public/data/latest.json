@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1774552872000,
+    "generated": 1774555130000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "2.3.0",
-    "count": 253
+    "count": 251
   },
   "features": [
     {
@@ -15,7 +15,7 @@
         "mag": 5.5,
         "place": "7 km SW of Ciudad Sandino, Nicaragua",
         "time": 1774545344363,
-        "updated": 1774551654906,
+        "updated": 1774553954531,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000s7w6",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000s7w6.geojson",
@@ -255,7 +255,7 @@
     -61.1426,
     -1.35,
     170.6301,
-    65.204,
+    65.207,
     549.839
   ]
 }
