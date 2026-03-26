@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1774545224000,
+    "generated": 1774548608000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "2.3.0",
-    "count": 243
+    "count": 249
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5.5,
+        "place": "7 km SW of Ciudad Sandino, Nicaragua",
+        "time": 1774545344363,
+        "updated": 1774548373307,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000s7w6",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000s7w6.geojson",
+        "felt": 3,
+        "cdi": 3.4,
+        "mmi": 3.77,
+        "alert": "green",
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 466,
+        "net": "us",
+        "code": "7000s7w6",
+        "ids": ",us7000s7w6,",
+        "sources": ",us,",
+        "types": ",dyfi,losspager,moment-tensor,origin,phase-data,shakemap,",
+        "nst": 81,
+        "dmin": 1.617,
+        "rms": 0.93,
+        "gap": 127,
+        "magType": "mww",
+        "type": "earthquake",
+        "title": "M 5.5 - 7 km SW of Ciudad Sandino, Nicaragua"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.3881,
+          12.1114,
+          155.688
+        ]
+      },
+      "id": "us7000s7w6"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -208,46 +248,6 @@
         ]
       },
       "id": "pr2026085000"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.21,
-        "place": "104 km NNW of Charlotte Amalie, U.S. Virgin Islands",
-        "time": 1774460001110,
-        "updated": 1774485393740,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71510903",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71510903.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 159,
-        "net": "pr",
-        "code": "71510903",
-        "ids": ",pr71510903,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 11,
-        "dmin": 0.9188,
-        "rms": 0.27,
-        "gap": 255,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.2 - 104 km NNW of Charlotte Amalie, U.S. Virgin Islands"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -65.173,
-          19.2528333333333,
-          21.21
-        ]
-      },
-      "id": "pr71510903"
     }
   ],
   "bbox": [
