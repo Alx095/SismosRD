@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1774600362000,
+    "generated": 1774603871000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "2.3.0",
-    "count": 329
+    "count": 331
   },
   "features": [
     {
@@ -55,7 +55,7 @@
         "mag": 3.76,
         "place": "158 km NNW of The Valley, Anguilla",
         "time": 1774592194230,
-        "updated": 1774594671389,
+        "updated": 1774600671040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2026086000",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2026086000.geojson",
@@ -68,8 +68,8 @@
         "sig": 218,
         "net": "pr",
         "code": "2026086000",
-        "ids": ",pr2026086000,",
-        "sources": ",pr,",
+        "ids": ",us7000s81k,pr2026086000,",
+        "sources": ",us,pr,",
         "types": ",origin,phase-data,",
         "nst": 17,
         "dmin": 1.3018,
@@ -95,7 +95,7 @@
         "mag": 3.19,
         "place": "83 km N of Charlotte Amalie, U.S. Virgin Islands",
         "time": 1774590756210,
-        "updated": 1774594295390,
+        "updated": 1774600411040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71510998",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71510998.geojson",
@@ -108,8 +108,8 @@
         "sig": 157,
         "net": "pr",
         "code": "71510998",
-        "ids": ",pr71510998,",
-        "sources": ",pr,",
+        "ids": ",us7000s81h,pr71510998,",
+        "sources": ",us,pr,",
         "types": ",origin,phase-data,",
         "nst": 20,
         "dmin": 0.7305,
@@ -214,7 +214,7 @@
     -177.285,
     -35.7502,
     -1.7200000286102,
-    170.6301,
+    152.9889,
     65.207,
     157.158
   ]
