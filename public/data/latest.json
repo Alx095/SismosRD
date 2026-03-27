@@ -1,21 +1,101 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1774594271000,
+    "generated": 1774597722000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "2.3.0",
-    "count": 329
+    "count": 328
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.4,
+        "place": "3 km SSW of Guánica, Puerto Rico",
+        "time": 1774595775680,
+        "updated": 1774597164020,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71511018",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71511018.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 89,
+        "net": "pr",
+        "code": "71511018",
+        "ids": ",pr71511018,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 21,
+        "dmin": 0.04422,
+        "rms": 0.21,
+        "gap": 184,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.4 - 3 km SSW of Guánica, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.9135,
+          17.945,
+          9.95
+        ]
+      },
+      "id": "pr71511018"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.76,
+        "place": "158 km NNW of The Valley, Anguilla",
+        "time": 1774592194230,
+        "updated": 1774594671389,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2026086000",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2026086000.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 218,
+        "net": "pr",
+        "code": "2026086000",
+        "ids": ",pr2026086000,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 17,
+        "dmin": 1.3018,
+        "rms": 0.39,
+        "gap": 323,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 3.8 - 158 km NNW of The Valley, Anguilla"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.632,
+          19.5398,
+          31
+        ]
+      },
+      "id": "pr2026086000"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 3.19,
         "place": "83 km N of Charlotte Amalie, U.S. Virgin Islands",
         "time": 1774590756210,
-        "updated": 1774592282400,
+        "updated": 1774594295390,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71510998",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71510998.geojson",
@@ -128,46 +208,6 @@
         ]
       },
       "id": "pr71510963"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.61,
-        "place": "12 km SSE of Maria Antonia, Puerto Rico",
-        "time": 1774509777450,
-        "updated": 1774511592630,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71510943",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71510943.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 105,
-        "net": "pr",
-        "code": "71510943",
-        "ids": ",pr71510943,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 12,
-        "dmin": 0.1005,
-        "rms": 0.15,
-        "gap": 243,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.6 - 12 km SSE of Maria Antonia, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.8321666666667,
-          17.8775,
-          7.89
-        ]
-      },
-      "id": "pr71510943"
     }
   ],
   "bbox": [
