@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1774628890000,
+    "generated": 1774632361000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "2.3.0",
-    "count": 345
+    "count": 346
   },
   "features": [
     {
@@ -288,52 +288,12 @@
         ]
       },
       "id": "pr71510998"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5.5,
-        "place": "7 km SW of Ciudad Sandino, Nicaragua",
-        "time": 1774545344363,
-        "updated": 1774553954531,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000s7w6",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000s7w6.geojson",
-        "felt": 6,
-        "cdi": 3.4,
-        "mmi": 3.77,
-        "alert": "green",
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 467,
-        "net": "us",
-        "code": "7000s7w6",
-        "ids": ",us7000s7w6,",
-        "sources": ",us,",
-        "types": ",dyfi,losspager,moment-tensor,origin,phase-data,shakemap,",
-        "nst": 81,
-        "dmin": 1.617,
-        "rms": 0.93,
-        "gap": 127,
-        "magType": "mww",
-        "type": "earthquake",
-        "title": "M 5.5 - 7 km SW of Ciudad Sandino, Nicaragua"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -86.3881,
-          12.1114,
-          155.688
-        ]
-      },
-      "id": "us7000s7w6"
     }
   ],
   "bbox": [
     -166.91683333333,
-    -35.7502,
-    -1.35,
+    -23.4046,
+    -0.52,
     176.397,
     65.207,
     157.158
