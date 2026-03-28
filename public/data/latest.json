@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1774689700000,
+    "generated": 1774691743000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "2.3.0",
-    "count": 292
+    "count": 283
   },
   "features": [
     {
@@ -408,86 +408,6 @@
         ]
       },
       "id": "pr71511043"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.45,
-        "place": "3 km NW of Guayanilla, Puerto Rico",
-        "time": 1774605191410,
-        "updated": 1774606456190,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71511033",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71511033.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 92,
-        "net": "pr",
-        "code": "71511033",
-        "ids": ",pr71511033,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 24,
-        "dmin": 0.02977,
-        "rms": 0.14,
-        "gap": 78,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.5 - 3 km NW of Guayanilla, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.8113333333333,
-          18.0431666666667,
-          15.95
-        ]
-      },
-      "id": "pr71511033"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.23,
-        "place": "6 km SW of Guánica, Puerto Rico",
-        "time": 1774605096290,
-        "updated": 1774608236210,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71511028",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71511028.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 23,
-        "net": "pr",
-        "code": "71511028",
-        "ids": ",pr71511028,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 4,
-        "dmin": 0.08256,
-        "rms": 0.04,
-        "gap": 230,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 1.2 - 6 km SW of Guánica, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.9538333333333,
-          17.9326666666667,
-          5.78
-        ]
-      },
-      "id": "pr71511028"
     }
   ],
   "bbox": [
