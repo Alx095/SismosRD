@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1774738298000,
+    "generated": 1774739786000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "2.3.0",
-    "count": 243
+    "count": 248
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.94,
+        "place": "172 km NNW of The Valley, Anguilla",
+        "time": 1774736918590,
+        "updated": 1774739175580,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2026087002",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2026087002.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 239,
+        "net": "pr",
+        "code": "2026087002",
+        "ids": ",pr2026087002,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 24,
+        "dmin": 1.4315,
+        "rms": 0.28,
+        "gap": 312,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 3.9 - 172 km NNW of The Valley, Anguilla"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.607,
+          19.6806,
+          30
+        ]
+      },
+      "id": "pr2026087002"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -371,7 +411,7 @@
     }
   ],
   "bbox": [
-    -179.8342,
+    -178.0828,
     -32.5436,
     -0.72000002861023,
     178.8963,
