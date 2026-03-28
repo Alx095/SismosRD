@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1774711095000,
+    "generated": 1774712906000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "2.3.0",
-    "count": 260
+    "count": 257
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.6,
+        "place": "124 km N of Brenas, Puerto Rico",
+        "time": 1774703284900,
+        "updated": 1774712047040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2026087000",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2026087000.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 199,
+        "net": "pr",
+        "code": "2026087000",
+        "ids": ",us7000s8dm,pr2026087000,",
+        "sources": ",us,pr,",
+        "types": ",origin,phase-data,",
+        "nst": 19,
+        "dmin": 1.1455,
+        "rms": 0.47,
+        "gap": 225,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 3.6 - 124 km N of Brenas, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.2458,
+          19.587,
+          44
+        ]
+      },
+      "id": "pr2026087000"
+    },
     {
       "type": "Feature",
       "properties": {
