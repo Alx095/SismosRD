@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1774709593000,
+    "generated": 1774711095000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "2.3.0",
-    "count": 264
+    "count": 260
   },
   "features": [
     {
@@ -368,46 +368,6 @@
         ]
       },
       "id": "pr71511053"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.5,
-        "place": "17 km WNW of El Realejo, Nicaragua",
-        "time": 1774623343581,
-        "updated": 1774628738040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000s83h",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000s83h.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 312,
-        "net": "us",
-        "code": "7000s83h",
-        "ids": ",us7000s83h,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 22,
-        "dmin": 1.309,
-        "rms": 0.8,
-        "gap": 153,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.5 - 17 km WNW of El Realejo, Nicaragua"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -87.3158,
-          12.5984,
-          118.538
-        ]
-      },
-      "id": "us7000s83h"
     }
   ],
   "bbox": [
