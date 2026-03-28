@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1774731704000,
+    "generated": 1774733867000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "2.3.0",
-    "count": 260
+    "count": 256
   },
   "features": [
     {
@@ -408,86 +408,6 @@
         ]
       },
       "id": "pr71511083"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.2,
-        "place": "148 km NNE of Cruz Bay, U.S. Virgin Islands",
-        "time": 1774646771843,
-        "updated": 1774661184040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000s89d",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000s89d.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 158,
-        "net": "us",
-        "code": "7000s89d",
-        "ids": ",us7000s89d,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 15,
-        "dmin": 1.111,
-        "rms": 1.23,
-        "gap": 251,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.2 - 148 km NNE of Cruz Bay, U.S. Virgin Islands"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -64.3695,
-          19.6071,
-          11.741
-        ]
-      },
-      "id": "us7000s89d"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.23,
-        "place": "37 km WNW of The Bottom, Bonaire, Saint Eustatius and Saba ",
-        "time": 1774646766680,
-        "updated": 1774649043234,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2026086001",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2026086001.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 275,
-        "net": "pr",
-        "code": "2026086001",
-        "ids": ",pr2026086001,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 19,
-        "dmin": 1.1219,
-        "rms": 0.46,
-        "gap": 320,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 4.2 - 37 km WNW of The Bottom, Bonaire, Saint Eustatius and Saba "
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -63.59,
-          17.7168,
-          139
-        ]
-      },
-      "id": "pr2026086001"
     }
   ],
   "bbox": [
