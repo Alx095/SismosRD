@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1774804773000,
+    "generated": 1774806636000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "2.3.0",
-    "count": 245
+    "count": 251
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.17,
+        "place": "3 km W of Olimpo, Puerto Rico",
+        "time": 1774805199070,
+        "updated": 1774806032240,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71511313",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71511313.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 21,
+        "net": "pr",
+        "code": "71511313",
+        "ids": ",pr71511313,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 4,
+        "dmin": 0.05619,
+        "rms": 0.15,
+        "gap": 145,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 1.2 - 3 km W of Olimpo, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1453333333333,
+          18.0083333333333,
+          9.8
+        ]
+      },
+      "id": "pr71511313"
+    },
     {
       "type": "Feature",
       "properties": {
