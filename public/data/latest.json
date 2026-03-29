@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1774797382000,
+    "generated": 1774799245000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
@@ -9,6 +9,46 @@
     "count": 238
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.4,
+        "place": "33 km NNE of Miches, Dominican Republic",
+        "time": 1774798421639,
+        "updated": 1774798921040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000s8jz",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000s8jz.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 178,
+        "net": "us",
+        "code": "7000s8jz",
+        "ids": ",us7000s8jz,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 11,
+        "dmin": 0.868,
+        "rms": 0.74,
+        "gap": 321,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.4 - 33 km NNE of Miches, Dominican Republic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.8816,
+          19.2448,
+          35
+        ]
+      },
+      "id": "us7000s8jz"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -248,46 +288,6 @@
         ]
       },
       "id": "pr71511203"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.95,
-        "place": "152 km NE of Cruz Bay, U.S. Virgin Islands",
-        "time": 1774711705810,
-        "updated": 1774714756326,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2026087001",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2026087001.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 240,
-        "net": "pr",
-        "code": "2026087001",
-        "ids": ",pr2026087001,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 14,
-        "dmin": 1.0638,
-        "rms": 0.4,
-        "gap": 301,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 4.0 - 152 km NE of Cruz Bay, U.S. Virgin Islands"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -63.9495,
-          19.453,
-          27
-        ]
-      },
-      "id": "pr2026087001"
     }
   ],
   "bbox": [
