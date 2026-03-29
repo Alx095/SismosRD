@@ -1,53 +1,53 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1774800927000,
+    "generated": 1774803211000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "2.3.0",
-    "count": 236
+    "count": 241
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 3.4,
-        "place": "33 km NNE of Miches, Dominican Republic",
-        "time": 1774798421639,
-        "updated": 1774798921040,
+        "mag": 3.69,
+        "place": "29 km NNW of Otra Banda, Dominican Republic",
+        "time": 1774798422190,
+        "updated": 1774802400428,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000s8jz",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000s8jz.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2026088001",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2026088001.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 178,
-        "net": "us",
-        "code": "7000s8jz",
-        "ids": ",us7000s8jz,",
-        "sources": ",us,",
+        "sig": 209,
+        "net": "pr",
+        "code": "2026088001",
+        "ids": ",us7000s8jz,pr2026088001,",
+        "sources": ",us,pr,",
         "types": ",origin,phase-data,",
-        "nst": 11,
-        "dmin": 0.868,
-        "rms": 0.74,
-        "gap": 321,
-        "magType": "ml",
+        "nst": 20,
+        "dmin": 0.5471,
+        "rms": 0.53,
+        "gap": 149,
+        "magType": "md",
         "type": "earthquake",
-        "title": "M 3.4 - 33 km NNE of Miches, Dominican Republic"
+        "title": "M 3.7 - 29 km NNW of Otra Banda, Dominican Republic"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -68.8816,
-          19.2448,
-          35
+          -68.7705,
+          18.8985,
+          102
         ]
       },
-      "id": "us7000s8jz"
+      "id": "pr2026088001"
     },
     {
       "type": "Feature",
