@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1774793225000,
+    "generated": 1774795745000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "2.3.0",
-    "count": 238
+    "count": 236
   },
   "features": [
     {
@@ -248,52 +248,12 @@
         ]
       },
       "id": "pr2026087001"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.81,
-        "place": "17 km N of San Juan, Puerto Rico",
-        "time": 1774708328700,
-        "updated": 1774713107560,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71511163",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71511163.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 121,
-        "net": "pr",
-        "code": "71511163",
-        "ids": ",pr71511163,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 28,
-        "dmin": 0.3145,
-        "rms": 0.19,
-        "gap": 193,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.8 - 17 km N of San Juan, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.1333333333333,
-          18.6216666666667,
-          71.81
-        ]
-      },
-      "id": "pr71511163"
     }
   ],
   "bbox": [
     -179.789,
     -32.5436,
-    -0.62999999523163,
+    -1.6900000572205,
     176.347,
     64.986,
     589.381
