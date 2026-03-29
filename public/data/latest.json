@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1774742580000,
+    "generated": 1774754960000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "2.3.0",
-    "count": 250
+    "count": 240
   },
   "features": [
     {
@@ -15,7 +15,7 @@
         "mag": 3.94,
         "place": "172 km NNW of The Valley, Anguilla",
         "time": 1774736918590,
-        "updated": 1774739175580,
+        "updated": 1774746160040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2026087002",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2026087002.geojson",
@@ -28,8 +28,8 @@
         "sig": 239,
         "net": "pr",
         "code": "2026087002",
-        "ids": ",pr2026087002,",
-        "sources": ",pr,",
+        "ids": ",us7000s8g1,pr2026087002,",
+        "sources": ",us,pr,",
         "types": ",origin,phase-data,",
         "nst": 24,
         "dmin": 1.4315,
@@ -328,86 +328,6 @@
         ]
       },
       "id": "pr71511113"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.4,
-        "place": "23 km NW of Charlotte Amalie, U.S. Virgin Islands",
-        "time": 1774666095930,
-        "updated": 1774667443050,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71511103",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71511103.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 178,
-        "net": "pr",
-        "code": "71511103",
-        "ids": ",us7000s8aq,pr71511103,",
-        "sources": ",us,pr,",
-        "types": ",origin,phase-data,",
-        "nst": 32,
-        "dmin": 0.1886,
-        "rms": 0.54,
-        "gap": 183,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.4 - 23 km NW of Charlotte Amalie, U.S. Virgin Islands"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -65.0553333333333,
-          18.5168333333333,
-          13.85
-        ]
-      },
-      "id": "pr71511103"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.24,
-        "place": "2 km WNW of Potala Pastillo, Puerto Rico",
-        "time": 1774656691680,
-        "updated": 1774657418990,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71511093",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71511093.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 77,
-        "net": "pr",
-        "code": "71511093",
-        "ids": ",pr71511093,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 8,
-        "dmin": 0.09685,
-        "rms": 0.08,
-        "gap": 189,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.2 - 2 km WNW of Potala Pastillo, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.5165,
-          17.9968333333333,
-          15.16
-        ]
-      },
-      "id": "pr71511093"
     }
   ],
   "bbox": [
