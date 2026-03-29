@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1774811076000,
+    "generated": 1774813192000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "2.3.0",
-    "count": 246
+    "count": 250
   },
   "features": [
     {
@@ -288,46 +288,6 @@
         ]
       },
       "id": "pr2026087002"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.43,
-        "place": "82 km ENE of Christiansted, U.S. Virgin Islands",
-        "time": 1774726475780,
-        "updated": 1774727962040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71511203",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71511203.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 181,
-        "net": "pr",
-        "code": "71511203",
-        "ids": ",us7000s8fg,pr71511203,",
-        "sources": ",us,pr,",
-        "types": ",origin,phase-data,",
-        "nst": 14,
-        "dmin": 0.5886,
-        "rms": 0.11,
-        "gap": 290,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.4 - 82 km ENE of Christiansted, U.S. Virgin Islands"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -63.9901666666667,
-          18.0485,
-          139.57
-        ]
-      },
-      "id": "pr71511203"
     }
   ],
   "bbox": [
