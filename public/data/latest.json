@@ -1,14 +1,94 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1774864746000,
+    "generated": 1774868794000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "2.3.0",
-    "count": 295
+    "count": 299
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.01,
+        "place": "16 km NNE of Isabela, Puerto Rico",
+        "time": 1774862796900,
+        "updated": 1774867491110,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71511393",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71511393.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 139,
+        "net": "pr",
+        "code": "71511393",
+        "ids": ",pr71511393,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 4,
+        "dmin": 0.2268,
+        "rms": 0.11,
+        "gap": 283,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 3.0 - 16 km NNE of Isabela, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.948,
+          18.6341666666667,
+          8.79
+        ]
+      },
+      "id": "pr71511393"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.94,
+        "place": "50 km NNW of San Antonio, Puerto Rico",
+        "time": 1774862373390,
+        "updated": 1774865532963,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2026089000",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2026089000.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 239,
+        "net": "pr",
+        "code": "2026089000",
+        "ids": ",us7000s8qr,pr2026089000,",
+        "sources": ",us,pr,",
+        "types": ",origin,phase-data,",
+        "nst": 24,
+        "dmin": 0.4768,
+        "rms": 0.45,
+        "gap": 199,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 3.9 - 50 km NNW of San Antonio, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.355,
+          18.8773,
+          12
+        ]
+      },
+      "id": "pr2026089000"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -252,8 +332,8 @@
   ],
   "bbox": [
     -173.6674,
-    -36.3476,
-    -1.6900000572205,
+    -47.8194,
+    -0.8299999833107,
     167.5229,
     66.8,
     290.414
