@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1774882534000,
+    "generated": 1774886462000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "2.3.0",
-    "count": 302
+    "count": 311
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.46,
+        "place": "22 km W of Puerto Real, Puerto Rico",
+        "time": 1774882904130,
+        "updated": 1774884961660,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71511408",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71511408.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 93,
+        "net": "pr",
+        "code": "71511408",
+        "ids": ",pr71511408,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 10,
+        "dmin": 0.2282,
+        "rms": 0.17,
+        "gap": 285,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.5 - 22 km W of Puerto Real, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.3936666666667,
+          18.1036666666667,
+          14.02
+        ]
+      },
+      "id": "pr71511408"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -95,7 +135,7 @@
         "mag": 5.4,
         "place": "58 km SW of Masachapa, Nicaragua",
         "time": 1774855828018,
-        "updated": 1774864600020,
+        "updated": 1774885674040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000s8pl",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000s8pl.geojson",
@@ -110,7 +150,7 @@
         "code": "7000s8pl",
         "ids": ",us7000s8pl,",
         "sources": ",us,",
-        "types": ",losspager,origin,phase-data,shakemap,",
+        "types": ",losspager,moment-tensor,origin,phase-data,shakemap,",
         "nst": 78,
         "dmin": 1.632,
         "rms": 1.27,
@@ -248,46 +288,6 @@
         ]
       },
       "id": "pr71511313"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.69,
-        "place": "29 km NNW of Otra Banda, Dominican Republic",
-        "time": 1774798422190,
-        "updated": 1774802400428,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2026088001",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2026088001.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 209,
-        "net": "pr",
-        "code": "2026088001",
-        "ids": ",us7000s8jz,pr2026088001,",
-        "sources": ",us,pr,",
-        "types": ",origin,phase-data,",
-        "nst": 20,
-        "dmin": 0.5471,
-        "rms": 0.53,
-        "gap": 149,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.7 - 29 km NNW of Otra Banda, Dominican Republic"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -68.7705,
-          18.8985,
-          102
-        ]
-      },
-      "id": "pr2026088001"
     }
   ],
   "bbox": [
