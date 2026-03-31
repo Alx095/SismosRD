@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1774940182000,
+    "generated": 1774944329000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "2.3.0",
-    "count": 340
+    "count": 332
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.9,
+        "place": "85 km N of Charlotte Amalie, U.S. Virgin Islands",
+        "time": 1774939528884,
+        "updated": 1774940298040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000s91g",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000s91g.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 129,
+        "net": "us",
+        "code": "7000s91g",
+        "ids": ",us7000s91g,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 14,
+        "dmin": 0.725,
+        "rms": 0.43,
+        "gap": 245,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.9 - 85 km N of Charlotte Amalie, U.S. Virgin Islands"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -64.8678,
+          19.1105,
+          35
+        ]
+      },
+      "id": "us7000s91g"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -408,46 +448,6 @@
         ]
       },
       "id": "pr2026089000"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5.4,
-        "place": "58 km SW of Masachapa, Nicaragua",
-        "time": 1774855828018,
-        "updated": 1774885674040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000s8pl",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000s8pl.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": 4.166,
-        "alert": "green",
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 449,
-        "net": "us",
-        "code": "7000s8pl",
-        "ids": ",us7000s8pl,",
-        "sources": ",us,",
-        "types": ",losspager,moment-tensor,origin,phase-data,shakemap,",
-        "nst": 78,
-        "dmin": 1.632,
-        "rms": 1.27,
-        "gap": 150,
-        "magType": "mww",
-        "type": "earthquake",
-        "title": "M 5.4 - 58 km SW of Masachapa, Nicaragua"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -86.8927,
-          11.4154,
-          57.537
-        ]
-      },
-      "id": "us7000s8pl"
     }
   ],
   "bbox": [
