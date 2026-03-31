@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1774978740000,
+    "generated": 1774982071000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "2.3.0",
-    "count": 305
+    "count": 298
   },
   "features": [
     {
@@ -688,86 +688,6 @@
         ]
       },
       "id": "pr71511458"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.23,
-        "place": "3 km ESE of Maria Antonia, Puerto Rico",
-        "time": 1774894147720,
-        "updated": 1774897965920,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71511438",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71511438.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 77,
-        "net": "pr",
-        "code": "71511438",
-        "ids": ",pr71511438,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 7,
-        "dmin": 0.1755,
-        "rms": 0.16,
-        "gap": 168,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.2 - 3 km ESE of Maria Antonia, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.8598333333333,
-          17.9663333333333,
-          8.05
-        ]
-      },
-      "id": "pr71511438"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.22,
-        "place": "92 km N of Charlotte Amalie, U.S. Virgin Islands",
-        "time": 1774894141040,
-        "updated": 1774899234820,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71511453",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71511453.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 160,
-        "net": "pr",
-        "code": "71511453",
-        "ids": ",pr71511453,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 8,
-        "dmin": 0.7923,
-        "rms": 0.25,
-        "gap": 267,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.2 - 92 km N of Charlotte Amalie, U.S. Virgin Islands"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -64.8821666666667,
-          19.1766666666667,
-          20.04
-        ]
-      },
-      "id": "pr71511453"
     }
   ],
   "bbox": [
