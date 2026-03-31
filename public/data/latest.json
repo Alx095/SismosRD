@@ -1,26 +1,66 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1774919863000,
+    "generated": 1774930080000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "2.3.0",
-    "count": 352
+    "count": 328
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.78,
+        "place": "6 km SSW of Indios, Puerto Rico",
+        "time": 1774929103870,
+        "updated": 1774930014620,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71511478",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71511478.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 49,
+        "net": "pr",
+        "code": "71511478",
+        "ids": ",pr71511478,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 7,
+        "dmin": 0.04625,
+        "rms": 0.06,
+        "gap": 219,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 1.8 - 6 km SSW of Indios, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.8345,
+          17.939,
+          13.72
+        ]
+      },
+      "id": "pr71511478"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 3.44,
         "place": "157 km NNW of The Valley, Anguilla",
         "time": 1774912778110,
-        "updated": 1774913727100,
+        "updated": 1774923684180,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71511468",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71511468.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2.2,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -30,7 +70,7 @@
         "code": "71511468",
         "ids": ",pr71511468,",
         "sources": ",pr,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 14,
         "dmin": 1.216,
         "rms": 0.35,
@@ -452,7 +492,7 @@
   ],
   "bbox": [
     -179.855,
-    -47.8194,
+    -55.3251,
     -0.7,
     178.8272,
     66.813,
