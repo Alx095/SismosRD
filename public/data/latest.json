@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1774994575000,
+    "generated": 1774997159000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "2.3.0",
-    "count": 302
+    "count": 306
   },
   "features": [
     {
@@ -732,42 +732,42 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 3.7,
-        "place": "154 km NNW of The Valley, Anguilla",
-        "time": 1774942772252,
-        "updated": 1774949283040,
+        "mag": 3.98,
+        "place": "163 km NNW of The Valley, Anguilla",
+        "time": 1774942773240,
+        "updated": 1774995760622,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000s91j",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000s91j.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2026090000",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2026090000.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 211,
-        "net": "us",
-        "code": "7000s91j",
-        "ids": ",us7000s91j,",
-        "sources": ",us,",
+        "sig": 244,
+        "net": "pr",
+        "code": "2026090000",
+        "ids": ",us7000s91j,pr2026090000,",
+        "sources": ",us,pr,",
         "types": ",origin,phase-data,",
-        "nst": 25,
-        "dmin": 1.461,
-        "rms": 0.48,
-        "gap": 140,
-        "magType": "ml",
+        "nst": 23,
+        "dmin": 1.3422,
+        "rms": 0.39,
+        "gap": 304,
+        "magType": "md",
         "type": "earthquake",
-        "title": "M 3.7 - 154 km NNW of The Valley, Anguilla"
+        "title": "M 4.0 - 163 km NNW of The Valley, Anguilla"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -63.596,
-          19.5189,
-          45.632
+          -63.6346,
+          19.5913,
+          24
         ]
       },
-      "id": "us7000s91j"
+      "id": "pr2026090000"
     },
     {
       "type": "Feature",
@@ -934,8 +934,8 @@
     -178.8625,
     -55.3251,
     -1.67,
-    178.8272,
+    169.2141,
     64.989,
-    698.129
+    642.156
   ]
 }
