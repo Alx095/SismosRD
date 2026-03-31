@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1774997159000,
+    "generated": 1774999024000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "2.3.0",
-    "count": 306
+    "count": 308
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.2,
+        "place": "92 km N of Charlotte Amalie, U.S. Virgin Islands",
+        "time": 1774996841598,
+        "updated": 1774997835040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000s989",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000s989.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 158,
+        "net": "us",
+        "code": "7000s989",
+        "ids": ",us7000s989,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 13,
+        "dmin": 0.844,
+        "rms": 0.63,
+        "gap": 247,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.2 - 92 km N of Charlotte Amalie, U.S. Virgin Islands"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.0438,
+          19.1671,
+          10
+        ]
+      },
+      "id": "us7000s989"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -128,6 +168,86 @@
         ]
       },
       "id": "pr71511718"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.97,
+        "place": "80 km N of Charlotte Amalie, U.S. Virgin Islands",
+        "time": 1774987085540,
+        "updated": 1774998147690,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71511838",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71511838.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 136,
+        "net": "pr",
+        "code": "71511838",
+        "ids": ",pr71511838,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 4,
+        "dmin": 0.6976,
+        "rms": 0.14,
+        "gap": 294,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 3.0 - 80 km N of Charlotte Amalie, U.S. Virgin Islands"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -64.9053333333333,
+          19.0668333333333,
+          15.87
+        ]
+      },
+      "id": "pr71511838"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.69,
+        "place": "74 km N of Charlotte Amalie, U.S. Virgin Islands",
+        "time": 1774987000980,
+        "updated": 1774997831550,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71511828",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71511828.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 111,
+        "net": "pr",
+        "code": "71511828",
+        "ids": ",pr71511828,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 3,
+        "dmin": 0.64,
+        "rms": 0.09,
+        "gap": 290,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.7 - 74 km N of Charlotte Amalie, U.S. Virgin Islands"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -64.8785,
+          19.0146666666667,
+          20.97
+        ]
+      },
+      "id": "pr71511828"
     },
     {
       "type": "Feature",
@@ -888,46 +1008,6 @@
         ]
       },
       "id": "pr71511468"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.46,
-        "place": "4 km ESE of Pájaros, Puerto Rico",
-        "time": 1774911286690,
-        "updated": 1774914249850,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71511458",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71511458.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 93,
-        "net": "pr",
-        "code": "71511458",
-        "ids": ",pr71511458,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 9,
-        "dmin": 0.09639,
-        "rms": 0.12,
-        "gap": 183,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.5 - 4 km ESE of Pájaros, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.1721666666667,
-          18.3565,
-          61.6
-        ]
-      },
-      "id": "pr71511458"
     }
   ],
   "bbox": [
