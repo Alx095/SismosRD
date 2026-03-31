@@ -1,53 +1,93 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1774944329000,
+    "generated": 1774948438000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "2.3.0",
-    "count": 332
+    "count": 323
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.9,
-        "place": "85 km N of Charlotte Amalie, U.S. Virgin Islands",
-        "time": 1774939528884,
-        "updated": 1774940298040,
+        "mag": 3.93,
+        "place": "154 km NNW of The Valley, Anguilla",
+        "time": 1774943815100,
+        "updated": 1774946473270,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000s91g",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000s91g.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2026090001",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2026090001.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 129,
-        "net": "us",
-        "code": "7000s91g",
-        "ids": ",us7000s91g,",
-        "sources": ",us,",
+        "sig": 238,
+        "net": "pr",
+        "code": "2026090001",
+        "ids": ",pr2026090001,",
+        "sources": ",pr,",
         "types": ",origin,phase-data,",
-        "nst": 14,
-        "dmin": 0.725,
-        "rms": 0.43,
-        "gap": 245,
-        "magType": "ml",
+        "nst": 17,
+        "dmin": 1.3051,
+        "rms": 0.55,
+        "gap": 323,
+        "magType": "md",
         "type": "earthquake",
-        "title": "M 2.9 - 85 km N of Charlotte Amalie, U.S. Virgin Islands"
+        "title": "M 3.9 - 154 km NNW of The Valley, Anguilla"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -64.8678,
-          19.1105,
-          35
+          -63.5915,
+          19.513,
+          51
         ]
       },
-      "id": "us7000s91g"
+      "id": "pr2026090001"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.43,
+        "place": "109 km N of Charlotte Amalie, U.S. Virgin Islands",
+        "time": 1774939527650,
+        "updated": 1774946973570,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71511488",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71511488.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 181,
+        "net": "pr",
+        "code": "71511488",
+        "ids": ",us7000s91g,pr71511488,",
+        "sources": ",us,pr,",
+        "types": ",origin,phase-data,",
+        "nst": 16,
+        "dmin": 0.9193,
+        "rms": 0.39,
+        "gap": 271,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 3.4 - 109 km N of Charlotte Amalie, U.S. Virgin Islands"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -64.8271666666667,
+          19.3231666666667,
+          26.35
+        ]
+      },
+      "id": "pr71511488"
     },
     {
       "type": "Feature",
