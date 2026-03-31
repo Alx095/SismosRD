@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1774968180000,
+    "generated": 1774972217000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "2.3.0",
-    "count": 315
+    "count": 317
   },
   "features": [
     {
@@ -328,6 +328,46 @@
         ]
       },
       "id": "pr2026090005"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.97,
+        "place": "163 km NNW of The Valley, Anguilla",
+        "time": 1774949314130,
+        "updated": 1774968517480,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2026090002",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2026090002.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 242,
+        "net": "pr",
+        "code": "2026090002",
+        "ids": ",pr2026090002,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 24,
+        "dmin": 1.2437,
+        "rms": 0.46,
+        "gap": 306,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 4.0 - 163 km NNW of The Valley, Anguilla"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.7398,
+          19.543,
+          31
+        ]
+      },
+      "id": "pr2026090002"
     },
     {
       "type": "Feature",
@@ -768,94 +808,14 @@
         ]
       },
       "id": "pr71511428"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.3,
-        "place": "53 km NNW of San Antonio, Puerto Rico",
-        "time": 1774884094090,
-        "updated": 1774886993470,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71511418",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71511418.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 168,
-        "net": "pr",
-        "code": "71511418",
-        "ids": ",pr71511418,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 12,
-        "dmin": 0.4954,
-        "rms": 0.33,
-        "gap": 217,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.3 - 53 km NNW of San Antonio, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -67.3496666666667,
-          18.9106666666667,
-          8.85
-        ]
-      },
-      "id": "pr71511418"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.46,
-        "place": "22 km W of Puerto Real, Puerto Rico",
-        "time": 1774882904130,
-        "updated": 1774884961660,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71511408",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71511408.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 93,
-        "net": "pr",
-        "code": "71511408",
-        "ids": ",pr71511408,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 10,
-        "dmin": 0.2282,
-        "rms": 0.17,
-        "gap": 285,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.5 - 22 km W of Puerto Real, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -67.3936666666667,
-          18.1036666666667,
-          14.02
-        ]
-      },
-      "id": "pr71511408"
     }
   ],
   "bbox": [
     -178.7732,
     -55.3251,
-    -0.97,
+    -1.67,
     179.19,
     65.35,
-    698.129
+    790.0042
   ]
 }
