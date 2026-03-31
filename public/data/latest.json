@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1774975291000,
+    "generated": 1774978740000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "2.3.0",
-    "count": 310
+    "count": 305
   },
   "features": [
     {
@@ -375,7 +375,7 @@
         "mag": 5,
         "place": "159 km NNW of The Valley, Anguilla",
         "time": 1774948957700,
-        "updated": 1774953034729,
+        "updated": 1774977959040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2026090003",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2026090003.geojson",
@@ -390,7 +390,7 @@
         "code": "2026090003",
         "ids": ",us7000s91x,pr2026090003,",
         "sources": ",us,pr,",
-        "types": ",origin,phase-data,",
+        "types": ",moment-tensor,origin,phase-data,",
         "nst": 25,
         "dmin": 1.3711,
         "rms": 0.3,
@@ -768,46 +768,6 @@
         ]
       },
       "id": "pr71511453"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.31,
-        "place": "14 km SSE of Maria Antonia, Puerto Rico",
-        "time": 1774891204190,
-        "updated": 1774891988960,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71511428",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71511428.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 82,
-        "net": "pr",
-        "code": "71511428",
-        "ids": ",pr71511428,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 11,
-        "dmin": 0.1244,
-        "rms": 0.13,
-        "gap": 251,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.3 - 14 km SSE of Maria Antonia, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.8251666666667,
-          17.8611666666667,
-          5.82
-        ]
-      },
-      "id": "pr71511428"
     }
   ],
   "bbox": [
