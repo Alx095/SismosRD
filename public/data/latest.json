@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1774999024000,
+    "generated": 1775001008000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "2.3.0",
-    "count": 308
+    "count": 309
   },
   "features": [
     {
@@ -93,41 +93,41 @@
       "type": "Feature",
       "properties": {
         "mag": 4.9,
-        "place": "105 km N of Charlotte Amalie, U.S. Virgin Islands",
-        "time": 1774991735159,
-        "updated": 1774994135040,
+        "place": "96 km N of Charlotte Amalie, U.S. Virgin Islands",
+        "time": 1774991738200,
+        "updated": 1775000789475,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000s97d",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000s97d.geojson",
-        "felt": 2,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2026090013",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2026090013.geojson",
+        "felt": 3,
         "cdi": 2.2,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
         "sig": 370,
-        "net": "us",
-        "code": "7000s97d",
-        "ids": ",us7000s97d,",
-        "sources": ",us,",
+        "net": "pr",
+        "code": "2026090013",
+        "ids": ",us7000s97d,pr2026090013,",
+        "sources": ",us,pr,",
         "types": ",dyfi,moment-tensor,origin,phase-data,",
-        "nst": 71,
-        "dmin": 0.923,
-        "rms": 1.12,
-        "gap": 108,
-        "magType": "mww",
+        "nst": 31,
+        "dmin": 0.8479,
+        "rms": 0.32,
+        "gap": 222,
+        "magType": "ml",
         "type": "earthquake",
-        "title": "M 4.9 - 105 km N of Charlotte Amalie, U.S. Virgin Islands"
+        "title": "M 4.9 - 96 km N of Charlotte Amalie, U.S. Virgin Islands"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -64.9367,
-          19.2978,
-          19.949
+          -64.8965,
+          19.2161,
+          20
         ]
       },
-      "id": "us7000s97d"
+      "id": "pr2026090013"
     },
     {
       "type": "Feature",
@@ -968,46 +968,6 @@
         ]
       },
       "id": "pr71511478"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.44,
-        "place": "157 km NNW of The Valley, Anguilla",
-        "time": 1774912778110,
-        "updated": 1774923684180,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71511468",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71511468.geojson",
-        "felt": 1,
-        "cdi": 2.2,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 182,
-        "net": "pr",
-        "code": "71511468",
-        "ids": ",pr71511468,",
-        "sources": ",pr,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 14,
-        "dmin": 1.216,
-        "rms": 0.35,
-        "gap": 322,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.4 - 157 km NNW of The Valley, Anguilla"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -63.6925,
-          19.5095,
-          27.48
-        ]
-      },
-      "id": "pr71511468"
     }
   ],
   "bbox": [
@@ -1015,7 +975,7 @@
     -55.3251,
     -1.67,
     169.2141,
-    64.989,
+    64.979,
     642.156
   ]
 }
