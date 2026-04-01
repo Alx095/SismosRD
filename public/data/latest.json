@@ -1,14 +1,94 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1775064635000,
+    "generated": 1775067002000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "2.3.0",
-    "count": 331
+    "count": 335
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.92,
+        "place": "1 km NNW of Guayanilla, Puerto Rico",
+        "time": 1775055541760,
+        "updated": 1775064911300,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71512273",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71512273.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 57,
+        "net": "pr",
+        "code": "71512273",
+        "ids": ",pr71512273,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 6,
+        "dmin": 0.09756,
+        "rms": 0.13,
+        "gap": 158,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 1.9 - 1 km NNW of Guayanilla, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.7951666666667,
+          18.0311666666667,
+          16.22
+        ]
+      },
+      "id": "pr71512273"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.36,
+        "place": "72 km N of Charlotte Amalie, U.S. Virgin Islands",
+        "time": 1775050033380,
+        "updated": 1775064780790,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71512233",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71512233.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 174,
+        "net": "pr",
+        "code": "71512233",
+        "ids": ",pr71512233,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 7,
+        "dmin": 0.6226,
+        "rms": 0.27,
+        "gap": 247,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 3.4 - 72 km N of Charlotte Amalie, U.S. Virgin Islands"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -64.8766666666667,
+          18.9965,
+          21.1
+        ]
+      },
+      "id": "pr71512233"
+    },
     {
       "type": "Feature",
       "properties": {
