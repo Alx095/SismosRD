@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1775079448000,
+    "generated": 1775081188000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "2.3.0",
-    "count": 337
+    "count": 336
   },
   "features": [
     {
@@ -1015,7 +1015,7 @@
         "mag": 3.37,
         "place": "88 km N of Charlotte Amalie, U.S. Virgin Islands",
         "time": 1775006792660,
-        "updated": 1775033331490,
+        "updated": 1775081016040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71511933",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71511933.geojson",
@@ -1028,8 +1028,8 @@
         "sig": 175,
         "net": "pr",
         "code": "71511933",
-        "ids": ",pr71511933,",
-        "sources": ",pr,",
+        "ids": ",us7000s9bq,pr71511933,",
+        "sources": ",us,pr,",
         "types": ",origin,phase-data,",
         "nst": 17,
         "dmin": 0.7575,
@@ -1648,54 +1648,14 @@
         ]
       },
       "id": "pr71511788"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.87,
-        "place": "167 km NNW of The Valley, Anguilla",
-        "time": 1774993111620,
-        "updated": 1775007545389,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2026090015",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2026090015.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 230,
-        "net": "pr",
-        "code": "2026090015",
-        "ids": ",pr2026090015,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 15,
-        "dmin": 1.4955,
-        "rms": 0.39,
-        "gap": 319,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.9 - 167 km NNW of The Valley, Anguilla"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -63.7088,
-          19.602,
-          37
-        ]
-      },
-      "id": "pr2026090015"
     }
   ],
   "bbox": [
     -179.8982,
     -47.736,
     -0.98,
-    169.2141,
+    161.2363,
     65.127,
-    642.156
+    575.962
   ]
 }
