@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1775043329000,
+    "generated": 1775047049000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
@@ -9,6 +9,46 @@
     "count": 313
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.8,
+        "place": "104 km NNE of Luquillo, Puerto Rico",
+        "time": 1775036058758,
+        "updated": 1775045724040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000s9c2",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000s9c2.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 121,
+        "net": "us",
+        "code": "7000s9c2",
+        "ids": ",us7000s9c2,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 13,
+        "dmin": 0.961,
+        "rms": 0.79,
+        "gap": 254,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.8 - 104 km NNE of Luquillo, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.3466,
+          19.2444,
+          35
+        ]
+      },
+      "id": "us7000s9c2"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -168,6 +208,46 @@
         ]
       },
       "id": "pr71512018"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.06,
+        "place": "98 km N of Charlotte Amalie, U.S. Virgin Islands",
+        "time": 1775016665760,
+        "updated": 1775044741660,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71512003",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71512003.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 144,
+        "net": "pr",
+        "code": "71512003",
+        "ids": ",pr71512003,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 11,
+        "dmin": 0.844,
+        "rms": 0.23,
+        "gap": 263,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 3.1 - 98 km N of Charlotte Amalie, U.S. Virgin Islands"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -64.8956666666667,
+          19.2271666666667,
+          26.93
+        ]
+      },
+      "id": "pr71512003"
     },
     {
       "type": "Feature",
@@ -1568,52 +1648,12 @@
         ]
       },
       "id": "pr2026090009"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.92,
-        "place": "163 km NE of Cruz Bay, U.S. Virgin Islands",
-        "time": 1774958252900,
-        "updated": 1774963936914,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2026090008",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2026090008.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 236,
-        "net": "pr",
-        "code": "2026090008",
-        "ids": ",pr2026090008,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 16,
-        "dmin": 1.157,
-        "rms": 0.44,
-        "gap": 319,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.9 - 163 km NE of Cruz Bay, U.S. Virgin Islands"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -63.841,
-          19.5021,
-          49
-        ]
-      },
-      "id": "pr2026090008"
     }
   ],
   "bbox": [
     -179.8982,
     -47.736,
-    -1.67,
+    -0.87000000476837,
     169.2141,
     69.435,
     642.156
