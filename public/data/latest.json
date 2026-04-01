@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1775085988000,
+    "generated": 1775087675000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
@@ -1288,86 +1288,6 @@
         ]
       },
       "id": "pr2026091001"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.8,
-        "place": "93 km N of Charlotte Amalie, U.S. Virgin Islands",
-        "time": 1775000432381,
-        "updated": 1775007271040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000s991",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000s991.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 121,
-        "net": "us",
-        "code": "7000s991",
-        "ids": ",us7000s991,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 9,
-        "dmin": 0.83,
-        "rms": 0.75,
-        "gap": 273,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.8 - 93 km N of Charlotte Amalie, U.S. Virgin Islands"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -64.9599,
-          19.1891,
-          35
-        ]
-      },
-      "id": "us7000s991"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.81,
-        "place": "106 km N of Charlotte Amalie, U.S. Virgin Islands",
-        "time": 1775000386190,
-        "updated": 1775016558835,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2026090016",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2026090016.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 121,
-        "net": "pr",
-        "code": "2026090016",
-        "ids": ",pr2026090016,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 11,
-        "dmin": 0.894,
-        "rms": 0.43,
-        "gap": 271,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.8 - 106 km N of Charlotte Amalie, U.S. Virgin Islands"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -64.79,
-          19.2961,
-          31
-        ]
-      },
-      "id": "pr2026090016"
     }
   ],
   "bbox": [
