@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1775033212000,
+    "generated": 1775037131000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "2.3.0",
-    "count": 324
+    "count": 322
   },
   "features": [
     {
@@ -208,6 +208,46 @@
         ]
       },
       "id": "pr71511988"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.37,
+        "place": "88 km N of Charlotte Amalie, U.S. Virgin Islands",
+        "time": 1775006792660,
+        "updated": 1775033331490,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71511933",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71511933.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 175,
+        "net": "pr",
+        "code": "71511933",
+        "ids": ",pr71511933,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 17,
+        "dmin": 0.7575,
+        "rms": 0.32,
+        "gap": 257,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 3.4 - 88 km N of Charlotte Amalie, U.S. Virgin Islands"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -64.8836666666667,
+          19.1391666666667,
+          24.03
+        ]
+      },
+      "id": "pr71511933"
     },
     {
       "type": "Feature",
@@ -1612,127 +1652,47 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 4.12,
-        "place": "160 km NNW of Sandy Ground Village, Anguilla",
-        "time": 1774950312350,
-        "updated": 1774960606040,
+        "mag": 3.2,
+        "place": "142 km NE of Cruz Bay, U.S. Virgin Islands",
+        "time": 1774950920388,
+        "updated": 1775036444040,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2026090005",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2026090005.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000s924",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000s924.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 261,
-        "net": "pr",
-        "code": "2026090005",
-        "ids": ",us7000s922,pr2026090005,",
-        "sources": ",us,pr,",
+        "sig": 158,
+        "net": "us",
+        "code": "7000s924",
+        "ids": ",us7000s924,",
+        "sources": ",us,",
         "types": ",origin,phase-data,",
         "nst": 18,
-        "dmin": 1.1448,
-        "rms": 0.43,
-        "gap": 319,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 4.1 - 160 km NNW of Sandy Ground Village, Anguilla"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -63.8168,
-          19.4741,
-          33
-        ]
-      },
-      "id": "pr2026090005"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.97,
-        "place": "163 km NNW of The Valley, Anguilla",
-        "time": 1774949314130,
-        "updated": 1774968517480,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2026090002",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2026090002.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 242,
-        "net": "pr",
-        "code": "2026090002",
-        "ids": ",pr2026090002,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 24,
-        "dmin": 1.2437,
-        "rms": 0.46,
-        "gap": 306,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 4.0 - 163 km NNW of The Valley, Anguilla"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -63.7398,
-          19.543,
-          31
-        ]
-      },
-      "id": "pr2026090002"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5,
-        "place": "159 km NNW of The Valley, Anguilla",
-        "time": 1774948957700,
-        "updated": 1774977959040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2026090003",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2026090003.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 385,
-        "net": "pr",
-        "code": "2026090003",
-        "ids": ",us7000s91x,pr2026090003,",
-        "sources": ",us,pr,",
-        "types": ",moment-tensor,origin,phase-data,",
-        "nst": 25,
-        "dmin": 1.3711,
-        "rms": 0.3,
-        "gap": 250,
+        "dmin": 1.108,
+        "rms": 0.41,
+        "gap": 232,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 5.0 - 159 km NNW of The Valley, Anguilla"
+        "title": "M 3.2 - 142 km NE of Cruz Bay, U.S. Virgin Islands"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -63.5653,
-          19.5763,
-          15
+          -63.881,
+          19.2836,
+          10
         ]
       },
-      "id": "pr2026090003"
+      "id": "us7000s924"
     }
   ],
   "bbox": [
     -179.8982,
-    -31.1408,
+    -47.736,
     -1.67,
     169.2141,
     69.435,
