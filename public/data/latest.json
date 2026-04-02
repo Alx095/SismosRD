@@ -1,14 +1,94 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1775093063000,
+    "generated": 1775102585000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "2.3.0",
-    "count": 326
+    "count": 330
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.07,
+        "place": "108 km N of Cruz Bay, U.S. Virgin Islands",
+        "time": 1775098955600,
+        "updated": 1775100538570,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71512348",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71512348.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 145,
+        "net": "pr",
+        "code": "71512348",
+        "ids": ",pr71512348,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 10,
+        "dmin": 0.8658,
+        "rms": 0.57,
+        "gap": 277,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 3.1 - 108 km N of Cruz Bay, U.S. Virgin Islands"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -64.717,
+          19.3075,
+          5.37
+        ]
+      },
+      "id": "pr71512348"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.94,
+        "place": "1 km SSW of Indios, Puerto Rico",
+        "time": 1775097463760,
+        "updated": 1775098817260,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71512338",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71512338.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 133,
+        "net": "pr",
+        "code": "71512338",
+        "ids": ",pr71512338,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 27,
+        "dmin": 0.0492,
+        "rms": 0.22,
+        "gap": 156,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.9 - 1 km SSW of Indios, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.824,
+          17.9815,
+          13.12
+        ]
+      },
+      "id": "pr71512338"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -95,7 +175,7 @@
         "mag": 3.6,
         "place": "94 km N of Cruz Bay, U.S. Virgin Islands",
         "time": 1775086469570,
-        "updated": 1775089915271,
+        "updated": 1775099463040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2026091005",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2026091005.geojson",
@@ -108,8 +188,8 @@
         "sig": 199,
         "net": "pr",
         "code": "2026091005",
-        "ids": ",pr2026091005,",
-        "sources": ",pr,",
+        "ids": ",us6000sluw,pr2026091005,",
+        "sources": ",us,pr,",
         "types": ",origin,phase-data,",
         "nst": 16,
         "dmin": 0.7821,
@@ -1048,172 +1128,12 @@
         ]
       },
       "id": "pr71512003"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.42,
-        "place": "95 km N of Cruz Bay, U.S. Virgin Islands",
-        "time": 1775014455450,
-        "updated": 1775020140180,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71511988",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71511988.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 180,
-        "net": "pr",
-        "code": "71511988",
-        "ids": ",us7000s9a2,pr71511988,",
-        "sources": ",us,pr,",
-        "types": ",origin,phase-data,",
-        "nst": 16,
-        "dmin": 0.7856,
-        "rms": 0.19,
-        "gap": 266,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.4 - 95 km N of Cruz Bay, U.S. Virgin Islands"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -64.7746666666667,
-          19.1961666666667,
-          55.58
-        ]
-      },
-      "id": "pr71511988"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.43,
-        "place": "91 km N of Cruz Bay, U.S. Virgin Islands",
-        "time": 1775011680660,
-        "updated": 1775081678040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71511978",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71511978.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 181,
-        "net": "pr",
-        "code": "71511978",
-        "ids": ",us7000s9cl,pr71511978,",
-        "sources": ",us,pr,",
-        "types": ",origin,phase-data,",
-        "nst": 8,
-        "dmin": 0.727,
-        "rms": 0.4,
-        "gap": 266,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.4 - 91 km N of Cruz Bay, U.S. Virgin Islands"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -64.7285,
-          19.1518333333333,
-          18.67
-        ]
-      },
-      "id": "pr71511978"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.12,
-        "place": "86 km N of Charlotte Amalie, U.S. Virgin Islands",
-        "time": 1775011077760,
-        "updated": 1775040779280,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71511958",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71511958.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 150,
-        "net": "pr",
-        "code": "71511958",
-        "ids": ",pr71511958,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 5,
-        "dmin": 0.7673,
-        "rms": 0.24,
-        "gap": 261,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.1 - 86 km N of Charlotte Amalie, U.S. Virgin Islands"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -64.9271666666667,
-          19.1233333333333,
-          18.98
-        ]
-      },
-      "id": "pr71511958"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.37,
-        "place": "88 km N of Charlotte Amalie, U.S. Virgin Islands",
-        "time": 1775006792660,
-        "updated": 1775081016040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71511933",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71511933.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 175,
-        "net": "pr",
-        "code": "71511933",
-        "ids": ",us7000s9bq,pr71511933,",
-        "sources": ",us,pr,",
-        "types": ",origin,phase-data,",
-        "nst": 17,
-        "dmin": 0.7575,
-        "rms": 0.32,
-        "gap": 257,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.4 - 88 km N of Charlotte Amalie, U.S. Virgin Islands"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -64.8836666666667,
-          19.1391666666667,
-          24.03
-        ]
-      },
-      "id": "pr71511933"
     }
   ],
   "bbox": [
     -179.8982,
     -47.736,
-    -2.36,
+    -2.22,
     161.2363,
     65.127,
     575.962
