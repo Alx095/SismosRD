@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1775108727000,
+    "generated": 1775112802000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
@@ -9,6 +9,46 @@
     "count": 322
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.25,
+        "place": "86 km N of Charlotte Amalie, U.S. Virgin Islands",
+        "time": 1775107305410,
+        "updated": 1775110512370,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71512403",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71512403.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 162,
+        "net": "pr",
+        "code": "71512403",
+        "ids": ",pr71512403,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 17,
+        "dmin": 0.7428,
+        "rms": 0.35,
+        "gap": 256,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 3.3 - 86 km N of Charlotte Amalie, U.S. Virgin Islands"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -64.8896666666667,
+          19.1215,
+          24.83
+        ]
+      },
+      "id": "pr71512403"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -48,6 +88,46 @@
         ]
       },
       "id": "pr71512388"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.07,
+        "place": "30 km SSE of Saint Croix, U.S. Virgin Islands",
+        "time": 1775107061780,
+        "updated": 1775110418300,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71512398",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71512398.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 145,
+        "net": "pr",
+        "code": "71512398",
+        "ids": ",pr71512398,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 9,
+        "dmin": 0.92,
+        "rms": 0.12,
+        "gap": 278,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 3.1 - 30 km SSE of Saint Croix, U.S. Virgin Islands"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -64.6033333333333,
+          17.4913333333333,
+          58.39
+        ]
+      },
+      "id": "pr71512398"
     },
     {
       "type": "Feature",
@@ -768,90 +848,10 @@
         ]
       },
       "id": "pr71512108"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.24,
-        "place": "111 km N of Charlotte Amalie, U.S. Virgin Islands",
-        "time": 1775023774110,
-        "updated": 1775056440000,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71512098",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71512098.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 162,
-        "net": "pr",
-        "code": "71512098",
-        "ids": ",pr71512098,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 7,
-        "dmin": 0.9448,
-        "rms": 0.4,
-        "gap": 278,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.2 - 111 km N of Charlotte Amalie, U.S. Virgin Islands"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -64.8323333333333,
-          19.3483333333333,
-          36.47
-        ]
-      },
-      "id": "pr71512098"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.1,
-        "place": "117 km N of Cruz Bay, U.S. Virgin Islands",
-        "time": 1775023522400,
-        "updated": 1775052908460,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71512088",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71512088.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 148,
-        "net": "pr",
-        "code": "71512088",
-        "ids": ",pr71512088,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 11,
-        "dmin": 0.9427,
-        "rms": 0.24,
-        "gap": 285,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.1 - 117 km N of Cruz Bay, U.S. Virgin Islands"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -64.7193333333333,
-          19.3886666666667,
-          38.58
-        ]
-      },
-      "id": "pr71512088"
     }
   ],
   "bbox": [
-    -179.2415,
+    -178.9532,
     -47.736,
     -2.22,
     161.2363,
