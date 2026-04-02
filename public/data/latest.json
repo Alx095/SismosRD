@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1775116649000,
+    "generated": 1775120134000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "2.3.0",
-    "count": 319
+    "count": 310
   },
   "features": [
     {
@@ -15,7 +15,7 @@
         "mag": 3.25,
         "place": "86 km N of Charlotte Amalie, U.S. Virgin Islands",
         "time": 1775107305410,
-        "updated": 1775110512370,
+        "updated": 1775117193040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71512403",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71512403.geojson",
@@ -28,8 +28,8 @@
         "sig": 162,
         "net": "pr",
         "code": "71512403",
-        "ids": ",pr71512403,",
-        "sources": ",pr,",
+        "ids": ",us6000sly2,pr71512403,",
+        "sources": ",us,pr,",
         "types": ",origin,phase-data,",
         "nst": 17,
         "dmin": 0.7428,
@@ -768,54 +768,14 @@
         ]
       },
       "id": "pr2026091004"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.23,
-        "place": "97 km N of Charlotte Amalie, U.S. Virgin Islands",
-        "time": 1775031609240,
-        "updated": 1775057984050,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71512128",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71512128.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 161,
-        "net": "pr",
-        "code": "71512128",
-        "ids": ",pr71512128,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 8,
-        "dmin": 0.8108,
-        "rms": 0.2,
-        "gap": 266,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.2 - 97 km N of Charlotte Amalie, U.S. Virgin Islands"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -64.8013333333333,
-          19.2168333333333,
-          23.08
-        ]
-      },
-      "id": "pr71512128"
     }
   ],
   "bbox": [
     -178.9532,
-    -47.736,
+    -22.536,
     -2.22,
     161.2363,
     65.127,
-    580.94
+    624.1
   ]
 }
