@@ -1,14 +1,94 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1775168273000,
+    "generated": 1775170355000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "2.3.0",
-    "count": 307
+    "count": 305
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.23,
+        "place": "96 km N of Charlotte Amalie, U.S. Virgin Islands",
+        "time": 1775167583820,
+        "updated": 1775168801670,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71512628",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71512628.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 161,
+        "net": "pr",
+        "code": "71512628",
+        "ids": ",pr71512628,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 11,
+        "dmin": 0.8026,
+        "rms": 0.42,
+        "gap": 264,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 3.2 - 96 km N of Charlotte Amalie, U.S. Virgin Islands"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -64.822,
+          19.2038333333333,
+          69.82
+        ]
+      },
+      "id": "pr71512628"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.66,
+        "place": "11 km NE of Cruz Bay, U.S. Virgin Islands",
+        "time": 1775165721360,
+        "updated": 1775169111860,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2026092004",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2026092004.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 206,
+        "net": "pr",
+        "code": "2026092004",
+        "ids": ",pr2026092004,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 8,
+        "dmin": 0.0951,
+        "rms": 0.08,
+        "gap": 179,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 3.7 - 11 km NE of Cruz Bay, U.S. Virgin Islands"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -64.713,
+          18.4033,
+          130
+        ]
+      },
+      "id": "pr2026092004"
+    },
     {
       "type": "Feature",
       "properties": {
