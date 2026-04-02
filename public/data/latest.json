@@ -1,53 +1,93 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1775141047000,
+    "generated": 1775144532000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "2.3.0",
-    "count": 314
+    "count": 327
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 3.2,
-        "place": "58 km NNW of Charlotte Amalie, U.S. Virgin Islands",
-        "time": 1775137841570,
-        "updated": 1775139407040,
+        "mag": 3.5,
+        "place": "84 km N of Charlotte Amalie, U.S. Virgin Islands",
+        "time": 1775141337874,
+        "updated": 1775143437040,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000sm0b",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000sm0b.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000sm25",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000sm25.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 158,
+        "sig": 188,
         "net": "us",
-        "code": "6000sm0b",
-        "ids": ",us6000sm0b,",
+        "code": "6000sm25",
+        "ids": ",us6000sm25,",
         "sources": ",us,",
         "types": ",origin,phase-data,",
-        "nst": 12,
-        "dmin": 0.642,
-        "rms": 0.47,
-        "gap": 235,
+        "nst": 17,
+        "dmin": 0.786,
+        "rms": 0.38,
+        "gap": 215,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.2 - 58 km NNW of Charlotte Amalie, U.S. Virgin Islands"
+        "title": "M 3.5 - 84 km N of Charlotte Amalie, U.S. Virgin Islands"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -65.1483,
-          18.8244,
+          -65.0467,
+          19.0981,
           10
         ]
       },
-      "id": "us6000sm0b"
+      "id": "us6000sm25"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.34,
+        "place": "121 km N of Charlotte Amalie, U.S. Virgin Islands",
+        "time": 1775137836600,
+        "updated": 1775141643310,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71512513",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71512513.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 172,
+        "net": "pr",
+        "code": "71512513",
+        "ids": ",us6000sm0b,pr71512513,",
+        "sources": ",us,pr,",
+        "types": ",origin,phase-data,",
+        "nst": 15,
+        "dmin": 1.007,
+        "rms": 0.32,
+        "gap": 277,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 3.3 - 121 km N of Charlotte Amalie, U.S. Virgin Islands"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -64.7941666666667,
+          19.4315,
+          13.6
+        ]
+      },
+      "id": "pr71512513"
     },
     {
       "type": "Feature",
@@ -888,46 +928,6 @@
         ]
       },
       "id": "pr71512293"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.92,
-        "place": "1 km NNW of Guayanilla, Puerto Rico",
-        "time": 1775055541760,
-        "updated": 1775064911300,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71512273",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71512273.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 57,
-        "net": "pr",
-        "code": "71512273",
-        "ids": ",pr71512273,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 6,
-        "dmin": 0.09756,
-        "rms": 0.13,
-        "gap": 158,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 1.9 - 1 km NNW of Guayanilla, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.7951666666667,
-          18.0311666666667,
-          16.22
-        ]
-      },
-      "id": "pr71512273"
     }
   ],
   "bbox": [
