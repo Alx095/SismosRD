@@ -1,53 +1,53 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1775147778000,
+    "generated": 1775150846000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "2.3.0",
-    "count": 333
+    "count": 325
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 3.4,
-        "place": "68 km NNW of Charlotte Amalie, U.S. Virgin Islands",
-        "time": 1775143923046,
-        "updated": 1775145450040,
+        "mag": 3.36,
+        "place": "105 km N of Charlotte Amalie, U.S. Virgin Islands",
+        "time": 1775143920990,
+        "updated": 1775148481040,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000sm2l",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000sm2l.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71512568",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71512568.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 178,
-        "net": "us",
-        "code": "6000sm2l",
-        "ids": ",us6000sm2l,",
-        "sources": ",us,",
+        "sig": 174,
+        "net": "pr",
+        "code": "71512568",
+        "ids": ",us6000sm2l,pr71512568,",
+        "sources": ",us,pr,",
         "types": ",origin,phase-data,",
-        "nst": 15,
-        "dmin": 0.688,
-        "rms": 0.59,
-        "gap": 226,
-        "magType": "ml",
+        "nst": 17,
+        "dmin": 0.8956,
+        "rms": 0.36,
+        "gap": 267,
+        "magType": "md",
         "type": "earthquake",
-        "title": "M 3.4 - 68 km NNW of Charlotte Amalie, U.S. Virgin Islands"
+        "title": "M 3.4 - 105 km N of Charlotte Amalie, U.S. Virgin Islands"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -65.1082,
-          18.9329,
-          10
+          -64.8611666666667,
+          19.2908333333333,
+          11.47
         ]
       },
-      "id": "us6000sm2l"
+      "id": "pr71512568"
     },
     {
       "type": "Feature",
