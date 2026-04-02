@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1775163654000,
+    "generated": 1775166470000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "2.3.0",
-    "count": 321
+    "count": 312
   },
   "features": [
     {
@@ -1128,53 +1128,13 @@
         ]
       },
       "id": "pr2026091005"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.92,
-        "place": "1 km WSW of Indios, Puerto Rico",
-        "time": 1775077609910,
-        "updated": 1775081245070,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71512298",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71512298.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 57,
-        "net": "pr",
-        "code": "71512298",
-        "ids": ",pr71512298,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 5,
-        "dmin": 0.04556,
-        "rms": 0.14,
-        "gap": 183,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 1.9 - 1 km WSW of Indios, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.8336666666667,
-          17.989,
-          11.27
-        ]
-      },
-      "id": "pr71512298"
     }
   ],
   "bbox": [
     -178.9532,
-    -22.536,
+    -21.4635,
     -2.94,
-    161.2363,
+    146.7269,
     65.262,
     580.94
   ]
