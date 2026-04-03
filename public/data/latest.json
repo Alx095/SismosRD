@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1775178215000,
+    "generated": 1775188169000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "2.3.0",
-    "count": 305
+    "count": 298
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.4,
+        "place": "59 km N of Cruz Bay, U.S. Virgin Islands",
+        "time": 1775183673490,
+        "updated": 1775186512040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71512668",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71512668.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 178,
+        "net": "pr",
+        "code": "71512668",
+        "ids": ",us6000sm9l,pr71512668,",
+        "sources": ",us,pr,",
+        "types": ",origin,phase-data,",
+        "nst": 18,
+        "dmin": 0.4791,
+        "rms": 0.47,
+        "gap": 239,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 3.4 - 59 km N of Cruz Bay, U.S. Virgin Islands"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -64.8055,
+          18.8683333333333,
+          82.46
+        ]
+      },
+      "id": "pr71512668"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -55,7 +95,7 @@
         "mag": 3.35,
         "place": "67 km N of Hatillo, Puerto Rico",
         "time": 1775171357030,
-        "updated": 1775172896900,
+        "updated": 1775183173040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71512638",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71512638.geojson",
@@ -68,8 +108,8 @@
         "sig": 173,
         "net": "pr",
         "code": "71512638",
-        "ids": ",pr71512638,",
-        "sources": ",pr,",
+        "ids": ",us6000sm86,pr71512638,",
+        "sources": ",us,pr,",
         "types": ",origin,phase-data,",
         "nst": 20,
         "dmin": 0.6292,
@@ -95,7 +135,7 @@
         "mag": 3.23,
         "place": "96 km N of Charlotte Amalie, U.S. Virgin Islands",
         "time": 1775167583820,
-        "updated": 1775168801670,
+        "updated": 1775182513040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71512628",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71512628.geojson",
@@ -108,8 +148,8 @@
         "sig": 161,
         "net": "pr",
         "code": "71512628",
-        "ids": ",pr71512628,",
-        "sources": ",pr,",
+        "ids": ",us6000sm7w,pr71512628,",
+        "sources": ",us,pr,",
         "types": ",origin,phase-data,",
         "nst": 11,
         "dmin": 0.8026,
@@ -1088,94 +1128,14 @@
         ]
       },
       "id": "pr71512358"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.07,
-        "place": "108 km N of Cruz Bay, U.S. Virgin Islands",
-        "time": 1775098955600,
-        "updated": 1775100538570,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71512348",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71512348.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 145,
-        "net": "pr",
-        "code": "71512348",
-        "ids": ",pr71512348,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 10,
-        "dmin": 0.8658,
-        "rms": 0.57,
-        "gap": 277,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.1 - 108 km N of Cruz Bay, U.S. Virgin Islands"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -64.717,
-          19.3075,
-          5.37
-        ]
-      },
-      "id": "pr71512348"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.94,
-        "place": "1 km SSW of Indios, Puerto Rico",
-        "time": 1775097463760,
-        "updated": 1775098817260,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71512338",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71512338.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 133,
-        "net": "pr",
-        "code": "71512338",
-        "ids": ",pr71512338,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 27,
-        "dmin": 0.0492,
-        "rms": 0.22,
-        "gap": 156,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.9 - 1 km SSW of Indios, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.824,
-          17.9815,
-          13.12
-        ]
-      },
-      "id": "pr71512338"
     }
   ],
   "bbox": [
-    -174.13233333333,
+    -179.0112,
     -55.5928,
     -2.94,
     169.4841,
     65.262,
-    278.376
+    620.99
   ]
 }
