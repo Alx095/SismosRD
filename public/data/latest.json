@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1775214008000,
+    "generated": 1775216554000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "2.3.0",
-    "count": 277
+    "count": 281
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.25,
+        "place": "103 km N of Charlotte Amalie, U.S. Virgin Islands",
+        "time": 1775213163370,
+        "updated": 1775214575100,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71512713",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71512713.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 162,
+        "net": "pr",
+        "code": "71512713",
+        "ids": ",pr71512713,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 7,
+        "dmin": 0.8662,
+        "rms": 0.2,
+        "gap": 285,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 3.3 - 103 km N of Charlotte Amalie, U.S. Virgin Islands"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -64.8111666666667,
+          19.2718333333333,
+          16.96
+        ]
+      },
+      "id": "pr71512713"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -135,7 +175,7 @@
         "mag": 3.37,
         "place": "95 km N of Charlotte Amalie, U.S. Virgin Islands",
         "time": 1775194932190,
-        "updated": 1775196864500,
+        "updated": 1775214082040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71512683",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71512683.geojson",
@@ -148,8 +188,8 @@
         "sig": 175,
         "net": "pr",
         "code": "71512683",
-        "ids": ",pr71512683,",
-        "sources": ",pr,",
+        "ids": ",us6000smaj,pr71512683,",
+        "sources": ",us,pr,",
         "types": ",origin,phase-data,",
         "nst": 19,
         "dmin": 0.8076,
