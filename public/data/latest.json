@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1775188169000,
+    "generated": 1775193935000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "2.3.0",
-    "count": 298
+    "count": 292
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.34,
+        "place": "57 km NW of San Antonio, Puerto Rico",
+        "time": 1775187402640,
+        "updated": 1775193266040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71512678",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71512678.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 172,
+        "net": "pr",
+        "code": "71512678",
+        "ids": ",us6000sma5,pr71512678,",
+        "sources": ",us,pr,",
+        "types": ",origin,phase-data,",
+        "nst": 16,
+        "dmin": 0.527,
+        "rms": 0.28,
+        "gap": 312,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 3.3 - 57 km NW of San Antonio, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.4355,
+          18.8978333333333,
+          10.92
+        ]
+      },
+      "id": "pr71512678"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -888,253 +928,13 @@
         ]
       },
       "id": "pr71512408"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.25,
-        "place": "86 km N of Charlotte Amalie, U.S. Virgin Islands",
-        "time": 1775107305410,
-        "updated": 1775117193040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71512403",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71512403.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 162,
-        "net": "pr",
-        "code": "71512403",
-        "ids": ",us6000sly2,pr71512403,",
-        "sources": ",us,pr,",
-        "types": ",origin,phase-data,",
-        "nst": 17,
-        "dmin": 0.7428,
-        "rms": 0.35,
-        "gap": 256,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.3 - 86 km N of Charlotte Amalie, U.S. Virgin Islands"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -64.8896666666667,
-          19.1215,
-          24.83
-        ]
-      },
-      "id": "pr71512403"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.35,
-        "place": "78 km N of Charlotte Amalie, U.S. Virgin Islands",
-        "time": 1775107163270,
-        "updated": 1775112965040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71512388",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71512388.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 173,
-        "net": "pr",
-        "code": "71512388",
-        "ids": ",us6000slxv,pr71512388,",
-        "sources": ",us,pr,",
-        "types": ",origin,phase-data,",
-        "nst": 24,
-        "dmin": 0.6965,
-        "rms": 0.51,
-        "gap": 248,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.4 - 78 km N of Charlotte Amalie, U.S. Virgin Islands"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -64.969,
-          19.0525,
-          9.7
-        ]
-      },
-      "id": "pr71512388"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.07,
-        "place": "30 km SSE of Saint Croix, U.S. Virgin Islands",
-        "time": 1775107061780,
-        "updated": 1775110418300,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71512398",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71512398.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 145,
-        "net": "pr",
-        "code": "71512398",
-        "ids": ",pr71512398,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 9,
-        "dmin": 0.92,
-        "rms": 0.12,
-        "gap": 278,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.1 - 30 km SSE of Saint Croix, U.S. Virgin Islands"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -64.6033333333333,
-          17.4913333333333,
-          58.39
-        ]
-      },
-      "id": "pr71512398"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.07,
-        "place": "98 km N of Charlotte Amalie, U.S. Virgin Islands",
-        "time": 1775106908280,
-        "updated": 1775112798040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71512378",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71512378.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 145,
-        "net": "pr",
-        "code": "71512378",
-        "ids": ",us6000slxw,pr71512378,",
-        "sources": ",us,pr,",
-        "types": ",origin,phase-data,",
-        "nst": 21,
-        "dmin": 0.8337,
-        "rms": 0.56,
-        "gap": 264,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.1 - 98 km N of Charlotte Amalie, U.S. Virgin Islands"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -64.8636666666667,
-          19.2256666666667,
-          27.73
-        ]
-      },
-      "id": "pr71512378"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.44,
-        "place": "95 km N of Charlotte Amalie, U.S. Virgin Islands",
-        "time": 1775105152820,
-        "updated": 1775106763050,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71512368",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71512368.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 182,
-        "net": "pr",
-        "code": "71512368",
-        "ids": ",us6000slxl,pr71512368,",
-        "sources": ",us,pr,",
-        "types": ",origin,phase-data,",
-        "nst": 29,
-        "dmin": 0.8076,
-        "rms": 0.26,
-        "gap": 256,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.4 - 95 km N of Charlotte Amalie, U.S. Virgin Islands"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -64.8606666666667,
-          19.1991666666667,
-          8.98
-        ]
-      },
-      "id": "pr71512368"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.41,
-        "place": "87 km N of Charlotte Amalie, U.S. Virgin Islands",
-        "time": 1775103326260,
-        "updated": 1775106251040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71512358",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71512358.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 179,
-        "net": "pr",
-        "code": "71512358",
-        "ids": ",us6000slxh,pr71512358,",
-        "sources": ",us,pr,",
-        "types": ",origin,phase-data,",
-        "nst": 18,
-        "dmin": 0.7464,
-        "rms": 0.27,
-        "gap": 258,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.4 - 87 km N of Charlotte Amalie, U.S. Virgin Islands"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -64.8695,
-          19.132,
-          20.74
-        ]
-      },
-      "id": "pr71512358"
     }
   ],
   "bbox": [
     -179.0112,
     -55.5928,
     -2.94,
-    169.4841,
+    176.2978,
     65.262,
     620.99
   ]
