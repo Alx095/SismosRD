@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1775239475000,
+    "generated": 1775242800000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "2.3.0",
-    "count": 281
+    "count": 285
   },
   "features": [
     {
@@ -528,86 +528,6 @@
         ]
       },
       "id": "pr2026092003"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.31,
-        "place": "95 km N of Charlotte Amalie, U.S. Virgin Islands",
-        "time": 1775153800800,
-        "updated": 1775155118420,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71512603",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71512603.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 169,
-        "net": "pr",
-        "code": "71512603",
-        "ids": ",pr71512603,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 14,
-        "dmin": 0.8201,
-        "rms": 0.56,
-        "gap": 262,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.3 - 95 km N of Charlotte Amalie, U.S. Virgin Islands"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -64.8823333333333,
-          19.206,
-          68.21
-        ]
-      },
-      "id": "pr71512603"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.33,
-        "place": "1 km ENE of Magas Arriba, Puerto Rico",
-        "time": 1775153359520,
-        "updated": 1775154602990,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71512593",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71512593.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 84,
-        "net": "pr",
-        "code": "71512593",
-        "ids": ",pr71512593,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 11,
-        "dmin": 0.03546,
-        "rms": 0.08,
-        "gap": 159,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.3 - 1 km ENE of Magas Arriba, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.7543333333333,
-          18.0221666666667,
-          12.1
-        ]
-      },
-      "id": "pr71512593"
     }
   ],
   "bbox": [
@@ -615,7 +535,7 @@
     -55.5928,
     -1.78,
     176.3511,
-    64.384,
+    64.613,
     620.99
   ]
 }
