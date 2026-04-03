@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1775253075000,
+    "generated": 1775254653000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "2.3.0",
-    "count": 305
+    "count": 310
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.64,
+        "place": "5 km S of Guánica, Puerto Rico",
+        "time": 1775252827080,
+        "updated": 1775253446910,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71512768",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71512768.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 41,
+        "net": "pr",
+        "code": "71512768",
+        "ids": ",pr71512768,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 6,
+        "dmin": 0.05895,
+        "rms": 0.06,
+        "gap": 226,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 1.6 - 5 km S of Guánica, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.9095,
+          17.9233333333333,
+          14.98
+        ]
+      },
+      "id": "pr71512768"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -528,46 +568,6 @@
         ]
       },
       "id": "pr71512638"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.23,
-        "place": "96 km N of Charlotte Amalie, U.S. Virgin Islands",
-        "time": 1775167583820,
-        "updated": 1775182513040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71512628",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71512628.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 161,
-        "net": "pr",
-        "code": "71512628",
-        "ids": ",us6000sm7w,pr71512628,",
-        "sources": ",us,pr,",
-        "types": ",origin,phase-data,",
-        "nst": 11,
-        "dmin": 0.8026,
-        "rms": 0.42,
-        "gap": 264,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.2 - 96 km N of Charlotte Amalie, U.S. Virgin Islands"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -64.822,
-          19.2038333333333,
-          69.82
-        ]
-      },
-      "id": "pr71512628"
     }
   ],
   "bbox": [
