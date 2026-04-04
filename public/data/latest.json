@@ -1,14 +1,134 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1775264793000,
+    "generated": 1775274061000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "2.3.0",
-    "count": 320
+    "count": 322
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.17,
+        "place": "35 km NNW of Charlotte Amalie, U.S. Virgin Islands",
+        "time": 1775268262810,
+        "updated": 1775269722270,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71512818",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71512818.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 155,
+        "net": "pr",
+        "code": "71512818",
+        "ids": ",pr71512818,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 17,
+        "dmin": 0.3023,
+        "rms": 0.31,
+        "gap": 204,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 3.2 - 35 km NNW of Charlotte Amalie, U.S. Virgin Islands"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.0425,
+          18.645,
+          74.64
+        ]
+      },
+      "id": "pr71512818"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.95,
+        "place": "4 km SW of Tallaboa, Puerto Rico",
+        "time": 1775267929140,
+        "updated": 1775268939780,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71512808",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71512808.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 58,
+        "net": "pr",
+        "code": "71512808",
+        "ids": ",pr71512808,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 8,
+        "dmin": 0.1255,
+        "rms": 0.1,
+        "gap": 217,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.0 - 4 km SW of Tallaboa, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.7481666666667,
+          17.9618333333333,
+          19.55
+        ]
+      },
+      "id": "pr71512808"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.14,
+        "place": "10 km N of Hatillo, Puerto Rico",
+        "time": 1775265660440,
+        "updated": 1775268610040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71512793",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71512793.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 152,
+        "net": "pr",
+        "code": "71512793",
+        "ids": ",us6000smgs,pr71512793,",
+        "sources": ",us,pr,",
+        "types": ",origin,phase-data,",
+        "nst": 32,
+        "dmin": 0.1569,
+        "rms": 0.2,
+        "gap": 192,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 3.1 - 10 km N of Hatillo, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.8155,
+          18.5823333333333,
+          74.6
+        ]
+      },
+      "id": "pr71512793"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -255,7 +375,7 @@
         "mag": 3.25,
         "place": "103 km N of Charlotte Amalie, U.S. Virgin Islands",
         "time": 1775213163370,
-        "updated": 1775214575100,
+        "updated": 1775269135040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71512713",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71512713.geojson",
@@ -268,8 +388,8 @@
         "sig": 162,
         "net": "pr",
         "code": "71512713",
-        "ids": ",pr71512713,",
-        "sources": ",pr,",
+        "ids": ",us6000smbt,pr71512713,",
+        "sources": ",us,pr,",
         "types": ",origin,phase-data,",
         "nst": 7,
         "dmin": 0.8662,
@@ -448,94 +568,14 @@
         ]
       },
       "id": "pr71512683"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.34,
-        "place": "57 km NW of San Antonio, Puerto Rico",
-        "time": 1775187402640,
-        "updated": 1775193266040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71512678",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71512678.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 172,
-        "net": "pr",
-        "code": "71512678",
-        "ids": ",us6000sma5,pr71512678,",
-        "sources": ",us,pr,",
-        "types": ",origin,phase-data,",
-        "nst": 16,
-        "dmin": 0.527,
-        "rms": 0.28,
-        "gap": 312,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.3 - 57 km NW of San Antonio, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -67.4355,
-          18.8978333333333,
-          10.92
-        ]
-      },
-      "id": "pr71512678"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.4,
-        "place": "59 km N of Cruz Bay, U.S. Virgin Islands",
-        "time": 1775183673490,
-        "updated": 1775186512040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71512668",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71512668.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 178,
-        "net": "pr",
-        "code": "71512668",
-        "ids": ",us6000sm9l,pr71512668,",
-        "sources": ",us,pr,",
-        "types": ",origin,phase-data,",
-        "nst": 18,
-        "dmin": 0.4791,
-        "rms": 0.47,
-        "gap": 239,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.4 - 59 km N of Cruz Bay, U.S. Virgin Islands"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -64.8055,
-          18.8683333333333,
-          82.46
-        ]
-      },
-      "id": "pr71512668"
     }
   ],
   "bbox": [
-    -179.0112,
-    -30.2388,
+    -174.15166666667,
+    0.2248,
     -2.98,
     176.3511,
-    63.728,
-    217.264
+    65.596,
+    186.371
   ]
 }
