@@ -1,21 +1,61 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1775291654000,
+    "generated": 1775293757000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "2.3.0",
-    "count": 301
+    "count": 297
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.2,
+        "place": "1 km SW of Guánica, Puerto Rico",
+        "time": 1775291507460,
+        "updated": 1775292080710,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71512863",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71512863.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 74,
+        "net": "pr",
+        "code": "71512863",
+        "ids": ",pr71512863,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 8,
+        "dmin": 0.03828,
+        "rms": 0.18,
+        "gap": 203,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.2 - 1 km SW of Guánica, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.9173333333333,
+          17.9626666666667,
+          15.15
+        ]
+      },
+      "id": "pr71512863"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 3.41,
         "place": "166 km NNE of Cruz Bay, U.S. Virgin Islands",
         "time": 1775288951560,
-        "updated": 1775291040350,
+        "updated": 1775293629040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71512853",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71512853.geojson",
@@ -28,8 +68,8 @@
         "sig": 179,
         "net": "pr",
         "code": "71512853",
-        "ids": ",pr71512853,",
-        "sources": ",pr,",
+        "ids": ",us6000smi8,pr71512853,",
+        "sources": ",us,pr,",
         "types": ",origin,phase-data,",
         "nst": 21,
         "dmin": 1.198,
@@ -568,53 +608,13 @@
         ]
       },
       "id": "pr71512708"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.04,
-        "place": "38 km NNW of San Antonio, Puerto Rico",
-        "time": 1775206662760,
-        "updated": 1775208405510,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71512698",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71512698.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 142,
-        "net": "pr",
-        "code": "71512698",
-        "ids": ",pr71512698,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 16,
-        "dmin": 0.3667,
-        "rms": 0.15,
-        "gap": 292,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.0 - 38 km NNW of San Antonio, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -67.2351666666667,
-          18.8166666666667,
-          26.36
-        ]
-      },
-      "id": "pr71512698"
     }
   ],
   "bbox": [
-    -174.14983333333,
-    -21.8707,
+    -174.7209,
+    -35.3979,
     -2.98,
-    176.2467,
+    178.6358,
     65.596,
     186.371
   ]
