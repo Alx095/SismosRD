@@ -1,14 +1,94 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1775369820000,
+    "generated": 1775374364000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "2.3.0",
-    "count": 286
+    "count": 285
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.12,
+        "place": "1 km NNW of Palomas, Puerto Rico",
+        "time": 1775371838630,
+        "updated": 1775372415720,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71512963",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71512963.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 69,
+        "net": "pr",
+        "code": "71512963",
+        "ids": ",pr71512963,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 9,
+        "dmin": 0.01878,
+        "rms": 0.31,
+        "gap": 114,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.1 - 1 km NNW of Palomas, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.877,
+          18.0253333333333,
+          14.13
+        ]
+      },
+      "id": "pr71512963"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.91,
+        "place": "2 km ESE of Cacao, Puerto Rico",
+        "time": 1775371296890,
+        "updated": 1775372910580,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71512953",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71512953.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 130,
+        "net": "pr",
+        "code": "71512953",
+        "ids": ",pr71512953,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 24,
+        "dmin": 0.05527,
+        "rms": 0.15,
+        "gap": 102,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.9 - 2 km ESE of Cacao, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.918,
+          18.4253333333333,
+          13.85
+        ]
+      },
+      "id": "pr71512953"
+    },
     {
       "type": "Feature",
       "properties": {
