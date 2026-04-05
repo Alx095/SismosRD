@@ -1,14 +1,94 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1775423024000,
+    "generated": 1775425338000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "2.3.0",
-    "count": 253
+    "count": 257
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.55,
+        "place": "1 km W of Santa Clara, Puerto Rico",
+        "time": 1775421205540,
+        "updated": 1775425015110,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71512993",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71512993.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 100,
+        "net": "pr",
+        "code": "71512993",
+        "ids": ",pr71512993,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 12,
+        "dmin": 0.1093,
+        "rms": 0.23,
+        "gap": 96,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.6 - 1 km W of Santa Clara, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1466666666667,
+          18.2171666666667,
+          29.88
+        ]
+      },
+      "id": "pr71512993"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.25,
+        "place": "5 km SW of Adjuntas, Puerto Rico",
+        "time": 1775421056450,
+        "updated": 1775423747070,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71512983",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71512983.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 78,
+        "net": "pr",
+        "code": "71512983",
+        "ids": ",pr71512983,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 13,
+        "dmin": 0.1319,
+        "rms": 0.09,
+        "gap": 112,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.3 - 5 km SW of Adjuntas, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.7573333333333,
+          18.125,
+          19.45
+        ]
+      },
+      "id": "pr71512983"
+    },
     {
       "type": "Feature",
       "properties": {
