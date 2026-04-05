@@ -1,53 +1,53 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1775365331000,
+    "generated": 1775369820000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "2.3.0",
-    "count": 287
+    "count": 286
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 3.7,
-        "place": "62 km NE of Cruz Bay, U.S. Virgin Islands",
-        "time": 1775363463304,
-        "updated": 1775363783040,
+        "mag": 3.8,
+        "place": "71 km NE of Cruz Bay, U.S. Virgin Islands",
+        "time": 1775363463510,
+        "updated": 1775365610893,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000smqx",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000smqx.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2026095000",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2026095000.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 211,
-        "net": "us",
-        "code": "6000smqx",
-        "ids": ",us6000smqx,",
-        "sources": ",us,",
+        "sig": 222,
+        "net": "pr",
+        "code": "2026095000",
+        "ids": ",us6000smqx,pr2026095000,",
+        "sources": ",us,pr,",
         "types": ",origin,phase-data,",
-        "nst": 17,
-        "dmin": 0.394,
-        "rms": 0.48,
-        "gap": 199,
-        "magType": "ml",
+        "nst": 23,
+        "dmin": 0.3648,
+        "rms": 0.22,
+        "gap": 238,
+        "magType": "md",
         "type": "earthquake",
-        "title": "M 3.7 - 62 km NE of Cruz Bay, U.S. Virgin Islands"
+        "title": "M 3.8 - 71 km NE of Cruz Bay, U.S. Virgin Islands"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -64.3879,
-          18.7483,
-          38.916
+          -64.3928,
+          18.8551,
+          17
         ]
       },
-      "id": "us6000smqx"
+      "id": "pr2026095000"
     },
     {
       "type": "Feature",
@@ -454,7 +454,7 @@
     -178.8125,
     -35.3979,
     0,
-    179.977,
+    178.7954,
     69.418,
     372.736
   ]
