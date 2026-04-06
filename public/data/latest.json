@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1775433771000,
+    "generated": 1775446480000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "2.3.0",
-    "count": 252
+    "count": 251
   },
   "features": [
     {
@@ -248,91 +248,11 @@
         ]
       },
       "id": "pr2026095000"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.52,
-        "place": "1 km N of Liborio Negron Torres, Puerto Rico",
-        "time": 1775356391160,
-        "updated": 1775357584480,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71512933",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71512933.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 98,
-        "net": "pr",
-        "code": "71512933",
-        "ids": ",pr71512933,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 13,
-        "dmin": 0.1054,
-        "rms": 0.18,
-        "gap": 83,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.5 - 1 km N of Liborio Negron Torres, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.944,
-          18.061,
-          17.22
-        ]
-      },
-      "id": "pr71512933"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.54,
-        "place": "5 km S of Indios, Puerto Rico",
-        "time": 1775347830350,
-        "updated": 1775350257960,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71512928",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71512928.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 99,
-        "net": "pr",
-        "code": "71512928",
-        "ids": ",pr71512928,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 6,
-        "dmin": 0.05913,
-        "rms": 0.14,
-        "gap": 215,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.5 - 5 km S of Indios, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.8235,
-          17.9488333333333,
-          17.9
-        ]
-      },
-      "id": "pr71512928"
     }
   ],
   "bbox": [
     -178.9699,
-    -33.8763,
+    -32.0921,
     -0.55000001192093,
     176.227,
     69.448,
