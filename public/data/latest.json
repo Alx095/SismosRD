@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1775563701000,
+    "generated": 1775570229000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "2.3.0",
-    "count": 257
+    "count": 252
   },
   "features": [
     {
@@ -168,51 +168,11 @@
         ]
       },
       "id": "pr71513058"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.41,
-        "place": "12 km SW of Punta Cana, Dominican Republic",
-        "time": 1775481620110,
-        "updated": 1775487316040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71513048",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71513048.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 179,
-        "net": "pr",
-        "code": "71513048",
-        "ids": ",us6000sn1g,pr71513048,",
-        "sources": ",us,pr,",
-        "types": ",origin,phase-data,",
-        "nst": 10,
-        "dmin": 0.1091,
-        "rms": 0.52,
-        "gap": 178,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.4 - 12 km SW of Punta Cana, Dominican Republic"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -68.496,
-          18.5155,
-          56.47
-        ]
-      },
-      "id": "pr71513048"
     }
   ],
   "bbox": [
-    -178.82916666667,
-    -56.9079,
+    -178.1687,
+    -55.1335,
     -2.24,
     176.5385,
     69.417,
