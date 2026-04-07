@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1775534698000,
+    "generated": 1775541090000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "2.3.0",
-    "count": 287
+    "count": 272
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.66,
+        "place": "5 km S of Guánica, Puerto Rico",
+        "time": 1775535979880,
+        "updated": 1775538383300,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71513073",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71513073.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 109,
+        "net": "pr",
+        "code": "71513073",
+        "ids": ",pr71513073,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 19,
+        "dmin": 0.06007,
+        "rms": 0.12,
+        "gap": 217,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.7 - 5 km S of Guánica, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.9148333333333,
+          17.9251666666667,
+          15.39
+        ]
+      },
+      "id": "pr71513073"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -248,86 +288,6 @@
         ]
       },
       "id": "pr71513018"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.39,
-        "place": "64 km S of Boca de Yuma, Dominican Republic",
-        "time": 1775453879710,
-        "updated": 1775482968040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71513008",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71513008.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 177,
-        "net": "pr",
-        "code": "71513008",
-        "ids": ",us6000smzm,pr71513008,",
-        "sources": ",us,pr,",
-        "types": ",origin,phase-data,",
-        "nst": 14,
-        "dmin": 0.7613,
-        "rms": 0.46,
-        "gap": 242,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.4 - 64 km S of Boca de Yuma, Dominican Republic"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -68.6655,
-          17.799,
-          82.7
-        ]
-      },
-      "id": "pr71513008"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.39,
-        "place": "99 km N of Charlotte Amalie, U.S. Virgin Islands",
-        "time": 1775452772940,
-        "updated": 1775491148040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71512998",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71512998.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 177,
-        "net": "pr",
-        "code": "71512998",
-        "ids": ",us6000smzg,pr71512998,",
-        "sources": ",us,pr,",
-        "types": ",origin,phase-data,",
-        "nst": 11,
-        "dmin": 0.8356,
-        "rms": 0.29,
-        "gap": 268,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.4 - 99 km N of Charlotte Amalie, U.S. Virgin Islands"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -64.835,
-          19.235,
-          49.35
-        ]
-      },
-      "id": "pr71512998"
     }
   ],
   "bbox": [
@@ -335,7 +295,7 @@
     -56.9079,
     -3.17,
     176.5385,
-    69.387,
+    69.417,
     162.925
   ]
 }
