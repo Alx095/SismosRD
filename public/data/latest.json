@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1775690431000,
+    "generated": 1775692460000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "2.3.0",
-    "count": 252
+    "count": 245
   },
   "features": [
     {
@@ -48,52 +48,12 @@
         ]
       },
       "id": "pr71513138"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.58,
-        "place": "2 km ESE of Jobos, Puerto Rico",
-        "time": 1775605257310,
-        "updated": 1775605989060,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71513128",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71513128.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 38,
-        "net": "pr",
-        "code": "71513128",
-        "ids": ",pr71513128,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 6,
-        "dmin": 0.03955,
-        "rms": 0.09,
-        "gap": 232,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 1.6 - 2 km ESE of Jobos, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.141,
-          17.9428333333333,
-          14.97
-        ]
-      },
-      "id": "pr71513128"
     }
   ],
   "bbox": [
     -178.81183333333,
     -49.4766,
-    -0.73,
+    -0.39,
     179.9016,
     66.172,
     567.079
