@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1775750377000,
+    "generated": 1775754723000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
@@ -9,6 +9,46 @@
     "count": 259
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.14,
+        "place": "1 km SE of Aguas Buenas, Puerto Rico",
+        "time": 1775752698820,
+        "updated": 1775753788640,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71513163",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71513163.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 70,
+        "net": "pr",
+        "code": "71513163",
+        "ids": ",pr71513163,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 8,
+        "dmin": 0.05997,
+        "rms": 0.17,
+        "gap": 153,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.1 - 1 km SE of Aguas Buenas, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.0953333333333,
+          18.2498333333333,
+          16.25
+        ]
+      },
+      "id": "pr71513163"
+    },
     {
       "type": "Feature",
       "properties": {
