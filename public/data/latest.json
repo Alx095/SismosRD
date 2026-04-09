@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1775707375000,
+    "generated": 1775713981000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "2.3.0",
-    "count": 227
+    "count": 229
   },
   "features": [
     {
@@ -15,7 +15,7 @@
         "mag": 3.73,
         "place": "160 km NNW of The Valley, Anguilla",
         "time": 1775704480560,
-        "updated": 1775706971242,
+        "updated": 1775707942040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2026099000",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2026099000.geojson",
@@ -28,8 +28,8 @@
         "sig": 214,
         "net": "pr",
         "code": "2026099000",
-        "ids": ",pr2026099000,",
-        "sources": ",pr,",
+        "ids": ",us6000snm6,pr2026099000,",
+        "sources": ",us,pr,",
         "types": ",origin,phase-data,",
         "nst": 18,
         "dmin": 1.3594,
