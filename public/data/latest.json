@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1775786047000,
+    "generated": 1775795885000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "2.3.0",
-    "count": 267
+    "count": 263
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.74,
+        "place": "3 km SE of Jobos, Puerto Rico",
+        "time": 1775786773480,
+        "updated": 1775787749590,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71513198",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71513198.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 116,
+        "net": "pr",
+        "code": "71513198",
+        "ids": ",pr71513198,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 10,
+        "dmin": 0.04436,
+        "rms": 0.17,
+        "gap": 205,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.7 - 3 km SE of Jobos, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1416666666667,
+          17.9358333333333,
+          15.12
+        ]
+      },
+      "id": "pr71513198"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -208,46 +248,6 @@
         ]
       },
       "id": "pr71513163"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.73,
-        "place": "160 km NNW of The Valley, Anguilla",
-        "time": 1775704480560,
-        "updated": 1775707942040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2026099000",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2026099000.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 214,
-        "net": "pr",
-        "code": "2026099000",
-        "ids": ",us6000snm6,pr2026099000,",
-        "sources": ",us,pr,",
-        "types": ",origin,phase-data,",
-        "nst": 18,
-        "dmin": 1.3594,
-        "rms": 0.4,
-        "gap": 309,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.7 - 160 km NNW of The Valley, Anguilla"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -63.5833,
-          19.5753,
-          28
-        ]
-      },
-      "id": "pr2026099000"
     }
   ],
   "bbox": [
