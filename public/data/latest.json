@@ -1,53 +1,173 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1775808080000,
+    "generated": 1775812697000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "2.3.0",
-    "count": 243
+    "count": 241
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 4.1,
-        "place": "106 km NNE of Cruz Bay, U.S. Virgin Islands",
-        "time": 1775806098513,
-        "updated": 1775806808040,
+        "mag": 2.9,
+        "place": "24 km N of Arecibo, Puerto Rico",
+        "time": 1775810541690,
+        "updated": 1775811462840,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000snvz",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000snvz.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71513243",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71513243.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 259,
-        "net": "us",
-        "code": "6000snvz",
-        "ids": ",us6000snvz,",
-        "sources": ",us,",
+        "sig": 129,
+        "net": "pr",
+        "code": "71513243",
+        "ids": ",pr71513243,",
+        "sources": ",pr,",
         "types": ",origin,phase-data,",
-        "nst": 25,
-        "dmin": 0.843,
-        "rms": 0.68,
-        "gap": 141,
-        "magType": "mb",
+        "nst": 18,
+        "dmin": 0.2694,
+        "rms": 0.15,
+        "gap": 220,
+        "magType": "md",
         "type": "earthquake",
-        "title": "M 4.1 - 106 km NNE of Cruz Bay, U.S. Virgin Islands"
+        "title": "M 2.9 - 24 km N of Arecibo, Puerto Rico"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -64.5624,
-          19.2662,
-          35
+          -66.6985,
+          18.6948333333333,
+          66.35
         ]
       },
-      "id": "us6000snvz"
+      "id": "pr71513243"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.36,
+        "place": "15 km SSE of Guánica, Puerto Rico",
+        "time": 1775809654350,
+        "updated": 1775810474990,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71513238",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71513238.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 86,
+        "net": "pr",
+        "code": "71513238",
+        "ids": ",pr71513238,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 5,
+        "dmin": 0.1352,
+        "rms": 0.08,
+        "gap": 257,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.4 - 15 km SSE of Guánica, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.8601666666667,
+          17.8403333333333,
+          14.51
+        ]
+      },
+      "id": "pr71513238"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.34,
+        "place": "2 km NW of Mayagüez, Puerto Rico",
+        "time": 1775808744180,
+        "updated": 1775810133010,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71513233",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71513233.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 84,
+        "net": "pr",
+        "code": "71513233",
+        "ids": ",pr71513233,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 11,
+        "dmin": 0.009489,
+        "rms": 0.07,
+        "gap": 201,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.3 - 2 km NW of Mayagüez, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.1541666666667,
+          18.2201666666667,
+          23.61
+        ]
+      },
+      "id": "pr71513233"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.01,
+        "place": "127 km NNE of Cruz Bay, U.S. Virgin Islands",
+        "time": 1775806096890,
+        "updated": 1775809209593,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2026100000",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2026100000.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 247,
+        "net": "pr",
+        "code": "2026100000",
+        "ids": ",us6000snvz,pr2026100000,",
+        "sources": ",us,pr,",
+        "types": ",origin,phase-data,",
+        "nst": 28,
+        "dmin": 0.9206,
+        "rms": 0.44,
+        "gap": 229,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 4.0 - 127 km NNE of Cruz Bay, U.S. Virgin Islands"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -64.3763,
+          19.4108,
+          33
+        ]
+      },
+      "id": "pr2026100000"
     },
     {
       "type": "Feature",
@@ -331,7 +451,7 @@
     }
   ],
   "bbox": [
-    -178.1986,
+    -178.2886,
     -60.9923,
     -1.84,
     176.228,
