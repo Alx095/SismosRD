@@ -1,14 +1,94 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1775778942000,
+    "generated": 1775786047000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "2.3.0",
-    "count": 258
+    "count": 267
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.51,
+        "place": "1 km NE of Vázquez, Puerto Rico",
+        "time": 1775783951330,
+        "updated": 1775784728630,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71513188",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71513188.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 35,
+        "net": "pr",
+        "code": "71513188",
+        "ids": ",pr71513188,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 5,
+        "dmin": 0.04267,
+        "rms": 0.11,
+        "gap": 148,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 1.5 - 1 km NE of Vázquez, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.2308333333333,
+          18.0716666666667,
+          14.14
+        ]
+      },
+      "id": "pr71513188"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.17,
+        "place": "5 km E of Pole Ojea, Puerto Rico",
+        "time": 1775783851670,
+        "updated": 1775784749000,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71513183",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71513183.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 72,
+        "net": "pr",
+        "code": "71513183",
+        "ids": ",pr71513183,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 6,
+        "dmin": 0.03643,
+        "rms": 0.09,
+        "gap": 277,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.2 - 5 km E of Pole Ojea, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.1378333333333,
+          17.9816666666667,
+          16.25
+        ]
+      },
+      "id": "pr71513183"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -173,7 +253,7 @@
   "bbox": [
     -179.089,
     -60.9923,
-    -1.02,
+    -1.84,
     176.228,
     65.817,
     535.946
