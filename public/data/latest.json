@@ -1,53 +1,53 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1775945671000,
+    "generated": 1775947959000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "2.3.0",
-    "count": 188
+    "count": 187
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 4,
-        "place": "37 km SE of Emajagua, Puerto Rico",
-        "time": 1775941232472,
-        "updated": 1775942802244,
+        "mag": 3.7,
+        "place": "29 km SSW of Esperanza, Puerto Rico",
+        "time": 1775941235520,
+        "updated": 1775946376391,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000spd8",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000spd8.geojson",
-        "felt": 2,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2026101001",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2026101001.geojson",
+        "felt": 3,
         "cdi": 2,
         "mmi": 3.003,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 247,
-        "net": "us",
-        "code": "6000spd8",
-        "ids": ",us6000spd8,",
-        "sources": ",us,",
+        "sig": 211,
+        "net": "pr",
+        "code": "2026101001",
+        "ids": ",us6000spd8,pr2026101001,",
+        "sources": ",us,pr,",
         "types": ",dyfi,losspager,origin,phase-data,shakemap,",
-        "nst": 21,
-        "dmin": 0.502,
-        "rms": 0.51,
-        "gap": 96,
-        "magType": "ml",
+        "nst": 20,
+        "dmin": 0.451,
+        "rms": 0.59,
+        "gap": 211,
+        "magType": "md",
         "type": "earthquake",
-        "title": "M 4.0 - 37 km SE of Emajagua, Puerto Rico"
+        "title": "M 3.7 - 29 km SSW of Esperanza, Puerto Rico"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -65.6187,
-          17.7761,
-          10
+          -65.5983,
+          17.8641,
+          6
         ]
       },
-      "id": "us6000spd8"
+      "id": "pr2026101001"
     },
     {
       "type": "Feature",
