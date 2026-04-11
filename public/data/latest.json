@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1775922512000,
+    "generated": 1775924228000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "2.3.0",
-    "count": 234
+    "count": 230
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.37,
+        "place": "84 km NNE of Vieques, Puerto Rico",
+        "time": 1775920907320,
+        "updated": 1775923321930,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71513358",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71513358.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 175,
+        "net": "pr",
+        "code": "71513358",
+        "ids": ",pr71513358,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 17,
+        "dmin": 0.8929,
+        "rms": 0.22,
+        "gap": 246,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 3.4 - 84 km NNE of Vieques, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.5966666666667,
+          19.1538333333333,
+          42.47
+        ]
+      },
+      "id": "pr71513358"
+    },
     {
       "type": "Feature",
       "properties": {
