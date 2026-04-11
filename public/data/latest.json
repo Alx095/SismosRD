@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1775940691000,
+    "generated": 1775942325000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "2.3.0",
-    "count": 194
+    "count": 191
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4,
+        "place": "37 km SE of Emajagua, Puerto Rico",
+        "time": 1775941232472,
+        "updated": 1775942111621,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000spd8",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000spd8.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": 3.003,
+        "alert": "green",
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 246,
+        "net": "us",
+        "code": "6000spd8",
+        "ids": ",us6000spd8,",
+        "sources": ",us,",
+        "types": ",losspager,origin,phase-data,shakemap,",
+        "nst": 21,
+        "dmin": 0.502,
+        "rms": 0.51,
+        "gap": 96,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 4.0 - 37 km SE of Emajagua, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.6187,
+          17.7761,
+          10
+        ]
+      },
+      "id": "us6000spd8"
+    },
     {
       "type": "Feature",
       "properties": {
