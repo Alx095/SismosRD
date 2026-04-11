@@ -1,14 +1,94 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1775869245000,
+    "generated": 1775878785000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "2.3.0",
-    "count": 298
+    "count": 288
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.11,
+        "place": "40 km N of Tierras Nuevas Poniente, Puerto Rico",
+        "time": 1775872490310,
+        "updated": 1775876235840,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71513273",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71513273.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 149,
+        "net": "pr",
+        "code": "71513273",
+        "ids": ",us6000sp8p,pr71513273,",
+        "sources": ",us,pr,",
+        "types": ",origin,phase-data,",
+        "nst": 31,
+        "dmin": 0.3546,
+        "rms": 0.23,
+        "gap": 217,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 3.1 - 40 km N of Tierras Nuevas Poniente, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.4901666666667,
+          18.8316666666667,
+          20.15
+        ]
+      },
+      "id": "pr71513273"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.64,
+        "place": "20 km S of Indios, Puerto Rico",
+        "time": 1775870355160,
+        "updated": 1775871721830,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71513263",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71513263.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 107,
+        "net": "pr",
+        "code": "71513263",
+        "ids": ",pr71513263,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 8,
+        "dmin": 0.181,
+        "rms": 0.07,
+        "gap": 266,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.6 - 20 km S of Indios, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.8033333333333,
+          17.8081666666667,
+          5.98
+        ]
+      },
+      "id": "pr71513263"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -248,133 +328,13 @@
         ]
       },
       "id": "pr71513213"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.74,
-        "place": "3 km SE of Jobos, Puerto Rico",
-        "time": 1775786773480,
-        "updated": 1775787749590,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71513198",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71513198.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 116,
-        "net": "pr",
-        "code": "71513198",
-        "ids": ",pr71513198,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 10,
-        "dmin": 0.04436,
-        "rms": 0.17,
-        "gap": 205,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.7 - 3 km SE of Jobos, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.1416666666667,
-          17.9358333333333,
-          15.12
-        ]
-      },
-      "id": "pr71513198"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.51,
-        "place": "1 km NE of Vázquez, Puerto Rico",
-        "time": 1775783951330,
-        "updated": 1775784728630,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71513188",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71513188.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 35,
-        "net": "pr",
-        "code": "71513188",
-        "ids": ",pr71513188,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 5,
-        "dmin": 0.04267,
-        "rms": 0.11,
-        "gap": 148,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 1.5 - 1 km NE of Vázquez, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.2308333333333,
-          18.0716666666667,
-          14.14
-        ]
-      },
-      "id": "pr71513188"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.17,
-        "place": "5 km E of Pole Ojea, Puerto Rico",
-        "time": 1775783851670,
-        "updated": 1775784749000,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71513183",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71513183.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 72,
-        "net": "pr",
-        "code": "71513183",
-        "ids": ",pr71513183,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 6,
-        "dmin": 0.03643,
-        "rms": 0.09,
-        "gap": 277,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.2 - 5 km E of Pole Ojea, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -67.1378333333333,
-          17.9816666666667,
-          16.25
-        ]
-      },
-      "id": "pr71513183"
     }
   ],
   "bbox": [
     -179.8694,
     -31.9392,
     -2.97,
-    176.3166,
+    178.39633333333,
     64.712,
     538.158
   ]
