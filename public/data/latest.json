@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1775894303000,
+    "generated": 1775897237000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "2.3.0",
-    "count": 264
+    "count": 252
   },
   "features": [
     {
@@ -208,126 +208,6 @@
         ]
       },
       "id": "pr71513248"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.9,
-        "place": "24 km N of Arecibo, Puerto Rico",
-        "time": 1775810541690,
-        "updated": 1775811462840,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71513243",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71513243.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 129,
-        "net": "pr",
-        "code": "71513243",
-        "ids": ",pr71513243,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 18,
-        "dmin": 0.2694,
-        "rms": 0.15,
-        "gap": 220,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.9 - 24 km N of Arecibo, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.6985,
-          18.6948333333333,
-          66.35
-        ]
-      },
-      "id": "pr71513243"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.36,
-        "place": "15 km SSE of Guánica, Puerto Rico",
-        "time": 1775809654350,
-        "updated": 1775810474990,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71513238",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71513238.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 86,
-        "net": "pr",
-        "code": "71513238",
-        "ids": ",pr71513238,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 5,
-        "dmin": 0.1352,
-        "rms": 0.08,
-        "gap": 257,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.4 - 15 km SSE of Guánica, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.8601666666667,
-          17.8403333333333,
-          14.51
-        ]
-      },
-      "id": "pr71513238"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.34,
-        "place": "2 km NW of Mayagüez, Puerto Rico",
-        "time": 1775808744180,
-        "updated": 1775810133010,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71513233",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71513233.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 84,
-        "net": "pr",
-        "code": "71513233",
-        "ids": ",pr71513233,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 11,
-        "dmin": 0.009489,
-        "rms": 0.07,
-        "gap": 201,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.3 - 2 km NW of Mayagüez, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -67.1541666666667,
-          18.2201666666667,
-          23.61
-        ]
-      },
-      "id": "pr71513233"
     }
   ],
   "bbox": [
