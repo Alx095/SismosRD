@@ -1,14 +1,94 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1775994582000,
+    "generated": 1775996864000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "2.3.0",
-    "count": 211
+    "count": 215
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.01,
+        "place": "73 km NE of Cruz Bay, U.S. Virgin Islands",
+        "time": 1775991736440,
+        "updated": 1775996182170,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71513478",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71513478.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 139,
+        "net": "pr",
+        "code": "71513478",
+        "ids": ",pr71513478,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 7,
+        "dmin": 0.38,
+        "rms": 0.19,
+        "gap": 291,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 3.0 - 73 km NE of Cruz Bay, U.S. Virgin Islands"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -64.3833333333333,
+          18.8718333333333,
+          22.91
+        ]
+      },
+      "id": "pr71513478"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.9,
+        "place": "77 km N of Brenas, Puerto Rico",
+        "time": 1775989606220,
+        "updated": 1775996780050,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71513468",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71513468.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 129,
+        "net": "pr",
+        "code": "71513468",
+        "ids": ",pr71513468,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 14,
+        "dmin": 0.692,
+        "rms": 0.28,
+        "gap": 274,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.9 - 77 km N of Brenas, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.4126666666667,
+          19.1638333333333,
+          23.85
+        ]
+      },
+      "id": "pr71513468"
+    },
     {
       "type": "Feature",
       "properties": {
