@@ -1,26 +1,66 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1775967482000,
+    "generated": 1775973794000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "2.3.0",
-    "count": 198
+    "count": 207
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.26,
+        "place": "71 km N of Brenas, Puerto Rico",
+        "time": 1775971674880,
+        "updated": 1775973439030,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71513423",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71513423.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 164,
+        "net": "pr",
+        "code": "71513423",
+        "ids": ",pr71513423,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 30,
+        "dmin": 0.6375,
+        "rms": 0.2,
+        "gap": 251,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 3.3 - 71 km N of Brenas, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.416,
+          19.1088333333333,
+          32.84
+        ]
+      },
+      "id": "pr71513423"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 3.17,
         "place": "74 km N of San Juan, Puerto Rico",
         "time": 1775961363260,
-        "updated": 1775962707720,
+        "updated": 1775967967340,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71513408",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71513408.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -30,7 +70,7 @@
         "code": "71513408",
         "ids": ",pr71513408,",
         "sources": ",pr,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 18,
         "dmin": 0.7624,
         "rms": 0.26,
@@ -368,53 +408,13 @@
         ]
       },
       "id": "pr71513298"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.54,
-        "place": "3 km ENE of Ponce, Puerto Rico",
-        "time": 1775886369860,
-        "updated": 1775887645040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71513283",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71513283.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 99,
-        "net": "pr",
-        "code": "71513283",
-        "ids": ",pr71513283,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 15,
-        "dmin": 0.0277,
-        "rms": 0.11,
-        "gap": 115,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.5 - 3 km ENE of Ponce, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.592,
-          18.0165,
-          16.08
-        ]
-      },
-      "id": "pr71513283"
     }
   ],
   "bbox": [
     -178.80233333333,
     -41.7132,
-    -2.28,
-    153.5201,
+    -2.97,
+    178.339,
     66.141,
     226.005
   ]
