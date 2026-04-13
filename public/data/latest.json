@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1776069052000,
+    "generated": 1776075345000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "2.3.0",
-    "count": 210
+    "count": 196
   },
   "features": [
     {
@@ -175,11 +175,11 @@
         "mag": 4.16,
         "place": "2 km SW of Río Lajas, Puerto Rico",
         "time": 1776045997200,
-        "updated": 1776064285346,
+        "updated": 1776071471161,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2026103000",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2026103000.geojson",
-        "felt": 72,
+        "felt": 74,
         "cdi": 3.4,
         "mmi": 2.935,
         "alert": "green",
@@ -372,7 +372,7 @@
   ],
   "bbox": [
     -177.8517,
-    -33.7558,
+    -18.4052,
     -0.79000002145767,
     167.5238,
     66.934,
