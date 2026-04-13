@@ -1,14 +1,134 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1776054980000,
+    "generated": 1776061967000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "2.3.0",
-    "count": 215
+    "count": 217
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.14,
+        "place": "38 km NNW of San Antonio, Puerto Rico",
+        "time": 1776059990310,
+        "updated": 1776060895680,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71513543",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71513543.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 152,
+        "net": "pr",
+        "code": "71513543",
+        "ids": ",pr71513543,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 17,
+        "dmin": 0.3299,
+        "rms": 0.13,
+        "gap": 290,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 3.1 - 38 km NNW of San Antonio, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.173,
+          18.8281666666667,
+          28.59
+        ]
+      },
+      "id": "pr71513543"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.15,
+        "place": "13 km N of Garrochales, Puerto Rico",
+        "time": 1776056987880,
+        "updated": 1776059084690,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71513538",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71513538.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 153,
+        "net": "pr",
+        "code": "71513538",
+        "ids": ",pr71513538,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 12,
+        "dmin": 0.2742,
+        "rms": 0.13,
+        "gap": 230,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 3.2 - 13 km N of Garrochales, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.5901666666667,
+          18.5736666666667,
+          85.77
+        ]
+      },
+      "id": "pr71513538"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.95,
+        "place": "0 km SE of Maria Antonia, Puerto Rico",
+        "time": 1776054389080,
+        "updated": 1776055120730,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71513533",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71513533.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 58,
+        "net": "pr",
+        "code": "71513533",
+        "ids": ",pr71513533,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 4,
+        "dmin": 0.004246,
+        "rms": 0.09,
+        "gap": 216,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.0 - 0 km SE of Maria Antonia, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.8828333333333,
+          17.9725,
+          16.44
+        ]
+      },
+      "id": "pr71513533"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -288,86 +408,6 @@
         ]
       },
       "id": "pr71513443"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.74,
-        "place": "75 km N of Brenas, Puerto Rico",
-        "time": 1775971770960,
-        "updated": 1775975016530,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71513438",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71513438.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 116,
-        "net": "pr",
-        "code": "71513438",
-        "ids": ",pr71513438,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 15,
-        "dmin": 0.6707,
-        "rms": 0.15,
-        "gap": 266,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.7 - 75 km N of Brenas, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.4345,
-          19.1453333333333,
-          30.64
-        ]
-      },
-      "id": "pr71513438"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.26,
-        "place": "71 km N of Brenas, Puerto Rico",
-        "time": 1775971674880,
-        "updated": 1775974082040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71513423",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71513423.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 164,
-        "net": "pr",
-        "code": "71513423",
-        "ids": ",us6000spf3,pr71513423,",
-        "sources": ",us,pr,",
-        "types": ",origin,phase-data,",
-        "nst": 30,
-        "dmin": 0.6375,
-        "rms": 0.2,
-        "gap": 251,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.3 - 71 km N of Brenas, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.416,
-          19.1088333333333,
-          32.84
-        ]
-      },
-      "id": "pr71513423"
     }
   ],
   "bbox": [
@@ -375,7 +415,7 @@
     -33.7558,
     -0.79000002145767,
     167.5238,
-    66.384,
+    66.983,
     624.652
   ]
 }
