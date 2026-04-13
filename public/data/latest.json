@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1776084327000,
+    "generated": 1776089967000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "2.3.0",
-    "count": 183
+    "count": 199
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.04,
+        "place": "1 km SSW of Animas, Puerto Rico",
+        "time": 1776083358680,
+        "updated": 1776087494260,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71513578",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71513578.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 64,
+        "net": "pr",
+        "code": "71513578",
+        "ids": ",pr71513578,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 4,
+        "dmin": 0.1119,
+        "rms": 0.17,
+        "gap": 198,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.0 - 1 km SSW of Animas, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.6396666666667,
+          18.437,
+          15.47
+        ]
+      },
+      "id": "pr71513578"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -332,7 +372,7 @@
   ],
   "bbox": [
     -177.8517,
-    -18.7612,
+    -18.7624,
     -0.79000002145767,
     167.5238,
     69.634,
