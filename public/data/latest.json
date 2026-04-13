@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1776061967000,
+    "generated": 1776069052000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "2.3.0",
-    "count": 217
+    "count": 210
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.89,
+        "place": "33 km NW of Rincón, Puerto Rico",
+        "time": 1776065133070,
+        "updated": 1776065880350,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71513553",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71513553.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 128,
+        "net": "pr",
+        "code": "71513553",
+        "ids": ",pr71513553,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 8,
+        "dmin": 0.3583,
+        "rms": 0.45,
+        "gap": 315,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.9 - 33 km NW of Rincón, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.4791666666667,
+          18.5481666666667,
+          16.51
+        ]
+      },
+      "id": "pr71513553"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -135,17 +175,17 @@
         "mag": 4.16,
         "place": "2 km SW of Río Lajas, Puerto Rico",
         "time": 1776045997200,
-        "updated": 1776054102007,
+        "updated": 1776064285346,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2026103000",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2026103000.geojson",
-        "felt": 71,
+        "felt": 72,
         "cdi": 3.4,
         "mmi": 2.935,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 290,
+        "sig": 291,
         "net": "pr",
         "code": "2026103000",
         "ids": ",us6000spk6,pr2026103000,",
@@ -328,86 +368,6 @@
         ]
       },
       "id": "pr71513468"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.98,
-        "place": "1 km W of Indios, Puerto Rico",
-        "time": 1775976499980,
-        "updated": 1775977190840,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71513458",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71513458.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 60,
-        "net": "pr",
-        "code": "71513458",
-        "ids": ",pr71513458,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 8,
-        "dmin": 0.04349,
-        "rms": 0.08,
-        "gap": 137,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.0 - 1 km W of Indios, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.8378333333333,
-          17.9935,
-          17.42
-        ]
-      },
-      "id": "pr71513458"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.22,
-        "place": "71 km N of Brenas, Puerto Rico",
-        "time": 1775975905820,
-        "updated": 1775977910040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71513443",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71513443.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 160,
-        "net": "pr",
-        "code": "71513443",
-        "ids": ",us6000spfi,pr71513443,",
-        "sources": ",us,pr,",
-        "types": ",origin,phase-data,",
-        "nst": 31,
-        "dmin": 0.6375,
-        "rms": 0.18,
-        "gap": 240,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.2 - 71 km N of Brenas, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.4061666666667,
-          19.1071666666667,
-          20.66
-        ]
-      },
-      "id": "pr71513443"
     }
   ],
   "bbox": [
@@ -415,7 +375,7 @@
     -33.7558,
     -0.79000002145767,
     167.5238,
-    66.983,
+    66.934,
     624.652
   ]
 }
