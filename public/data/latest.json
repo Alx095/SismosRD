@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1776199615000,
+    "generated": 1776202579000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "2.3.0",
-    "count": 382
+    "count": 391
   },
   "features": [
     {
@@ -248,52 +248,12 @@
         ]
       },
       "id": "pr71513633"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.73,
-        "place": "9 km W of San Rafael del Yuma, Dominican Republic",
-        "time": 1776115426270,
-        "updated": 1776121200696,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2026103001",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2026103001.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 214,
-        "net": "pr",
-        "code": "2026103001",
-        "ids": ",us6000spse,pr2026103001,",
-        "sources": ",us,pr,",
-        "types": ",origin,phase-data,",
-        "nst": 23,
-        "dmin": 0.3938,
-        "rms": 0.21,
-        "gap": 226,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.7 - 9 km W of San Rafael del Yuma, Dominican Republic"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -68.7648,
-          18.424,
-          115
-        ]
-      },
-      "id": "pr2026103001"
     }
   ],
   "bbox": [
-    -178.7975,
+    -178.957,
     -49.3093,
-    -1.75,
+    -2.94,
     176.371,
     68.167,
     279.776
