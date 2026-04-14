@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1776141177000,
+    "generated": 1776147417000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "2.3.0",
-    "count": 289
+    "count": 306
   },
   "features": [
     {
@@ -448,92 +448,12 @@
         ]
       },
       "id": "pr71513553"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.14,
-        "place": "38 km NNW of San Antonio, Puerto Rico",
-        "time": 1776059990310,
-        "updated": 1776060895680,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71513543",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71513543.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 152,
-        "net": "pr",
-        "code": "71513543",
-        "ids": ",pr71513543,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 17,
-        "dmin": 0.3299,
-        "rms": 0.13,
-        "gap": 290,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.1 - 38 km NNW of San Antonio, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -67.173,
-          18.8281666666667,
-          28.59
-        ]
-      },
-      "id": "pr71513543"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.15,
-        "place": "13 km N of Garrochales, Puerto Rico",
-        "time": 1776056987880,
-        "updated": 1776059084690,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71513538",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71513538.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 153,
-        "net": "pr",
-        "code": "71513538",
-        "ids": ",pr71513538,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 12,
-        "dmin": 0.2742,
-        "rms": 0.13,
-        "gap": 230,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.2 - 13 km N of Garrochales, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.5901666666667,
-          18.5736666666667,
-          85.77
-        ]
-      },
-      "id": "pr71513538"
     }
   ],
   "bbox": [
     -178.141,
     -40.529,
-    -0.4,
+    -1.78,
     179.063,
     69.59,
     610.955
