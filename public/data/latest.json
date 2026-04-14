@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1776159828000,
+    "generated": 1776163736000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "2.3.0",
-    "count": 318
+    "count": 323
   },
   "features": [
     {
@@ -408,131 +408,11 @@
         ]
       },
       "id": "pr71513578"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.97,
-        "place": "1 km WSW of Guayanilla, Puerto Rico",
-        "time": 1776076339710,
-        "updated": 1776077213120,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71513573",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71513573.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 60,
-        "net": "pr",
-        "code": "71513573",
-        "ids": ",pr71513573,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 6,
-        "dmin": 0.08374,
-        "rms": 0.24,
-        "gap": 167,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.0 - 1 km WSW of Guayanilla, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.8026666666667,
-          18.0165,
-          16.26
-        ]
-      },
-      "id": "pr71513573"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.45,
-        "place": "12 km S of Guánica, Puerto Rico",
-        "time": 1776074846970,
-        "updated": 1776077015760,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71513568",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71513568.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 92,
-        "net": "pr",
-        "code": "71513568",
-        "ids": ",pr71513568,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 8,
-        "dmin": 0.1158,
-        "rms": 0.06,
-        "gap": 252,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.5 - 12 km S of Guánica, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.8858333333333,
-          17.8588333333333,
-          12.86
-        ]
-      },
-      "id": "pr71513568"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.28,
-        "place": "66 km NE of Cruz Bay, U.S. Virgin Islands",
-        "time": 1776074675140,
-        "updated": 1776080315040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71513558",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71513558.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 166,
-        "net": "pr",
-        "code": "71513558",
-        "ids": ",us6000spm0,pr71513558,",
-        "sources": ",us,pr,",
-        "types": ",origin,phase-data,",
-        "nst": 12,
-        "dmin": 0.2681,
-        "rms": 0.2,
-        "gap": 290,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.3 - 66 km NE of Cruz Bay, U.S. Virgin Islands"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -64.352,
-          18.7555,
-          58.85
-        ]
-      },
-      "id": "pr71513558"
     }
   ],
   "bbox": [
     -178.141,
-    -40.529,
+    -49.3093,
     -1.78,
     174.516,
     69.59,
