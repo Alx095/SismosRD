@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1776440511000,
+    "generated": 1776443688000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "2.3.0",
-    "count": 290
+    "count": 287
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.2,
+        "place": "2 km E of Sabana Grande, Puerto Rico",
+        "time": 1776441042260,
+        "updated": 1776442695210,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71513828",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71513828.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 74,
+        "net": "pr",
+        "code": "71513828",
+        "ids": ",pr71513828,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 17,
+        "dmin": 0.1066,
+        "rms": 0.13,
+        "gap": 73,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.2 - 2 km E of Sabana Grande, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.9373333333333,
+          18.0766666666667,
+          19.2
+        ]
+      },
+      "id": "pr71513828"
+    },
     {
       "type": "Feature",
       "properties": {
