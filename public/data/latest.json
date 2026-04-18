@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1776494595000,
+    "generated": 1776498315000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "2.3.0",
-    "count": 310
+    "count": 300
   },
   "features": [
     {
@@ -168,46 +168,6 @@
         ]
       },
       "id": "pr71513818"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.93,
-        "place": "4 km SSW of Palmarejo, Puerto Rico",
-        "time": 1776411902740,
-        "updated": 1776412373710,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71513813",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71513813.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 57,
-        "net": "pr",
-        "code": "71513813",
-        "ids": ",pr71513813,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 7,
-        "dmin": 0.0131,
-        "rms": 0.07,
-        "gap": 159,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 1.9 - 4 km SSW of Palmarejo, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -67.0961666666667,
-          18.0035,
-          18.24
-        ]
-      },
-      "id": "pr71513813"
     }
   ],
   "bbox": [
