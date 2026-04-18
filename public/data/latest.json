@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1776474227000,
+    "generated": 1776484367000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "2.3.0",
-    "count": 297
+    "count": 307
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.24,
+        "place": "3 km WSW of Santo Domingo, Puerto Rico",
+        "time": 1776479197820,
+        "updated": 1776479840230,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71513853",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71513853.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 77,
+        "net": "pr",
+        "code": "71513853",
+        "ids": ",pr71513853,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 10,
+        "dmin": 0.03117,
+        "rms": 0.1,
+        "gap": 109,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.2 - 3 km WSW of Santo Domingo, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.78,
+          18.0493333333333,
+          17.93
+        ]
+      },
+      "id": "pr71513853"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -212,9 +252,9 @@
   ],
   "bbox": [
     -179.059,
-    -31.5513,
-    -1.539999961853,
-    156.5459,
+    -31.4943,
+    -2.96,
+    176.3053,
     67.224,
     205.468
   ]
