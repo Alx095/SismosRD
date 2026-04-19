@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1776561044000,
+    "generated": 1776572483000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "2.3.0",
-    "count": 237
+    "count": 243
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.28,
+        "place": "76 km NNE of Cruz Bay, U.S. Virgin Islands",
+        "time": 1776564474610,
+        "updated": 1776565627480,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71513928",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71513928.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 166,
+        "net": "pr",
+        "code": "71513928",
+        "ids": ",us6000sr89,pr71513928,",
+        "sources": ",us,pr,",
+        "types": ",origin,phase-data,",
+        "nst": 15,
+        "dmin": 0.4902,
+        "rms": 0.25,
+        "gap": 272,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 3.3 - 76 km NNE of Cruz Bay, U.S. Virgin Islands"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -64.5155,
+          18.9711666666667,
+          8.2
+        ]
+      },
+      "id": "pr71513928"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -208,46 +248,6 @@
         ]
       },
       "id": "pr71513873"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.24,
-        "place": "3 km WSW of Santo Domingo, Puerto Rico",
-        "time": 1776479197820,
-        "updated": 1776479840230,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71513853",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71513853.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 77,
-        "net": "pr",
-        "code": "71513853",
-        "ids": ",pr71513853,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 10,
-        "dmin": 0.03117,
-        "rms": 0.1,
-        "gap": 109,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.2 - 3 km WSW of Santo Domingo, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.78,
-          18.0493333333333,
-          17.93
-        ]
-      },
-      "id": "pr71513853"
     }
   ],
   "bbox": [
@@ -255,7 +255,7 @@
     -32.4116,
     -1.4,
     168.7119,
-    66.037,
+    66.062,
     620.016
   ]
 }
