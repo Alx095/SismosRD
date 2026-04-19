@@ -1,14 +1,94 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1776579015000,
+    "generated": 1776584624000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "2.3.0",
-    "count": 259
+    "count": 266
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.87,
+        "place": "2 km S of Indios, Puerto Rico",
+        "time": 1776580263170,
+        "updated": 1776582265460,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71513938",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71513938.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 127,
+        "net": "pr",
+        "code": "71513938",
+        "ids": ",pr71513938,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 20,
+        "dmin": 0.0545,
+        "rms": 0.25,
+        "gap": 164,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.9 - 2 km S of Indios, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.822,
+          17.975,
+          11.69
+        ]
+      },
+      "id": "pr71513938"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.3,
+        "place": "6 km WSW of Fuig, Puerto Rico",
+        "time": 1776580213620,
+        "updated": 1776581944980,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71513933",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71513933.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 81,
+        "net": "pr",
+        "code": "71513933",
+        "ids": ",pr71513933,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 12,
+        "dmin": 0.08597,
+        "rms": 0.16,
+        "gap": 210,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.3 - 6 km WSW of Fuig, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.9681666666667,
+          17.9598333333333,
+          10.41
+        ]
+      },
+      "id": "pr71513933"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -213,9 +293,9 @@
   "bbox": [
     -179.6701,
     -32.4116,
-    -1.4,
+    -2.6800000667572,
     168.7119,
-    66.062,
+    67.205,
     620.016
   ]
 }
