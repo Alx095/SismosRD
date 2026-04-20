@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1776714231000,
+    "generated": 1776716816000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
@@ -288,92 +288,12 @@
         ]
       },
       "id": "pr71513983"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.82,
-        "place": "60 km NW of San Antonio, Puerto Rico",
-        "time": 1776629889330,
-        "updated": 1776632453020,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71513973",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71513973.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 122,
-        "net": "pr",
-        "code": "71513973",
-        "ids": ",pr71513973,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 9,
-        "dmin": 0.554,
-        "rms": 0.11,
-        "gap": 316,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.8 - 60 km NW of San Antonio, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -67.4171666666667,
-          18.942,
-          17.94
-        ]
-      },
-      "id": "pr71513973"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.31,
-        "place": "4 km SSW of Indios, Puerto Rico",
-        "time": 1776627882560,
-        "updated": 1776631676840,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71513968",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71513968.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 82,
-        "net": "pr",
-        "code": "71513968",
-        "ids": ",pr71513968,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 4,
-        "dmin": 0.04187,
-        "rms": 0.07,
-        "gap": 217,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.3 - 4 km SSW of Indios, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.8386666666667,
-          17.9588333333333,
-          15.53
-        ]
-      },
-      "id": "pr71513968"
     }
   ],
   "bbox": [
     -178.4456,
     -49.6804,
-    -2.5,
+    -2.38,
     179.3113,
     67.154,
     593.6
