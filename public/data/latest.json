@@ -1,24 +1,24 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1776706992000,
+    "generated": 1776710480000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "2.3.0",
-    "count": 282
+    "count": 295
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
         "mag": 2.7,
-        "place": "5 km SSE of Indios, Puerto Rico",
-        "time": 1776705963549,
-        "updated": 1776706210040,
+        "place": "2 km SW of Indios, Puerto Rico",
+        "time": 1776705963820,
+        "updated": 1776707200920,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000srlu",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000srlu.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71514053",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71514053.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
@@ -26,28 +26,28 @@
         "status": "reviewed",
         "tsunami": 0,
         "sig": 112,
-        "net": "us",
-        "code": "6000srlu",
-        "ids": ",us6000srlu,",
-        "sources": ",us,",
+        "net": "pr",
+        "code": "71514053",
+        "ids": ",us6000srlu,pr71514053,",
+        "sources": ",us,pr,",
         "types": ",origin,phase-data,",
-        "nst": 13,
-        "dmin": 0.251,
+        "nst": 18,
+        "dmin": 0.04314,
         "rms": 0.29,
-        "gap": 192,
-        "magType": "ml",
+        "gap": 168,
+        "magType": "md",
         "type": "earthquake",
-        "title": "M 2.7 - 5 km SSE of Indios, Puerto Rico"
+        "title": "M 2.7 - 2 km SW of Indios, Puerto Rico"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -66.8081,
-          17.9492,
-          10.858
+          -66.8348333333333,
+          17.9836666666667,
+          17.24
         ]
       },
-      "id": "us6000srlu"
+      "id": "pr71514053"
     },
     {
       "type": "Feature",
@@ -371,7 +371,7 @@
     }
   ],
   "bbox": [
-    -178.3141,
+    -178.4456,
     -49.6804,
     -2.5,
     179.3113,
