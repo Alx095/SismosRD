@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1776750651000,
+    "generated": 1776755739000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "2.3.0",
-    "count": 295
+    "count": 278
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.7,
+        "place": "46 km NNE of Otra Banda, Dominican Republic",
+        "time": 1776752135146,
+        "updated": 1776752805040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000srsa",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000srsa.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 211,
+        "net": "us",
+        "code": "6000srsa",
+        "ids": ",us6000srsa,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 16,
+        "dmin": 0.544,
+        "rms": 0.47,
+        "gap": 148,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.7 - 46 km NNE of Otra Banda, Dominican Republic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.5104,
+          19.0469,
+          35
+        ]
+      },
+      "id": "us6000srsa"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -332,7 +372,7 @@
   ],
   "bbox": [
     -178.4456,
-    -32.4235,
+    -14.4599,
     -1.37,
     179.3113,
     66.043,
