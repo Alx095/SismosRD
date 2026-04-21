@@ -1,21 +1,61 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1776729972000,
+    "generated": 1776742868000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "2.3.0",
-    "count": 298
+    "count": 288
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.45,
+        "place": "6 km WSW of Guánica, Puerto Rico",
+        "time": 1776740222090,
+        "updated": 1776741046160,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71514103",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71514103.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 92,
+        "net": "pr",
+        "code": "71514103",
+        "ids": ",pr71514103,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 13,
+        "dmin": 0.08341,
+        "rms": 0.12,
+        "gap": 223,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.5 - 6 km WSW of Guánica, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.9613333333333,
+          17.9456666666667,
+          10.36
+        ]
+      },
+      "id": "pr71514103"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 3.15,
         "place": "92 km NNE of San Juan, Puerto Rico",
         "time": 1776728218810,
-        "updated": 1776729795810,
+        "updated": 1776733859040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71514073",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71514073.geojson",
@@ -28,8 +68,8 @@
         "sig": 153,
         "net": "pr",
         "code": "71514073",
-        "ids": ",pr71514073,",
-        "sources": ",pr,",
+        "ids": ",us6000srqe,pr71514073,",
+        "sources": ",us,pr,",
         "types": ",origin,phase-data,",
         "nst": 16,
         "dmin": 0.9816,
@@ -208,172 +248,12 @@
         ]
       },
       "id": "pr71514028"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.89,
-        "place": "9 km E of La Romana, Dominican Republic",
-        "time": 1776655083930,
-        "updated": 1776659828040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2026110000",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2026110000.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 233,
-        "net": "pr",
-        "code": "2026110000",
-        "ids": ",us6000srh3,pr2026110000,",
-        "sources": ",us,pr,",
-        "types": ",origin,phase-data,",
-        "nst": 18,
-        "dmin": 0.5089,
-        "rms": 0.02,
-        "gap": 226,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.9 - 9 km E of La Romana, Dominican Republic"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -68.8855,
-          18.4438,
-          122
-        ]
-      },
-      "id": "pr2026110000"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3,
-        "place": "42 km N of Charlotte Amalie, U.S. Virgin Islands",
-        "time": 1776653094900,
-        "updated": 1776654670240,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71513998",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71513998.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 138,
-        "net": "pr",
-        "code": "71513998",
-        "ids": ",pr71513998,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 12,
-        "dmin": 0.3693,
-        "rms": 0.44,
-        "gap": 214,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.0 - 42 km N of Charlotte Amalie, U.S. Virgin Islands"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -64.9981666666667,
-          18.7215,
-          13.76
-        ]
-      },
-      "id": "pr71513998"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.29,
-        "place": "93 km N of Cruz Bay, U.S. Virgin Islands",
-        "time": 1776648347650,
-        "updated": 1776649709390,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71513988",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71513988.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 167,
-        "net": "pr",
-        "code": "71513988",
-        "ids": ",us6000srgh,pr71513988,",
-        "sources": ",us,pr,",
-        "types": ",origin,phase-data,",
-        "nst": 11,
-        "dmin": 0.7578,
-        "rms": 0.18,
-        "gap": 271,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.3 - 93 km N of Cruz Bay, U.S. Virgin Islands"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -64.7595,
-          19.172,
-          6.77
-        ]
-      },
-      "id": "pr71513988"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.32,
-        "place": "99 km N of Cruz Bay, U.S. Virgin Islands",
-        "time": 1776645438890,
-        "updated": 1776655104040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71513983",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71513983.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 170,
-        "net": "pr",
-        "code": "71513983",
-        "ids": ",us6000srgb,pr71513983,",
-        "sources": ",us,pr,",
-        "types": ",origin,phase-data,",
-        "nst": 10,
-        "dmin": 0.7743,
-        "rms": 0.15,
-        "gap": 273,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.3 - 99 km N of Cruz Bay, U.S. Virgin Islands"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -64.6753333333333,
-          19.224,
-          41.48
-        ]
-      },
-      "id": "pr71513983"
     }
   ],
   "bbox": [
     -178.4456,
-    -49.6804,
-    -1.19,
+    -32.4235,
+    -1.37,
     179.3113,
     66.043,
     593.6
