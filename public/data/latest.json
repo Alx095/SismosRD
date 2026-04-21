@@ -1,14 +1,94 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1776762192000,
+    "generated": 1776767102000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "2.3.0",
-    "count": 266
+    "count": 253
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.57,
+        "place": "35 km SSE of Boca de Yuma, Dominican Republic",
+        "time": 1776764539860,
+        "updated": 1776766308920,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2026111001",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2026111001.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 196,
+        "net": "pr",
+        "code": "2026111001",
+        "ids": ",pr2026111001,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 17,
+        "dmin": 0.4335,
+        "rms": 0.57,
+        "gap": 192,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 3.6 - 35 km SSE of Boca de Yuma, Dominican Republic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.4703,
+          18.0896,
+          98
+        ]
+      },
+      "id": "pr2026111001"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.1,
+        "place": "6 km SW of Adjuntas, Puerto Rico",
+        "time": 1776763170360,
+        "updated": 1776763683250,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71514138",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71514138.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 68,
+        "net": "pr",
+        "code": "71514138",
+        "ids": ",pr71514138,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 10,
+        "dmin": 0.1067,
+        "rms": 0.15,
+        "gap": 82,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.1 - 6 km SW of Adjuntas, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.7633333333333,
+          18.1238333333333,
+          22.42
+        ]
+      },
+      "id": "pr71514138"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -328,53 +408,13 @@
         ]
       },
       "id": "pr71514053"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.24,
-        "place": "2 km W of Tallaboa, Puerto Rico",
-        "time": 1776677935430,
-        "updated": 1776678586200,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71514038",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71514038.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 77,
-        "net": "pr",
-        "code": "71514038",
-        "ids": ",pr71514038,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 15,
-        "dmin": 0.05454,
-        "rms": 0.26,
-        "gap": 148,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.2 - 2 km W of Tallaboa, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.743,
-          17.9908333333333,
-          12.49
-        ]
-      },
-      "id": "pr71514038"
     }
   ],
   "bbox": [
     -178.4456,
     -14.4599,
     -1.37,
-    179.3113,
+    176.4828,
     66.043,
     484.842
   ]
