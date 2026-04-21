@@ -1,21 +1,61 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1776775405000,
+    "generated": 1776781178000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "2.3.0",
-    "count": 237
+    "count": 232
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.16,
+        "place": "4 km W of La Parguera, Puerto Rico",
+        "time": 1776776585190,
+        "updated": 1776777663210,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71514198",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71514198.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 72,
+        "net": "pr",
+        "code": "71514198",
+        "ids": ",pr71514198,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 10,
+        "dmin": 0.03849,
+        "rms": 0.12,
+        "gap": 218,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.2 - 4 km W of La Parguera, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.0891666666667,
+          17.973,
+          12.4
+        ]
+      },
+      "id": "pr71514198"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 3.57,
         "place": "35 km SSE of Boca de Yuma, Dominican Republic",
         "time": 1776764539860,
-        "updated": 1776766308920,
+        "updated": 1776778625040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2026111001",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2026111001.geojson",
@@ -28,8 +68,8 @@
         "sig": 196,
         "net": "pr",
         "code": "2026111001",
-        "ids": ",pr2026111001,",
-        "sources": ",pr,",
+        "ids": ",us6000srt8,pr2026111001,",
+        "sources": ",us,pr,",
         "types": ",origin,phase-data,",
         "nst": 17,
         "dmin": 0.4335,
@@ -413,7 +453,7 @@
   "bbox": [
     -178.4456,
     -62.0123,
-    -1.37,
+    -1.19,
     176.4828,
     66.043,
     484.842
