@@ -1,14 +1,214 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1776823777000,
+    "generated": 1776834362000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "2.3.0",
-    "count": 254
+    "count": 243
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.35,
+        "place": "3 km WSW of Indios, Puerto Rico",
+        "time": 1776833170340,
+        "updated": 1776834193030,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71514378",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71514378.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 85,
+        "net": "pr",
+        "code": "71514378",
+        "ids": ",pr71514378,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 7,
+        "dmin": 0.03199,
+        "rms": 0.15,
+        "gap": 157,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.4 - 3 km WSW of Indios, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.846,
+          17.9796666666667,
+          12.82
+        ]
+      },
+      "id": "pr71514378"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.11,
+        "place": "17 km SSE of Esperanza, Puerto Rico",
+        "time": 1776831802600,
+        "updated": 1776834301040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71514363",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71514363.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 149,
+        "net": "pr",
+        "code": "71514363",
+        "ids": ",us6000srz4,pr71514363,",
+        "sources": ",us,pr,",
+        "types": ",origin,phase-data,",
+        "nst": 21,
+        "dmin": 0.3539,
+        "rms": 0.41,
+        "gap": 162,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 3.1 - 17 km SSE of Esperanza, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.3773333333333,
+          17.9633333333333,
+          10.05
+        ]
+      },
+      "id": "pr71514363"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.15,
+        "place": "3 km SSW of Indios, Puerto Rico",
+        "time": 1776830877820,
+        "updated": 1776832567650,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71514338",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71514338.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 153,
+        "net": "pr",
+        "code": "71514338",
+        "ids": ",us6000sryr,pr71514338,",
+        "sources": ",us,pr,",
+        "types": ",origin,phase-data,",
+        "nst": 32,
+        "dmin": 0.03906,
+        "rms": 0.3,
+        "gap": 176,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 3.2 - 3 km SSW of Indios, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.8398333333333,
+          17.9641666666667,
+          12.64
+        ]
+      },
+      "id": "pr71514338"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.17,
+        "place": "75 km N of Brenas, Puerto Rico",
+        "time": 1776826152430,
+        "updated": 1776828054360,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71514323",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71514323.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 155,
+        "net": "pr",
+        "code": "71514323",
+        "ids": ",pr71514323,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 21,
+        "dmin": 0.6674,
+        "rms": 0.32,
+        "gap": 244,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 3.2 - 75 km N of Brenas, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.4361666666667,
+          19.1421666666667,
+          46.15
+        ]
+      },
+      "id": "pr71514323"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.86,
+        "place": "3 km SW of Indios, Puerto Rico",
+        "time": 1776824746580,
+        "updated": 1776825903470,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71514308",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71514308.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 126,
+        "net": "pr",
+        "code": "71514308",
+        "ids": ",pr71514308,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 24,
+        "dmin": 0.03836,
+        "rms": 0.2,
+        "gap": 174,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.9 - 3 km SW of Indios, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.8396666666667,
+          17.9678333333333,
+          12.97
+        ]
+      },
+      "id": "pr71514308"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -248,166 +448,6 @@
         ]
       },
       "id": "pr2026111000"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.69,
-        "place": "13 km N of Carrizales, Puerto Rico",
-        "time": 1776747800300,
-        "updated": 1776749065570,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71514113",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71514113.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 111,
-        "net": "pr",
-        "code": "71514113",
-        "ids": ",pr71514113,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 22,
-        "dmin": 0.2556,
-        "rms": 0.18,
-        "gap": 213,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.7 - 13 km N of Carrizales, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.7698333333333,
-          18.6031666666667,
-          13.53
-        ]
-      },
-      "id": "pr71514113"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.05,
-        "place": "52 km WSW of Stella, Puerto Rico",
-        "time": 1776747515660,
-        "updated": 1776749943610,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71514123",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71514123.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 143,
-        "net": "pr",
-        "code": "71514123",
-        "ids": ",pr71514123,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 14,
-        "dmin": 0.5689,
-        "rms": 0.5,
-        "gap": 192,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.1 - 52 km WSW of Stella, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -67.696,
-          18.1186666666667,
-          39.79
-        ]
-      },
-      "id": "pr71514123"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.23,
-        "place": "6 km SE of Punta Cana, Dominican Republic",
-        "time": 1776747405160,
-        "updated": 1776749150850,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71514108",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71514108.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 161,
-        "net": "pr",
-        "code": "71514108",
-        "ids": ",pr71514108,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 21,
-        "dmin": 0.03426,
-        "rms": 0.25,
-        "gap": 137,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.2 - 6 km SE of Punta Cana, Dominican Republic"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -68.3581666666667,
-          18.5411666666667,
-          30.76
-        ]
-      },
-      "id": "pr71514108"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.45,
-        "place": "6 km WSW of Guánica, Puerto Rico",
-        "time": 1776740222090,
-        "updated": 1776741046160,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71514103",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71514103.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 92,
-        "net": "pr",
-        "code": "71514103",
-        "ids": ",pr71514103,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 13,
-        "dmin": 0.08341,
-        "rms": 0.12,
-        "gap": 223,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.5 - 6 km WSW of Guánica, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.9613333333333,
-          17.9456666666667,
-          10.36
-        ]
-      },
-      "id": "pr71514103"
     }
   ],
   "bbox": [
@@ -415,7 +455,7 @@
     -62.0123,
     -3.15,
     170.8816,
-    65.094,
+    64.967,
     133.7
   ]
 }
