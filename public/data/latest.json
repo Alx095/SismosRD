@@ -1,14 +1,134 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1776960753000,
+    "generated": 1776966273000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "2.3.0",
-    "count": 267
+    "count": 256
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.32,
+        "place": "0 km SSW of Santa Isabel, Puerto Rico",
+        "time": 1776962696900,
+        "updated": 1776963726440,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71514578",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71514578.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 83,
+        "net": "pr",
+        "code": "71514578",
+        "ids": ",pr71514578,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 15,
+        "dmin": 0.01357,
+        "rms": 0.18,
+        "gap": 148,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.3 - 0 km SSW of Santa Isabel, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.4055,
+          17.9638333333333,
+          13.54
+        ]
+      },
+      "id": "pr71514578"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.54,
+        "place": "4 km S of Indios, Puerto Rico",
+        "time": 1776960722810,
+        "updated": 1776963158710,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71514568",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71514568.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 99,
+        "net": "pr",
+        "code": "71514568",
+        "ids": ",pr71514568,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 7,
+        "dmin": 0.05398,
+        "rms": 0.24,
+        "gap": 218,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.5 - 4 km S of Indios, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.8258333333333,
+          17.9568333333333,
+          18.82
+        ]
+      },
+      "id": "pr71514568"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.18,
+        "place": "38 km NW of San Antonio, Puerto Rico",
+        "time": 1776960120550,
+        "updated": 1776961855040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71514558",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71514558.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 156,
+        "net": "pr",
+        "code": "71514558",
+        "ids": ",us6000ssb4,pr71514558,",
+        "sources": ",us,pr,",
+        "types": ",origin,phase-data,",
+        "nst": 12,
+        "dmin": 0.3589,
+        "rms": 0.36,
+        "gap": 216,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 3.2 - 38 km NW of San Antonio, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.3025,
+          18.7788333333333,
+          8.61
+        ]
+      },
+      "id": "pr71514558"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -408,46 +528,6 @@
         ]
       },
       "id": "pr71514438"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.18,
-        "place": "98 km NNW of San Antonio, Puerto Rico",
-        "time": 1776877133420,
-        "updated": 1776879372090,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71514423",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71514423.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 156,
-        "net": "pr",
-        "code": "71514423",
-        "ids": ",pr71514423,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 6,
-        "dmin": 0.907,
-        "rms": 0.14,
-        "gap": 328,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.2 - 98 km NNW of San Antonio, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -67.3608333333333,
-          19.3478333333333,
-          18.79
-        ]
-      },
-      "id": "pr71514423"
     }
   ],
   "bbox": [
