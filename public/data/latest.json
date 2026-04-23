@@ -1,14 +1,94 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1776939912000,
+    "generated": 1776944133000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "2.3.0",
-    "count": 266
+    "count": 269
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.03,
+        "place": "3 km E of Maria Antonia, Puerto Rico",
+        "time": 1776940037330,
+        "updated": 1776942006330,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71514518",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71514518.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 63,
+        "net": "pr",
+        "code": "71514518",
+        "ids": ",pr71514518,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 4,
+        "dmin": 0.2457,
+        "rms": 0.17,
+        "gap": 208,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.0 - 3 km E of Maria Antonia, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.8531666666667,
+          17.9775,
+          8.28
+        ]
+      },
+      "id": "pr71514518"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.25,
+        "place": "1 km SW of Guánica, Puerto Rico",
+        "time": 1776938312730,
+        "updated": 1776941418760,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71514513",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71514513.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 78,
+        "net": "pr",
+        "code": "71514513",
+        "ids": ",pr71514513,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 6,
+        "dmin": 0.03879,
+        "rms": 0.08,
+        "gap": 215,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.3 - 1 km SW of Guánica, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.917,
+          17.9603333333333,
+          14.42
+        ]
+      },
+      "id": "pr71514513"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -371,7 +451,7 @@
     }
   ],
   "bbox": [
-    -178.39066666667,
+    -177.314,
     -57.1,
     -2,
     167.4412,
