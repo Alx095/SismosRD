@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1777054005000,
+    "generated": 1777057741000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "2.3.0",
-    "count": 251
+    "count": 262
   },
   "features": [
     {
@@ -88,46 +88,6 @@
         ]
       },
       "id": "pr71514603"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.94,
-        "place": "1 km SSW of Candelaria Arenas, Puerto Rico",
-        "time": 1776969129320,
-        "updated": 1776969765110,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71514588",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71514588.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 58,
-        "net": "pr",
-        "code": "71514588",
-        "ids": ",pr71514588,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 9,
-        "dmin": 0.1582,
-        "rms": 0.05,
-        "gap": 202,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 1.9 - 1 km SSW of Candelaria Arenas, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.224,
-          18.4066666666667,
-          13.18
-        ]
-      },
-      "id": "pr71514588"
     }
   ],
   "bbox": [
