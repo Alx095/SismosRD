@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1777138648000,
+    "generated": 1777140441000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "2.3.0",
-    "count": 279
+    "count": 280
   },
   "features": [
     {
@@ -55,7 +55,7 @@
         "mag": 3.29,
         "place": "101 km N of Culebra, Puerto Rico",
         "time": 1777132860400,
-        "updated": 1777135540920,
+        "updated": 1777140286040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71514668",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71514668.geojson",
@@ -68,8 +68,8 @@
         "sig": 167,
         "net": "pr",
         "code": "71514668",
-        "ids": ",pr71514668,",
-        "sources": ",pr,",
+        "ids": ",us6000ssup,pr71514668,",
+        "sources": ",us,pr,",
         "types": ",origin,phase-data,",
         "nst": 17,
         "dmin": 0.9117,
@@ -95,7 +95,7 @@
         "mag": 3.41,
         "place": "107 km N of Culebra, Puerto Rico",
         "time": 1777132649160,
-        "updated": 1777138073820,
+        "updated": 1777139868040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71514658",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71514658.geojson",
@@ -108,8 +108,8 @@
         "sig": 179,
         "net": "pr",
         "code": "71514658",
-        "ids": ",pr71514658,",
-        "sources": ",pr,",
+        "ids": ",us6000ssun,pr71514658,",
+        "sources": ",us,pr,",
         "types": ",origin,phase-data,",
         "nst": 20,
         "dmin": 0.9642,
@@ -135,7 +135,7 @@
         "mag": 3.16,
         "place": "103 km N of Culebra, Puerto Rico",
         "time": 1777130779410,
-        "updated": 1777132277550,
+        "updated": 1777139272040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71514648",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71514648.geojson",
@@ -148,8 +148,8 @@
         "sig": 154,
         "net": "pr",
         "code": "71514648",
-        "ids": ",pr71514648,",
-        "sources": ",pr,",
+        "ids": ",us6000ssuk,pr71514648,",
+        "sources": ",us,pr,",
         "types": ",origin,phase-data,",
         "nst": 18,
         "dmin": 0.9209,
@@ -248,46 +248,6 @@
         ]
       },
       "id": "pr71514623"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.24,
-        "place": "5 km SSW of Indios, Puerto Rico",
-        "time": 1777052859210,
-        "updated": 1777053503390,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71514618",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71514618.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 77,
-        "net": "pr",
-        "code": "71514618",
-        "ids": ",pr71514618,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 5,
-        "dmin": 0.04418,
-        "rms": 0.23,
-        "gap": 219,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.2 - 5 km SSW of Indios, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.8391666666667,
-          17.9526666666667,
-          14.68
-        ]
-      },
-      "id": "pr71514618"
     }
   ],
   "bbox": [
