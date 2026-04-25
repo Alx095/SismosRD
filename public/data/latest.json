@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1777136308000,
+    "generated": 1777138648000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "2.3.0",
-    "count": 287
+    "count": 279
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.39,
+        "place": "3 km SSE of Boquerón, Puerto Rico",
+        "time": 1777135268150,
+        "updated": 1777137817800,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71514678",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71514678.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 88,
+        "net": "pr",
+        "code": "71514678",
+        "ids": ",pr71514678,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 11,
+        "dmin": 0.04051,
+        "rms": 0.14,
+        "gap": 261,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.4 - 3 km SSE of Boquerón, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.1516666666667,
+          18.0001666666667,
+          12.62
+        ]
+      },
+      "id": "pr71514678"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -48,6 +88,46 @@
         ]
       },
       "id": "pr71514668"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.41,
+        "place": "107 km N of Culebra, Puerto Rico",
+        "time": 1777132649160,
+        "updated": 1777138073820,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71514658",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71514658.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 179,
+        "net": "pr",
+        "code": "71514658",
+        "ids": ",pr71514658,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 20,
+        "dmin": 0.9642,
+        "rms": 0.46,
+        "gap": 256,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 3.4 - 107 km N of Culebra, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.2751666666667,
+          19.2768333333333,
+          32.32
+        ]
+      },
+      "id": "pr71514658"
     },
     {
       "type": "Feature",
