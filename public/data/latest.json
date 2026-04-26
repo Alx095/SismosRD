@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1777221354000,
+    "generated": 1777224067000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "2.3.0",
-    "count": 221
+    "count": 217
   },
   "features": [
     {
@@ -328,53 +328,13 @@
         ]
       },
       "id": "pr71514683"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.39,
-        "place": "3 km SSE of Boquerón, Puerto Rico",
-        "time": 1777135268150,
-        "updated": 1777137817800,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71514678",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71514678.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 88,
-        "net": "pr",
-        "code": "71514678",
-        "ids": ",pr71514678,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 11,
-        "dmin": 0.04051,
-        "rms": 0.14,
-        "gap": 261,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.4 - 3 km SSE of Boquerón, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -67.1516666666667,
-          18.0001666666667,
-          12.62
-        ]
-      },
-      "id": "pr71514678"
     }
   ],
   "bbox": [
     -177.8716,
     -30.2935,
     -0.059999998658895,
-    178.327,
+    176.3712,
     86.0901,
     358.243
   ]
