@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1777234934000,
+    "generated": 1777237197000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "2.3.0",
-    "count": 215
+    "count": 209
   },
   "features": [
     {
@@ -328,46 +328,6 @@
         ]
       },
       "id": "pr2026116000"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2,
-        "place": "2 km WNW of Indios, Puerto Rico",
-        "time": 1777149658920,
-        "updated": 1777150826660,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71514683",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71514683.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 62,
-        "net": "pr",
-        "code": "71514683",
-        "ids": ",pr71514683,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 9,
-        "dmin": 0.04447,
-        "rms": 0.16,
-        "gap": 126,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.0 - 2 km WNW of Indios, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.8408333333333,
-          18.0005,
-          15.61
-        ]
-      },
-      "id": "pr71514683"
     }
   ],
   "bbox": [
