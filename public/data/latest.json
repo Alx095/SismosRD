@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1777230039000,
+    "generated": 1777232968000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
@@ -88,6 +88,46 @@
         ]
       },
       "id": "pr2026116002"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.26,
+        "place": "123 km N of Cruz Bay, U.S. Virgin Islands",
+        "time": 1777201335010,
+        "updated": 1777231410436,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2026116001",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2026116001.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 79,
+        "net": "pr",
+        "code": "2026116001",
+        "ids": ",pr2026116001,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 3,
+        "dmin": 1.0142,
+        "rms": 0.12,
+        "gap": 330,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.3 - 123 km N of Cruz Bay, U.S. Virgin Islands"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -64.7426,
+          19.446,
+          19
+        ]
+      },
+      "id": "pr2026116001"
     },
     {
       "type": "Feature",
@@ -212,42 +252,42 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 3.88,
-        "place": "33 km SSE of La Romana, Dominican Republic",
-        "time": 1777179950460,
+        "mag": 2.8,
+        "place": "24 km SE of La Romana, Dominican Republic",
+        "time": 1777179950139,
         "updated": 1777183612040,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2026116001",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2026116001.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ssy5",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000ssy5.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 232,
-        "net": "pr",
-        "code": "2026116001",
-        "ids": ",us6000ssy5,pr2026116001,",
-        "sources": ",us,pr,",
+        "sig": 121,
+        "net": "us",
+        "code": "6000ssy5",
+        "ids": ",us6000ssy5,",
+        "sources": ",us,",
         "types": ",origin,phase-data,",
-        "nst": 12,
-        "dmin": 0.5793,
-        "rms": 0.46,
-        "gap": 226,
-        "magType": "md",
+        "nst": 16,
+        "dmin": 0.489,
+        "rms": 0.71,
+        "gap": 203,
+        "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.9 - 33 km SSE of La Romana, Dominican Republic"
+        "title": "M 2.8 - 24 km SE of La Romana, Dominican Republic"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -68.8375,
-          18.1568,
-          123
+          -68.8235,
+          18.2621,
+          124.674
         ]
       },
-      "id": "pr2026116001"
+      "id": "us6000ssy5"
     },
     {
       "type": "Feature",
