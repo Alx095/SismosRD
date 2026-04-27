@@ -1,14 +1,94 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1777264884000,
+    "generated": 1777274364000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "2.3.0",
-    "count": 187
+    "count": 186
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.67,
+        "place": "7 km SE of La Parguera, Puerto Rico",
+        "time": 1777271485970,
+        "updated": 1777274020763,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2026117001",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2026117001.geojson",
+        "felt": 2,
+        "cdi": 3.6,
+        "mmi": 3.176,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 208,
+        "net": "pr",
+        "code": "2026117001",
+        "ids": ",us6000st3p,pr2026117001,",
+        "sources": ",us,pr,",
+        "types": ",dyfi,origin,phase-data,shakemap,",
+        "nst": 22,
+        "dmin": 0.1143,
+        "rms": 0.21,
+        "gap": 206,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 3.7 - 7 km SE of La Parguera, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.986,
+          17.9345,
+          7
+        ]
+      },
+      "id": "pr2026117001"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.46,
+        "place": "162 km NNE of Cruz Bay, U.S. Virgin Islands",
+        "time": 1777266687920,
+        "updated": 1777271387040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2026117000",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2026117000.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 184,
+        "net": "pr",
+        "code": "2026117000",
+        "ids": ",us6000st39,pr2026117000,",
+        "sources": ",us,pr,",
+        "types": ",origin,phase-data,",
+        "nst": 22,
+        "dmin": 1.2208,
+        "rms": 0.31,
+        "gap": 294,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.5 - 162 km NNE of Cruz Bay, U.S. Virgin Islands"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -64.2335,
+          19.6996,
+          34
+        ]
+      },
+      "id": "pr2026117000"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -248,92 +328,12 @@
         ]
       },
       "id": "pr71514718"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.91,
-        "place": "2 km N of Santa Isabel, Puerto Rico",
-        "time": 1777180183880,
-        "updated": 1777181006260,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71514708",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71514708.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 56,
-        "net": "pr",
-        "code": "71514708",
-        "ids": ",pr71514708,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 11,
-        "dmin": 0.1539,
-        "rms": 0.25,
-        "gap": 137,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 1.9 - 2 km N of Santa Isabel, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.4025,
-          17.9853333333333,
-          8.53
-        ]
-      },
-      "id": "pr71514708"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.8,
-        "place": "24 km SE of La Romana, Dominican Republic",
-        "time": 1777179950139,
-        "updated": 1777183612040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ssy5",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000ssy5.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 121,
-        "net": "us",
-        "code": "6000ssy5",
-        "ids": ",us6000ssy5,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 16,
-        "dmin": 0.489,
-        "rms": 0.71,
-        "gap": 203,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.8 - 24 km SE of La Romana, Dominican Republic"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -68.8235,
-          18.2621,
-          124.674
-        ]
-      },
-      "id": "us6000ssy5"
     }
   ],
   "bbox": [
     -156.512,
     -28.7932,
-    -0.37,
+    -2.6600000858307,
     155.7585,
     66.335,
     358.243
