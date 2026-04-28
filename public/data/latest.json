@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1777378348000,
+    "generated": 1777393506000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "2.3.0",
-    "count": 224
+    "count": 223
   },
   "features": [
     {
@@ -328,54 +328,14 @@
         ]
       },
       "id": "pr71514873"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.87,
-        "place": "10 km SW of Stella, Puerto Rico",
-        "time": 1777306535310,
-        "updated": 1777307951090,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71514868",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71514868.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 127,
-        "net": "pr",
-        "code": "71514868",
-        "ids": ",pr71514868,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 5,
-        "dmin": 0.2444,
-        "rms": 0.21,
-        "gap": 301,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.9 - 10 km SW of Stella, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -67.327,
-          18.261,
-          17.43
-        ]
-      },
-      "id": "pr71514868"
     }
   ],
   "bbox": [
-    -177.6526,
+    -178.8476,
     -33.9947,
     -1.6499999761581,
-    176.5547,
-    64.929,
+    159.2004,
+    65.118,
     526.977
   ]
 }
