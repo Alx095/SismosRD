@@ -1,14 +1,94 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1777348588000,
+    "generated": 1777357581000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "2.3.0",
-    "count": 220
+    "count": 212
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.16,
+        "place": "130 km N of Isabela, Puerto Rico",
+        "time": 1777351296980,
+        "updated": 1777353107480,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71514898",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71514898.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 154,
+        "net": "pr",
+        "code": "71514898",
+        "ids": ",pr71514898,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 17,
+        "dmin": 1.207,
+        "rms": 0.3,
+        "gap": 247,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 3.2 - 130 km N of Isabela, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.1026666666667,
+          19.6805,
+          30.91
+        ]
+      },
+      "id": "pr71514898"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.17,
+        "place": "51 km NNE of Vieques, Puerto Rico",
+        "time": 1777343828740,
+        "updated": 1777349625950,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71514878",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71514878.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 155,
+        "net": "pr",
+        "code": "71514878",
+        "ids": ",pr71514878,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 25,
+        "dmin": 0.6092,
+        "rms": 0.22,
+        "gap": 219,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 3.2 - 51 km NNE of Vieques, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.6826666666667,
+          18.8653333333333,
+          10.75
+        ]
+      },
+      "id": "pr71514878"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -288,92 +368,12 @@
         ]
       },
       "id": "pr2026117001"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.43,
-        "place": "141 km NNE of Cruz Bay, U.S. Virgin Islands",
-        "time": 1777266740790,
-        "updated": 1777295226040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71514808",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71514808.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 181,
-        "net": "pr",
-        "code": "71514808",
-        "ids": ",us6000st3u,pr71514808,",
-        "sources": ",us,pr,",
-        "types": ",origin,phase-data,",
-        "nst": 16,
-        "dmin": 1.029,
-        "rms": 0.31,
-        "gap": 301,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.4 - 141 km NNE of Cruz Bay, U.S. Virgin Islands"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -64.2953333333333,
-          19.5195,
-          36.12
-        ]
-      },
-      "id": "pr71514808"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.46,
-        "place": "162 km NNE of Cruz Bay, U.S. Virgin Islands",
-        "time": 1777266687920,
-        "updated": 1777271387040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2026117000",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2026117000.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 184,
-        "net": "pr",
-        "code": "2026117000",
-        "ids": ",us6000st39,pr2026117000,",
-        "sources": ",us,pr,",
-        "types": ",origin,phase-data,",
-        "nst": 22,
-        "dmin": 1.2208,
-        "rms": 0.31,
-        "gap": 294,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.5 - 162 km NNE of Cruz Bay, U.S. Virgin Islands"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -64.2335,
-          19.6996,
-          34
-        ]
-      },
-      "id": "pr2026117000"
     }
   ],
   "bbox": [
     -177.6526,
-    -25.6551,
-    -2.6600000858307,
+    -21.1229,
+    -1.6499999761581,
     176.5547,
     64.929,
     526.977
