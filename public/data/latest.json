@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1777372468000,
+    "generated": 1777378348000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "2.3.0",
-    "count": 221
+    "count": 224
   },
   "features": [
     {
@@ -368,131 +368,11 @@
         ]
       },
       "id": "pr71514868"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.08,
-        "place": "73 km N of Culebra, Puerto Rico",
-        "time": 1777290105490,
-        "updated": 1777293106880,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71514853",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71514853.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 146,
-        "net": "pr",
-        "code": "71514853",
-        "ids": ",pr71514853,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 5,
-        "dmin": 0.6583,
-        "rms": 0.13,
-        "gap": 240,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.1 - 73 km N of Culebra, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -65.3423333333333,
-          18.9668333333333,
-          14.47
-        ]
-      },
-      "id": "pr71514853"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.63,
-        "place": "5 km WSW of Mayagüez, Puerto Rico",
-        "time": 1777287188620,
-        "updated": 1777296367870,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71514848",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71514848.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 106,
-        "net": "pr",
-        "code": "71514848",
-        "ids": ",pr71514848,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 6,
-        "dmin": 0.1958,
-        "rms": 0.23,
-        "gap": 270,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.6 - 5 km WSW of Mayagüez, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -67.1938333333333,
-          18.186,
-          103.06
-        ]
-      },
-      "id": "pr71514848"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.35,
-        "place": "93 km N of Culebra, Puerto Rico",
-        "time": 1777286386870,
-        "updated": 1777287675580,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71514833",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71514833.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 173,
-        "net": "pr",
-        "code": "71514833",
-        "ids": ",pr71514833,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 6,
-        "dmin": 0.8352,
-        "rms": 0.21,
-        "gap": 246,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.4 - 93 km N of Culebra, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -65.2833333333333,
-          19.1471666666667,
-          20.17
-        ]
-      },
-      "id": "pr71514833"
     }
   ],
   "bbox": [
     -177.6526,
-    -21.1229,
+    -33.9947,
     -1.6499999761581,
     176.5547,
     64.929,
