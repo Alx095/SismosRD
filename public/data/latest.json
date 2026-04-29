@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1777446439000,
+    "generated": 1777454447000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "2.4.0",
-    "count": 284
+    "count": 275
   },
   "features": [
     {
@@ -15,7 +15,7 @@
         "mag": 3.65,
         "place": "104 km N of San Juan, Puerto Rico",
         "time": 1777440869670,
-        "updated": 1777443927259,
+        "updated": 1777448419040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2026119001",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2026119001.geojson",
@@ -28,8 +28,8 @@
         "sig": 205,
         "net": "pr",
         "code": "2026119001",
-        "ids": ",pr2026119001,",
-        "sources": ",pr,",
+        "ids": ",us7000sgvn,pr2026119001,",
+        "sources": ",us,pr,",
         "types": ",origin,phase-data,",
         "nst": 26,
         "dmin": 1.0151,
@@ -168,166 +168,6 @@
         ]
       },
       "id": "pr71514973"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.23,
-        "place": "94 km NE of Punta Cana, Dominican Republic",
-        "time": 1777363219320,
-        "updated": 1777368363700,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71514953",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71514953.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 161,
-        "net": "pr",
-        "code": "71514953",
-        "ids": ",pr71514953,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 11,
-        "dmin": 0.8796,
-        "rms": 0.18,
-        "gap": 256,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.2 - 94 km NE of Punta Cana, Dominican Republic"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -67.7451666666667,
-          19.159,
-          52.56
-        ]
-      },
-      "id": "pr71514953"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.16,
-        "place": "3 km SW of Indios, Puerto Rico",
-        "time": 1777362949330,
-        "updated": 1777367415460,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71514943",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71514943.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 72,
-        "net": "pr",
-        "code": "71514943",
-        "ids": ",pr71514943,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 7,
-        "dmin": 0.03834,
-        "rms": 0.14,
-        "gap": 213,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.2 - 3 km SW of Indios, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.8395,
-          17.9688333333333,
-          17.41
-        ]
-      },
-      "id": "pr71514943"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.41,
-        "place": "87 km NW of San Antonio, Puerto Rico",
-        "time": 1777362547730,
-        "updated": 1777366988920,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71514928",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71514928.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 179,
-        "net": "pr",
-        "code": "71514928",
-        "ids": ",pr71514928,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 28,
-        "dmin": 0.7564,
-        "rms": 0.57,
-        "gap": 213,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.4 - 87 km NW of San Antonio, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -67.6886666666667,
-          19.0488333333333,
-          5.1
-        ]
-      },
-      "id": "pr71514928"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.16,
-        "place": "69 km NNE of Cruz Bay, U.S. Virgin Islands",
-        "time": 1777360209490,
-        "updated": 1777362014180,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71514923",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71514923.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 154,
-        "net": "pr",
-        "code": "71514923",
-        "ids": ",pr71514923,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 9,
-        "dmin": 0.371,
-        "rms": 0.14,
-        "gap": 283,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.2 - 69 km NNE of Cruz Bay, U.S. Virgin Islands"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -64.4381666666667,
-          18.8616666666667,
-          9.78
-        ]
-      },
-      "id": "pr71514923"
     }
   ],
   "bbox": [
@@ -335,7 +175,7 @@
     -47.8113,
     -2.2300000190735,
     153.5953,
-    66.07,
+    66.278,
     409.024
   ]
 }
