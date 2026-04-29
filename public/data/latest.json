@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1777425493000,
+    "generated": 1777437619000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "2.4.0",
-    "count": 258
+    "count": 289
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.4,
+        "place": "103 km N of San Juan, Puerto Rico",
+        "time": 1777435194947,
+        "updated": 1777436350040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000sgvb",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000sgvb.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 178,
+        "net": "us",
+        "code": "7000sgvb",
+        "ids": ",us7000sgvb,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 18,
+        "dmin": 0.984,
+        "rms": 0.75,
+        "gap": 200,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.4 - 103 km N of San Juan, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1482,
+          19.3977,
+          28.828
+        ]
+      },
+      "id": "us7000sgvb"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -328,46 +368,6 @@
         ]
       },
       "id": "pr71514898"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.17,
-        "place": "51 km NNE of Vieques, Puerto Rico",
-        "time": 1777343828740,
-        "updated": 1777349625950,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71514878",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71514878.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 155,
-        "net": "pr",
-        "code": "71514878",
-        "ids": ",pr71514878,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 25,
-        "dmin": 0.6092,
-        "rms": 0.22,
-        "gap": 219,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.2 - 51 km NNE of Vieques, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -65.6826666666667,
-          18.8653333333333,
-          10.75
-        ]
-      },
-      "id": "pr71514878"
     }
   ],
   "bbox": [
@@ -376,6 +376,6 @@
     -2.2300000190735,
     159.2004,
     66.07,
-    526.977
+    409.024
   ]
 }
