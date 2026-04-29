@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1777492037000,
+    "generated": 1777495457000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "2.4.0",
-    "count": 294
+    "count": 292
   },
   "features": [
     {
@@ -172,10 +172,10 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.76,
-        "place": "41 km WSW of Stella, Puerto Rico",
-        "time": 1777420943750,
-        "updated": 1777423213680,
+        "mag": 2.77,
+        "place": "47 km WSW of Stella, Puerto Rico",
+        "time": 1777420944040,
+        "updated": 1777492618880,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71514978",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71514978.geojson",
@@ -185,26 +185,26 @@
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 117,
+        "sig": 118,
         "net": "pr",
         "code": "71514978",
         "ids": ",pr71514978,",
         "sources": ",pr,",
         "types": ",origin,phase-data,",
         "nst": 9,
-        "dmin": 0.5016,
-        "rms": 0.39,
-        "gap": 309,
+        "dmin": 0.56,
+        "rms": 0.43,
+        "gap": 314,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 2.8 - 41 km WSW of Stella, Puerto Rico"
+        "title": "M 2.8 - 47 km WSW of Stella, Puerto Rico"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -67.6133333333333,
-          18.1833333333333,
-          -0.11
+          -67.6748333333333,
+          18.1796666666667,
+          7.78
         ]
       },
       "id": "pr71514978"
