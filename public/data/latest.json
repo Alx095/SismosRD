@@ -1,53 +1,93 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1777437619000,
+    "generated": 1777446439000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "2.4.0",
-    "count": 289
+    "count": 284
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 3.4,
-        "place": "103 km N of San Juan, Puerto Rico",
-        "time": 1777435194947,
-        "updated": 1777436350040,
+        "mag": 3.65,
+        "place": "104 km N of San Juan, Puerto Rico",
+        "time": 1777440869670,
+        "updated": 1777443927259,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000sgvb",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000sgvb.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2026119001",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2026119001.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 178,
-        "net": "us",
-        "code": "7000sgvb",
-        "ids": ",us7000sgvb,",
-        "sources": ",us,",
+        "sig": 205,
+        "net": "pr",
+        "code": "2026119001",
+        "ids": ",pr2026119001,",
+        "sources": ",pr,",
         "types": ",origin,phase-data,",
-        "nst": 18,
-        "dmin": 0.984,
-        "rms": 0.75,
-        "gap": 200,
-        "magType": "ml",
+        "nst": 26,
+        "dmin": 1.0151,
+        "rms": 0.45,
+        "gap": 212,
+        "magType": "md",
         "type": "earthquake",
-        "title": "M 3.4 - 103 km N of San Juan, Puerto Rico"
+        "title": "M 3.7 - 104 km N of San Juan, Puerto Rico"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -66.1482,
-          19.3977,
-          28.828
+          -66.1328,
+          19.4115,
+          16
         ]
       },
-      "id": "us7000sgvb"
+      "id": "pr2026119001"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.8,
+        "place": "113 km N of San Juan, Puerto Rico",
+        "time": 1777435195790,
+        "updated": 1777438337563,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2026119000",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2026119000.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 222,
+        "net": "pr",
+        "code": "2026119000",
+        "ids": ",us7000sgvb,pr2026119000,",
+        "sources": ",us,pr,",
+        "types": ",origin,phase-data,",
+        "nst": 26,
+        "dmin": 1.1098,
+        "rms": 0.51,
+        "gap": 230,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 3.8 - 113 km N of San Juan, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.0706,
+          19.4876,
+          31
+        ]
+      },
+      "id": "pr2026119000"
     },
     {
       "type": "Feature",
@@ -288,93 +328,13 @@
         ]
       },
       "id": "pr71514923"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.78,
-        "place": "6 km SSE of Arroyo, Puerto Rico",
-        "time": 1777358376540,
-        "updated": 1777360180080,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71514913",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71514913.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 49,
-        "net": "pr",
-        "code": "71514913",
-        "ids": ",pr71514913,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 8,
-        "dmin": 0.08666,
-        "rms": 0.13,
-        "gap": 233,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 1.8 - 6 km SSE of Arroyo, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.0321666666667,
-          17.9156666666667,
-          12.82
-        ]
-      },
-      "id": "pr71514913"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.16,
-        "place": "130 km N of Isabela, Puerto Rico",
-        "time": 1777351296980,
-        "updated": 1777353107480,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71514898",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71514898.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 154,
-        "net": "pr",
-        "code": "71514898",
-        "ids": ",pr71514898,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 17,
-        "dmin": 1.207,
-        "rms": 0.3,
-        "gap": 247,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.2 - 130 km N of Isabela, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -67.1026666666667,
-          19.6805,
-          30.91
-        ]
-      },
-      "id": "pr71514898"
     }
   ],
   "bbox": [
     -178.8476,
-    -33.9947,
+    -47.8113,
     -2.2300000190735,
-    159.2004,
+    153.5953,
     66.07,
     409.024
   ]
