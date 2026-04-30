@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1777511846000,
+    "generated": 1777524225000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "2.4.0",
-    "count": 317
+    "count": 295
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.23,
+        "place": "48 km NNW of Charlotte Amalie, U.S. Virgin Islands",
+        "time": 1777512132020,
+        "updated": 1777514943040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71515063",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71515063.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 161,
+        "net": "pr",
+        "code": "71515063",
+        "ids": ",us7000sh5y,pr71515063,",
+        "sources": ",us,pr,",
+        "types": ",origin,phase-data,",
+        "nst": 22,
+        "dmin": 0.4118,
+        "rms": 0.26,
+        "gap": 205,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 3.2 - 48 km NNW of Charlotte Amalie, U.S. Virgin Islands"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.1318333333333,
+          18.7311666666667,
+          26.32
+        ]
+      },
+      "id": "pr71515063"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -168,46 +208,6 @@
         ]
       },
       "id": "pr2026119001"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.8,
-        "place": "113 km N of San Juan, Puerto Rico",
-        "time": 1777435195790,
-        "updated": 1777438337563,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2026119000",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2026119000.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 222,
-        "net": "pr",
-        "code": "2026119000",
-        "ids": ",us7000sgvb,pr2026119000,",
-        "sources": ",us,pr,",
-        "types": ",origin,phase-data,",
-        "nst": 26,
-        "dmin": 1.1098,
-        "rms": 0.51,
-        "gap": 230,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.8 - 113 km N of San Juan, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.0706,
-          19.4876,
-          31
-        ]
-      },
-      "id": "pr2026119000"
     }
   ],
   "bbox": [
