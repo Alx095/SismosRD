@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1777533231000,
+    "generated": 1777541154000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "2.4.0",
-    "count": 284
+    "count": 290
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.62,
+        "place": "6 km NNE of Sabana Eneas, Puerto Rico",
+        "time": 1777536245830,
+        "updated": 1777537238090,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71515093",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71515093.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 106,
+        "net": "pr",
+        "code": "71515093",
+        "ids": ",pr71515093,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 12,
+        "dmin": 0.04134,
+        "rms": 0.2,
+        "gap": 112,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.6 - 6 km NNE of Sabana Eneas, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.0573333333333,
+          18.1443333333333,
+          20.72
+        ]
+      },
+      "id": "pr71515093"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -128,94 +168,14 @@
         ]
       },
       "id": "pr71515058"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.19,
-        "place": "2 km S of Santo Domingo, Puerto Rico",
-        "time": 1777450435810,
-        "updated": 1777456414170,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71515033",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71515033.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 74,
-        "net": "pr",
-        "code": "71515033",
-        "ids": ",pr71515033,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 11,
-        "dmin": 0.04318,
-        "rms": 0.23,
-        "gap": 166,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.2 - 2 km S of Santo Domingo, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.75,
-          18.0375,
-          9.71
-        ]
-      },
-      "id": "pr71515033"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.39,
-        "place": "8 km NNE of Brenas, Puerto Rico",
-        "time": 1777448402410,
-        "updated": 1777479297266,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71515018",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71515018.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": 2.453,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 177,
-        "net": "pr",
-        "code": "71515018",
-        "ids": ",us7000sgwa,pr71515018,",
-        "sources": ",us,pr,",
-        "types": ",origin,phase-data,shakemap,",
-        "nst": 36,
-        "dmin": 0.2238,
-        "rms": 0.23,
-        "gap": 189,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.4 - 8 km NNE of Brenas, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.2988333333333,
-          18.5353333333333,
-          100.55
-        ]
-      },
-      "id": "pr71515018"
     }
   ],
   "bbox": [
     -178.7328,
     -44.652,
-    -1.83,
+    -1.79,
     179.7163,
-    66.278,
+    64.89,
     593.432
   ]
 }
