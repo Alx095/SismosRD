@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1777637244000,
+    "generated": 1777643422000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "2.4.0",
-    "count": 265
+    "count": 270
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.97,
+        "place": "6 km ENE of Adjuntas, Puerto Rico",
+        "time": 1777636517000,
+        "updated": 1777638396870,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71515303",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71515303.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 60,
+        "net": "pr",
+        "code": "71515303",
+        "ids": ",pr71515303,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 8,
+        "dmin": 0.08757,
+        "rms": 0.08,
+        "gap": 91,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.0 - 6 km ENE of Adjuntas, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.664,
+          18.183,
+          20.51
+        ]
+      },
+      "id": "pr71515303"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -368,86 +408,6 @@
         ]
       },
       "id": "pr71515163"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.11,
-        "place": "4 km SSE of Utuado, Puerto Rico",
-        "time": 1777552726350,
-        "updated": 1777563539430,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71515153",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71515153.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 68,
-        "net": "pr",
-        "code": "71515153",
-        "ids": ",pr71515153,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 4,
-        "dmin": 0.04041,
-        "rms": 0.18,
-        "gap": 177,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.1 - 4 km SSE of Utuado, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.6833333333333,
-          18.2325,
-          6.97
-        ]
-      },
-      "id": "pr71515153"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.4,
-        "place": "5 km N of Adjuntas, Puerto Rico",
-        "time": 1777551172350,
-        "updated": 1777561746750,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71515118",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71515118.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 89,
-        "net": "pr",
-        "code": "71515118",
-        "ids": ",pr71515118,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 18,
-        "dmin": 0.04408,
-        "rms": 0.19,
-        "gap": 64,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.4 - 5 km N of Adjuntas, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.7156666666667,
-          18.2086666666667,
-          6.62
-        ]
-      },
-      "id": "pr71515118"
     }
   ],
   "bbox": [
@@ -455,7 +415,7 @@
     -57.7679,
     -1.1000000238419,
     178.242,
-    69.528,
+    66.021,
     558.08
   ]
 }
