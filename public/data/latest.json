@@ -1,14 +1,134 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1777593614000,
+    "generated": 1777608134000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "2.4.0",
-    "count": 267
+    "count": 274
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.22,
+        "place": "10 km NNE of Brenas, Puerto Rico",
+        "time": 1777601604250,
+        "updated": 1777602985820,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71515233",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71515233.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 160,
+        "net": "pr",
+        "code": "71515233",
+        "ids": ",us7000shgg,pr71515233,",
+        "sources": ",us,pr,",
+        "types": ",origin,phase-data,",
+        "nst": 41,
+        "dmin": 0.2318,
+        "rms": 0.2,
+        "gap": 188,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 3.2 - 10 km NNE of Brenas, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.297,
+          18.5485,
+          97.47
+        ]
+      },
+      "id": "pr71515233"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.18,
+        "place": "1 km NNW of Maria Antonia, Puerto Rico",
+        "time": 1777601364270,
+        "updated": 1777603222990,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71515248",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71515248.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 73,
+        "net": "pr",
+        "code": "71515248",
+        "ids": ",pr71515248,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 6,
+        "dmin": 0.02309,
+        "rms": 0.44,
+        "gap": 139,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.2 - 1 km NNW of Maria Antonia, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.8958333333333,
+          17.992,
+          14.41
+        ]
+      },
+      "id": "pr71515248"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.08,
+        "place": "74 km N of Hatillo, Puerto Rico",
+        "time": 1777597325820,
+        "updated": 1777598501770,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71515218",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71515218.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 146,
+        "net": "pr",
+        "code": "71515218",
+        "ids": ",pr71515218,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 16,
+        "dmin": 0.717,
+        "rms": 0.11,
+        "gap": 258,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 3.1 - 74 km N of Hatillo, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.7675,
+          19.1613333333333,
+          25.62
+        ]
+      },
+      "id": "pr71515218"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -288,54 +408,14 @@
         ]
       },
       "id": "pr71515083"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.23,
-        "place": "48 km NNW of Charlotte Amalie, U.S. Virgin Islands",
-        "time": 1777512132020,
-        "updated": 1777514943040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71515063",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71515063.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 161,
-        "net": "pr",
-        "code": "71515063",
-        "ids": ",us7000sh5y,pr71515063,",
-        "sources": ",us,pr,",
-        "types": ",origin,phase-data,",
-        "nst": 22,
-        "dmin": 0.4118,
-        "rms": 0.26,
-        "gap": 205,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.2 - 48 km NNW of Charlotte Amalie, U.S. Virgin Islands"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -65.1318333333333,
-          18.7311666666667,
-          26.32
-        ]
-      },
-      "id": "pr71515063"
     }
   ],
   "bbox": [
-    -178.0356,
-    -32.0637,
+    -179.9758,
+    -42.2007,
     -1.07,
     178.242,
     69.528,
-    383.784
+    558.08
   ]
 }
