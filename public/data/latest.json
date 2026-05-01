@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1777643422000,
+    "generated": 1777646488000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "2.4.0",
-    "count": 270
+    "count": 263
   },
   "features": [
     {
@@ -368,46 +368,6 @@
         ]
       },
       "id": "pr71515183"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.35,
-        "place": "4 km SSE of Utuado, Puerto Rico",
-        "time": 1777559504340,
-        "updated": 1777567495690,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71515163",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71515163.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 85,
-        "net": "pr",
-        "code": "71515163",
-        "ids": ",pr71515163,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 4,
-        "dmin": 0.04224,
-        "rms": 0.08,
-        "gap": 174,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.4 - 4 km SSE of Utuado, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.685,
-          18.2268333333333,
-          7.24
-        ]
-      },
-      "id": "pr71515163"
     }
   ],
   "bbox": [
