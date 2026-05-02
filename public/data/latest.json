@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1777721161000,
+    "generated": 1777723479000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "2.4.0",
-    "count": 237
+    "count": 236
   },
   "features": [
     {
@@ -448,46 +448,6 @@
         ]
       },
       "id": "pr71515308"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.97,
-        "place": "6 km ENE of Adjuntas, Puerto Rico",
-        "time": 1777636517000,
-        "updated": 1777638396870,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71515303",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71515303.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 60,
-        "net": "pr",
-        "code": "71515303",
-        "ids": ",pr71515303,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 8,
-        "dmin": 0.08757,
-        "rms": 0.08,
-        "gap": 91,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.0 - 6 km ENE of Adjuntas, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.664,
-          18.183,
-          20.51
-        ]
-      },
-      "id": "pr71515303"
     }
   ],
   "bbox": [
