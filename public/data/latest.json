@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1777701250000,
+    "generated": 1777706370000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "2.4.0",
-    "count": 263
+    "count": 268
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.37,
+        "place": "1 km NE of Indios, Puerto Rico",
+        "time": 1777704693520,
+        "updated": 1777705925890,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71515383",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71515383.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 86,
+        "net": "pr",
+        "code": "71515383",
+        "ids": ",pr71515383,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 22,
+        "dmin": 0.02446,
+        "rms": 0.22,
+        "gap": 136,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.4 - 1 km NE of Indios, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.8086666666667,
+          18.0016666666667,
+          14.48
+        ]
+      },
+      "id": "pr71515383"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -368,52 +408,12 @@
         ]
       },
       "id": "pr71515283"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.24,
-        "place": "10 km SSE of Guánica, Puerto Rico",
-        "time": 1777619946700,
-        "updated": 1777627795040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71515273",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71515273.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 162,
-        "net": "pr",
-        "code": "71515273",
-        "ids": ",us7000shhq,pr71515273,",
-        "sources": ",us,pr,",
-        "types": ",origin,phase-data,",
-        "nst": 35,
-        "dmin": 0.09752,
-        "rms": 0.23,
-        "gap": 206,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.2 - 10 km SSE of Guánica, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.8785,
-          17.877,
-          13.99
-        ]
-      },
-      "id": "pr71515273"
     }
   ],
   "bbox": [
     -178.81983333333,
     -57.7679,
-    -1.1000000238419,
+    -0.87,
     178.8233,
     65.066,
     532.819
