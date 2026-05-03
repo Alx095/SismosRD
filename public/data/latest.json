@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1777799122000,
+    "generated": 1777803161000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "2.4.0",
-    "count": 256
+    "count": 252
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.92,
+        "place": "140 km NNW of The Valley, Anguilla",
+        "time": 1777796037560,
+        "updated": 1777802661788,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2026123000",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2026123000.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 236,
+        "net": "pr",
+        "code": "2026123000",
+        "ids": ",pr2026123000,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 19,
+        "dmin": 1.2862,
+        "rms": 0.51,
+        "gap": 260,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 3.9 - 140 km NNW of The Valley, Anguilla"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.5091,
+          19.4158,
+          29
+        ]
+      },
+      "id": "pr2026123000"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -408,46 +448,6 @@
         ]
       },
       "id": "pr71515438"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.88,
-        "place": "28 km SE of El Negro, Puerto Rico",
-        "time": 1777715122850,
-        "updated": 1777716459510,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71515428",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71515428.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 128,
-        "net": "pr",
-        "code": "71515428",
-        "ids": ",pr71515428,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 20,
-        "dmin": 0.2833,
-        "rms": 0.35,
-        "gap": 177,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.9 - 28 km SE of El Negro, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -65.6316666666667,
-          17.8848333333333,
-          5.02
-        ]
-      },
-      "id": "pr71515428"
     }
   ],
   "bbox": [
