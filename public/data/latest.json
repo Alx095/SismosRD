@@ -1,14 +1,94 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1777880406000,
+    "generated": 1777888702000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "2.4.0",
-    "count": 266
+    "count": 260
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.04,
+        "place": "6 km S of G. L. Garcia, Puerto Rico",
+        "time": 1777886766960,
+        "updated": 1777888200030,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71515608",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71515608.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 64,
+        "net": "pr",
+        "code": "71515608",
+        "ids": ",pr71515608,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 10,
+        "dmin": 0.05483,
+        "rms": 0.22,
+        "gap": 113,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.0 - 6 km S of G. L. Garcia, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.113,
+          18.0668333333333,
+          17.1
+        ]
+      },
+      "id": "pr71515608"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.55,
+        "place": "6 km N of Olimpo, Puerto Rico",
+        "time": 1777886766820,
+        "updated": 1777887452520,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71515598",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71515598.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 37,
+        "net": "pr",
+        "code": "71515598",
+        "ids": ",pr71515598,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 12,
+        "dmin": 0.05668,
+        "rms": 0.17,
+        "gap": 81,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 1.6 - 6 km N of Olimpo, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1175,
+          18.0613333333333,
+          17.47
+        ]
+      },
+      "id": "pr71515598"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -128,52 +208,12 @@
         ]
       },
       "id": "pr71515558"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.92,
-        "place": "140 km NNW of The Valley, Anguilla",
-        "time": 1777796037560,
-        "updated": 1777802661788,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2026123000",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2026123000.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 236,
-        "net": "pr",
-        "code": "2026123000",
-        "ids": ",pr2026123000,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 19,
-        "dmin": 1.2862,
-        "rms": 0.51,
-        "gap": 260,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.9 - 140 km NNW of The Valley, Anguilla"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -63.5091,
-          19.4158,
-          29
-        ]
-      },
-      "id": "pr2026123000"
     }
   ],
   "bbox": [
     -178.2523,
-    -21.2168,
-    -0.81999999284744,
+    -27.0136,
+    0,
     176.507,
     69.443,
     477.51
