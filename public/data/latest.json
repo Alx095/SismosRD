@@ -1,14 +1,94 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1777908028000,
+    "generated": 1777914268000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "2.4.0",
-    "count": 232
+    "count": 237
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.39,
+        "place": "4 km SSW of Indios, Puerto Rico",
+        "time": 1777912453030,
+        "updated": 1777913736610,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71515638",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71515638.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 88,
+        "net": "pr",
+        "code": "71515638",
+        "ids": ",pr71515638,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 19,
+        "dmin": 0.05148,
+        "rms": 0.13,
+        "gap": 178,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.4 - 4 km SSW of Indios, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.8285,
+          17.9571666666667,
+          11.34
+        ]
+      },
+      "id": "pr71515638"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.71,
+        "place": "5 km SE of Lares, Puerto Rico",
+        "time": 1777909857650,
+        "updated": 1777912511964,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71515628",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71515628.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 113,
+        "net": "pr",
+        "code": "71515628",
+        "ids": ",us7000si5c,pr71515628,",
+        "sources": ",us,pr,",
+        "types": ",origin,phase-data,",
+        "nst": 31,
+        "dmin": 0.1184,
+        "rms": 0.24,
+        "gap": 65,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.7 - 5 km SE of Lares, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.8465,
+          18.2581666666667,
+          13.25
+        ]
+      },
+      "id": "pr71515628"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -251,9 +331,9 @@
     }
   ],
   "bbox": [
-    -175.7821,
+    -175.383,
     -27.0136,
-    -0.27000001072884,
+    -0.72000002861023,
     176.3226,
     65.861,
     561.033
