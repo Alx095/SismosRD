@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1777985403000,
+    "generated": 1777997849000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "2.4.0",
-    "count": 282
+    "count": 298
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.22,
+        "place": "5 km SSW of Indios, Puerto Rico",
+        "time": 1777983665170,
+        "updated": 1777985959900,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71515738",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71515738.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 76,
+        "net": "pr",
+        "code": "71515738",
+        "ids": ",pr71515738,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 4,
+        "dmin": 0.04603,
+        "rms": 0.13,
+        "gap": 221,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.2 - 5 km SSW of Indios, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.8406666666667,
+          17.9471666666667,
+          13.72
+        ]
+      },
+      "id": "pr71515738"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -328,94 +368,14 @@
         ]
       },
       "id": "pr71515638"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.71,
-        "place": "5 km SE of Lares, Puerto Rico",
-        "time": 1777909857650,
-        "updated": 1777912511964,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71515628",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71515628.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 113,
-        "net": "pr",
-        "code": "71515628",
-        "ids": ",us7000si5c,pr71515628,",
-        "sources": ",us,pr,",
-        "types": ",origin,phase-data,",
-        "nst": 31,
-        "dmin": 0.1184,
-        "rms": 0.24,
-        "gap": 65,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.7 - 5 km SE of Lares, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.8465,
-          18.2581666666667,
-          13.25
-        ]
-      },
-      "id": "pr71515628"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.5,
-        "place": "58 km WSW of Masachapa, Nicaragua",
-        "time": 1777902644282,
-        "updated": 1777906865040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000si4v",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000si4v.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 312,
-        "net": "us",
-        "code": "7000si4v",
-        "ids": ",us7000si4v,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 67,
-        "dmin": 1.747,
-        "rms": 0.99,
-        "gap": 171,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.5 - 58 km WSW of Masachapa, Nicaragua"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -86.9774,
-          11.5237,
-          50.358
-        ]
-      },
-      "id": "us7000si4v"
     }
   ],
   "bbox": [
-    -178.796,
+    -165.5555,
     -36.7452,
     -3.18,
     178.333,
     64.986,
-    561.033
+    259.715
   ]
 }
