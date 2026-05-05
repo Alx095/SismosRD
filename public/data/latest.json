@@ -1,14 +1,134 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1777952668000,
+    "generated": 1777961003000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "2.4.0",
-    "count": 259
+    "count": 267
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.02,
+        "place": "5 km WSW of Guánica, Puerto Rico",
+        "time": 1777954844270,
+        "updated": 1777956477580,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71515688",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71515688.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 140,
+        "net": "pr",
+        "code": "71515688",
+        "ids": ",pr71515688,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 20,
+        "dmin": 0.07986,
+        "rms": 0.11,
+        "gap": 205,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 3.0 - 5 km WSW of Guánica, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.958,
+          17.9473333333333,
+          9.59
+        ]
+      },
+      "id": "pr71515688"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.61,
+        "place": "28 km N of Cruz Bay, U.S. Virgin Islands",
+        "time": 1777954219520,
+        "updated": 1777957209290,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71515683",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71515683.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 105,
+        "net": "pr",
+        "code": "71515683",
+        "ids": ",pr71515683,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 4,
+        "dmin": 0.2058,
+        "rms": 0.06,
+        "gap": 223,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.6 - 28 km N of Cruz Bay, U.S. Virgin Islands"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -64.7546666666667,
+          18.5825,
+          24.21
+        ]
+      },
+      "id": "pr71515683"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.15,
+        "place": "5 km NNE of Adjuntas, Puerto Rico",
+        "time": 1777952085280,
+        "updated": 1777957243760,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71515678",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71515678.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 71,
+        "net": "pr",
+        "code": "71515678",
+        "ids": ",pr71515678,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 15,
+        "dmin": 0.04334,
+        "rms": 0.19,
+        "gap": 83,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.2 - 5 km NNE of Adjuntas, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.7106666666667,
+          18.2101666666667,
+          7.39
+        ]
+      },
+      "id": "pr71515678"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -328,53 +448,13 @@
         ]
       },
       "id": "pr71515588"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.99,
-        "place": "2 km ENE of Aguas Buenas, Puerto Rico",
-        "time": 1777866282840,
-        "updated": 1777867363760,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71515573",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71515573.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 61,
-        "net": "pr",
-        "code": "71515573",
-        "ids": ",pr71515573,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 6,
-        "dmin": 0.1678,
-        "rms": 0.19,
-        "gap": 228,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.0 - 2 km ENE of Aguas Buenas, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.087,
-          18.2666666666667,
-          36.7
-        ]
-      },
-      "id": "pr71515573"
     }
   ],
   "bbox": [
     -178.796,
     -27.0136,
     -3.18,
-    176.4998,
+    178.333,
     64.986,
     561.033
   ]
