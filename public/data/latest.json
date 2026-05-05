@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1777969363000,
+    "generated": 1777975966000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "2.4.0",
-    "count": 276
+    "count": 272
   },
   "features": [
     {
@@ -408,46 +408,6 @@
         ]
       },
       "id": "us7000si4v"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.04,
-        "place": "6 km S of G. L. Garcia, Puerto Rico",
-        "time": 1777886766960,
-        "updated": 1777888200030,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71515608",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71515608.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 64,
-        "net": "pr",
-        "code": "71515608",
-        "ids": ",pr71515608,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 10,
-        "dmin": 0.05483,
-        "rms": 0.22,
-        "gap": 113,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.0 - 6 km S of G. L. Garcia, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.113,
-          18.0668333333333,
-          17.1
-        ]
-      },
-      "id": "pr71515608"
     }
   ],
   "bbox": [
