@@ -1,14 +1,94 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1778103977000,
+    "generated": 1778106808000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "2.4.0",
-    "count": 310
+    "count": 317
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.2,
+        "place": "4 km SW of Guánica, Puerto Rico",
+        "time": 1778106160320,
+        "updated": 1778106585270,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71515993",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71515993.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 74,
+        "net": "pr",
+        "code": "71515993",
+        "ids": ",pr71515993,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 7,
+        "dmin": 0.0428,
+        "rms": 0.07,
+        "gap": 226,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.2 - 4 km SW of Guánica, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.9345,
+          17.937,
+          12.25
+        ]
+      },
+      "id": "pr71515993"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.93,
+        "place": "17 km SW of Esperanza, Puerto Rico",
+        "time": 1778103256090,
+        "updated": 1778104211490,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71515983",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71515983.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 132,
+        "net": "pr",
+        "code": "71515983",
+        "ids": ",pr71515983,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 18,
+        "dmin": 0.2076,
+        "rms": 0.34,
+        "gap": 162,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.9 - 17 km SW of Esperanza, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.59,
+          17.99,
+          7.9
+        ]
+      },
+      "id": "pr71515983"
+    },
     {
       "type": "Feature",
       "properties": {
