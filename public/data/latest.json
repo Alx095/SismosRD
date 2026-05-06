@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1778063704000,
+    "generated": 1778069788000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "2.4.0",
-    "count": 261
+    "count": 268
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.4,
+        "place": "5 km ESE of San José del Potrero, Honduras",
+        "time": 1778064161465,
+        "updated": 1778066673463,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000svmi",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000svmi.geojson",
+        "felt": 5,
+        "cdi": 2.6,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 299,
+        "net": "us",
+        "code": "6000svmi",
+        "ids": ",us6000svmi,",
+        "sources": ",us,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": 71,
+        "dmin": 1.701,
+        "rms": 0.83,
+        "gap": 56,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.4 - 5 km ESE of San José del Potrero, Honduras"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.2398,
+          14.8148,
+          10
+        ]
+      },
+      "id": "us6000svmi"
+    },
     {
       "type": "Feature",
       "properties": {
