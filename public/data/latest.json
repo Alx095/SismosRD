@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1778048303000,
+    "generated": 1778063704000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "2.4.0",
-    "count": 285
+    "count": 261
   },
   "features": [
     {
@@ -168,54 +168,14 @@
         ]
       },
       "id": "pr71515738"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.2,
-        "place": "6 km NNE of Sabana Eneas, Puerto Rico",
-        "time": 1777962341000,
-        "updated": 1777963161070,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71515703",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71515703.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 74,
-        "net": "pr",
-        "code": "71515703",
-        "ids": ",pr71515703,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 11,
-        "dmin": 0.04304,
-        "rms": 0.07,
-        "gap": 115,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.2 - 6 km NNE of Sabana Eneas, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -67.0613333333333,
-          18.1393333333333,
-          23.63
-        ]
-      },
-      "id": "pr71515703"
     }
   ],
   "bbox": [
     -178.40333333333,
     -55.8158,
     -2.98,
-    177.3335,
-    64.947,
+    177.7551,
+    65.25,
     298.62
   ]
 }
