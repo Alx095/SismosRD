@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1778148107000,
+    "generated": 1778154958000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "2.4.0",
-    "count": 320
+    "count": 324
   },
   "features": [
     {
@@ -368,90 +368,10 @@
         ]
       },
       "id": "pr71515953"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.42,
-        "place": "151 km NNE of Cruz Bay, U.S. Virgin Islands",
-        "time": 1778067694020,
-        "updated": 1778074242090,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71515933",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71515933.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 180,
-        "net": "pr",
-        "code": "71515933",
-        "ids": ",pr71515933,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 10,
-        "dmin": 1.161,
-        "rms": 0.3,
-        "gap": 298,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.4 - 151 km NNE of Cruz Bay, U.S. Virgin Islands"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -64.4435,
-          19.6571666666667,
-          49.34
-        ]
-      },
-      "id": "pr71515933"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.4,
-        "place": "5 km ESE of San José del Potrero, Honduras",
-        "time": 1778064161465,
-        "updated": 1778066673463,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000svmi",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000svmi.geojson",
-        "felt": 5,
-        "cdi": 2.6,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 299,
-        "net": "us",
-        "code": "6000svmi",
-        "ids": ",us6000svmi,",
-        "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 71,
-        "dmin": 1.701,
-        "rms": 0.83,
-        "gap": 56,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.4 - 5 km ESE of San José del Potrero, Honduras"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -87.2398,
-          14.8148,
-          10
-        ]
-      },
-      "id": "us6000svmi"
     }
   ],
   "bbox": [
-    -177.9339,
+    -176.6255,
     -59.5634,
     -1.0700000524521,
     176.518,
