@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1778313988000,
+    "generated": 1778319683000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "2.4.0",
-    "count": 301
+    "count": 292
   },
   "features": [
     {
@@ -408,52 +408,12 @@
         ]
       },
       "id": "pr71516168"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.92,
-        "place": "10 km WNW of Adjuntas, Puerto Rico",
-        "time": 1778227688440,
-        "updated": 1778228345390,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71516148",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71516148.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 57,
-        "net": "pr",
-        "code": "71516148",
-        "ids": ",pr71516148,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 13,
-        "dmin": 0.09332,
-        "rms": 0.1,
-        "gap": 69,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 1.9 - 10 km WNW of Adjuntas, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.809,
-          18.211,
-          16.27
-        ]
-      },
-      "id": "pr71516148"
     }
   ],
   "bbox": [
-    -178.68,
-    -22.9664,
-    -2.98,
+    -178.488,
+    -38.3907,
+    -2.46,
     179.4162,
     67.139,
     573.426
