@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1778328568000,
+    "generated": 1778334538000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "2.4.0",
-    "count": 270
+    "count": 254
   },
   "features": [
     {
@@ -368,90 +368,10 @@
         ]
       },
       "id": "pr71516193"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.91,
-        "place": "70 km N of Hatillo, Puerto Rico",
-        "time": 1778243021880,
-        "updated": 1778251896060,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71516183",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71516183.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 130,
-        "net": "pr",
-        "code": "71516183",
-        "ids": ",pr71516183,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 18,
-        "dmin": 0.6859,
-        "rms": 0.34,
-        "gap": 273,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.9 - 70 km N of Hatillo, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.7921666666667,
-          19.1196666666667,
-          22.6
-        ]
-      },
-      "id": "pr71516183"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.17,
-        "place": "61 km NNW of San Antonio, Puerto Rico",
-        "time": 1778242383850,
-        "updated": 1778243635140,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71516168",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71516168.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 155,
-        "net": "pr",
-        "code": "71516168",
-        "ids": ",pr71516168,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 14,
-        "dmin": 0.5721,
-        "rms": 0.32,
-        "gap": 287,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.2 - 61 km NNW of San Antonio, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -67.3541666666667,
-          18.994,
-          20.8
-        ]
-      },
-      "id": "pr71516168"
     }
   ],
   "bbox": [
-    -177.678,
+    -177.42833333333,
     -38.3907,
     -2.46,
     179.4162,
