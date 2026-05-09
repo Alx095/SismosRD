@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1778306759000,
+    "generated": 1778313988000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "2.4.0",
-    "count": 306
+    "count": 301
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.12,
+        "place": "8 km SE of Emajagua, Puerto Rico",
+        "time": 1778308353860,
+        "updated": 1778309518730,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71516273",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71516273.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 69,
+        "net": "pr",
+        "code": "71516273",
+        "ids": ",pr71516273,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 10,
+        "dmin": 0.08944,
+        "rms": 0.1,
+        "gap": 222,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.1 - 8 km SE of Emajagua, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.8386666666667,
+          17.9381666666667,
+          14.85
+        ]
+      },
+      "id": "pr71516273"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -408,51 +448,11 @@
         ]
       },
       "id": "pr71516148"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.29,
-        "place": "63 km WSW of Stella, Puerto Rico",
-        "time": 1778221110570,
-        "updated": 1778236216040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71516138",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71516138.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 167,
-        "net": "pr",
-        "code": "71516138",
-        "ids": ",us6000sw5e,pr71516138,",
-        "sources": ",us,pr,",
-        "types": ",origin,phase-data,",
-        "nst": 29,
-        "dmin": 0.387,
-        "rms": 0.23,
-        "gap": 188,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.3 - 63 km WSW of Stella, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -67.8366666666667,
-          18.198,
-          78.1
-        ]
-      },
-      "id": "pr71516138"
     }
   ],
   "bbox": [
     -178.68,
-    -43.412,
+    -22.9664,
     -2.98,
     179.4162,
     67.139,
