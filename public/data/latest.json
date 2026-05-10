@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1778386288000,
+    "generated": 1778395371000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "2.4.0",
-    "count": 303
+    "count": 394
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.41,
+        "place": "88 km NNE of Cruz Bay, U.S. Virgin Islands",
+        "time": 1778386690780,
+        "updated": 1778390093040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71516298",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71516298.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 179,
+        "net": "pr",
+        "code": "71516298",
+        "ids": ",us6000swl7,pr71516298,",
+        "sources": ",us,pr,",
+        "types": ",origin,phase-data,",
+        "nst": 12,
+        "dmin": 0.6017,
+        "rms": 0.5,
+        "gap": 278,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 3.4 - 88 km NNE of Cruz Bay, U.S. Virgin Islands"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -64.5083333333333,
+          19.0866666666667,
+          64.1
+        ]
+      },
+      "id": "pr71516298"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -88,134 +128,14 @@
         ]
       },
       "id": "pr71516278"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.12,
-        "place": "8 km SE of Emajagua, Puerto Rico",
-        "time": 1778308353860,
-        "updated": 1778309518730,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71516273",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71516273.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 69,
-        "net": "pr",
-        "code": "71516273",
-        "ids": ",pr71516273,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 10,
-        "dmin": 0.08944,
-        "rms": 0.1,
-        "gap": 222,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.1 - 8 km SE of Emajagua, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -65.8386666666667,
-          17.9381666666667,
-          14.85
-        ]
-      },
-      "id": "pr71516273"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.53,
-        "place": "20 km S of Guánica, Puerto Rico",
-        "time": 1778304641730,
-        "updated": 1778305464610,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71516263",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71516263.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 98,
-        "net": "pr",
-        "code": "71516263",
-        "ids": ",pr71516263,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 9,
-        "dmin": 0.1902,
-        "rms": 0.29,
-        "gap": 244,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.5 - 20 km S of Guánica, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.9148333333333,
-          17.7868333333333,
-          4.86
-        ]
-      },
-      "id": "pr71516263"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.07,
-        "place": "5 km SSW of Indios, Puerto Rico",
-        "time": 1778300078750,
-        "updated": 1778300840820,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71516243",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71516243.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 66,
-        "net": "pr",
-        "code": "71516243",
-        "ids": ",pr71516243,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 8,
-        "dmin": 0.04491,
-        "rms": 0.09,
-        "gap": 216,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.1 - 5 km SSW of Indios, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.84,
-          17.95,
-          11.73
-        ]
-      },
-      "id": "pr71516243"
     }
   ],
   "bbox": [
     -178.72933333333,
     -58.024,
     -0.68999999761581,
-    179.349,
-    65.436,
+    179.642,
+    65.434,
     225.129
   ]
 }
