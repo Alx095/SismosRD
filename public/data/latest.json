@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1778371790000,
+    "generated": 1778386288000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "2.4.0",
-    "count": 206
+    "count": 303
   },
   "features": [
     {
@@ -208,174 +208,14 @@
         ]
       },
       "id": "pr71516243"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.83,
-        "place": "7 km SSE of Guánica, Puerto Rico",
-        "time": 1778298977020,
-        "updated": 1778299972520,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71516238",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71516238.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 52,
-        "net": "pr",
-        "code": "71516238",
-        "ids": ",pr71516238,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 4,
-        "dmin": 0.06057,
-        "rms": 0.05,
-        "gap": 230,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 1.8 - 7 km SSE of Guánica, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.8778333333333,
-          17.9141666666667,
-          15.55
-        ]
-      },
-      "id": "pr71516238"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.1,
-        "place": "1 km SSE of La Parguera, Puerto Rico",
-        "time": 1778298936420,
-        "updated": 1778299471580,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71516233",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71516233.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 68,
-        "net": "pr",
-        "code": "71516233",
-        "ids": ",pr71516233,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 7,
-        "dmin": 0.07951,
-        "rms": 0.12,
-        "gap": 219,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.1 - 1 km SSE of La Parguera, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -67.0396666666667,
-          17.9626666666667,
-          14.4
-        ]
-      },
-      "id": "pr71516233"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.81,
-        "place": "45 km NNW of San Antonio, Puerto Rico",
-        "time": 1778296719080,
-        "updated": 1778297609750,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71516228",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71516228.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 121,
-        "net": "pr",
-        "code": "71516228",
-        "ids": ",pr71516228,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 12,
-        "dmin": 0.4205,
-        "rms": 0.29,
-        "gap": 309,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.8 - 45 km NNW of San Antonio, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -67.3221666666667,
-          18.8393333333333,
-          47.72
-        ]
-      },
-      "id": "pr71516228"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.87,
-        "place": "34 km WSW of Stella, Puerto Rico",
-        "time": 1778295596480,
-        "updated": 1778296751910,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71516223",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71516223.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 127,
-        "net": "pr",
-        "code": "71516223",
-        "ids": ",pr71516223,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 15,
-        "dmin": 0.2209,
-        "rms": 0.17,
-        "gap": 262,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.9 - 34 km WSW of Stella, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -67.5326666666667,
-          18.1683333333333,
-          14.26
-        ]
-      },
-      "id": "pr71516223"
     }
   ],
   "bbox": [
-    -176.7692,
+    -178.72933333333,
     -58.024,
-    -0.70999997854233,
+    -0.68999999761581,
     179.349,
-    66.384,
+    65.436,
     225.129
   ]
 }
