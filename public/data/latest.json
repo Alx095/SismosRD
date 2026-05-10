@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1778440218000,
+    "generated": 1778443345000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "2.4.0",
-    "count": 588
+    "count": 594
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.56,
+        "place": "79 km NW of Sandy Ground Village, Anguilla",
+        "time": 1778437637940,
+        "updated": 1778443191040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2026130000",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2026130000.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 195,
+        "net": "pr",
+        "code": "2026130000",
+        "ids": ",us6000sws9,pr2026130000,",
+        "sources": ",us,pr,",
+        "types": ",origin,phase-data,",
+        "nst": 9,
+        "dmin": 0.7783,
+        "rms": 0.61,
+        "gap": 325,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 3.6 - 79 km NW of Sandy Ground Village, Anguilla"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.6495,
+          18.6873,
+          11
+        ]
+      },
+      "id": "pr2026130000"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -251,7 +291,7 @@
     }
   ],
   "bbox": [
-    -178.72933333333,
+    -178.7275,
     -40.2185,
     -0.41999998688698,
     179.642,
