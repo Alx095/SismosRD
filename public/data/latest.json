@@ -1,21 +1,101 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1778401731000,
+    "generated": 1778406808000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "2.4.0",
-    "count": 462
+    "count": 496
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.15,
+        "place": "69 km NW of San Antonio, Puerto Rico",
+        "time": 1778404021520,
+        "updated": 1778405094400,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71516343",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71516343.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 153,
+        "net": "pr",
+        "code": "71516343",
+        "ids": ",pr71516343,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 12,
+        "dmin": 0.5566,
+        "rms": 0.34,
+        "gap": 303,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 3.2 - 69 km NW of San Antonio, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.5628333333333,
+          18.9383333333333,
+          22.4
+        ]
+      },
+      "id": "pr71516343"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.33,
+        "place": "1 km SW of Indios, Puerto Rico",
+        "time": 1778401337070,
+        "updated": 1778402184450,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71516338",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71516338.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 84,
+        "net": "pr",
+        "code": "71516338",
+        "ids": ",pr71516338,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 11,
+        "dmin": 0.04918,
+        "rms": 0.17,
+        "gap": 188,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.3 - 1 km SW of Indios, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.8276666666667,
+          17.9823333333333,
+          12.29
+        ]
+      },
+      "id": "pr71516338"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 3.11,
         "place": "2 km NW of Fuig, Puerto Rico",
         "time": 1778400513130,
-        "updated": 1778401663810,
+        "updated": 1778405760040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71516328",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71516328.geojson",
@@ -28,8 +108,8 @@
         "sig": 149,
         "net": "pr",
         "code": "71516328",
-        "ids": ",pr71516328,",
-        "sources": ",pr,",
+        "ids": ",us6000swnk,pr71516328,",
+        "sources": ",us,pr,",
         "types": ",origin,phase-data,",
         "nst": 25,
         "dmin": 0.02989,
@@ -208,46 +288,6 @@
         ]
       },
       "id": "pr71516283"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.02,
-        "place": "1 km NNW of Tallaboa, Puerto Rico",
-        "time": 1778319599780,
-        "updated": 1778320072960,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71516278",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71516278.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 63,
-        "net": "pr",
-        "code": "71516278",
-        "ids": ",pr71516278,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 6,
-        "dmin": 0.1139,
-        "rms": 0.13,
-        "gap": 185,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.0 - 1 km NNW of Tallaboa, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.7208333333333,
-          18.0098333333333,
-          13.84
-        ]
-      },
-      "id": "pr71516278"
     }
   ],
   "bbox": [
