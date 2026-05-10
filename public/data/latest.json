@@ -1,53 +1,53 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1778446698000,
+    "generated": 1778449789000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "2.4.0",
-    "count": 603
+    "count": 607
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.5,
-        "place": "94 km NNW of San Antonio, Puerto Rico",
-        "time": 1778445613418,
-        "updated": 1778446443040,
+        "mag": 3.29,
+        "place": "92 km NNW of San Antonio, Puerto Rico",
+        "time": 1778445615200,
+        "updated": 1778446816710,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000swsi",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000swsi.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71516378",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71516378.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 96,
-        "net": "us",
-        "code": "6000swsi",
-        "ids": ",us6000swsi,",
-        "sources": ",us,",
+        "sig": 167,
+        "net": "pr",
+        "code": "71516378",
+        "ids": ",us6000swsi,pr71516378,",
+        "sources": ",us,pr,",
         "types": ",origin,phase-data,",
-        "nst": 11,
-        "dmin": 0.867,
-        "rms": 0.5,
-        "gap": 319,
-        "magType": "ml",
+        "nst": 10,
+        "dmin": 0.854,
+        "rms": 0.12,
+        "gap": 306,
+        "magType": "md",
         "type": "earthquake",
-        "title": "M 2.5 - 94 km NNW of San Antonio, Puerto Rico"
+        "title": "M 3.3 - 92 km NNW of San Antonio, Puerto Rico"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -67.3461,
-          19.3096,
-          35
+          -67.3288333333333,
+          19.3006666666667,
+          28.32
         ]
       },
-      "id": "us6000swsi"
+      "id": "pr71516378"
     },
     {
       "type": "Feature",
@@ -331,9 +331,9 @@
     }
   ],
   "bbox": [
-    -178.7275,
+    -173.4234,
     -40.2185,
-    -0.41999998688698,
+    0,
     179.642,
     65.574,
     225.129
