@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1778530101000,
+    "generated": 1778535527000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "2.4.0",
-    "count": 295
+    "count": 291
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.54,
+        "place": "16 km N of Arecibo, Puerto Rico",
+        "time": 1778534180350,
+        "updated": 1778534723400,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71516488",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71516488.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 99,
+        "net": "pr",
+        "code": "71516488",
+        "ids": ",pr71516488,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 13,
+        "dmin": 0.2345,
+        "rms": 0.24,
+        "gap": 228,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.5 - 16 km N of Arecibo, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.7275,
+          18.6181666666667,
+          18.59
+        ]
+      },
+      "id": "pr71516488"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -248,46 +288,6 @@
         ]
       },
       "id": "pr71516388"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.29,
-        "place": "92 km NNW of San Antonio, Puerto Rico",
-        "time": 1778445615200,
-        "updated": 1778446816710,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71516378",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71516378.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 167,
-        "net": "pr",
-        "code": "71516378",
-        "ids": ",us6000swsi,pr71516378,",
-        "sources": ",us,pr,",
-        "types": ",origin,phase-data,",
-        "nst": 10,
-        "dmin": 0.854,
-        "rms": 0.12,
-        "gap": 306,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.3 - 92 km NNW of San Antonio, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -67.3288333333333,
-          19.3006666666667,
-          28.32
-        ]
-      },
-      "id": "pr71516378"
     }
   ],
   "bbox": [
