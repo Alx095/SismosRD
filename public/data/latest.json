@@ -1,53 +1,93 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1778517676000,
+    "generated": 1778523791000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "2.4.0",
-    "count": 298
+    "count": 305
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 3,
-        "place": "51 km N of Isabela, Puerto Rico",
-        "time": 1778513639692,
-        "updated": 1778514210040,
+        "mag": 2.63,
+        "place": "66 km NNE of Cruz Bay, U.S. Virgin Islands",
+        "time": 1778516857860,
+        "updated": 1778519308240,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000swy3",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000swy3.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71516458",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71516458.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 138,
-        "net": "us",
-        "code": "6000swy3",
-        "ids": ",us6000swy3,",
-        "sources": ",us,",
+        "sig": 106,
+        "net": "pr",
+        "code": "71516458",
+        "ids": ",pr71516458,",
+        "sources": ",pr,",
         "types": ",origin,phase-data,",
-        "nst": 12,
-        "dmin": 0.491,
-        "rms": 0.65,
-        "gap": 212,
-        "magType": "ml",
+        "nst": 4,
+        "dmin": 0.3751,
+        "rms": 0.05,
+        "gap": 292,
+        "magType": "md",
         "type": "earthquake",
-        "title": "M 3.0 - 51 km N of Isabela, Puerto Rico"
+        "title": "M 2.6 - 66 km NNE of Cruz Bay, U.S. Virgin Islands"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -67.1166,
-          18.9615,
-          33.57
+          -64.4876666666667,
+          18.8585,
+          8.68
         ]
       },
-      "id": "us6000swy3"
+      "id": "pr71516458"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.14,
+        "place": "53 km N of San Antonio, Puerto Rico",
+        "time": 1778513640350,
+        "updated": 1778519247850,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71516443",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71516443.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 152,
+        "net": "pr",
+        "code": "71516443",
+        "ids": ",us6000swy3,pr71516443,",
+        "sources": ",us,pr,",
+        "types": ",origin,phase-data,",
+        "nst": 16,
+        "dmin": 0.508,
+        "rms": 0.36,
+        "gap": 221,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 3.1 - 53 km N of San Antonio, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.1365,
+          18.9776666666667,
+          14.17
+        ]
+      },
+      "id": "pr71516443"
     },
     {
       "type": "Feature",
@@ -252,7 +292,7 @@
   ],
   "bbox": [
     -179.9969,
-    -23.4697,
+    -31.7052,
     -0.78,
     159.1915,
     66.035,
