@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1778508448000,
+    "generated": 1778517676000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "2.4.0",
-    "count": 295
+    "count": 298
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3,
+        "place": "51 km N of Isabela, Puerto Rico",
+        "time": 1778513639692,
+        "updated": 1778514210040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000swy3",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000swy3.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 138,
+        "net": "us",
+        "code": "6000swy3",
+        "ids": ",us6000swy3,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 12,
+        "dmin": 0.491,
+        "rms": 0.65,
+        "gap": 212,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.0 - 51 km N of Isabela, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.1166,
+          18.9615,
+          33.57
+        ]
+      },
+      "id": "us6000swy3"
+    },
     {
       "type": "Feature",
       "properties": {
