@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1778668764000,
+    "generated": 1778675383000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "2.4.0",
-    "count": 269
+    "count": 271
   },
   "features": [
     {
@@ -55,17 +55,17 @@
         "mag": 4.3,
         "place": "5 km SW of Easington, Jamaica",
         "time": 1778660412866,
-        "updated": 1778668560665,
+        "updated": 1778672719536,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000sxdg",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000sxdg.geojson",
-        "felt": 7,
+        "felt": 8,
         "cdi": 3.8,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 287,
+        "sig": 288,
         "net": "us",
         "code": "6000sxdg",
         "ids": ",us6000sxdg,",
