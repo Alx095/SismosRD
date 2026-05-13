@@ -1,14 +1,94 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1778659708000,
+    "generated": 1778668764000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "2.4.0",
-    "count": 261
+    "count": 269
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.5,
+        "place": "17 km SSE of Conchagua, El Salvador",
+        "time": 1778664108563,
+        "updated": 1778665357040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000sxdu",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000sxdu.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 312,
+        "net": "us",
+        "code": "6000sxdu",
+        "ids": ",us6000sxdu,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 63,
+        "dmin": 0.584,
+        "rms": 0.62,
+        "gap": 137,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.5 - 17 km SSE of Conchagua, El Salvador"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.8136,
+          13.1585,
+          197.726
+        ]
+      },
+      "id": "us6000sxdu"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.3,
+        "place": "5 km SW of Easington, Jamaica",
+        "time": 1778660412866,
+        "updated": 1778668560665,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000sxdg",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000sxdg.geojson",
+        "felt": 7,
+        "cdi": 3.8,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 287,
+        "net": "us",
+        "code": "6000sxdg",
+        "ids": ",us6000sxdg,",
+        "sources": ",us,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": 36,
+        "dmin": 0.929,
+        "rms": 0.92,
+        "gap": 145,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.3 - 5 km SW of Easington, Jamaica"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.6236,
+          17.8902,
+          10
+        ]
+      },
+      "id": "us6000sxdg"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -52,10 +132,10 @@
   ],
   "bbox": [
     -179.4729,
-    -55.3734,
+    -55.3924,
     -1.3899999856949,
     179.8852,
-    69.557,
+    65.171,
     545.037
   ]
 }
