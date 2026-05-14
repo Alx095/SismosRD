@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1778758048000,
+    "generated": 1778764420000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "2.4.0",
-    "count": 214
+    "count": 216
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.38,
+        "place": "20 km SW of Stella, Puerto Rico",
+        "time": 1778746420670,
+        "updated": 1778760460590,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71516608",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71516608.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 87,
+        "net": "pr",
+        "code": "71516608",
+        "ids": ",pr71516608,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 10,
+        "dmin": 0.219,
+        "rms": 0.35,
+        "gap": 211,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.4 - 20 km SW of Stella, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.3708333333333,
+          18.175,
+          22.88
+        ]
+      },
+      "id": "pr71516608"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -128,52 +168,12 @@
         ]
       },
       "id": "pr71516573"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.06,
-        "place": "11 km SSE of Maria Antonia, Puerto Rico",
-        "time": 1778673656770,
-        "updated": 1778675846280,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71516563",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71516563.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 65,
-        "net": "pr",
-        "code": "71516563",
-        "ids": ",pr71516563,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 4,
-        "dmin": 0.09414,
-        "rms": 0.12,
-        "gap": 244,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.1 - 11 km SSE of Maria Antonia, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.8548333333333,
-          17.8833333333333,
-          14.76
-        ]
-      },
-      "id": "pr71516563"
     }
   ],
   "bbox": [
     -177.175,
     -58.3477,
-    -2.01,
+    -0.83999997377396,
     141.2848,
     64.907,
     185.7
