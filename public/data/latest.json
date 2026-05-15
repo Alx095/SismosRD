@@ -1,53 +1,93 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1778856006000,
+    "generated": 1778862148000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "2.4.0",
-    "count": 228
+    "count": 246
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 3.2,
-        "place": "118 km N of Hatillo, Puerto Rico",
-        "time": 1778854468254,
-        "updated": 1778854919040,
+        "mag": 3.6,
+        "place": "121 km N of Hatillo, Puerto Rico",
+        "time": 1778854471920,
+        "updated": 1778857322230,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000sxyl",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000sxyl.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2026135001",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2026135001.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 158,
-        "net": "us",
-        "code": "6000sxyl",
-        "ids": ",us6000sxyl,",
-        "sources": ",us,",
+        "sig": 199,
+        "net": "pr",
+        "code": "2026135001",
+        "ids": ",us6000sxyl,pr2026135001,",
+        "sources": ",us,pr,",
         "types": ",origin,phase-data,",
-        "nst": 16,
-        "dmin": 1.1,
-        "rms": 0.37,
-        "gap": 182,
-        "magType": "ml",
+        "nst": 24,
+        "dmin": 1.1098,
+        "rms": 0.3,
+        "gap": 221,
+        "magType": "md",
         "type": "earthquake",
-        "title": "M 3.2 - 118 km N of Hatillo, Puerto Rico"
+        "title": "M 3.6 - 121 km N of Hatillo, Puerto Rico"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -66.7671,
-          19.5597,
-          10
+          -66.7013,
+          19.5736,
+          35
         ]
       },
-      "id": "us6000sxyl"
+      "id": "pr2026135001"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.69,
+        "place": "41 km ESE of Boca de Yuma, Dominican Republic",
+        "time": 1778852666940,
+        "updated": 1778858491040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2026135000",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2026135000.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 209,
+        "net": "pr",
+        "code": "2026135000",
+        "ids": ",us6000sxyn,pr2026135000,",
+        "sources": ",us,pr,",
+        "types": ",origin,phase-data,",
+        "nst": 9,
+        "dmin": 0.3402,
+        "rms": 0.55,
+        "gap": 243,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 3.7 - 41 km ESE of Boca de Yuma, Dominican Republic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.2655,
+          18.194,
+          145
+        ]
+      },
+      "id": "pr2026135000"
     },
     {
       "type": "Feature",
@@ -173,7 +213,7 @@
   "bbox": [
     -178.5266,
     -55.4449,
-    -1.6900000572205,
+    -0.68,
     152.4304,
     65.126,
     608.515
