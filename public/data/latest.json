@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1778821827000,
+    "generated": 1778832878000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "2.4.0",
-    "count": 229
+    "count": 215
   },
   "features": [
     {
@@ -128,94 +128,14 @@
         ]
       },
       "id": "pr71516623"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.38,
-        "place": "20 km SW of Stella, Puerto Rico",
-        "time": 1778746420670,
-        "updated": 1778760460590,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71516608",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71516608.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 87,
-        "net": "pr",
-        "code": "71516608",
-        "ids": ",pr71516608,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 10,
-        "dmin": 0.219,
-        "rms": 0.35,
-        "gap": 211,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.4 - 20 km SW of Stella, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -67.3708333333333,
-          18.175,
-          22.88
-        ]
-      },
-      "id": "pr71516608"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.51,
-        "place": "5 km S of Guánica, Puerto Rico",
-        "time": 1778746151830,
-        "updated": 1778749576180,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71516593",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71516593.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 97,
-        "net": "pr",
-        "code": "71516593",
-        "ids": ",pr71516593,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 17,
-        "dmin": 0.0591,
-        "rms": 0.17,
-        "gap": 226,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.5 - 5 km S of Guánica, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.9121666666667,
-          17.9246666666667,
-          13.95
-        ]
-      },
-      "id": "pr71516593"
     }
   ],
   "bbox": [
     -178.5266,
     -58.3477,
-    -1.6900000572205,
+    -2.98,
     152.4304,
-    65.393,
+    63.357,
     608.515
   ]
 }
