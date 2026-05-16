@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1778960434000,
+    "generated": 1778963188000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "2.4.0",
-    "count": 192
+    "count": 185
   },
   "features": [
     {
@@ -55,17 +55,17 @@
         "mag": 6,
         "place": "70 km ESE of Codrington, Antigua and Barbuda",
         "time": 1778943003503,
-        "updated": 1778957242683,
+        "updated": 1778962132985,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000sy84",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000sy84.geojson",
-        "felt": 110,
+        "felt": 112,
         "cdi": 5,
         "mmi": 4.669,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 609,
+        "sig": 610,
         "net": "us",
         "code": "6000sy84",
         "ids": ",pt26136000,us6000sy84,",
