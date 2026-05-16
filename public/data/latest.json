@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1778942727000,
+    "generated": 1778946028000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "2.4.0",
-    "count": 216
+    "count": 210
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 6,
+        "place": "70 km ESE of Codrington, Antigua and Barbuda",
+        "time": 1778943003503,
+        "updated": 1778945947305,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000sy84",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000sy84.geojson",
+        "felt": 79,
+        "cdi": 5,
+        "mmi": 4.642,
+        "alert": "green",
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 593,
+        "net": "us",
+        "code": "6000sy84",
+        "ids": ",pt26136000,us6000sy84,",
+        "sources": ",pt,us,",
+        "types": ",dyfi,ground-failure,losspager,moment-tensor,origin,phase-data,shakemap,",
+        "nst": 209,
+        "dmin": 0.601,
+        "rms": 0.95,
+        "gap": 20,
+        "magType": "mww",
+        "type": "earthquake",
+        "title": "M 6.0 - 70 km ESE of Codrington, Antigua and Barbuda"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -61.1771,
+          17.5127,
+          30.038
+        ]
+      },
+      "id": "us6000sy84"
+    },
     {
       "type": "Feature",
       "properties": {
