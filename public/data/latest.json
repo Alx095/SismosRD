@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1778965708000,
+    "generated": 1778968894000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "2.4.0",
-    "count": 182
+    "count": 180
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.33,
+        "place": "2 km NNW of Tallaboa, Puerto Rico",
+        "time": 1778967525630,
+        "updated": 1778968690420,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71516803",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71516803.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 84,
+        "net": "pr",
+        "code": "71516803",
+        "ids": ",pr71516803,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 14,
+        "dmin": 0.0663,
+        "rms": 0.08,
+        "gap": 167,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.3 - 2 km NNW of Tallaboa, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.722,
+          18.0156666666667,
+          12.72
+        ]
+      },
+      "id": "pr71516803"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -55,17 +95,17 @@
         "mag": 6,
         "place": "70 km ESE of Codrington, Antigua and Barbuda",
         "time": 1778943003503,
-        "updated": 1778965553216,
+        "updated": 1778965864172,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000sy84",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000sy84.geojson",
-        "felt": 115,
+        "felt": 116,
         "cdi": 5,
         "mmi": 4.669,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 611,
+        "sig": 612,
         "net": "us",
         "code": "6000sy84",
         "ids": ",pt26136000,us6000sy84,",
