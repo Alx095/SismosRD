@@ -1,14 +1,94 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1778894239000,
+    "generated": 1778906425000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "2.4.0",
-    "count": 274
+    "count": 254
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.8,
+        "place": "60 km N of Punta Cana, Dominican Republic",
+        "time": 1778905288840,
+        "updated": 1778906401040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000sy5d",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000sy5d.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 222,
+        "net": "us",
+        "code": "6000sy5d",
+        "ids": ",us6000sy5d,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 26,
+        "dmin": 0.606,
+        "rms": 0.91,
+        "gap": 87,
+        "magType": "mwr",
+        "type": "earthquake",
+        "title": "M 3.8 - 60 km N of Punta Cana, Dominican Republic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.3726,
+          19.1238,
+          10
+        ]
+      },
+      "id": "us6000sy5d"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.4,
+        "place": "30 km NW of La Villa del Rosario, Venezuela",
+        "time": 1778887296859,
+        "updated": 1778901387040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000sy4k",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000sy4k.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 298,
+        "net": "us",
+        "code": "6000sy4k",
+        "ids": ",us6000sy4k,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 36,
+        "dmin": 2.453,
+        "rms": 1.33,
+        "gap": 61,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.4 - 30 km NW of La Villa del Rosario, Venezuela"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.4724,
+          10.5469,
+          10
+        ]
+      },
+      "id": "us6000sy4k"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -168,54 +248,14 @@
         ]
       },
       "id": "pr71516688"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.46,
-        "place": "7 km WSW of Fuig, Puerto Rico",
-        "time": 1778818426180,
-        "updated": 1778821108460,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71516683",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71516683.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 93,
-        "net": "pr",
-        "code": "71516683",
-        "ids": ",pr71516683,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 18,
-        "dmin": 0.09058,
-        "rms": 0.22,
-        "gap": 208,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.5 - 7 km WSW of Fuig, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.9715,
-          17.9526666666667,
-          8
-        ]
-      },
-      "id": "pr71516683"
     }
   ],
   "bbox": [
-    -178.6268,
-    -21.5312,
+    -178.6924,
+    -32.555,
     -2.29,
     142.2498,
-    69.546,
-    556.283
+    79.7331,
+    568.345
   ]
 }
