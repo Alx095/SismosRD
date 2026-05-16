@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1778972194000,
+    "generated": 1778975222000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "2.4.0",
-    "count": 178
+    "count": 175
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.91,
+        "place": "1 km ENE of Sabana Grande, Puerto Rico",
+        "time": 1778971730700,
+        "updated": 1778973503940,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71516823",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71516823.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 130,
+        "net": "pr",
+        "code": "71516823",
+        "ids": ",pr71516823,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 26,
+        "dmin": 0.06551,
+        "rms": 0.12,
+        "gap": 96,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.9 - 1 km ENE of Sabana Grande, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.9478333333333,
+          18.083,
+          17.5
+        ]
+      },
+      "id": "pr71516823"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -248,46 +288,6 @@
         ]
       },
       "id": "pr2026136000"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.4,
-        "place": "30 km NW of La Villa del Rosario, Venezuela",
-        "time": 1778887296859,
-        "updated": 1778901387040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000sy4k",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000sy4k.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 298,
-        "net": "us",
-        "code": "6000sy4k",
-        "ids": ",us6000sy4k,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 36,
-        "dmin": 2.453,
-        "rms": 1.33,
-        "gap": 61,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.4 - 30 km NW of La Villa del Rosario, Venezuela"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -72.4724,
-          10.5469,
-          10
-        ]
-      },
-      "id": "us6000sy4k"
     }
   ],
   "bbox": [
