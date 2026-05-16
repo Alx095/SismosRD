@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1778956424000,
+    "generated": 1778960434000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "2.4.0",
-    "count": 197
+    "count": 192
   },
   "features": [
     {
@@ -15,7 +15,7 @@
         "mag": 3.41,
         "place": "32 km NNW of Charlotte Amalie, U.S. Virgin Islands",
         "time": 1778946626300,
-        "updated": 1778948428890,
+        "updated": 1778958650040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71516788",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71516788.geojson",
@@ -28,8 +28,8 @@
         "sig": 179,
         "net": "pr",
         "code": "71516788",
-        "ids": ",pr71516788,",
-        "sources": ",pr,",
+        "ids": ",us6000sy8x,pr71516788,",
+        "sources": ",us,pr,",
         "types": ",origin,phase-data,",
         "nst": 19,
         "dmin": 0.2701,
@@ -55,17 +55,17 @@
         "mag": 6,
         "place": "70 km ESE of Codrington, Antigua and Barbuda",
         "time": 1778943003503,
-        "updated": 1778952118255,
+        "updated": 1778957242683,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000sy84",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000sy84.geojson",
-        "felt": 104,
+        "felt": 110,
         "cdi": 5,
         "mmi": 4.669,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 606,
+        "sig": 609,
         "net": "us",
         "code": "6000sy84",
         "ids": ",pt26136000,us6000sy84,",
@@ -213,7 +213,7 @@
   "bbox": [
     -178.6924,
     -41.764,
-    -1.83,
+    -0.8299999833107,
     177.0065,
     79.7331,
     568.345
