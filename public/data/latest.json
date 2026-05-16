@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1778939605000,
+    "generated": 1778942727000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
@@ -168,46 +168,6 @@
         ]
       },
       "id": "pr71516718"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.6,
-        "place": "121 km N of Hatillo, Puerto Rico",
-        "time": 1778854471920,
-        "updated": 1778857322230,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2026135001",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2026135001.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 199,
-        "net": "pr",
-        "code": "2026135001",
-        "ids": ",us6000sxyl,pr2026135001,",
-        "sources": ",us,pr,",
-        "types": ",origin,phase-data,",
-        "nst": 24,
-        "dmin": 1.1098,
-        "rms": 0.3,
-        "gap": 221,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.6 - 121 km N of Hatillo, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.7013,
-          19.5736,
-          35
-        ]
-      },
-      "id": "pr2026135001"
     }
   ],
   "bbox": [
