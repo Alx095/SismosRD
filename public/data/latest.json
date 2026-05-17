@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1779014908000,
+    "generated": 1779018445000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "2.4.0",
-    "count": 185
+    "count": 177
   },
   "features": [
     {
@@ -288,46 +288,6 @@
         ]
       },
       "id": "us6000sy84"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.27,
-        "place": "2 km SSW of Peñuelas, Puerto Rico",
-        "time": 1778929614390,
-        "updated": 1778930680140,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71516758",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71516758.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 79,
-        "net": "pr",
-        "code": "71516758",
-        "ids": ",pr71516758,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 10,
-        "dmin": 0.1167,
-        "rms": 0.19,
-        "gap": 162,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.3 - 2 km SSW of Peñuelas, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.7286666666667,
-          18.036,
-          13.44
-        ]
-      },
-      "id": "pr71516758"
     }
   ],
   "bbox": [
