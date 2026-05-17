@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1779041305000,
+    "generated": 1779046405000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "2.4.0",
-    "count": 169
+    "count": 179
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.07,
+        "place": "7 km WSW of Naranjito, Puerto Rico",
+        "time": 1779045270200,
+        "updated": 1779046112130,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71516888",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71516888.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 66,
+        "net": "pr",
+        "code": "71516888",
+        "ids": ",pr71516888,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 7,
+        "dmin": 0.06754,
+        "rms": 0.1,
+        "gap": 132,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.1 - 7 km WSW of Naranjito, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.3075,
+          18.2761666666667,
+          19.81
+        ]
+      },
+      "id": "pr71516888"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -376,6 +416,6 @@
     -2.0299999713898,
     178.891,
     66.571,
-    286.144
+    572.691
   ]
 }
