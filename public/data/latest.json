@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1778981403000,
+    "generated": 1778995708000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "2.4.0",
-    "count": 177
+    "count": 178
   },
   "features": [
     {
@@ -175,11 +175,11 @@
         "mag": 6,
         "place": "70 km ESE of Codrington, Antigua and Barbuda",
         "time": 1778943003503,
-        "updated": 1778976321033,
+        "updated": 1778982054055,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000sy84",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000sy84.geojson",
-        "felt": 120,
+        "felt": 121,
         "cdi": 5,
         "mmi": 4.669,
         "alert": "green",
@@ -248,54 +248,14 @@
         ]
       },
       "id": "pr71516758"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.09,
-        "place": "33 km NE of Otra Banda, Dominican Republic",
-        "time": 1778905291590,
-        "updated": 1778909931752,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2026136000",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2026136000.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 257,
-        "net": "pr",
-        "code": "2026136000",
-        "ids": ",us6000sy5d,pr2026136000,",
-        "sources": ",us,pr,",
-        "types": ",origin,phase-data,",
-        "nst": 26,
-        "dmin": 0.3947,
-        "rms": 0.35,
-        "gap": 161,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 4.1 - 33 km NE of Otra Banda, Dominican Republic"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -68.4733,
-          18.8978,
-          58
-        ]
-      },
-      "id": "pr2026136000"
     }
   ],
   "bbox": [
     -178.203,
     -41.764,
     -0.8299999833107,
-    177.0065,
-    79.7331,
+    178.891,
+    66.571,
     310.947
   ]
 }
