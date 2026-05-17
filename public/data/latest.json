@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1779004455000,
+    "generated": 1779009982000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
@@ -15,7 +15,7 @@
         "mag": 3.21,
         "place": "73 km WNW of The Bottom, Bonaire, Saint Eustatius and Saba ",
         "time": 1778998842810,
-        "updated": 1779000755500,
+        "updated": 1779008836040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71516843",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71516843.geojson",
@@ -28,8 +28,8 @@
         "sig": 159,
         "net": "pr",
         "code": "71516843",
-        "ids": ",pr71516843,",
-        "sources": ",pr,",
+        "ids": ",us6000sybr,pr71516843,",
+        "sources": ",us,pr,",
         "types": ",origin,phase-data,",
         "nst": 10,
         "dmin": 0.7941,
