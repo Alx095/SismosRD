@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1779021685000,
+    "generated": 1779026982000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "2.4.0",
-    "count": 177
+    "count": 173
   },
   "features": [
     {
@@ -88,6 +88,46 @@
         ]
       },
       "id": "pr71516843"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.8,
+        "place": "15 km N of Guatire, Venezuela",
+        "time": 1778982367023,
+        "updated": 1779026885040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000sybm",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000sybm.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 222,
+        "net": "us",
+        "code": "6000sybm",
+        "ids": ",us6000sybm,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 19,
+        "dmin": 4.387,
+        "rms": 0.7,
+        "gap": 221,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 3.8 - 15 km N of Guatire, Venezuela"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.5397,
+          10.6166,
+          10
+        ]
+      },
+      "id": "us6000sybm"
     },
     {
       "type": "Feature",
@@ -291,7 +331,7 @@
     }
   ],
   "bbox": [
-    -175.5818,
+    -175.8068,
     -39.6956,
     -2.0299999713898,
     178.891,
