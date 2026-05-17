@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1778995708000,
+    "generated": 1779004455000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "2.4.0",
-    "count": 178
+    "count": 180
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.21,
+        "place": "73 km WNW of The Bottom, Bonaire, Saint Eustatius and Saba ",
+        "time": 1778998842810,
+        "updated": 1779000755500,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71516843",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71516843.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 159,
+        "net": "pr",
+        "code": "71516843",
+        "ids": ",pr71516843,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 10,
+        "dmin": 0.7941,
+        "rms": 0.17,
+        "gap": 300,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 3.2 - 73 km WNW of The Bottom, Bonaire, Saint Eustatius and Saba "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.901,
+          17.8516666666667,
+          20.65
+        ]
+      },
+      "id": "pr71516843"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -251,11 +291,11 @@
     }
   ],
   "bbox": [
-    -178.203,
-    -41.764,
-    -0.8299999833107,
+    -175.5818,
+    -39.6956,
+    -2.0299999713898,
     178.891,
     66.571,
-    310.947
+    293.053
   ]
 }
