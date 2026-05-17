@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1778975222000,
+    "generated": 1778981403000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "2.4.0",
-    "count": 175
+    "count": 177
   },
   "features": [
     {
@@ -15,7 +15,7 @@
         "mag": 2.91,
         "place": "1 km ENE of Sabana Grande, Puerto Rico",
         "time": 1778971730700,
-        "updated": 1778973503940,
+        "updated": 1778976666040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71516823",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71516823.geojson",
@@ -28,8 +28,8 @@
         "sig": 130,
         "net": "pr",
         "code": "71516823",
-        "ids": ",pr71516823,",
-        "sources": ",pr,",
+        "ids": ",us6000syad,pr71516823,",
+        "sources": ",us,pr,",
         "types": ",origin,phase-data,",
         "nst": 26,
         "dmin": 0.06551,
@@ -175,17 +175,17 @@
         "mag": 6,
         "place": "70 km ESE of Codrington, Antigua and Barbuda",
         "time": 1778943003503,
-        "updated": 1778965864172,
+        "updated": 1778976321033,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000sy84",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000sy84.geojson",
-        "felt": 116,
+        "felt": 120,
         "cdi": 5,
         "mmi": 4.669,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 612,
+        "sig": 614,
         "net": "us",
         "code": "6000sy84",
         "ids": ",pt26136000,us6000sy84,",
@@ -291,7 +291,7 @@
     }
   ],
   "bbox": [
-    -178.5946,
+    -178.203,
     -41.764,
     -0.8299999833107,
     177.0065,
