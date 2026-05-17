@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1779026982000,
+    "generated": 1779030865000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "2.4.0",
-    "count": 173
+    "count": 175
   },
   "features": [
     {
@@ -93,37 +93,37 @@
       "type": "Feature",
       "properties": {
         "mag": 3.8,
-        "place": "15 km N of Guatire, Venezuela",
-        "time": 1778982367023,
-        "updated": 1779026885040,
+        "place": "21 km N of Guatire, Venezuela",
+        "time": 1778982367456,
+        "updated": 1779027705798,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000sybm",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000sybm.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 10,
+        "cdi": 3.4,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 222,
+        "sig": 226,
         "net": "us",
         "code": "6000sybm",
         "ids": ",us6000sybm,",
         "sources": ",us,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,impact-text,origin,phase-data,",
         "nst": 19,
-        "dmin": 4.387,
-        "rms": 0.7,
+        "dmin": 4.418,
+        "rms": 0.49,
         "gap": 221,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 3.8 - 15 km N of Guatire, Venezuela"
+        "title": "M 3.8 - 21 km N of Guatire, Venezuela"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -66.5397,
-          10.6166,
+          -66.5271,
+          10.6661,
           10
         ]
       },
@@ -288,46 +288,6 @@
         ]
       },
       "id": "pr71516788"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 6,
-        "place": "70 km ESE of Codrington, Antigua and Barbuda",
-        "time": 1778943003503,
-        "updated": 1778982054055,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000sy84",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000sy84.geojson",
-        "felt": 121,
-        "cdi": 5,
-        "mmi": 4.669,
-        "alert": "green",
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 614,
-        "net": "us",
-        "code": "6000sy84",
-        "ids": ",pt26136000,us6000sy84,",
-        "sources": ",pt,us,",
-        "types": ",dyfi,ground-failure,losspager,moment-tensor,origin,phase-data,shakemap,",
-        "nst": 209,
-        "dmin": 0.601,
-        "rms": 0.95,
-        "gap": 20,
-        "magType": "mww",
-        "type": "earthquake",
-        "title": "M 6.0 - 70 km ESE of Codrington, Antigua and Barbuda"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -61.1771,
-          17.5127,
-          30.038
-        ]
-      },
-      "id": "us6000sy84"
     }
   ],
   "bbox": [
