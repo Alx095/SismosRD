@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1779052352000,
+    "generated": 1779055588000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "2.4.0",
-    "count": 189
+    "count": 193
   },
   "features": [
     {
@@ -368,46 +368,6 @@
         ]
       },
       "id": "pr71516813"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.33,
-        "place": "2 km NNW of Tallaboa, Puerto Rico",
-        "time": 1778967525630,
-        "updated": 1778968690420,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71516803",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71516803.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 84,
-        "net": "pr",
-        "code": "71516803",
-        "ids": ",pr71516803,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 14,
-        "dmin": 0.0663,
-        "rms": 0.08,
-        "gap": 167,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.3 - 2 km NNW of Tallaboa, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.722,
-          18.0156666666667,
-          12.72
-        ]
-      },
-      "id": "pr71516803"
     }
   ],
   "bbox": [
