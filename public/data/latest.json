@@ -1,14 +1,254 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1779093205000,
+    "generated": 1779105656000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "2.4.0",
-    "count": 192
+    "count": 209
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4,
+        "place": "74 km N of Culebra, Puerto Rico",
+        "time": 1779104450406,
+        "updated": 1779104982040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000syi9",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000syi9.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 246,
+        "net": "us",
+        "code": "6000syi9",
+        "ids": ",us6000syi9,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 20,
+        "dmin": 0.729,
+        "rms": 0.65,
+        "gap": 194,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 4.0 - 74 km N of Culebra, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.3598,
+          18.9764,
+          35
+        ]
+      },
+      "id": "us6000syi9"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.57,
+        "place": "76 km N of Culebra, Puerto Rico",
+        "time": 1779101419970,
+        "updated": 1779104230299,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2026138001",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2026138001.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 196,
+        "net": "pr",
+        "code": "2026138001",
+        "ids": ",pr2026138001,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 18,
+        "dmin": 0.6878,
+        "rms": 0.21,
+        "gap": 225,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 3.6 - 76 km N of Culebra, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.323,
+          18.9941,
+          61
+        ]
+      },
+      "id": "pr2026138001"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.87,
+        "place": "93 km N of Culebra, Puerto Rico",
+        "time": 1779100619950,
+        "updated": 1779102926050,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71517028",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71517028.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 127,
+        "net": "pr",
+        "code": "71517028",
+        "ids": ",pr71517028,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 7,
+        "dmin": 0.8378,
+        "rms": 0.24,
+        "gap": 247,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.9 - 93 km N of Culebra, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.3105,
+          19.1493333333333,
+          32.98
+        ]
+      },
+      "id": "pr71517028"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.2,
+        "place": "87 km N of Culebra, Puerto Rico",
+        "time": 1779099402050,
+        "updated": 1779101476370,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71517018",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71517018.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 158,
+        "net": "pr",
+        "code": "71517018",
+        "ids": ",pr71517018,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 11,
+        "dmin": 0.7817,
+        "rms": 0.4,
+        "gap": 241,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 3.2 - 87 km N of Culebra, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.3076666666667,
+          19.093,
+          6.95
+        ]
+      },
+      "id": "pr71517018"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.31,
+        "place": "76 km N of Culebra, Puerto Rico",
+        "time": 1779098040030,
+        "updated": 1779099630670,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71517003",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71517003.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 169,
+        "net": "pr",
+        "code": "71517003",
+        "ids": ",pr71517003,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 17,
+        "dmin": 0.6808,
+        "rms": 0.34,
+        "gap": 226,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 3.3 - 76 km N of Culebra, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.295,
+          18.9918333333333,
+          67.73
+        ]
+      },
+      "id": "pr71517003"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.38,
+        "place": "81 km N of Culebra, Puerto Rico",
+        "time": 1779095421860,
+        "updated": 1779096360730,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71516988",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71516988.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 176,
+        "net": "pr",
+        "code": "71516988",
+        "ids": ",pr71516988,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 16,
+        "dmin": 0.7292,
+        "rms": 0.49,
+        "gap": 238,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 3.4 - 81 km N of Culebra, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.2491666666667,
+          19.0398333333333,
+          85.1
+        ]
+      },
+      "id": "pr71516988"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -448,46 +688,6 @@
         ]
       },
       "id": "pr71516858"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.5,
-        "place": "11 km S of Esperanza, Puerto Rico",
-        "time": 1779012005670,
-        "updated": 1779013065330,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71516848",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71516848.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 96,
-        "net": "pr",
-        "code": "71516848",
-        "ids": ",pr71516848,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 10,
-        "dmin": 0.1469,
-        "rms": 0.51,
-        "gap": 205,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.5 - 11 km S of Esperanza, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -65.4693333333333,
-          17.996,
-          7.41
-        ]
-      },
-      "id": "pr71516848"
     }
   ],
   "bbox": [
