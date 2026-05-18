@@ -1,14 +1,94 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1779059251000,
+    "generated": 1779062848000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "title": "USGS All Earthquakes, Past Day",
     "status": 200,
     "api": "2.4.0",
-    "count": 188
+    "count": 194
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3,
+        "place": "108 km NNE of Punta Cana, Dominican Republic",
+        "time": 1779059392282,
+        "updated": 1779061329040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000syfm",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000syfm.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 138,
+        "net": "us",
+        "code": "6000syfm",
+        "ids": ",us6000syfm,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 11,
+        "dmin": 1.027,
+        "rms": 0.25,
+        "gap": 276,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.0 - 108 km NNE of Punta Cana, Dominican Republic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.9013,
+          19.4408,
+          10
+        ]
+      },
+      "id": "us6000syfm"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.7,
+        "place": "119 km NE of Cruz Bay, U.S. Virgin Islands",
+        "time": 1779057955648,
+        "updated": 1779059937040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000syfi",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000syfi.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 211,
+        "net": "us",
+        "code": "6000syfi",
+        "ids": ",us6000syfi,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 16,
+        "dmin": 0.913,
+        "rms": 0.63,
+        "gap": 281,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.7 - 119 km NE of Cruz Bay, U.S. Virgin Islands"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -64.1179,
+          19.2033,
+          35
+        ]
+      },
+      "id": "us6000syfi"
+    },
     {
       "type": "Feature",
       "properties": {
